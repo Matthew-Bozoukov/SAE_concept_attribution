@@ -9,6 +9,7 @@ Question (Q4 from GSM8K test):
 """
 
 import torch
+import requests
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from sae_lens import SAE
 
@@ -17,10 +18,15 @@ from sae_lens import SAE
 # ---------------------------------------------------------------------------
 MODEL_ID = "google/gemma-3-4b-it"
 SAE_RELEASE = "gemma-scope-2-4b-pt-res"
-SAE_ID = "layer_17_width_65k_l0_medium"
-HOOK_LAYER = 17
+SAE_ID = "layer_22_width_262k_l0_medium"
+HOOK_LAYER = 22
 MAX_NEW_TOKENS = 512
 TOP_K = 10
+
+# Neuronpedia config (model/layer derived from sae_lens pretrained_saes.yaml)
+NEURONPEDIA_MODEL = "gemma-3-4b"
+NEURONPEDIA_LAYER = "22-gemmascope-2-res-262k"
+NEURONPEDIA_API_KEY = ""
 
 QUESTION = (
     "James decides to run 3 sprints 3 times a week. "
@@ -44,6 +50,7 @@ model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.bfloat16,
     device_map="auto",
 )
+print(model)
 device = model.device
 print(f"Model loaded on: {device}\n")
 
@@ -80,7 +87,7 @@ def hook_fn(module, input, output):
     hidden = output[0] if isinstance(output, tuple) else output
     captured_resid.append(hidden.detach().float())
 
-hook_handle = model.model.layers[HOOK_LAYER].register_forward_hook(hook_fn)
+hook_handle = model.model.language_model.layers[HOOK_LAYER].register_forward_hook(hook_fn)
 
 # ---------------------------------------------------------------------------
 # Forward pass (generation)
@@ -111,20 +118,45 @@ print(f"\nModel response:\n{response}\n")
 resid = torch.cat(captured_resid, dim=1)  # (1, total_tokens, d_model)
 resid = resid.squeeze(0)                  # (total_tokens, d_model)
 
-print(f"Captured residual stream shape: {resid.shape}")
+# Slice to prompt tokens only
+n_prompt_tokens = inputs["input_ids"].shape[-1]
+resid = resid[:n_prompt_tokens]           # (n_prompt_tokens, d_model)
+
+print(f"Captured residual stream shape (prompt tokens only): {resid.shape}")
 print("Computing SAE activations...")
 
 with torch.inference_mode():
-    sae_out = sae.encode(resid)  # (total_tokens, d_sae)
+    sae_out = sae.encode(resid)  # (n_prompt_tokens, d_sae)
 
-# Average over all tokens → (d_sae,)
+# Average over prompt tokens → (d_sae,)
 mean_acts = sae_out.mean(dim=0)
 
+#last_act=sae_out[-1]
 # Top-K features
 topk_vals, topk_idxs = torch.topk(mean_acts, TOP_K)
 
-print(f"\nTop {TOP_K} SAE features (layer {HOOK_LAYER}, averaged over all tokens):")
+print(f"\nTop {TOP_K} SAE features (layer {HOOK_LAYER}, averaged over prompt tokens):")
 print(f"{'Rank':>4}  {'Feature ID':>10}  {'Mean Activation':>16}")
 print("-" * 36)
 for rank, (feat_id, val) in enumerate(zip(topk_idxs.tolist(), topk_vals.tolist()), 1):
     print(f"{rank:>4}  {feat_id:>10}  {val:>16.4f}")
+
+# ---------------------------------------------------------------------------
+# Fetch feature explanations from Neuronpedia
+# ---------------------------------------------------------------------------
+print(f"\nFetching feature explanations from Neuronpedia...")
+print(f"{'Rank':>4}  {'Feature ID':>10}  {'Mean Activation':>16}  {'Explanation'}")
+print("-" * 90)
+
+headers = {"X-Api-Key": NEURONPEDIA_API_KEY}
+for rank, (feat_id, val) in enumerate(zip(topk_idxs.tolist(), topk_vals.tolist()), 1):
+    url = f"https://www.neuronpedia.org/api/feature/{NEURONPEDIA_MODEL}/{NEURONPEDIA_LAYER}/{feat_id}"
+    try:
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+        explanations = data.get("explanations", [])
+        explanation = explanations[0]["description"] if explanations else "(no explanation)"
+    except Exception as e:
+        explanation = f"(error: {e})"
+    print(f"{rank:>4}  {feat_id:>10}  {val:>16.4f}  {explanation}")
