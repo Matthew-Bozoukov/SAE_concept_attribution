@@ -16,16 +16,19 @@ from sae_lens import SAE
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-MODEL_ID = "google/gemma-3-4b-it"
-SAE_RELEASE = "gemma-scope-2-4b-pt-res"
-SAE_ID = "layer_22_width_262k_l0_medium"
-HOOK_LAYER = 22
+from sae_lens import SAE
+
+
+MODEL_ID = "Qwen/Qwen3-4B"
+SAE_RELEASE = "mwhanna-qwen3-4b-transcoders"
+SAE_ID = "layer_8"
+HOOK_LAYER = 8
 MAX_NEW_TOKENS = 512
 TOP_K = 10
 
 # Neuronpedia config (model/layer derived from sae_lens pretrained_saes.yaml)
-NEURONPEDIA_MODEL = "gemma-3-4b"
-NEURONPEDIA_LAYER = "22-gemmascope-2-res-262k"
+NEURONPEDIA_MODEL = "qwen3-4b"
+NEURONPEDIA_LAYER = "8-transcoder-hp"
 NEURONPEDIA_API_KEY = ""
 
 QUESTION = (
