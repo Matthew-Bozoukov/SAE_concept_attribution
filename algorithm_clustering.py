@@ -14,13 +14,16 @@ Pipeline:
 from __future__ import annotations
 
 import json
+import os
 import re
 from collections import Counter
+from urllib import error, request
 from dataclasses import dataclass
 from typing import Any
 
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoTokenizer
+from tqdm import tqdm
+from vllm import LLM, SamplingParams
 
 # ---------------------------------------------------------------------------
 # Config
@@ -45,6 +48,10 @@ TOP_P = 0.95
 MAX_STRATEGIES = 8
 MAX_KEYWORDS_PER_STRATEGY = 8
 
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+OPENROUTER_MODEL = "anthropic/claude-sonnet-4.5"
+OPENROUTER_API_KEY_ENV = "OPENROUTER_API_KEY"
+
 OUTPUT_JSON_PATH = "gpt_oss_20b_algorithmic_clustering_gsm8k.json"
 
 
@@ -53,11 +60,6 @@ class Strategy:
     name: str
     description: str
     keywords: list[str]
-
-
-def to_device(model: AutoModelForCausalLM, tokenized: dict[str, torch.Tensor]) -> dict[str, torch.Tensor]:
-    model_device = model.device
-    return {k: v.to(model_device) for k, v in tokenized.items()}
 
 
 def split_into_steps(text: str) -> list[str]:
@@ -80,7 +82,7 @@ def split_into_steps(text: str) -> list[str]:
 
 
 def generate_rollout(
-    model: AutoModelForCausalLM,
+    llm: LLM,
     tokenizer: AutoTokenizer,
     question: str,
     system_prompt: str,
@@ -93,21 +95,13 @@ def generate_rollout(
         {"role": "user", "content": question},
     ]
     prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    inputs = tokenizer(prompt, return_tensors="pt")
-    inputs = to_device(model, inputs)
-
-    with torch.inference_mode():
-        output_ids = model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens,
-            do_sample=True,
-            temperature=temperature,
-            top_p=top_p,
-            pad_token_id=tokenizer.eos_token_id,
-        )
-
-    new_ids = output_ids[0][inputs["input_ids"].shape[-1] :]
-    return tokenizer.decode(new_ids, skip_special_tokens=True).strip()
+    sampling_params = SamplingParams(
+        max_tokens=max_new_tokens,
+        temperature=temperature,
+        top_p=top_p,
+    )
+    outputs = llm.generate(prompt, sampling_params=sampling_params, use_tqdm=False)
+    return outputs[0].outputs[0].text.strip()
 
 
 def _extract_json_object(raw_text: str) -> dict[str, Any]:
@@ -137,13 +131,15 @@ def _extract_json_object(raw_text: str) -> dict[str, Any]:
     raise ValueError("Could not parse JSON object from model output")
 
 
-def discover_strategies_with_model(
-    model: AutoModelForCausalLM,
-    tokenizer: AutoTokenizer,
+def discover_strategies_with_openrouter(
     subset_rollouts: list[str],
     max_strategies: int,
     max_keywords_per_strategy: int,
 ) -> list[Strategy]:
+    api_key = os.environ.get(OPENROUTER_API_KEY_ENV)
+    if not api_key:
+        raise RuntimeError(f"Set {OPENROUTER_API_KEY_ENV} to use OpenRouter strategy discovery")
+
     discovery_prompt = (
         "You are analyzing many chain-of-thought rollouts for one math question.\n"
         "Infer recurring high-level reasoning strategies and assign distinct keyword cues.\n\n"
@@ -170,24 +166,43 @@ def discover_strategies_with_model(
         trimmed = rollout.strip()[:1800]
         discovery_prompt += f"\n[ROLLOUT {i}]\n{trimmed}\n"
 
-    messages = [
-        {"role": "system", "content": "You extract strategy taxonomies from model rollouts."},
-        {"role": "user", "content": discovery_prompt},
-    ]
-    prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    inputs = to_device(model, tokenizer(prompt, return_tensors="pt"))
+    payload = {
+        "model": OPENROUTER_MODEL,
+        "messages": [
+            {"role": "system", "content": "You extract strategy taxonomies from model rollouts."},
+            {"role": "user", "content": discovery_prompt},
+        ],
+        "temperature": 0,
+        "response_format": {"type": "json_object"},
+    }
+    req = request.Request(
+        OPENROUTER_URL,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
 
-    with torch.inference_mode():
-        out = model.generate(
-            **inputs,
-            max_new_tokens=1200,
-            do_sample=False,
-            temperature=1.0,
-            pad_token_id=tokenizer.eos_token_id,
-        )
+    try:
+        with request.urlopen(req, timeout=120) as resp:
+            response_json = json.loads(resp.read().decode("utf-8"))
+    except error.HTTPError as exc:
+        details = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"OpenRouter request failed with HTTP {exc.code}: {details}") from exc
+    except error.URLError as exc:
+        raise RuntimeError(f"OpenRouter request failed: {exc}") from exc
 
-    raw = tokenizer.decode(out[0][inputs["input_ids"].shape[-1] :], skip_special_tokens=True)
-    parsed = _extract_json_object(raw)
+    try:
+        raw = response_json["choices"][0]["message"]["content"]
+    except (KeyError, IndexError, TypeError) as exc:
+        raise RuntimeError(f"Unexpected OpenRouter response shape: {response_json}") from exc
+
+    if isinstance(raw, list):
+        raw = "".join(part.get("text", "") for part in raw if isinstance(part, dict))
+
+    parsed = _extract_json_object(str(raw))
 
     strategies: list[Strategy] = []
     for s in parsed.get("strategies", []):
@@ -219,20 +234,17 @@ def label_step(step_text: str, strategies: list[Strategy]) -> str:
 
 
 def main() -> None:
-    print(f"Loading model: {MODEL_ID}")
+    print(f"Loading tokenizer: {MODEL_ID}")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
-    model = AutoModelForCausalLM.from_pretrained(
-        MODEL_ID,
-        torch_dtype=torch.bfloat16,
-        device_map="auto",
-    )
-    print(f"Model loaded on: {model.device}\n")
+    print(f"Loading vLLM engine: {MODEL_ID}")
+    llm = LLM(model=MODEL_ID)
+    print("vLLM engine loaded.\n")
 
     print(f"Sampling {NUM_ROLLOUTS} rollouts...")
     rollouts: list[str] = []
-    for i in range(NUM_ROLLOUTS):
+    for _ in tqdm(range(NUM_ROLLOUTS), desc="Rollouts", unit="rollout"):
         rollout = generate_rollout(
-            model=model,
+            llm=llm,
             tokenizer=tokenizer,
             question=QUESTION,
             system_prompt=SYSTEM_PROMPT,
@@ -241,14 +253,10 @@ def main() -> None:
             top_p=TOP_P,
         )
         rollouts.append(rollout)
-        if (i + 1) % 25 == 0:
-            print(f"  generated {i + 1}/{NUM_ROLLOUTS}")
 
     subset = rollouts[: min(SUBSET_FOR_STRATEGY_DISCOVERY, len(rollouts))]
     print(f"Discovering strategies from {len(subset)} rollouts...")
-    strategies = discover_strategies_with_model(
-        model=model,
-        tokenizer=tokenizer,
+    strategies = discover_strategies_with_openrouter(
         subset_rollouts=subset,
         max_strategies=MAX_STRATEGIES,
         max_keywords_per_strategy=MAX_KEYWORDS_PER_STRATEGY,
@@ -318,6 +326,7 @@ def main() -> None:
             "top_p": TOP_P,
             "max_strategies": MAX_STRATEGIES,
             "max_keywords_per_strategy": MAX_KEYWORDS_PER_STRATEGY,
+            "strategy_discovery_model": OPENROUTER_MODEL,
         },
         "strategies": [
             {
