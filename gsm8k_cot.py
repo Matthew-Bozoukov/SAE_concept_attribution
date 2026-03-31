@@ -1,10 +1,8 @@
-import re
 import torch
-from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
-MODEL_ID = "google/gemma-3-4b-it"
-NUM_EXAMPLES = 5
+MODEL_ID = "openai/gpt-oss-20b"
+QUESTION = "Given x+y=10, find minimum of x^2+y^2."
 MAX_NEW_TOKENS = 512
 
 COT_SYSTEM_PROMPT = (
@@ -49,60 +47,13 @@ def generate_answer(question: str, tokenizer, model) -> str:
     return tokenizer.decode(new_ids, skip_special_tokens=True)
 
 
-def extract_gt_answer(answer_str: str) -> str:
-    match = re.search(r"####\s*(.+)", answer_str)
-    return match.group(1).strip() if match else answer_str.strip()
-
-
-def extract_model_answer(response: str) -> str:
-    match = re.search(r"[Tt]he answer is[:\s]+([\d,\.]+)", response)
-    if match:
-        return match.group(1).replace(",", "").strip()
-    numbers = re.findall(r"[\d,]+", response)
-    return numbers[-1].replace(",", "") if numbers else ""
-
-
 def main():
-    dataset = load_dataset("openai/gsm8k", "main", split="test")
-    examples = dataset.select(range(NUM_EXAMPLES))
-
     tokenizer, model = load_model()
-
-    results = []
-    for i, example in enumerate(examples):
-        question = example["question"]
-        gt_answer = extract_gt_answer(example["answer"])
-
-        print(f"{'='*70}")
-        print(f"Question {i+1}: {question}")
-        print(f"\nGround truth: {gt_answer}")
-        print("\nGenerating response...")
-
-        response = generate_answer(question, tokenizer, model)
-        print(f"\nModel response:\n{response}")
-
-        results.append({
-            "question": question,
-            "ground_truth": gt_answer,
-            "model_response": response,
-        })
-
-    print(f"\n{'='*70}")
-    print("Results summary:")
-    print(f"{'Q':>2}  {'Ground Truth':>15}  {'Model Answer':>15}  Correct?")
-    print("-" * 50)
-
-    correct = 0
-    for i, r in enumerate(results):
-        gt = r["ground_truth"].replace(",", "")
-        pred = extract_model_answer(r["model_response"])
-        is_correct = gt == pred
-        if is_correct:
-            correct += 1
-        print(f"{i+1:>2}  {gt:>15}  {pred:>15}  {'Y' if is_correct else 'N'}")
-
-    print("-" * 50)
-    print(f"Accuracy: {correct}/{len(results)} = {correct/len(results):.0%}")
+    print(f"Question: {QUESTION}\n")
+    print("Generating response...")
+    response = generate_answer(QUESTION, tokenizer, model)
+    print("\nFull model response:\n")
+    print(response)
 
 
 if __name__ == "__main__":

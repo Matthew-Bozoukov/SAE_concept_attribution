@@ -1,41 +1,60 @@
 """
-Run a fixed GSM8K question through Qwen/Qwen3-4B with chain-of-thought,
-capture residual streams at layers 10-30, compute average SAE activations over
-prompt tokens, and save top-10 active features per layer to JSON.
-
-Question (Q4 from GSM8K test):
-  James decides to run 3 sprints 3 times a week. He runs 60 meters each sprint.
-  How many total meters does he run a week?
+Run a fixed math question through GPT-OSS-20B with chain-of-thought, capture
+residual streams for the GPT-OSS SAE layers available in Neuronpedia /
+`andyrdt/saes-gpt-oss-20b`, compute average SAE activations over prompt tokens,
+and save top active features per layer to JSON.
 """
 
 import json
 import os
+from typing import Any
+
 import requests
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM
 from sae_lens import SAE
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-MODEL_ID = "Qwen/Qwen3-4B"
-SAE_RELEASE = "mwhanna-qwen3-4b-transcoders"
-LAYER_START = 10
-LAYER_END = 30
+MODEL_ID = "openai/gpt-oss-20b"
+SAE_RELEASE = "gpt-oss-20b-andyrdt"
+SAE_LAYER_MAP = {
+    3: {
+        "sae_id": "resid_post_layer_3_trainer_0",
+        "neuronpedia_layer": "3-resid-post-aa",
+    },
+    7: {
+        "sae_id": "resid_post_layer_7_trainer_0",
+        "neuronpedia_layer": "7-resid-post-aa",
+    },
+    11: {
+        "sae_id": "resid_post_layer_11_trainer_0",
+        "neuronpedia_layer": "11-resid-post-aa",
+    },
+    15: {
+        "sae_id": "resid_post_layer_15_trainer_0",
+        "neuronpedia_layer": "15-resid-post-aa",
+    },
+    19: {
+        "sae_id": "resid_post_layer_19_trainer_0",
+        "neuronpedia_layer": "19-resid-post-aa",
+    },
+    23: {
+        "sae_id": "resid_post_layer_23_trainer_0",
+        "neuronpedia_layer": "23-resid-post-aa",
+    },
+}
 MAX_NEW_TOKENS = 512
 TOP_K = 10
-OUTPUT_JSON_PATH = "top_sae_features_layers_10_30.json"
+OUTPUT_JSON_PATH = "top_sae_features_gpt_oss_20b.json"
 
 # Neuronpedia config
-NEURONPEDIA_MODEL = "qwen3-4b"
+NEURONPEDIA_MODEL = "gpt-oss-20b"
 NEURONPEDIA_API_KEY = os.getenv("NEURONPEDIA_API_KEY", "")
 NEURONPEDIA_TIMEOUT_SECONDS = 10
 
-QUESTION = (
-    "James decides to run 3 sprints 3 times a week. "
-    "He runs 60 meters each sprint. "
-    "How many total meters does he run a week?"
-)
+QUESTION = "Given x+y=10, find minimum of x^2+y^2."
 
 COT_SYSTEM_PROMPT = (
     "You are a math tutor. Solve the problem step by step, showing your reasoning clearly. "
@@ -46,7 +65,7 @@ COT_SYSTEM_PROMPT = (
 
 def fetch_feature_description(layer: int, feature_id: int) -> tuple[str | None, str | None]:
     """Return (description, error)."""
-    neuronpedia_layer = f"{layer}-transcoder-hp"
+    neuronpedia_layer = SAE_LAYER_MAP[layer]["neuronpedia_layer"]
     url = f"https://www.neuronpedia.org/api/feature/{NEURONPEDIA_MODEL}/{neuronpedia_layer}/{feature_id}"
     headers = {"X-Api-Key": NEURONPEDIA_API_KEY} if NEURONPEDIA_API_KEY else None
 
@@ -66,6 +85,12 @@ def fetch_feature_description(layer: int, feature_id: int) -> tuple[str | None, 
         return None, str(e)
 
 
+def resolve_core_model(model: AutoModelForCausalLM) -> Any:
+    if hasattr(model, "model") and hasattr(model.model, "layers"):
+        return model.model
+    raise ValueError("Unsupported model structure: expected model.model.layers")
+
+
 # ---------------------------------------------------------------------------
 # Load model & tokenizer
 # ---------------------------------------------------------------------------
@@ -77,6 +102,7 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto",
 )
 
+core_model = resolve_core_model(model)
 device = model.device
 print(f"Model loaded on: {device}\n")
 
@@ -93,16 +119,15 @@ prompt = tokenizer.apply_chat_template(
 inputs = tokenizer(prompt, return_tensors="pt").to(device)
 
 # ---------------------------------------------------------------------------
-# Hook: capture residual stream at layers LAYER_START..LAYER_END
+# Hook: capture residual stream at each configured SAE layer
 # ---------------------------------------------------------------------------
-layers_to_capture = list(range(LAYER_START, LAYER_END + 1))
+layers_to_capture = sorted(SAE_LAYER_MAP)
 captured_resid: dict[int, list[torch.Tensor]] = {layer: [] for layer in layers_to_capture}
 hook_handles = []
 
 
 def make_hook(layer_idx: int):
     def hook_fn(module, input, output):
-        # output is (hidden_states, ...) for most transformer layers
         hidden = output[0] if isinstance(output, tuple) else output
         captured_resid[layer_idx].append(hidden.detach().float())
 
@@ -110,7 +135,7 @@ def make_hook(layer_idx: int):
 
 
 for layer in layers_to_capture:
-    hook_handles.append(model.model.layers[layer].register_forward_hook(make_hook(layer)))
+    hook_handles.append(core_model.layers[layer].register_forward_hook(make_hook(layer)))
 
 # ---------------------------------------------------------------------------
 # Forward pass (generation)
@@ -142,7 +167,7 @@ results: dict[str, object] = {
     "model_id": MODEL_ID,
     "sae_release": SAE_RELEASE,
     "question": QUESTION,
-    "layer_range": [LAYER_START, LAYER_END],
+    "layers_analyzed": layers_to_capture,
     "top_k": TOP_K,
     "neuronpedia_model": NEURONPEDIA_MODEL,
     "layers": {},
@@ -157,10 +182,10 @@ for layer in layers_to_capture:
         results["layers"][layer_key] = {"error": "no activations captured"}
         continue
 
-    resid = torch.cat(captured_resid[layer], dim=1).squeeze(0)  # (total_tokens, d_model)
-    resid = resid[:n_prompt_tokens]  # (n_prompt_tokens, d_model)
+    resid = torch.cat(captured_resid[layer], dim=1).squeeze(0)
+    resid = resid[:n_prompt_tokens]
 
-    sae_id = f"layer_{layer}"
+    sae_id = SAE_LAYER_MAP[layer]["sae_id"]
     print(f"Layer {layer}: loading SAE {SAE_RELEASE}/{sae_id}")
     try:
         sae, cfg_dict, _ = SAE.from_pretrained(
@@ -169,7 +194,7 @@ for layer in layers_to_capture:
         )
         sae = sae.to(device)
         with torch.inference_mode():
-            sae_out = sae.encode(resid)  # (n_prompt_tokens, d_sae)
+            sae_out = sae.encode(resid)
 
         mean_acts = sae_out.mean(dim=0)
         topk_vals, topk_idxs = torch.topk(mean_acts, TOP_K)
@@ -190,7 +215,7 @@ for layer in layers_to_capture:
 
         results["layers"][layer_key] = {
             "sae_id": sae_id,
-            "neuronpedia_layer": f"{layer}-transcoder-hp",
+            "neuronpedia_layer": SAE_LAYER_MAP[layer]["neuronpedia_layer"],
             "captured_prompt_resid_shape": list(resid.shape),
             "top_features": top_features,
         }
