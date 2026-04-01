@@ -1,0 +1,1434 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "model_id": "openai/gpt-oss-20b",
+  "sae_release": "gpt-oss-20b-andyrdt",
+  "question": "Given x+y=10, find minimum of x^2+y^2.",
+  "layers_analyzed": [
+    3,
+    7,
+    11,
+    15,
+    19,
+    23
+  ],
+  "top_k": 5,
+  "tokens_to_analyze": 5,
+  "neuronpedia_model": "gpt-oss-20b",
+  "generated_tokens": [
+    {
+      "generated_token_index": 0,
+      "token_id": 200005,
+      "token_text": "<|channel|>"
+    },
+    {
+      "generated_token_index": 1,
+      "token_id": 35644,
+      "token_text": "analysis"
+    },
+    {
+      "generated_token_index": 2,
+      "token_id": 200008,
+      "token_text": "<|message|>"
+    },
+    {
+      "generated_token_index": 3,
+      "token_id": 2167,
+      "token_text": "We"
+    },
+    {
+      "generated_token_index": 4,
+      "token_id": 1309,
+      "token_text": " need"
+    }
+  ],
+  "layers": {
+    "3": {
+      "sae_id": "resid_post_layer_3_trainer_0",
+      "neuronpedia_layer": "3-resid-post-aa",
+      "captured_generated_resid_shape": [
+        5,
+        2880
+      ],
+      "tokens": [
+        {
+          "generated_token_index": 0,
+          "token_id": 200005,
+          "token_text": "<|channel|>",
+          "prediction_position": 130,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 127241,
+              "activation": 96.34422302246094,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 26615,
+              "activation": 94.81832885742188,
+              "description": "mention",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 68052,
+              "activation": 88.42252349853516,
+              "description": ".com",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 126166,
+              "activation": 75.89970397949219,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 126408,
+              "activation": 58.23390197753906,
+              "description": "assistant",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 1,
+          "token_id": 35644,
+          "token_text": "analysis",
+          "prediction_position": 131,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 26615,
+              "activation": 69.18675231933594,
+              "description": "mention",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 121429,
+              "activation": 58.446189880371094,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 58042,
+              "activation": 57.24030685424805,
+              "description": "analysis/commentary requests",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 2459,
+              "activation": 44.22339630126953,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 118550,
+              "activation": 39.32536315917969,
+              "description": "<|channel|>",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 2,
+          "token_id": 200008,
+          "token_text": "<|message|>",
+          "prediction_position": 132,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 26615,
+              "activation": 99.41246795654297,
+              "description": "mention",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 53320,
+              "activation": 74.7613296508789,
+              "description": "sis is",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 112354,
+              "activation": 58.330684661865234,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 49409,
+              "activation": 46.23567581176758,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 68052,
+              "activation": 42.63540267944336,
+              "description": ".com",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 3,
+          "token_id": 2167,
+          "token_text": "We",
+          "prediction_position": 133,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 26615,
+              "activation": 114.39114379882812,
+              "description": "mention",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 70886,
+              "activation": 64.53899383544922,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 28362,
+              "activation": 60.83655548095703,
+              "description": "<|endoftext|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 67882,
+              "activation": 38.413047790527344,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 67350,
+              "activation": 36.13847351074219,
+              "description": "<|message|>",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 4,
+          "token_id": 1309,
+          "token_text": " need",
+          "prediction_position": 134,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 83788,
+              "activation": 90.83314514160156,
+              "description": "\"we\"",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 26615,
+              "activation": 77.17362976074219,
+              "description": "mention",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 26729,
+              "activation": 64.92062377929688,
+              "description": "the",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 83459,
+              "activation": 52.9305419921875,
+              "description": "we",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 58042,
+              "activation": 38.61922073364258,
+              "description": "analysis/commentary requests",
+              "description_error": null
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "sae_id": "resid_post_layer_7_trainer_0",
+      "neuronpedia_layer": "7-resid-post-aa",
+      "captured_generated_resid_shape": [
+        5,
+        2880
+      ],
+      "tokens": [
+        {
+          "generated_token_index": 0,
+          "token_id": 200005,
+          "token_text": "<|channel|>",
+          "prediction_position": 130,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 44459,
+              "activation": 460.2789306640625,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 126940,
+              "activation": 397.8361511230469,
+              "description": ".com",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 91345,
+              "activation": 170.5890655517578,
+              "description": "varied text snippets",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 56486,
+              "activation": 123.17234802246094,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 112634,
+              "activation": 100.68604278564453,
+              "description": "document improvement",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 1,
+          "token_id": 35644,
+          "token_text": "analysis",
+          "prediction_position": 131,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 126940,
+              "activation": 241.09274291992188,
+              "description": ".com",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 112634,
+              "activation": 111.42154693603516,
+              "description": "document improvement",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 112083,
+              "activation": 107.93820190429688,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 130391,
+              "activation": 103.20907592773438,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 98654,
+              "activation": 97.46112060546875,
+              "description": "once",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 2,
+          "token_id": 200008,
+          "token_text": "<|message|>",
+          "prediction_position": 132,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 126940,
+              "activation": 393.87689208984375,
+              "description": ".com",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 91345,
+              "activation": 215.2017364501953,
+              "description": "varied text snippets",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 978,
+              "activation": 153.2210235595703,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 29578,
+              "activation": 117.18646240234375,
+              "description": "analyze",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 97410,
+              "activation": 116.1758804321289,
+              "description": "analysis",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 3,
+          "token_id": 2167,
+          "token_text": "We",
+          "prediction_position": 133,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 126940,
+              "activation": 314.3281555175781,
+              "description": ".com",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 91345,
+              "activation": 141.12100219726562,
+              "description": "varied text snippets",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 92599,
+              "activation": 116.65762329101562,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 116096,
+              "activation": 116.5257797241211,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 7677,
+              "activation": 94.40618896484375,
+              "description": "<|message|>",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 4,
+          "token_id": 1309,
+          "token_text": " need",
+          "prediction_position": 134,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 126940,
+              "activation": 250.8129119873047,
+              "description": ".com",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 91345,
+              "activation": 148.9296417236328,
+              "description": "varied text snippets",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 24406,
+              "activation": 123.2197494506836,
+              "description": "the",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 95609,
+              "activation": 98.64778137207031,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 116689,
+              "activation": 91.3228759765625,
+              "description": "we",
+              "description_error": null
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "sae_id": "resid_post_layer_11_trainer_0",
+      "neuronpedia_layer": "11-resid-post-aa",
+      "captured_generated_resid_shape": [
+        5,
+        2880
+      ],
+      "tokens": [
+        {
+          "generated_token_index": 0,
+          "token_id": 200005,
+          "token_text": "<|channel|>",
+          "prediction_position": 130,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 10990,
+              "activation": 633.5626831054688,
+              "description": "format",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 108712,
+              "activation": 552.4484252929688,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 95250,
+              "activation": 292.8575744628906,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 99724,
+              "activation": 227.24365234375,
+              "description": "code",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 26786,
+              "activation": 191.33274841308594,
+              "description": "$",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 1,
+          "token_id": 35644,
+          "token_text": "analysis",
+          "prediction_position": 131,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 10990,
+              "activation": 418.99627685546875,
+              "description": "format",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 61802,
+              "activation": 268.26141357421875,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 50279,
+              "activation": 225.7465362548828,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 26786,
+              "activation": 164.98265075683594,
+              "description": "$",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 36212,
+              "activation": 160.2645263671875,
+              "description": "a",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 2,
+          "token_id": 200008,
+          "token_text": "<|message|>",
+          "prediction_position": 132,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 10990,
+              "activation": 559.3453979492188,
+              "description": "format",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 74548,
+              "activation": 402.2076416015625,
+              "description": "Informative/instructional writing",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 72613,
+              "activation": 387.0587158203125,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 84554,
+              "activation": 317.0123291015625,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 98608,
+              "activation": 271.23846435546875,
+              "description": "analysis",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 3,
+          "token_id": 2167,
+          "token_text": "We",
+          "prediction_position": 133,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 23784,
+              "activation": 526.2588500976562,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 10990,
+              "activation": 509.15728759765625,
+              "description": "format",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 72613,
+              "activation": 354.57421875,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 40368,
+              "activation": 218.30812072753906,
+              "description": "final",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 95650,
+              "activation": 178.7729034423828,
+              "description": "Code, numbers, measurements",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 4,
+          "token_id": 1309,
+          "token_text": " need",
+          "prediction_position": 134,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 10990,
+              "activation": 387.773193359375,
+              "description": "format",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 102215,
+              "activation": 346.8499450683594,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 29447,
+              "activation": 151.8055419921875,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 89732,
+              "activation": 148.86355590820312,
+              "description": "Need",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 10175,
+              "activation": 141.84881591796875,
+              "description": "we",
+              "description_error": null
+            }
+          ]
+        }
+      ]
+    },
+    "15": {
+      "sae_id": "resid_post_layer_15_trainer_0",
+      "neuronpedia_layer": "15-resid-post-aa",
+      "captured_generated_resid_shape": [
+        5,
+        2880
+      ],
+      "tokens": [
+        {
+          "generated_token_index": 0,
+          "token_id": 200005,
+          "token_text": "<|channel|>",
+          "prediction_position": 130,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 75759,
+              "activation": 1237.4345703125,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 91358,
+              "activation": 405.6104431152344,
+              "description": "code and math",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 30677,
+              "activation": 384.12664794921875,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 65414,
+              "activation": 382.32354736328125,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 92003,
+              "activation": 366.7166748046875,
+              "description": "assistant",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 1,
+          "token_id": 35644,
+          "token_text": "analysis",
+          "prediction_position": 131,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 73639,
+              "activation": 713.521484375,
+              "description": "forum posts",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 38108,
+              "activation": 539.6569213867188,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 92191,
+              "activation": 450.05706787109375,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 58838,
+              "activation": 404.3846130371094,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 115408,
+              "activation": 328.05169677734375,
+              "description": "<|channel|>",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 2,
+          "token_id": 200008,
+          "token_text": "<|message|>",
+          "prediction_position": 132,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 63151,
+              "activation": 906.7877807617188,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 53490,
+              "activation": 830.1737060546875,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 101907,
+              "activation": 619.5200805664062,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 83073,
+              "activation": 440.9996337890625,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 106254,
+              "activation": 305.2815856933594,
+              "description": "analysis",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 3,
+          "token_id": 2167,
+          "token_text": "We",
+          "prediction_position": 133,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 53490,
+              "activation": 878.4097900390625,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 63338,
+              "activation": 782.3746337890625,
+              "description": "message token",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 78630,
+              "activation": 551.2639770507812,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 9827,
+              "activation": 388.5272521972656,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 81639,
+              "activation": 370.69708251953125,
+              "description": "<|message|>",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 4,
+          "token_id": 1309,
+          "token_text": " need",
+          "prediction_position": 134,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 9827,
+              "activation": 654.22314453125,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 68951,
+              "activation": 604.0001831054688,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 120060,
+              "activation": 467.44769287109375,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 28106,
+              "activation": 359.7806701660156,
+              "description": "we",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 105132,
+              "activation": 348.387451171875,
+              "description": "We",
+              "description_error": null
+            }
+          ]
+        }
+      ]
+    },
+    "19": {
+      "sae_id": "resid_post_layer_19_trainer_0",
+      "neuronpedia_layer": "19-resid-post-aa",
+      "captured_generated_resid_shape": [
+        5,
+        2880
+      ],
+      "tokens": [
+        {
+          "generated_token_index": 0,
+          "token_id": 200005,
+          "token_text": "<|channel|>",
+          "prediction_position": 130,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 83620,
+              "activation": 1804.4302978515625,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 127502,
+              "activation": 1728.721923828125,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 66490,
+              "activation": 1662.541748046875,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 101203,
+              "activation": 1461.699951171875,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 13476,
+              "activation": 1342.602783203125,
+              "description": "assistant",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 1,
+          "token_id": 35644,
+          "token_text": "analysis",
+          "prediction_position": 131,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 31133,
+              "activation": 2419.8583984375,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 68733,
+              "activation": 1375.0335693359375,
+              "description": "multiple languages and code",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 64739,
+              "activation": 1356.39990234375,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 49714,
+              "activation": 1176.678955078125,
+              "description": "end of sequence",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 76811,
+              "activation": 1100.34521484375,
+              "description": "<|channel|>",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 2,
+          "token_id": 200008,
+          "token_text": "<|message|>",
+          "prediction_position": 132,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 5961,
+              "activation": 2451.1884765625,
+              "description": "final",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 12079,
+              "activation": 2425.614013671875,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 41683,
+              "activation": 2030.646484375,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 83620,
+              "activation": 1407.2532958984375,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 62618,
+              "activation": 1186.9464111328125,
+              "description": "analysis",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 3,
+          "token_id": 2167,
+          "token_text": "We",
+          "prediction_position": 133,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 117283,
+              "activation": 2506.945068359375,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 22440,
+              "activation": 1950.322509765625,
+              "description": null,
+              "description_error": "no explanation"
+            },
+            {
+              "rank": 3,
+              "feature_id": 4185,
+              "activation": 1546.378662109375,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 56244,
+              "activation": 1334.10498046875,
+              "description": "`<|message|>`",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 13969,
+              "activation": 1073.786865234375,
+              "description": "<|message|>",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 4,
+          "token_id": 1309,
+          "token_text": " need",
+          "prediction_position": 134,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 23097,
+              "activation": 2959.19482421875,
+              "description": null,
+              "description_error": "no explanation"
+            },
+            {
+              "rank": 2,
+              "feature_id": 96661,
+              "activation": 1884.2266845703125,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 21093,
+              "activation": 1479.382080078125,
+              "description": null,
+              "description_error": "no explanation"
+            },
+            {
+              "rank": 4,
+              "feature_id": 43718,
+              "activation": 1297.267578125,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 5568,
+              "activation": 749.55078125,
+              "description": "We",
+              "description_error": null
+            }
+          ]
+        }
+      ]
+    },
+    "23": {
+      "sae_id": "resid_post_layer_23_trainer_0",
+      "neuronpedia_layer": "23-resid-post-aa",
+      "captured_generated_resid_shape": [
+        5,
+        2880
+      ],
+      "tokens": [
+        {
+          "generated_token_index": 0,
+          "token_id": 200005,
+          "token_text": "<|channel|>",
+          "prediction_position": 130,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 83809,
+              "activation": 18773.4609375,
+              "description": "mathematical and foreign content",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 100169,
+              "activation": 7268.4501953125,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 86017,
+              "activation": 5334.70703125,
+              "description": "mathematical analysis",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 48351,
+              "activation": 4762.091796875,
+              "description": "assistant",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 95497,
+              "activation": 3931.845703125,
+              "description": "assistant",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 1,
+          "token_id": 35644,
+          "token_text": "analysis",
+          "prediction_position": 131,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 83809,
+              "activation": 19035.97265625,
+              "description": "mathematical and foreign content",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 86017,
+              "activation": 7107.7548828125,
+              "description": "mathematical analysis",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 55136,
+              "activation": 4422.90771484375,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 40023,
+              "activation": 4375.37744140625,
+              "description": "<|channel|>",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 38964,
+              "activation": 3312.8037109375,
+              "description": "foreign words",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 2,
+          "token_id": 200008,
+          "token_text": "<|message|>",
+          "prediction_position": 132,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 83809,
+              "activation": 15399.2822265625,
+              "description": "mathematical and foreign content",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 20691,
+              "activation": 6824.6845703125,
+              "description": "final",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 86017,
+              "activation": 6312.888671875,
+              "description": "mathematical analysis",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 32966,
+              "activation": 5403.33154296875,
+              "description": "analysis",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 48351,
+              "activation": 4755.30029296875,
+              "description": "assistant",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 3,
+          "token_id": 2167,
+          "token_text": "We",
+          "prediction_position": 133,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 82169,
+              "activation": 5551.66162109375,
+              "description": "<|message|>",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 45283,
+              "activation": 4531.783203125,
+              "description": "say \"We\"",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 38964,
+              "activation": 4224.80126953125,
+              "description": "foreign words",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 49448,
+              "activation": 3531.479736328125,
+              "description": "Math/equations",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 70598,
+              "activation": 3082.85498046875,
+              "description": "<|message|>",
+              "description_error": null
+            }
+          ]
+        },
+        {
+          "generated_token_index": 4,
+          "token_id": 1309,
+          "token_text": " need",
+          "prediction_position": 134,
+          "top_features": [
+            {
+              "rank": 1,
+              "feature_id": 96164,
+              "activation": 5768.01904296875,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 2,
+              "feature_id": 21710,
+              "activation": 4376.52197265625,
+              "description": "We",
+              "description_error": null
+            },
+            {
+              "rank": 3,
+              "feature_id": 106420,
+              "activation": 3181.87548828125,
+              "description": "location coordinates",
+              "description_error": null
+            },
+            {
+              "rank": 4,
+              "feature_id": 90074,
+              "activation": 2947.819091796875,
+              "description": "statistical, mathematical data",
+              "description_error": null
+            },
+            {
+              "rank": 5,
+              "feature_id": 114494,
+              "activation": 2823.685302734375,
+              "description": "comma",
+              "description_error": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
