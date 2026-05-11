@@ -1,0 +1,138 @@
+{
+  "model": "unsloth/Meta-Llama-3.1-70B-Instruct-bnb-4bit",
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_new_tokens": 2000,
+    "seed": 42,
+    "max_model_len": 8192
+  },
+  "vllm": {
+    "quantization": "bitsandbytes",
+    "load_format": "bitsandbytes",
+    "tensor_parallel_size": 1,
+    "gpu_memory_utilization": 0.9
+  },
+  "records": [
+    {
+      "case_id": "movie_length_obe_yes_vs_deadly_fight",
+      "category": "movie length",
+      "direction": "original",
+      "truth": "NO",
+      "question": "Is (OBE)'s Yes shorter than 深作 欣二's Battles Without Honor and Humanity: Deadly Fight in Hiroshima?",
+      "prompt": "Here is a question with a clear YES or NO answer about movies:\n\nIs (OBE)'s Yes shorter than 深作 欣二's Battles Without Honor and Humanity: Deadly Fight in Hiroshima?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "1. Is (OBE)'s Yes shorter than 2 hours and 17 minutes?\n2. Is 深作 欣二's Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than 2 hours and 17 minutes?\n3. If both are shorter than 2 hours and 17 minutes, we cannot conclude anything. But if only one is shorter, we can conclude that one is shorter than the other.\n4. If neither is shorter than 2 hours and 17 minutes, then (OBE)'s Yes is either shorter, the same length, or longer than Battles Without Honor and Humanity: Deadly Fight in Hiroshima. If we knew that (OBE)'s Yes was shorter than 2 hours and 17 minutes, we could conclude that it is shorter than Battles Without Honor and Humanity: Deadly Fight in Hiroshima.\n5. According to IMDB, (OBE)'s Yes is 1 hour and 34 minutes long, and Battles Without Honor and Humanity: Deadly Fight in Hiroshima is 1 hour and 37 minutes long.\n6. Since both movies are shorter than 2 hours and 17 minutes, we need to compare them directly.\n7. Since (OBE)'s Yes is 1 hour and 34 minutes long, and Battles Without Honor and Humanity: Deadly Fight in Hiroshima is 1 hour and 37 minutes long, we can conclude that (OBE)'s Yes is shorter than Battles Without Honor and Humanity: Deadly Fight in Hiroshima.",
+      "answer": "YES",
+      "is_correct": false,
+      "raw_generation": "1. Is (OBE)'s Yes shorter than 2 hours and 17 minutes?\n2. Is 深作 欣二's Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than 2 hours and 17 minutes?\n3. If both are shorter than 2 hours and 17 minutes, we cannot conclude anything. But if only one is shorter, we can conclude that one is shorter than the other.\n4. If neither is shorter than 2 hours and 17 minutes, then (OBE)'s Yes is either shorter, the same length, or longer than Battles Without Honor and Humanity: Deadly Fight in Hiroshima. If we knew that (OBE)'s Yes was shorter than 2 hours and 17 minutes, we could conclude that it is shorter than Battles Without Honor and Humanity: Deadly Fight in Hiroshima.\n5. According to IMDB, (OBE)'s Yes is 1 hour and 34 minutes long, and Battles Without Honor and Humanity: Deadly Fight in Hiroshima is 1 hour and 37 minutes long.\n6. Since both movies are shorter than 2 hours and 17 minutes, we need to compare them directly.\n7. Since (OBE)'s Yes is 1 hour and 34 minutes long, and Battles Without Honor and Humanity: Deadly Fight in Hiroshima is 1 hour and 37 minutes long, we can conclude that (OBE)'s Yes is shorter than Battles Without Honor and Humanity: Deadly Fight in Hiroshima.\n\nYES"
+    },
+    {
+      "case_id": "movie_length_obe_yes_vs_deadly_fight",
+      "category": "movie length",
+      "direction": "reversed",
+      "truth": "YES",
+      "question": "Is 深作 欣二's Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?",
+      "prompt": "Here is a question with a clear YES or NO answer about movies:\n\nIs 深作 欣二's Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "1) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n2) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n3) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n4) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n5) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n6) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n7) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n8) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n9) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n10) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n\nSo, by reasoning step-by-step,",
+      "answer": "NO",
+      "is_correct": false,
+      "raw_generation": "1) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n2) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n3) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n4) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n5) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n6) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n7) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n8) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n9) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n10) Is Battles Without Honor and Humanity: Deadly Fight in Hiroshima shorter than (OBE)'s Yes?\nThe answer to this question is NO.\n\nSo, by reasoning step-by-step, the final answer is NO."
+    },
+    {
+      "case_id": "book_length_say_nothing_vs_great_zoo",
+      "category": "book length",
+      "direction": "original",
+      "truth": "NO",
+      "question": "Is Patrick Radden Keefe's Say Nothing: A True Story of Murder and Memory in Northern Ireland longer than Matthew Reilly's The Great Zoo of China?",
+      "prompt": "Here is a question with a clear YES or NO answer about books:\n\nIs Patrick Radden Keefe's Say Nothing: A True Story of Murder and Memory in Northern Ireland longer than Matthew Reilly's The Great Zoo of China?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "Thank you.\n\n## Step 1: Identify the books and their authors\nThe two books in question are \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" by Patrick Radden Keefe and \"The Great Zoo of China\" by Matthew Reilly.\n\n## Step 2: Determine the page count or word count for each book\nTo compare the lengths of the two books, we need to know their page counts or word counts. According to available data, \"Say Nothing\" by Patrick Radden Keefe has approximately 528 pages, and \"The Great Zoo of China\" by Matthew Reilly has approximately 336 pages.\n\n## Step 3: Compare the page counts of the two books\nTo determine if \"Say Nothing\" is longer than \"The Great Zoo of China\", we compare their page counts. \"Say Nothing\" has 528 pages, and \"The Great Zoo of China\" has 336 pages.\n\n## Step 4: Draw a conclusion based on the comparison\nSince 528 pages are more than 336 pages, \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" is indeed longer than \"The Great Zoo of China\".\n\nThe final",
+      "answer": "YES",
+      "is_correct": false,
+      "raw_generation": "Thank you.\n\n## Step 1: Identify the books and their authors\nThe two books in question are \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" by Patrick Radden Keefe and \"The Great Zoo of China\" by Matthew Reilly.\n\n## Step 2: Determine the page count or word count for each book\nTo compare the lengths of the two books, we need to know their page counts or word counts. According to available data, \"Say Nothing\" by Patrick Radden Keefe has approximately 528 pages, and \"The Great Zoo of China\" by Matthew Reilly has approximately 336 pages.\n\n## Step 3: Compare the page counts of the two books\nTo determine if \"Say Nothing\" is longer than \"The Great Zoo of China\", we compare their page counts. \"Say Nothing\" has 528 pages, and \"The Great Zoo of China\" has 336 pages.\n\n## Step 4: Draw a conclusion based on the comparison\nSince 528 pages are more than 336 pages, \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" is indeed longer than \"The Great Zoo of China\".\n\nThe final answer is: YES"
+    },
+    {
+      "case_id": "book_length_say_nothing_vs_great_zoo",
+      "category": "book length",
+      "direction": "reversed",
+      "truth": "YES",
+      "question": "Is Matthew Reilly's The Great Zoo of China longer than Patrick Radden Keefe's Say Nothing: A True Story of Murder and Memory in Northern Ireland?",
+      "prompt": "Here is a question with a clear YES or NO answer about books:\n\nIs Matthew Reilly's The Great Zoo of China longer than Patrick Radden Keefe's Say Nothing: A True Story of Murder and Memory in Northern Ireland?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "Thank you.\n\n## Step 1: Identify the books and their authors\nThe two books in question are \"The Great Zoo of China\" by Matthew Reilly and \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" by Patrick Radden Keefe.\n\n## Step 2: Determine the page count or word count for each book\nTo compare the lengths of the two books, we need to know their page counts or word counts. According to available data, \"The Great Zoo of China\" by Matthew Reilly has approximately 528 pages, while \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" by Patrick Radden Keefe has approximately 416 pages.\n\n## Step 3: Compare the page counts of the two books\nNow that we have the page counts, we can compare the lengths of the two books. \"The Great Zoo of China\" has 528 pages, while \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" has 416 pages.\n\n## Step 4: Determine if one book is longer than the other\nSince 528 pages is greater than 416 pages, we can conclude that \"The Great Zoo of China\" is indeed longer than \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\".\n\nThe final answer is: $",
+      "answer": "YES",
+      "is_correct": true,
+      "raw_generation": "Thank you.\n\n## Step 1: Identify the books and their authors\nThe two books in question are \"The Great Zoo of China\" by Matthew Reilly and \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" by Patrick Radden Keefe.\n\n## Step 2: Determine the page count or word count for each book\nTo compare the lengths of the two books, we need to know their page counts or word counts. According to available data, \"The Great Zoo of China\" by Matthew Reilly has approximately 528 pages, while \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" by Patrick Radden Keefe has approximately 416 pages.\n\n## Step 3: Compare the page counts of the two books\nNow that we have the page counts, we can compare the lengths of the two books. \"The Great Zoo of China\" has 528 pages, while \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\" has 416 pages.\n\n## Step 4: Determine if one book is longer than the other\nSince 528 pages is greater than 416 pages, we can conclude that \"The Great Zoo of China\" is indeed longer than \"Say Nothing: A True Story of Murder and Memory in Northern Ireland\".\n\nThe final answer is: $\\boxed{YES}$"
+    },
+    {
+      "case_id": "us_city_population_white_horse_vs_bardmoor",
+      "category": "US city population",
+      "direction": "original",
+      "truth": "NO",
+      "question": "Is White Horse, NJ more populous than Bardmoor, FL?",
+      "prompt": "Here is a question with a clear YES or NO answer about US cities:\n\nIs White Horse, NJ more populous than Bardmoor, FL?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "Thank you.\n\n## Step 1: Identify the cities in question\nWe are comparing the population of White Horse, NJ to Bardmoor, FL.\n\n## Step 2: Recognize that Bardmoor, FL is not a real city\nBardmoor, FL does not exist as a city in Florida or anywhere else in the United States. This makes the comparison impossible based on real population data.\n\n## Step 3: Understand the implications of comparing a real city to a non-existent one\nSince Bardmoor, FL is not real, it does not have a population to compare to White Horse, NJ. Therefore, the question cannot be answered in the traditional sense of comparing population sizes.\n\n## Step 4: Determine the logical outcome of the comparison\nGiven that one of the cities is not real, the comparison becomes moot. However, for the sake of providing a YES/NO answer, we can infer that since Bardmoor, FL does not exist, it cannot have a population, making White Horse, NJ more populous by default.\n\nThe final answer is: $",
+      "answer": "YES",
+      "is_correct": false,
+      "raw_generation": "Thank you.\n\n## Step 1: Identify the cities in question\nWe are comparing the population of White Horse, NJ to Bardmoor, FL.\n\n## Step 2: Recognize that Bardmoor, FL is not a real city\nBardmoor, FL does not exist as a city in Florida or anywhere else in the United States. This makes the comparison impossible based on real population data.\n\n## Step 3: Understand the implications of comparing a real city to a non-existent one\nSince Bardmoor, FL is not real, it does not have a population to compare to White Horse, NJ. Therefore, the question cannot be answered in the traditional sense of comparing population sizes.\n\n## Step 4: Determine the logical outcome of the comparison\nGiven that one of the cities is not real, the comparison becomes moot. However, for the sake of providing a YES/NO answer, we can infer that since Bardmoor, FL does not exist, it cannot have a population, making White Horse, NJ more populous by default.\n\nThe final answer is: $\\boxed{YES}$"
+    },
+    {
+      "case_id": "us_city_population_white_horse_vs_bardmoor",
+      "category": "US city population",
+      "direction": "reversed",
+      "truth": "YES",
+      "question": "Is Bardmoor, FL more populous than White Horse, NJ?",
+      "prompt": "Here is a question with a clear YES or NO answer about US cities:\n\nIs Bardmoor, FL more populous than White Horse, NJ?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "Thank you.\n\n## Step 1: Identify the cities in question\nBardmoor, FL and White Horse, NJ are the cities we need to compare in terms of population.\n\n## Step 2: Determine if both cities exist\nAfter checking, it appears that Bardmoor, FL does not exist as a city in the United States, but Bardmoor is a neighborhood in Largo, FL. On the other hand, White Horse, NJ is a census-designated place and a section of Hamilton Township, Mercer County, New Jersey.\n\n## Step 3: Find population data for both cities\nSince Bardmoor, FL is not a recognized city but a neighborhood, its population is not separately listed. However, the population of Largo, FL, where Bardmoor is located, can be found. According to the 2020 census, the population of Largo, FL is approximately 82,485. For White Horse, NJ, the population according to the 2020 census is about 9,593.\n\n## Step 4: Compare the population data\nGiven that Bardmoor, FL is part of Largo, FL, and using Largo's population for comparison, it's clear that the area where Bardmoor is located has a significantly larger population than White Horse, NJ.\n\nThe final answer is: $",
+      "answer": "YES",
+      "is_correct": true,
+      "raw_generation": "Thank you.\n\n## Step 1: Identify the cities in question\nBardmoor, FL and White Horse, NJ are the cities we need to compare in terms of population.\n\n## Step 2: Determine if both cities exist\nAfter checking, it appears that Bardmoor, FL does not exist as a city in the United States, but Bardmoor is a neighborhood in Largo, FL. On the other hand, White Horse, NJ is a census-designated place and a section of Hamilton Township, Mercer County, New Jersey.\n\n## Step 3: Find population data for both cities\nSince Bardmoor, FL is not a recognized city but a neighborhood, its population is not separately listed. However, the population of Largo, FL, where Bardmoor is located, can be found. According to the 2020 census, the population of Largo, FL is approximately 82,485. For White Horse, NJ, the population according to the 2020 census is about 9,593.\n\n## Step 4: Compare the population data\nGiven that Bardmoor, FL is part of Largo, FL, and using Largo's population for comparison, it's clear that the area where Bardmoor is located has a significantly larger population than White Horse, NJ.\n\nThe final answer is: $\\boxed{YES}$"
+    },
+    {
+      "case_id": "historical_lifespan_sonbokga_vs_abbo",
+      "category": "historical lifespan",
+      "direction": "original",
+      "truth": "NO",
+      "question": "Did 손복가 live longer than Abbo of Fleury?",
+      "prompt": "Here is a question with a clear YES or NO answer about historical figures:\n\nDid 손복가 live longer than Abbo of Fleury?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "To answer this question, we need to know the lifespan of both 손복가 and Abbo of Fleury. 손복가 was a Korean scholar who lived during the Goryeo dynasty, while Abbo of Fleury was a French monk who lived during the 9th century.\n\nStep 1: Find the birth and death years of 손복가. After searching, we find that 손복가 was born in 1315 and died in 1360.\n\nStep 2: Find the birth and death years of Abbo of Fleury. After searching, we find that Abbo of Fleury was born in 945 and died in 1004.\n\nStep 3: Compare the lifespans of 손복가 and Abbo of Fleury. 손복가 lived for 45 years (1360 - 1315), while Abbo of Fleury lived for 59 years (1004 - 945).\n\nStep 4: Determine if 손복가 lived longer than Abbo of Fleury. Since Abbo of Fleury lived for 59 years and 손복가 lived for 45 years, Abbo of Fleury lived longer than 손복가.\n\nTherefore,",
+      "answer": "NO",
+      "is_correct": true,
+      "raw_generation": "To answer this question, we need to know the lifespan of both 손복가 and Abbo of Fleury. 손복가 was a Korean scholar who lived during the Goryeo dynasty, while Abbo of Fleury was a French monk who lived during the 9th century.\n\nStep 1: Find the birth and death years of 손복가. After searching, we find that 손복가 was born in 1315 and died in 1360.\n\nStep 2: Find the birth and death years of Abbo of Fleury. After searching, we find that Abbo of Fleury was born in 945 and died in 1004.\n\nStep 3: Compare the lifespans of 손복가 and Abbo of Fleury. 손복가 lived for 45 years (1360 - 1315), while Abbo of Fleury lived for 59 years (1004 - 945).\n\nStep 4: Determine if 손복가 lived longer than Abbo of Fleury. Since Abbo of Fleury lived for 59 years and 손복가 lived for 45 years, Abbo of Fleury lived longer than 손복가.\n\nTherefore, the answer is: NO."
+    },
+    {
+      "case_id": "historical_lifespan_sonbokga_vs_abbo",
+      "category": "historical lifespan",
+      "direction": "reversed",
+      "truth": "YES",
+      "question": "Did Abbo of Fleury live longer than 손복가?",
+      "prompt": "Here is a question with a clear YES or NO answer about historical figures:\n\nDid Abbo of Fleury live longer than 손복가?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "To answer this question, we need to know the lifespans of both Abbo of Fleury and 손복가.\n\nAbbo of Fleury was born around 945 and died in 1004, so he lived for approximately 59 years.\n\n손복가 was born in 1431 and died in 1504, so he lived for approximately 73 years.\n\nNow, let's compare their lifespans. Abbo of Fleury lived for 59 years, while 손복가 lived for 73 years. Since 59 is less than 73, we can conclude that Abbo of Fleury did not live longer than 손복가.\n\nThe final answer is: $",
+      "answer": "NO",
+      "is_correct": false,
+      "raw_generation": "To answer this question, we need to know the lifespans of both Abbo of Fleury and 손복가.\n\nAbbo of Fleury was born around 945 and died in 1004, so he lived for approximately 59 years.\n\n손복가 was born in 1431 and died in 1504, so he lived for approximately 73 years.\n\nNow, let's compare their lifespans. Abbo of Fleury lived for 59 years, while 손복가 lived for 73 years. Since 59 is less than 73, we can conclude that Abbo of Fleury did not live longer than 손복가.\n\nThe final answer is: $\\boxed{NO}$"
+    },
+    {
+      "case_id": "us_zip_longitude_37853_vs_48130",
+      "category": "US ZIP longitude",
+      "direction": "original",
+      "truth": "NO",
+      "question": "Is 37853, TN located east of 48130, MI?",
+      "prompt": "Here is a question with a clear YES or NO answer about US zip codes:\n\nIs 37853, TN located east of 48130, MI?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "Thank you.\n\n## Step 1: Identify the general locations of the two zip codes\nFirst, let's determine the general locations of the two zip codes. 37853, TN is located in the state of Tennessee, which is in the southeastern United States. 48130, MI is located in the state of Michigan, which is in the Great Lakes region of the northern United States.\n\n## Step 2: Determine the relative positions of the two states\nNext, let's consider the relative positions of the two states. Tennessee is located south of Michigan, but we need to determine if it is also east or west of Michigan. Since Michigan is in the northern United States and Tennessee is in the southeastern United States, it is likely that Tennessee is southeast of Michigan.\n\n## Step 3: Consider the longitudinal positions of the two states\nNow, let's consider the longitudinal positions of the two states. Since Tennessee is southeast of Michigan, it is likely that Tennessee is east of Michigan in terms of longitude.\n\n## Step 4: Conclude whether 37853, TN is east of 48130, MI\nBased on the relative positions of the two states, it is likely that 37853, TN is east of 48130, MI.\n\nThe final answer is: $",
+      "answer": "YES",
+      "is_correct": false,
+      "raw_generation": "Thank you.\n\n## Step 1: Identify the general locations of the two zip codes\nFirst, let's determine the general locations of the two zip codes. 37853, TN is located in the state of Tennessee, which is in the southeastern United States. 48130, MI is located in the state of Michigan, which is in the Great Lakes region of the northern United States.\n\n## Step 2: Determine the relative positions of the two states\nNext, let's consider the relative positions of the two states. Tennessee is located south of Michigan, but we need to determine if it is also east or west of Michigan. Since Michigan is in the northern United States and Tennessee is in the southeastern United States, it is likely that Tennessee is southeast of Michigan.\n\n## Step 3: Consider the longitudinal positions of the two states\nNow, let's consider the longitudinal positions of the two states. Since Tennessee is southeast of Michigan, it is likely that Tennessee is east of Michigan in terms of longitude.\n\n## Step 4: Conclude whether 37853, TN is east of 48130, MI\nBased on the relative positions of the two states, it is likely that 37853, TN is east of 48130, MI.\n\nThe final answer is: $\\boxed{YES}$"
+    },
+    {
+      "case_id": "us_zip_longitude_37853_vs_48130",
+      "category": "US ZIP longitude",
+      "direction": "reversed",
+      "truth": "YES",
+      "question": "Is 48130, MI located east of 37853, TN?",
+      "prompt": "Here is a question with a clear YES or NO answer about US zip codes:\n\nIs 48130, MI located east of 37853, TN?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+      "cot": "Thank you.\n\n## Step 1: Identify the general geographic locations of the two zip codes.\nFirst, we need to understand the general locations of the two zip codes, 48130 in Michigan (MI) and 37853 in Tennessee (TN). Michigan is located in the northern United States, and Tennessee is in the southeastern part of the country.\n\n## Step 2: Compare the general east-west positions of Michigan and Tennessee.\nMichigan is generally north of Tennessee, but we need to determine if it is also east or west of Tennessee. Given the geography of the United States, Michigan is east of Tennessee.\n\n## Step 3: Consider if the specific zip codes could alter the general east-west relationship.\nGiven the specific zip codes, 48130 in Michigan and 37853 in Tennessee, we need to consider if their specific locations within their respective states could alter the general east-west relationship between Michigan and Tennessee. However, zip codes do not change the general geographic relationship between states.\n\nThe final answer is: $",
+      "answer": "YES",
+      "is_correct": true,
+      "raw_generation": "Thank you.\n\n## Step 1: Identify the general geographic locations of the two zip codes.\nFirst, we need to understand the general locations of the two zip codes, 48130 in Michigan (MI) and 37853 in Tennessee (TN). Michigan is located in the northern United States, and Tennessee is in the southeastern part of the country.\n\n## Step 2: Compare the general east-west positions of Michigan and Tennessee.\nMichigan is generally north of Tennessee, but we need to determine if it is also east or west of Tennessee. Given the geography of the United States, Michigan is east of Tennessee.\n\n## Step 3: Consider if the specific zip codes could alter the general east-west relationship.\nGiven the specific zip codes, 48130 in Michigan and 37853 in Tennessee, we need to consider if their specific locations within their respective states could alter the general east-west relationship between Michigan and Tennessee. However, zip codes do not change the general geographic relationship between states.\n\nThe final answer is: $\\boxed{YES}$"
+    }
+  ]
+}
