@@ -2,7 +2,8 @@
 """
 Run the Say Nothing vs The Great Zoo of China prompt(s) through a 4-bit
 Llama-3.3-70B-Instruct checkpoint, capture layer-50 residual streams, and save
-the top active Neuronpedia/Goodfire SAE features for every generated token.
+the top active Neuronpedia/Goodfire SAE features averaged over each generated
+response.
 
 Neuronpedia API key:
     export NEURONPEDIA_API_KEY=...
@@ -29,7 +30,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 DEFAULT_MODEL_ID = "unsloth/Llama-3.3-70B-Instruct-bnb-4bit"
 DEFAULT_EXAMPLES_PATH = Path("llama31_70b_4bit_unfaithful_examples.json")
-DEFAULT_OUTPUT_DIR = Path("top_sae_features_by_position_llama33_70b_it_say_nothing")
+DEFAULT_OUTPUT_DIR = Path("top_sae_features_response_average_llama33_70b_it_say_nothing")
 DEFAULT_MAX_NEW_TOKENS = 512
 DEFAULT_TOP_K = 5
 
@@ -168,13 +169,6 @@ def token_text(tokenizer: AutoTokenizer, token_id: int) -> str:
     return tokenizer.decode([token_id], skip_special_tokens=False)
 
 
-def safe_token_preview(text: str, limit: int = 40) -> str:
-    preview = text.encode("unicode_escape").decode("ascii")
-    for old, new in [("\\", "_"), ("/", "_"), (" ", "_")]:
-        preview = preview.replace(old, new)
-    return (preview or "empty")[:limit]
-
-
 def generation_prediction_positions(prompt_len: int, num_generated_tokens: int) -> list[int]:
     return [prompt_len - 1 + idx for idx in range(num_generated_tokens)]
 
@@ -213,17 +207,20 @@ def load_goodfire_sae(device: torch.device, d_model: int) -> GoodfireSparseAutoE
     return sae
 
 
-def top_features_for_resid_vector(
+def top_features_for_average_response_acts(
     sae: GoodfireSparseAutoEncoder,
-    resid_vector: torch.Tensor,
+    resid_vectors: torch.Tensor,
     top_k: int,
     sae_device: torch.device,
 ) -> list[dict[str, object]]:
+    if resid_vectors.shape[0] == 0:
+        raise ValueError("Cannot average SAE features over an empty response.")
+
     with torch.inference_mode():
-        acts = sae.encode(resid_vector.to(device=sae_device, dtype=torch.bfloat16).unsqueeze(0)).squeeze(0)
+        acts = sae.encode(resid_vectors.to(device=sae_device, dtype=torch.bfloat16)).float().mean(dim=0)
 
     k = min(top_k, acts.shape[0])
-    topk_vals, topk_idxs = torch.topk(acts.float(), k)
+    topk_vals, topk_idxs = torch.topk(acts, k)
     top_features = []
     for rank, (feature_id, activation) in enumerate(zip(topk_idxs.tolist(), topk_vals.tolist()), 1):
         description, description_error = fetch_feature_description(int(feature_id))
@@ -231,7 +228,7 @@ def top_features_for_resid_vector(
             {
                 "rank": rank,
                 "feature_id": int(feature_id),
-                "activation": float(activation),
+                "mean_activation": float(activation),
                 "description": description,
                 "description_error": description_error,
                 "neuronpedia_url": (
@@ -316,49 +313,17 @@ def run_case(
     generated_resid = resid[prediction_positions]
 
     case_dir = output_dir / case.direction
-    token_dir = case_dir / "tokens"
-    token_dir.mkdir(parents=True, exist_ok=True)
+    case_dir.mkdir(parents=True, exist_ok=True)
 
-    token_outputs: list[str] = []
     sae_device = torch.device(args.sae_device)
-    for generated_token_index, token_id in enumerate(generated_token_ids):
-        text = token_text(tokenizer, token_id)
-        result = {
-            "model_id": args.model,
-            "case_id": case.case_id,
-            "direction": case.direction,
-            "truth": case.truth,
-            "question": case.question,
-            "prompt": case.prompt,
-            "analysis_type": "generated_token",
-            "generated_token_index": generated_token_index,
-            "token_id": int(token_id),
-            "token_text": text,
-            "prediction_position": prediction_positions[generated_token_index],
-            "sae_repo_id": SAE_REPO_ID,
-            "sae_filename": SAE_FILENAME,
-            "sae_layer": SAE_LAYER,
-            "neuronpedia_model": NEURONPEDIA_MODEL,
-            "neuronpedia_release": NEURONPEDIA_RELEASE,
-            "neuronpedia_layer": NEURONPEDIA_LAYER,
-            "top_features": top_features_for_resid_vector(
-                sae=sae,
-                resid_vector=generated_resid[generated_token_index],
-                top_k=args.top_k,
-                sae_device=sae_device,
-            ),
-        }
-        output_path = token_dir / f"gen_token_{generated_token_index:04d}_{safe_token_preview(text)}.json"
-        output_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
-        token_outputs.append(str(output_path))
-
-    case_summary = {
+    result = {
+        "model_id": args.model,
         "case_id": case.case_id,
-        "category": case.category,
         "direction": case.direction,
         "truth": case.truth,
         "question": case.question,
         "prompt": case.prompt,
+        "analysis_type": "generated_response_average",
         "generated_text": generated_text,
         "num_generated_tokens": len(generated_token_ids),
         "captured_generated_resid_shape": list(generated_resid.shape),
@@ -371,7 +336,34 @@ def run_case(
             }
             for idx, token_id in enumerate(generated_token_ids)
         ],
-        "token_output_files": token_outputs,
+        "sae_repo_id": SAE_REPO_ID,
+        "sae_filename": SAE_FILENAME,
+        "sae_layer": SAE_LAYER,
+        "neuronpedia_model": NEURONPEDIA_MODEL,
+        "neuronpedia_release": NEURONPEDIA_RELEASE,
+        "neuronpedia_layer": NEURONPEDIA_LAYER,
+        "top_features": top_features_for_average_response_acts(
+            sae=sae,
+            resid_vectors=generated_resid,
+            top_k=args.top_k,
+            sae_device=sae_device,
+        ),
+    }
+    result_path = case_dir / "response_average_top_features.json"
+    result_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    case_summary = {
+        "case_id": case.case_id,
+        "category": case.category,
+        "direction": case.direction,
+        "truth": case.truth,
+        "question": case.question,
+        "prompt": case.prompt,
+        "generated_text": generated_text,
+        "num_generated_tokens": len(generated_token_ids),
+        "captured_generated_resid_shape": list(generated_resid.shape),
+        "response_average_output_file": str(result_path),
+        "top_features": result["top_features"],
     }
     (case_dir / "summary.json").write_text(
         json.dumps(case_summary, indent=2, ensure_ascii=False),
@@ -430,7 +422,7 @@ def main() -> None:
     }
     summary_path = args.output_dir / "summary.json"
     summary_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Saved per-token SAE feature outputs to: {args.output_dir}")
+    print(f"Saved response-averaged SAE feature outputs to: {args.output_dir}")
     print(f"Summary written to: {summary_path}")
 
 
