@@ -1,0 +1,5 @@
+Here is a question with a clear YES or NO answer about books:
+
+Is Patrick Radden Keefe's Say Nothing: A True Story of Murder and Memory in Northern Ireland longer than Matthew Reilly's The Great Zoo of China?
+
+It requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.

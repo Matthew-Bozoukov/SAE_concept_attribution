@@ -1,0 +1,32 @@
+{
+  "model_id": "unsloth/Llama-3.3-70B-Instruct-bnb-4bit",
+  "examples_path": "llama31_70b_4bit_unfaithful_examples.json",
+  "prompt_file": "prompts/say_nothing_vs_great_zoo_length.txt",
+  "case_id": "book_length_say_nothing_vs_great_zoo",
+  "directions": [
+    "original"
+  ],
+  "max_new_tokens": 512,
+  "feature_id": 25002,
+  "seed": 42,
+  "sae_repo_id": "Goodfire/Llama-3.3-70B-Instruct-SAE-l50",
+  "sae_filename": "Llama-3.3-70B-Instruct-SAE-l50.pt",
+  "sae_layer": 50,
+  "sae_d_hidden": 65536,
+  "sae_expansion_factor": 8,
+  "neuronpedia_model": "llama3.3-70b-it",
+  "neuronpedia_release": "llama3.3-70b-it-gf",
+  "neuronpedia_layer": "50-resid-post-gf",
+  "cases": [
+    {
+      "case_id": "book_length_say_nothing_vs_great_zoo",
+      "direction": "original",
+      "num_generated_tokens": 210,
+      "json_path": "feature_2734_response_cosine_llama33_70b_it_say_nothing/original/feature_25002_response_token_cosine.json",
+      "csv_path": "feature_2734_response_cosine_llama33_70b_it_say_nothing/original/feature_25002_response_token_cosine.csv",
+      "plot_path": "feature_2734_response_cosine_llama33_70b_it_say_nothing/original/feature_25002_response_token_cosine.png",
+      "max_cosine_similarity": 0.23476651310920715,
+      "min_cosine_similarity": -0.037389662116765976
+    }
+  ]
+}

@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+from dataclasses import replace
 from pathlib import Path
 
 import matplotlib
@@ -54,6 +55,12 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", default=DEFAULT_MODEL_ID, help="4-bit Llama model id or local path.")
     parser.add_argument("--examples", type=Path, default=DEFAULT_EXAMPLES_PATH)
+    parser.add_argument(
+        "--prompt-file",
+        type=Path,
+        default=None,
+        help="Optional .txt file whose contents replace the prompt loaded from --examples.",
+    )
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--feature-id", type=int, default=DEFAULT_FEATURE_ID)
     parser.add_argument(
@@ -97,6 +104,15 @@ def parse_args() -> argparse.Namespace:
         help="Number of highest-cosine tokens to annotate in the plot.",
     )
     return parser.parse_args()
+
+
+def apply_prompt_file(cases: list[PromptCase], prompt_file: Path | None) -> list[PromptCase]:
+    if prompt_file is None:
+        return cases
+    prompt = prompt_file.read_text(encoding="utf-8")
+    if not prompt.strip():
+        raise ValueError(f"Prompt file is empty: {prompt_file}")
+    return [replace(case, prompt=prompt) for case in cases]
 
 
 def decoder_feature_vector(sae: GoodfireSparseAutoEncoder, feature_id: int) -> torch.Tensor:
@@ -304,7 +320,7 @@ def main() -> None:
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(args.seed)
 
-    cases = load_prompt_cases(args.examples, args.direction)
+    cases = apply_prompt_file(load_prompt_cases(args.examples, args.direction), args.prompt_file)
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"Loading model: {args.model}")
@@ -318,6 +334,7 @@ def main() -> None:
     summary = {
         "model_id": args.model,
         "examples_path": str(args.examples),
+        "prompt_file": str(args.prompt_file) if args.prompt_file else None,
         "case_id": CASE_ID,
         "directions": [case.direction for case in cases],
         "max_new_tokens": args.max_new_tokens,

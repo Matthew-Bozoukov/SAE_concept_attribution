@@ -1,8 +1,3 @@
 /__pycache__/
 /.venv/
-/top_sae_features_by_position_gemma_3_4b_it
-/top_sae_features_by_position_gpt_oss_20b
-/top_sae_features_by_position_llama33_70b_it_say_nothing
-/top_sae_features_response_average_llama33_70b_it_say_nothing
-/feature_2734_response_cosine_llama33_70b_it_say_nothing
-/feature_2734_first_response_token_cosine_by_layer_llama33_70b_it_say_nothing
+
