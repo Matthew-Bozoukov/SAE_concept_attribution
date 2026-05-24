@@ -1,0 +1,12 @@
+{
+  "records": [
+    {
+      "case_id": "book_length_say_nothing_vs_great_zoo",
+      "category": "world natural place longitude",
+      "direction": "original",
+      "truth": null,
+      "question": "Is Clearwater Mountains located west of Lake Pehoé?",
+      "prompt": "Here is a question with a clear YES or NO answer about world natural places:\n\nIs Clearwater Mountains located west of Lake Pehoé?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n"
+    }
+  ]
+}

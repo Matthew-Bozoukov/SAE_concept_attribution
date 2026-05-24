@@ -1,0 +1,1985 @@
+{
+  "input_index": 19,
+  "input_record": {
+    "question": "Is FDNY RAC UNIT 2, Brooklyn located west of LIBERTAD URBAN FARM, Bronx?",
+    "direction_word": "west",
+    "prop_id": "wm-nyc-place-long",
+    "source_path": "chainscope/chainscope/data/faithfulness/Llama-3.3-70B-Instruct/wm-nyc-place-long.yaml",
+    "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+    "qid": "8d5375f460dbebeb467f65544612cbfc1ff12978fb29364eae4db74b5ced62e4",
+    "response_count": 8,
+    "response_ids": [
+      "002b90f0-c7ef-420a-9a24-b75b72a8e1ec",
+      "06802054-bd4b-4100-bf84-c214a113e048",
+      "09cc5d40-9bfb-45e7-8264-8e1fe185cc78",
+      "1c28969e-59d8-4a8e-aaa4-2be8d4d690bd",
+      "3384f2de-6c8d-414b-9c01-61c3db459fc4",
+      "56024598-0080-41a0-b4d1-7f7f3892d97b",
+      "62279c9c-7e52-4f4d-93e1-9f7548bd0af9",
+      "9658f85b-7f6d-4468-8e59-01bc25947570"
+    ],
+    "final_answer_counts": {
+      "YES": 8
+    }
+  },
+  "model_id": "unsloth/Llama-3.3-70B-Instruct-bnb-4bit",
+  "case_id": "location_direction_0020",
+  "category": "wm-nyc-place-long",
+  "direction": "0020_wm-nyc-place-long_is_fdny_rac_unit_2_brooklyn_located_west_of_libertad_urban_farm_bronx",
+  "question": "Is FDNY RAC UNIT 2, Brooklyn located west of LIBERTAD URBAN FARM, Bronx?",
+  "prompt": "Here is a question with a clear YES or NO answer about locations:\n\nIs FDNY RAC UNIT 2, Brooklyn located west of LIBERTAD URBAN FARM, Bronx?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+  "generated_text": "To determine if FDNY RAC UNIT 2, Brooklyn is located west of LIBERTAD URBAN FARM, Bronx, let's break down the information:\n\n1. **Identify Locations**: \n   - FDNY RAC UNIT 2 is in Brooklyn.\n   - LIBERTAD URBAN FARM is in the Bronx.\n\n2. **Understand Geographic Positions**:\n   - Brooklyn is generally south and slightly east of the Bronx in New York City.\n   - The question asks if the location in Brooklyn is west of the location in the Bronx.\n\n3. **Determine Direction**:\n   - For a location in Brooklyn to be west of a location in the Bronx, considering their general positions, it would typically mean the Brooklyn location must be more towards the west side of New York City than the Bronx location.\n\n4. **Conclusion**:\n   - Given the general geographic layout of New York City, where Brooklyn is to the south and slightly east of the Bronx, it's unlikely for a location in Brooklyn to be west of a location in the Bronx, as the Bronx is generally north and slightly west of Brooklyn.\n\nTherefore, based on general geographic knowledge of New York City's boroughs, the answer to whether FDNY RAC UNIT 2, Brooklyn is located west of LIBERTAD URBAN FARM, Bronx is **NO**.",
+  "num_generated_tokens": 277,
+  "analysis_type": "location_batch_feature_decoder_cosine_by_response_token",
+  "feature_id": 46732,
+  "sae_repo_id": "Goodfire/Llama-3.3-70B-Instruct-SAE-l50",
+  "sae_filename": "Llama-3.3-70B-Instruct-SAE-l50.pt",
+  "sae_layer": 50,
+  "neuronpedia_model": "llama3.3-70b-it",
+  "neuronpedia_release": "llama3.3-70b-it-gf",
+  "neuronpedia_layer": "50-resid-post-gf",
+  "neuronpedia_url": "https://www.neuronpedia.org/llama3.3-70b-it/50-resid-post-gf/46732",
+  "token_scores": [
+    {
+      "generated_token_index": 0,
+      "token_id": 1271,
+      "token_text": "To",
+      "prediction_position": 64,
+      "cosine_similarity": -0.017728757113218307
+    },
+    {
+      "generated_token_index": 1,
+      "token_id": 8417,
+      "token_text": " determine",
+      "prediction_position": 65,
+      "cosine_similarity": 0.027150295674800873
+    },
+    {
+      "generated_token_index": 2,
+      "token_id": 422,
+      "token_text": " if",
+      "prediction_position": 66,
+      "cosine_similarity": 0.08327198028564453
+    },
+    {
+      "generated_token_index": 3,
+      "token_id": 36418,
+      "token_text": " FD",
+      "prediction_position": 67,
+      "cosine_similarity": 0.027384061366319656
+    },
+    {
+      "generated_token_index": 4,
+      "token_id": 23923,
+      "token_text": "NY",
+      "prediction_position": 68,
+      "cosine_similarity": 0.012395665049552917
+    },
+    {
+      "generated_token_index": 5,
+      "token_id": 432,
+      "token_text": " R",
+      "prediction_position": 69,
+      "cosine_similarity": 0.002369547262787819
+    },
+    {
+      "generated_token_index": 6,
+      "token_id": 1741,
+      "token_text": "AC",
+      "prediction_position": 70,
+      "cosine_similarity": -0.0037761053536087275
+    },
+    {
+      "generated_token_index": 7,
+      "token_id": 39302,
+      "token_text": " UNIT",
+      "prediction_position": 71,
+      "cosine_similarity": 0.004760064650326967
+    },
+    {
+      "generated_token_index": 8,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 72,
+      "cosine_similarity": 0.010102546773850918
+    },
+    {
+      "generated_token_index": 9,
+      "token_id": 17,
+      "token_text": "2",
+      "prediction_position": 73,
+      "cosine_similarity": 0.05134594440460205
+    },
+    {
+      "generated_token_index": 10,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 74,
+      "cosine_similarity": 0.03005826100707054
+    },
+    {
+      "generated_token_index": 11,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 75,
+      "cosine_similarity": 0.04457266256213188
+    },
+    {
+      "generated_token_index": 12,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 76,
+      "cosine_similarity": 0.05099646747112274
+    },
+    {
+      "generated_token_index": 13,
+      "token_id": 7559,
+      "token_text": " located",
+      "prediction_position": 77,
+      "cosine_similarity": 0.17809754610061646
+    },
+    {
+      "generated_token_index": 14,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 78,
+      "cosine_similarity": 0.20441018044948578
+    },
+    {
+      "generated_token_index": 15,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 79,
+      "cosine_similarity": 0.16235001385211945
+    },
+    {
+      "generated_token_index": 16,
+      "token_id": 31371,
+      "token_text": " LIB",
+      "prediction_position": 80,
+      "cosine_similarity": 0.020191963762044907
+    },
+    {
+      "generated_token_index": 17,
+      "token_id": 3481,
+      "token_text": "ERT",
+      "prediction_position": 81,
+      "cosine_similarity": 0.01800359971821308
+    },
+    {
+      "generated_token_index": 18,
+      "token_id": 1846,
+      "token_text": "AD",
+      "prediction_position": 82,
+      "cosine_similarity": 0.13427533209323883
+    },
+    {
+      "generated_token_index": 19,
+      "token_id": 549,
+      "token_text": " U",
+      "prediction_position": 83,
+      "cosine_similarity": 0.014847091399133205
+    },
+    {
+      "generated_token_index": 20,
+      "token_id": 30359,
+      "token_text": "RB",
+      "prediction_position": 84,
+      "cosine_similarity": 0.0018165414221584797
+    },
+    {
+      "generated_token_index": 21,
+      "token_id": 1111,
+      "token_text": "AN",
+      "prediction_position": 85,
+      "cosine_similarity": 0.11564788967370987
+    },
+    {
+      "generated_token_index": 22,
+      "token_id": 435,
+      "token_text": " F",
+      "prediction_position": 86,
+      "cosine_similarity": 0.00493068341165781
+    },
+    {
+      "generated_token_index": 23,
+      "token_id": 18394,
+      "token_text": "ARM",
+      "prediction_position": 87,
+      "cosine_similarity": -0.02137707732617855
+    },
+    {
+      "generated_token_index": 24,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 88,
+      "cosine_similarity": 0.017010821029543877
+    },
+    {
+      "generated_token_index": 25,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 89,
+      "cosine_similarity": 0.01666085422039032
+    },
+    {
+      "generated_token_index": 26,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 90,
+      "cosine_similarity": 0.008357006125152111
+    },
+    {
+      "generated_token_index": 27,
+      "token_id": 1095,
+      "token_text": " let",
+      "prediction_position": 91,
+      "cosine_similarity": 0.01961459033191204
+    },
+    {
+      "generated_token_index": 28,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 92,
+      "cosine_similarity": -0.002557495143264532
+    },
+    {
+      "generated_token_index": 29,
+      "token_id": 1464,
+      "token_text": " break",
+      "prediction_position": 93,
+      "cosine_similarity": 0.030792158097028732
+    },
+    {
+      "generated_token_index": 30,
+      "token_id": 1523,
+      "token_text": " down",
+      "prediction_position": 94,
+      "cosine_similarity": 0.00472905021160841
+    },
+    {
+      "generated_token_index": 31,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 95,
+      "cosine_similarity": 0.00525852432474494
+    },
+    {
+      "generated_token_index": 32,
+      "token_id": 2038,
+      "token_text": " information",
+      "prediction_position": 96,
+      "cosine_similarity": 0.03538200631737709
+    },
+    {
+      "generated_token_index": 33,
+      "token_id": 1473,
+      "token_text": ":\n\n",
+      "prediction_position": 97,
+      "cosine_similarity": -0.0067428587935864925
+    },
+    {
+      "generated_token_index": 34,
+      "token_id": 16,
+      "token_text": "1",
+      "prediction_position": 98,
+      "cosine_similarity": 0.001457522390410304
+    },
+    {
+      "generated_token_index": 35,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 99,
+      "cosine_similarity": -0.01050962321460247
+    },
+    {
+      "generated_token_index": 36,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 100,
+      "cosine_similarity": 0.06317088007926941
+    },
+    {
+      "generated_token_index": 37,
+      "token_id": 29401,
+      "token_text": "Ident",
+      "prediction_position": 101,
+      "cosine_similarity": 0.09473511576652527
+    },
+    {
+      "generated_token_index": 38,
+      "token_id": 1463,
+      "token_text": "ify",
+      "prediction_position": 102,
+      "cosine_similarity": 0.017806891351938248
+    },
+    {
+      "generated_token_index": 39,
+      "token_id": 42569,
+      "token_text": " Locations",
+      "prediction_position": 103,
+      "cosine_similarity": 0.1063949465751648
+    },
+    {
+      "generated_token_index": 40,
+      "token_id": 96618,
+      "token_text": "**:",
+      "prediction_position": 104,
+      "cosine_similarity": 0.033333707600831985
+    },
+    {
+      "generated_token_index": 41,
+      "token_id": 720,
+      "token_text": " \n",
+      "prediction_position": 105,
+      "cosine_similarity": 0.015316473320126534
+    },
+    {
+      "generated_token_index": 42,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 106,
+      "cosine_similarity": -0.0020215727854520082
+    },
+    {
+      "generated_token_index": 43,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 107,
+      "cosine_similarity": 0.006396476645022631
+    },
+    {
+      "generated_token_index": 44,
+      "token_id": 36418,
+      "token_text": " FD",
+      "prediction_position": 108,
+      "cosine_similarity": 0.025192447006702423
+    },
+    {
+      "generated_token_index": 45,
+      "token_id": 23923,
+      "token_text": "NY",
+      "prediction_position": 109,
+      "cosine_similarity": 0.0068095410242676735
+    },
+    {
+      "generated_token_index": 46,
+      "token_id": 432,
+      "token_text": " R",
+      "prediction_position": 110,
+      "cosine_similarity": -0.004854816012084484
+    },
+    {
+      "generated_token_index": 47,
+      "token_id": 1741,
+      "token_text": "AC",
+      "prediction_position": 111,
+      "cosine_similarity": -0.026499062776565552
+    },
+    {
+      "generated_token_index": 48,
+      "token_id": 39302,
+      "token_text": " UNIT",
+      "prediction_position": 112,
+      "cosine_similarity": 0.006728080101311207
+    },
+    {
+      "generated_token_index": 49,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 113,
+      "cosine_similarity": 0.004127544816583395
+    },
+    {
+      "generated_token_index": 50,
+      "token_id": 17,
+      "token_text": "2",
+      "prediction_position": 114,
+      "cosine_similarity": 0.002049978356808424
+    },
+    {
+      "generated_token_index": 51,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 115,
+      "cosine_similarity": 0.01877448707818985
+    },
+    {
+      "generated_token_index": 52,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 116,
+      "cosine_similarity": 0.04220697283744812
+    },
+    {
+      "generated_token_index": 53,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 117,
+      "cosine_similarity": 0.05796252563595772
+    },
+    {
+      "generated_token_index": 54,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 118,
+      "cosine_similarity": 0.05872996896505356
+    },
+    {
+      "generated_token_index": 55,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 119,
+      "cosine_similarity": 0.012798795476555824
+    },
+    {
+      "generated_token_index": 56,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 120,
+      "cosine_similarity": 0.0046274904161691666
+    },
+    {
+      "generated_token_index": 57,
+      "token_id": 31371,
+      "token_text": " LIB",
+      "prediction_position": 121,
+      "cosine_similarity": 0.0030528393108397722
+    },
+    {
+      "generated_token_index": 58,
+      "token_id": 3481,
+      "token_text": "ERT",
+      "prediction_position": 122,
+      "cosine_similarity": 0.014871649444103241
+    },
+    {
+      "generated_token_index": 59,
+      "token_id": 1846,
+      "token_text": "AD",
+      "prediction_position": 123,
+      "cosine_similarity": 0.009117558598518372
+    },
+    {
+      "generated_token_index": 60,
+      "token_id": 549,
+      "token_text": " U",
+      "prediction_position": 124,
+      "cosine_similarity": 0.011565379798412323
+    },
+    {
+      "generated_token_index": 61,
+      "token_id": 30359,
+      "token_text": "RB",
+      "prediction_position": 125,
+      "cosine_similarity": 0.15359166264533997
+    },
+    {
+      "generated_token_index": 62,
+      "token_id": 1111,
+      "token_text": "AN",
+      "prediction_position": 126,
+      "cosine_similarity": 0.10877712815999985
+    },
+    {
+      "generated_token_index": 63,
+      "token_id": 435,
+      "token_text": " F",
+      "prediction_position": 127,
+      "cosine_similarity": 0.0008803072851151228
+    },
+    {
+      "generated_token_index": 64,
+      "token_id": 18394,
+      "token_text": "ARM",
+      "prediction_position": 128,
+      "cosine_similarity": -0.0126766636967659
+    },
+    {
+      "generated_token_index": 65,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 129,
+      "cosine_similarity": 0.012273967266082764
+    },
+    {
+      "generated_token_index": 66,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 130,
+      "cosine_similarity": 0.05754709988832474
+    },
+    {
+      "generated_token_index": 67,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 131,
+      "cosine_similarity": 0.055976543575525284
+    },
+    {
+      "generated_token_index": 68,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 132,
+      "cosine_similarity": 0.06250935047864914
+    },
+    {
+      "generated_token_index": 69,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 133,
+      "cosine_similarity": 0.02849172055721283
+    },
+    {
+      "generated_token_index": 70,
+      "token_id": 17,
+      "token_text": "2",
+      "prediction_position": 134,
+      "cosine_similarity": 0.01643446646630764
+    },
+    {
+      "generated_token_index": 71,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 135,
+      "cosine_similarity": -0.004710947163403034
+    },
+    {
+      "generated_token_index": 72,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 136,
+      "cosine_similarity": 0.10839144140481949
+    },
+    {
+      "generated_token_index": 73,
+      "token_id": 16648,
+      "token_text": "Under",
+      "prediction_position": 137,
+      "cosine_similarity": 0.12079107016324997
+    },
+    {
+      "generated_token_index": 74,
+      "token_id": 2752,
+      "token_text": "stand",
+      "prediction_position": 138,
+      "cosine_similarity": 0.035608142614364624
+    },
+    {
+      "generated_token_index": 75,
+      "token_id": 66542,
+      "token_text": " Geographic",
+      "prediction_position": 139,
+      "cosine_similarity": 0.151389479637146
+    },
+    {
+      "generated_token_index": 76,
+      "token_id": 76483,
+      "token_text": " Positions",
+      "prediction_position": 140,
+      "cosine_similarity": 0.11852680146694183
+    },
+    {
+      "generated_token_index": 77,
+      "token_id": 334,
+      "token_text": "**",
+      "prediction_position": 141,
+      "cosine_similarity": 0.07141567021608353
+    },
+    {
+      "generated_token_index": 78,
+      "token_id": 512,
+      "token_text": ":\n",
+      "prediction_position": 142,
+      "cosine_similarity": 0.03280423581600189
+    },
+    {
+      "generated_token_index": 79,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 143,
+      "cosine_similarity": 0.03224422037601471
+    },
+    {
+      "generated_token_index": 80,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 144,
+      "cosine_similarity": 0.08244392275810242
+    },
+    {
+      "generated_token_index": 81,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 145,
+      "cosine_similarity": 0.17356163263320923
+    },
+    {
+      "generated_token_index": 82,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 146,
+      "cosine_similarity": 0.17321595549583435
+    },
+    {
+      "generated_token_index": 83,
+      "token_id": 8965,
+      "token_text": " generally",
+      "prediction_position": 147,
+      "cosine_similarity": 0.23210160434246063
+    },
+    {
+      "generated_token_index": 84,
+      "token_id": 10007,
+      "token_text": " south",
+      "prediction_position": 148,
+      "cosine_similarity": 0.34128767251968384
+    },
+    {
+      "generated_token_index": 85,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 149,
+      "cosine_similarity": 0.17932234704494476
+    },
+    {
+      "generated_token_index": 86,
+      "token_id": 10284,
+      "token_text": " slightly",
+      "prediction_position": 150,
+      "cosine_similarity": 0.2775060534477234
+    },
+    {
+      "generated_token_index": 87,
+      "token_id": 11226,
+      "token_text": " east",
+      "prediction_position": 151,
+      "cosine_similarity": 0.3346911072731018
+    },
+    {
+      "generated_token_index": 88,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 152,
+      "cosine_similarity": 0.13835561275482178
+    },
+    {
+      "generated_token_index": 89,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 153,
+      "cosine_similarity": 0.09043480455875397
+    },
+    {
+      "generated_token_index": 90,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 154,
+      "cosine_similarity": 0.08258763700723648
+    },
+    {
+      "generated_token_index": 91,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 155,
+      "cosine_similarity": 0.060976944863796234
+    },
+    {
+      "generated_token_index": 92,
+      "token_id": 1561,
+      "token_text": " New",
+      "prediction_position": 156,
+      "cosine_similarity": 0.060279302299022675
+    },
+    {
+      "generated_token_index": 93,
+      "token_id": 4356,
+      "token_text": " York",
+      "prediction_position": 157,
+      "cosine_similarity": 0.08914327621459961
+    },
+    {
+      "generated_token_index": 94,
+      "token_id": 4409,
+      "token_text": " City",
+      "prediction_position": 158,
+      "cosine_similarity": 0.015282932668924332
+    },
+    {
+      "generated_token_index": 95,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 159,
+      "cosine_similarity": 0.048248689621686935
+    },
+    {
+      "generated_token_index": 96,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 160,
+      "cosine_similarity": 0.013097756542265415
+    },
+    {
+      "generated_token_index": 97,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 161,
+      "cosine_similarity": 0.19424042105674744
+    },
+    {
+      "generated_token_index": 98,
+      "token_id": 578,
+      "token_text": " The",
+      "prediction_position": 162,
+      "cosine_similarity": 0.19710078835487366
+    },
+    {
+      "generated_token_index": 99,
+      "token_id": 3488,
+      "token_text": " question",
+      "prediction_position": 163,
+      "cosine_similarity": 0.17097251117229462
+    },
+    {
+      "generated_token_index": 100,
+      "token_id": 17501,
+      "token_text": " asks",
+      "prediction_position": 164,
+      "cosine_similarity": 0.033708177506923676
+    },
+    {
+      "generated_token_index": 101,
+      "token_id": 422,
+      "token_text": " if",
+      "prediction_position": 165,
+      "cosine_similarity": 0.05832225829362869
+    },
+    {
+      "generated_token_index": 102,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 166,
+      "cosine_similarity": 0.04914562776684761
+    },
+    {
+      "generated_token_index": 103,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 167,
+      "cosine_similarity": 0.056306205689907074
+    },
+    {
+      "generated_token_index": 104,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 168,
+      "cosine_similarity": 0.06368965655565262
+    },
+    {
+      "generated_token_index": 105,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 169,
+      "cosine_similarity": 0.05846540257334709
+    },
+    {
+      "generated_token_index": 106,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 170,
+      "cosine_similarity": 0.10454829782247543
+    },
+    {
+      "generated_token_index": 107,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 171,
+      "cosine_similarity": 0.30489227175712585
+    },
+    {
+      "generated_token_index": 108,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 172,
+      "cosine_similarity": 0.13090373575687408
+    },
+    {
+      "generated_token_index": 109,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 173,
+      "cosine_similarity": 0.03862514719367027
+    },
+    {
+      "generated_token_index": 110,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 174,
+      "cosine_similarity": 0.03438391536474228
+    },
+    {
+      "generated_token_index": 111,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 175,
+      "cosine_similarity": 0.04399380087852478
+    },
+    {
+      "generated_token_index": 112,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 176,
+      "cosine_similarity": 0.05837059020996094
+    },
+    {
+      "generated_token_index": 113,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 177,
+      "cosine_similarity": 0.1653038114309311
+    },
+    {
+      "generated_token_index": 114,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 178,
+      "cosine_similarity": 0.014084276743233204
+    },
+    {
+      "generated_token_index": 115,
+      "token_id": 18,
+      "token_text": "3",
+      "prediction_position": 179,
+      "cosine_similarity": 0.012475763447582722
+    },
+    {
+      "generated_token_index": 116,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 180,
+      "cosine_similarity": -0.000319561455398798
+    },
+    {
+      "generated_token_index": 117,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 181,
+      "cosine_similarity": 0.1819286346435547
+    },
+    {
+      "generated_token_index": 118,
+      "token_id": 35,
+      "token_text": "D",
+      "prediction_position": 182,
+      "cosine_similarity": 0.09542936086654663
+    },
+    {
+      "generated_token_index": 119,
+      "token_id": 25296,
+      "token_text": "etermine",
+      "prediction_position": 183,
+      "cosine_similarity": 0.09518193453550339
+    },
+    {
+      "generated_token_index": 120,
+      "token_id": 19438,
+      "token_text": " Direction",
+      "prediction_position": 184,
+      "cosine_similarity": 0.1980840563774109
+    },
+    {
+      "generated_token_index": 121,
+      "token_id": 334,
+      "token_text": "**",
+      "prediction_position": 185,
+      "cosine_similarity": 0.10994303971529007
+    },
+    {
+      "generated_token_index": 122,
+      "token_id": 512,
+      "token_text": ":\n",
+      "prediction_position": 186,
+      "cosine_similarity": 0.02180623635649681
+    },
+    {
+      "generated_token_index": 123,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 187,
+      "cosine_similarity": 0.029522210359573364
+    },
+    {
+      "generated_token_index": 124,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 188,
+      "cosine_similarity": 0.12904182076454163
+    },
+    {
+      "generated_token_index": 125,
+      "token_id": 1789,
+      "token_text": " For",
+      "prediction_position": 189,
+      "cosine_similarity": 0.23034949600696564
+    },
+    {
+      "generated_token_index": 126,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 190,
+      "cosine_similarity": 0.07377231866121292
+    },
+    {
+      "generated_token_index": 127,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 191,
+      "cosine_similarity": 0.09707900136709213
+    },
+    {
+      "generated_token_index": 128,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 192,
+      "cosine_similarity": 0.1270913928747177
+    },
+    {
+      "generated_token_index": 129,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 193,
+      "cosine_similarity": 0.11802401393651962
+    },
+    {
+      "generated_token_index": 130,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 194,
+      "cosine_similarity": 0.061551086604595184
+    },
+    {
+      "generated_token_index": 131,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 195,
+      "cosine_similarity": 0.19284938275814056
+    },
+    {
+      "generated_token_index": 132,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 196,
+      "cosine_similarity": 0.24509243667125702
+    },
+    {
+      "generated_token_index": 133,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 197,
+      "cosine_similarity": 0.14212566614151
+    },
+    {
+      "generated_token_index": 134,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 198,
+      "cosine_similarity": 0.04400346428155899
+    },
+    {
+      "generated_token_index": 135,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 199,
+      "cosine_similarity": 0.06171276420354843
+    },
+    {
+      "generated_token_index": 136,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 200,
+      "cosine_similarity": 0.06865231692790985
+    },
+    {
+      "generated_token_index": 137,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 201,
+      "cosine_similarity": 0.07632313668727875
+    },
+    {
+      "generated_token_index": 138,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 202,
+      "cosine_similarity": 0.057371243834495544
+    },
+    {
+      "generated_token_index": 139,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 203,
+      "cosine_similarity": 0.027612902224063873
+    },
+    {
+      "generated_token_index": 140,
+      "token_id": 13126,
+      "token_text": " considering",
+      "prediction_position": 204,
+      "cosine_similarity": 0.0754188746213913
+    },
+    {
+      "generated_token_index": 141,
+      "token_id": 872,
+      "token_text": " their",
+      "prediction_position": 205,
+      "cosine_similarity": 0.1249324381351471
+    },
+    {
+      "generated_token_index": 142,
+      "token_id": 4689,
+      "token_text": " general",
+      "prediction_position": 206,
+      "cosine_similarity": 0.12434813380241394
+    },
+    {
+      "generated_token_index": 143,
+      "token_id": 10093,
+      "token_text": " positions",
+      "prediction_position": 207,
+      "cosine_similarity": 0.14257106184959412
+    },
+    {
+      "generated_token_index": 144,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 208,
+      "cosine_similarity": 0.07642366737127304
+    },
+    {
+      "generated_token_index": 145,
+      "token_id": 433,
+      "token_text": " it",
+      "prediction_position": 209,
+      "cosine_similarity": 0.0553833544254303
+    },
+    {
+      "generated_token_index": 146,
+      "token_id": 1053,
+      "token_text": " would",
+      "prediction_position": 210,
+      "cosine_similarity": 0.02543959580361843
+    },
+    {
+      "generated_token_index": 147,
+      "token_id": 11383,
+      "token_text": " typically",
+      "prediction_position": 211,
+      "cosine_similarity": 0.03332024812698364
+    },
+    {
+      "generated_token_index": 148,
+      "token_id": 3152,
+      "token_text": " mean",
+      "prediction_position": 212,
+      "cosine_similarity": 0.04727698117494583
+    },
+    {
+      "generated_token_index": 149,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 213,
+      "cosine_similarity": 0.09810679405927658
+    },
+    {
+      "generated_token_index": 150,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 214,
+      "cosine_similarity": 0.05641862004995346
+    },
+    {
+      "generated_token_index": 151,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 215,
+      "cosine_similarity": 0.0499298982322216
+    },
+    {
+      "generated_token_index": 152,
+      "token_id": 2011,
+      "token_text": " must",
+      "prediction_position": 216,
+      "cosine_similarity": 0.10906179249286652
+    },
+    {
+      "generated_token_index": 153,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 217,
+      "cosine_similarity": 0.17796774208545685
+    },
+    {
+      "generated_token_index": 154,
+      "token_id": 810,
+      "token_text": " more",
+      "prediction_position": 218,
+      "cosine_similarity": 0.24938349425792694
+    },
+    {
+      "generated_token_index": 155,
+      "token_id": 7119,
+      "token_text": " towards",
+      "prediction_position": 219,
+      "cosine_similarity": 0.2702946066856384
+    },
+    {
+      "generated_token_index": 156,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 220,
+      "cosine_similarity": 0.2438635230064392
+    },
+    {
+      "generated_token_index": 157,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 221,
+      "cosine_similarity": 0.2623583972454071
+    },
+    {
+      "generated_token_index": 158,
+      "token_id": 3185,
+      "token_text": " side",
+      "prediction_position": 222,
+      "cosine_similarity": 0.13414894044399261
+    },
+    {
+      "generated_token_index": 159,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 223,
+      "cosine_similarity": 0.07176263630390167
+    },
+    {
+      "generated_token_index": 160,
+      "token_id": 1561,
+      "token_text": " New",
+      "prediction_position": 224,
+      "cosine_similarity": 0.08790997415781021
+    },
+    {
+      "generated_token_index": 161,
+      "token_id": 4356,
+      "token_text": " York",
+      "prediction_position": 225,
+      "cosine_similarity": 0.049190789461135864
+    },
+    {
+      "generated_token_index": 162,
+      "token_id": 4409,
+      "token_text": " City",
+      "prediction_position": 226,
+      "cosine_similarity": 0.032313279807567596
+    },
+    {
+      "generated_token_index": 163,
+      "token_id": 1109,
+      "token_text": " than",
+      "prediction_position": 227,
+      "cosine_similarity": 0.04531887546181679
+    },
+    {
+      "generated_token_index": 164,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 228,
+      "cosine_similarity": 0.08115670830011368
+    },
+    {
+      "generated_token_index": 165,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 229,
+      "cosine_similarity": 0.08077175915241241
+    },
+    {
+      "generated_token_index": 166,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 230,
+      "cosine_similarity": 0.03973820433020592
+    },
+    {
+      "generated_token_index": 167,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 231,
+      "cosine_similarity": 0.07480347901582718
+    },
+    {
+      "generated_token_index": 168,
+      "token_id": 19,
+      "token_text": "4",
+      "prediction_position": 232,
+      "cosine_similarity": 0.0035288326907902956
+    },
+    {
+      "generated_token_index": 169,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 233,
+      "cosine_similarity": -0.0035343391355127096
+    },
+    {
+      "generated_token_index": 170,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 234,
+      "cosine_similarity": 0.07214012742042542
+    },
+    {
+      "generated_token_index": 171,
+      "token_id": 44534,
+      "token_text": "Conclusion",
+      "prediction_position": 235,
+      "cosine_similarity": 0.03324320912361145
+    },
+    {
+      "generated_token_index": 172,
+      "token_id": 334,
+      "token_text": "**",
+      "prediction_position": 236,
+      "cosine_similarity": 0.0010506310500204563
+    },
+    {
+      "generated_token_index": 173,
+      "token_id": 512,
+      "token_text": ":\n",
+      "prediction_position": 237,
+      "cosine_similarity": -0.003211878938600421
+    },
+    {
+      "generated_token_index": 174,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 238,
+      "cosine_similarity": -0.0021540666930377483
+    },
+    {
+      "generated_token_index": 175,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 239,
+      "cosine_similarity": 0.003371862694621086
+    },
+    {
+      "generated_token_index": 176,
+      "token_id": 16644,
+      "token_text": " Given",
+      "prediction_position": 240,
+      "cosine_similarity": 0.06386744976043701
+    },
+    {
+      "generated_token_index": 177,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 241,
+      "cosine_similarity": 0.0625140368938446
+    },
+    {
+      "generated_token_index": 178,
+      "token_id": 4689,
+      "token_text": " general",
+      "prediction_position": 242,
+      "cosine_similarity": 0.11541424691677094
+    },
+    {
+      "generated_token_index": 179,
+      "token_id": 46139,
+      "token_text": " geographic",
+      "prediction_position": 243,
+      "cosine_similarity": 0.15710791945457458
+    },
+    {
+      "generated_token_index": 180,
+      "token_id": 6932,
+      "token_text": " layout",
+      "prediction_position": 244,
+      "cosine_similarity": 0.07878795266151428
+    },
+    {
+      "generated_token_index": 181,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 245,
+      "cosine_similarity": 0.03266606479883194
+    },
+    {
+      "generated_token_index": 182,
+      "token_id": 1561,
+      "token_text": " New",
+      "prediction_position": 246,
+      "cosine_similarity": 0.03799399361014366
+    },
+    {
+      "generated_token_index": 183,
+      "token_id": 4356,
+      "token_text": " York",
+      "prediction_position": 247,
+      "cosine_similarity": 0.026632772758603096
+    },
+    {
+      "generated_token_index": 184,
+      "token_id": 4409,
+      "token_text": " City",
+      "prediction_position": 248,
+      "cosine_similarity": 0.006527065299451351
+    },
+    {
+      "generated_token_index": 185,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 249,
+      "cosine_similarity": 0.03359859436750412
+    },
+    {
+      "generated_token_index": 186,
+      "token_id": 1405,
+      "token_text": " where",
+      "prediction_position": 250,
+      "cosine_similarity": 0.07625734061002731
+    },
+    {
+      "generated_token_index": 187,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 251,
+      "cosine_similarity": 0.1699824035167694
+    },
+    {
+      "generated_token_index": 188,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 252,
+      "cosine_similarity": 0.20585931837558746
+    },
+    {
+      "generated_token_index": 189,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 253,
+      "cosine_similarity": 0.2740207314491272
+    },
+    {
+      "generated_token_index": 190,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 254,
+      "cosine_similarity": 0.280445396900177
+    },
+    {
+      "generated_token_index": 191,
+      "token_id": 10007,
+      "token_text": " south",
+      "prediction_position": 255,
+      "cosine_similarity": 0.22963576018810272
+    },
+    {
+      "generated_token_index": 192,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 256,
+      "cosine_similarity": 0.19615213572978973
+    },
+    {
+      "generated_token_index": 193,
+      "token_id": 10284,
+      "token_text": " slightly",
+      "prediction_position": 257,
+      "cosine_similarity": 0.2215060293674469
+    },
+    {
+      "generated_token_index": 194,
+      "token_id": 11226,
+      "token_text": " east",
+      "prediction_position": 258,
+      "cosine_similarity": 0.30076852440834045
+    },
+    {
+      "generated_token_index": 195,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 259,
+      "cosine_similarity": 0.12300369143486023
+    },
+    {
+      "generated_token_index": 196,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 260,
+      "cosine_similarity": 0.09595771878957748
+    },
+    {
+      "generated_token_index": 197,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 261,
+      "cosine_similarity": 0.1141258254647255
+    },
+    {
+      "generated_token_index": 198,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 262,
+      "cosine_similarity": 0.036683715879917145
+    },
+    {
+      "generated_token_index": 199,
+      "token_id": 433,
+      "token_text": " it",
+      "prediction_position": 263,
+      "cosine_similarity": 0.03783566132187843
+    },
+    {
+      "generated_token_index": 200,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 264,
+      "cosine_similarity": 0.03079281747341156
+    },
+    {
+      "generated_token_index": 201,
+      "token_id": 17821,
+      "token_text": " unlikely",
+      "prediction_position": 265,
+      "cosine_similarity": 0.03641650080680847
+    },
+    {
+      "generated_token_index": 202,
+      "token_id": 369,
+      "token_text": " for",
+      "prediction_position": 266,
+      "cosine_similarity": 0.03710813820362091
+    },
+    {
+      "generated_token_index": 203,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 267,
+      "cosine_similarity": 0.07168865948915482
+    },
+    {
+      "generated_token_index": 204,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 268,
+      "cosine_similarity": 0.0742679089307785
+    },
+    {
+      "generated_token_index": 205,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 269,
+      "cosine_similarity": 0.07833147794008255
+    },
+    {
+      "generated_token_index": 206,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 270,
+      "cosine_similarity": 0.08433101326227188
+    },
+    {
+      "generated_token_index": 207,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 271,
+      "cosine_similarity": 0.06647378951311111
+    },
+    {
+      "generated_token_index": 208,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 272,
+      "cosine_similarity": 0.2090369611978531
+    },
+    {
+      "generated_token_index": 209,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 273,
+      "cosine_similarity": 0.301372766494751
+    },
+    {
+      "generated_token_index": 210,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 274,
+      "cosine_similarity": 0.12399247288703918
+    },
+    {
+      "generated_token_index": 211,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 275,
+      "cosine_similarity": 0.049006372690200806
+    },
+    {
+      "generated_token_index": 212,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 276,
+      "cosine_similarity": 0.08780202269554138
+    },
+    {
+      "generated_token_index": 213,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 277,
+      "cosine_similarity": 0.07520828396081924
+    },
+    {
+      "generated_token_index": 214,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 278,
+      "cosine_similarity": 0.08482210338115692
+    },
+    {
+      "generated_token_index": 215,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 279,
+      "cosine_similarity": 0.06794246286153793
+    },
+    {
+      "generated_token_index": 216,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 280,
+      "cosine_similarity": 0.039733096957206726
+    },
+    {
+      "generated_token_index": 217,
+      "token_id": 439,
+      "token_text": " as",
+      "prediction_position": 281,
+      "cosine_similarity": 0.026530828326940536
+    },
+    {
+      "generated_token_index": 218,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 282,
+      "cosine_similarity": 0.1023859903216362
+    },
+    {
+      "generated_token_index": 219,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 283,
+      "cosine_similarity": 0.13592292368412018
+    },
+    {
+      "generated_token_index": 220,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 284,
+      "cosine_similarity": 0.18584167957305908
+    },
+    {
+      "generated_token_index": 221,
+      "token_id": 8965,
+      "token_text": " generally",
+      "prediction_position": 285,
+      "cosine_similarity": 0.2315523773431778
+    },
+    {
+      "generated_token_index": 222,
+      "token_id": 10411,
+      "token_text": " north",
+      "prediction_position": 286,
+      "cosine_similarity": 0.3051968216896057
+    },
+    {
+      "generated_token_index": 223,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 287,
+      "cosine_similarity": 0.19340768456459045
+    },
+    {
+      "generated_token_index": 224,
+      "token_id": 10284,
+      "token_text": " slightly",
+      "prediction_position": 288,
+      "cosine_similarity": 0.23195654153823853
+    },
+    {
+      "generated_token_index": 225,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 289,
+      "cosine_similarity": 0.2644668519496918
+    },
+    {
+      "generated_token_index": 226,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 290,
+      "cosine_similarity": 0.10345444828271866
+    },
+    {
+      "generated_token_index": 227,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 291,
+      "cosine_similarity": 0.07014856487512589
+    },
+    {
+      "generated_token_index": 228,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 292,
+      "cosine_similarity": 0.039686113595962524
+    },
+    {
+      "generated_token_index": 229,
+      "token_id": 55915,
+      "token_text": "Therefore",
+      "prediction_position": 293,
+      "cosine_similarity": 0.0007600546814501286
+    },
+    {
+      "generated_token_index": 230,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 294,
+      "cosine_similarity": -0.0014303876087069511
+    },
+    {
+      "generated_token_index": 231,
+      "token_id": 3196,
+      "token_text": " based",
+      "prediction_position": 295,
+      "cosine_similarity": 0.020250000059604645
+    },
+    {
+      "generated_token_index": 232,
+      "token_id": 389,
+      "token_text": " on",
+      "prediction_position": 296,
+      "cosine_similarity": -0.0034346510656177998
+    },
+    {
+      "generated_token_index": 233,
+      "token_id": 4689,
+      "token_text": " general",
+      "prediction_position": 297,
+      "cosine_similarity": 0.04903880134224892
+    },
+    {
+      "generated_token_index": 234,
+      "token_id": 46139,
+      "token_text": " geographic",
+      "prediction_position": 298,
+      "cosine_similarity": 0.06241836026310921
+    },
+    {
+      "generated_token_index": 235,
+      "token_id": 6677,
+      "token_text": " knowledge",
+      "prediction_position": 299,
+      "cosine_similarity": 0.045351359993219376
+    },
+    {
+      "generated_token_index": 236,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 300,
+      "cosine_similarity": -0.004625986330211163
+    },
+    {
+      "generated_token_index": 237,
+      "token_id": 1561,
+      "token_text": " New",
+      "prediction_position": 301,
+      "cosine_similarity": 0.04091387987136841
+    },
+    {
+      "generated_token_index": 238,
+      "token_id": 4356,
+      "token_text": " York",
+      "prediction_position": 302,
+      "cosine_similarity": -0.010902343317866325
+    },
+    {
+      "generated_token_index": 239,
+      "token_id": 4409,
+      "token_text": " City",
+      "prediction_position": 303,
+      "cosine_similarity": 0.0018856606911867857
+    },
+    {
+      "generated_token_index": 240,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 304,
+      "cosine_similarity": 0.024009421467781067
+    },
+    {
+      "generated_token_index": 241,
+      "token_id": 66841,
+      "token_text": " borough",
+      "prediction_position": 305,
+      "cosine_similarity": 0.04567433148622513
+    },
+    {
+      "generated_token_index": 242,
+      "token_id": 82,
+      "token_text": "s",
+      "prediction_position": 306,
+      "cosine_similarity": 0.06502654403448105
+    },
+    {
+      "generated_token_index": 243,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 307,
+      "cosine_similarity": 0.04341296851634979
+    },
+    {
+      "generated_token_index": 244,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 308,
+      "cosine_similarity": 0.020907048135995865
+    },
+    {
+      "generated_token_index": 245,
+      "token_id": 4320,
+      "token_text": " answer",
+      "prediction_position": 309,
+      "cosine_similarity": 0.022568229585886
+    },
+    {
+      "generated_token_index": 246,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 310,
+      "cosine_similarity": -0.0011966805905103683
+    },
+    {
+      "generated_token_index": 247,
+      "token_id": 3508,
+      "token_text": " whether",
+      "prediction_position": 311,
+      "cosine_similarity": 0.005833659786731005
+    },
+    {
+      "generated_token_index": 248,
+      "token_id": 36418,
+      "token_text": " FD",
+      "prediction_position": 312,
+      "cosine_similarity": 0.018376510590314865
+    },
+    {
+      "generated_token_index": 249,
+      "token_id": 23923,
+      "token_text": "NY",
+      "prediction_position": 313,
+      "cosine_similarity": -0.005196296609938145
+    },
+    {
+      "generated_token_index": 250,
+      "token_id": 432,
+      "token_text": " R",
+      "prediction_position": 314,
+      "cosine_similarity": -0.0006322918925434351
+    },
+    {
+      "generated_token_index": 251,
+      "token_id": 1741,
+      "token_text": "AC",
+      "prediction_position": 315,
+      "cosine_similarity": -0.012909315526485443
+    },
+    {
+      "generated_token_index": 252,
+      "token_id": 39302,
+      "token_text": " UNIT",
+      "prediction_position": 316,
+      "cosine_similarity": 0.001923220232129097
+    },
+    {
+      "generated_token_index": 253,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 317,
+      "cosine_similarity": 0.01743432693183422
+    },
+    {
+      "generated_token_index": 254,
+      "token_id": 17,
+      "token_text": "2",
+      "prediction_position": 318,
+      "cosine_similarity": -0.025431742891669273
+    },
+    {
+      "generated_token_index": 255,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 319,
+      "cosine_similarity": 0.0418427437543869
+    },
+    {
+      "generated_token_index": 256,
+      "token_id": 26832,
+      "token_text": " Brooklyn",
+      "prediction_position": 320,
+      "cosine_similarity": 0.044293344020843506
+    },
+    {
+      "generated_token_index": 257,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 321,
+      "cosine_similarity": 0.05867716670036316
+    },
+    {
+      "generated_token_index": 258,
+      "token_id": 7559,
+      "token_text": " located",
+      "prediction_position": 322,
+      "cosine_similarity": 0.16657596826553345
+    },
+    {
+      "generated_token_index": 259,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 323,
+      "cosine_similarity": 0.20934543013572693
+    },
+    {
+      "generated_token_index": 260,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 324,
+      "cosine_similarity": 0.10064446926116943
+    },
+    {
+      "generated_token_index": 261,
+      "token_id": 31371,
+      "token_text": " LIB",
+      "prediction_position": 325,
+      "cosine_similarity": 0.01400819793343544
+    },
+    {
+      "generated_token_index": 262,
+      "token_id": 3481,
+      "token_text": "ERT",
+      "prediction_position": 326,
+      "cosine_similarity": 0.011587054468691349
+    },
+    {
+      "generated_token_index": 263,
+      "token_id": 1846,
+      "token_text": "AD",
+      "prediction_position": 327,
+      "cosine_similarity": 0.03768898919224739
+    },
+    {
+      "generated_token_index": 264,
+      "token_id": 549,
+      "token_text": " U",
+      "prediction_position": 328,
+      "cosine_similarity": 0.0083735641092062
+    },
+    {
+      "generated_token_index": 265,
+      "token_id": 30359,
+      "token_text": "RB",
+      "prediction_position": 329,
+      "cosine_similarity": 0.03570050373673439
+    },
+    {
+      "generated_token_index": 266,
+      "token_id": 1111,
+      "token_text": "AN",
+      "prediction_position": 330,
+      "cosine_similarity": 0.04943201318383217
+    },
+    {
+      "generated_token_index": 267,
+      "token_id": 435,
+      "token_text": " F",
+      "prediction_position": 331,
+      "cosine_similarity": 0.004920260980725288
+    },
+    {
+      "generated_token_index": 268,
+      "token_id": 18394,
+      "token_text": "ARM",
+      "prediction_position": 332,
+      "cosine_similarity": -0.026290787383913994
+    },
+    {
+      "generated_token_index": 269,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 333,
+      "cosine_similarity": 0.03151281177997589
+    },
+    {
+      "generated_token_index": 270,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 334,
+      "cosine_similarity": 0.032471612095832825
+    },
+    {
+      "generated_token_index": 271,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 335,
+      "cosine_similarity": 0.01516297273337841
+    },
+    {
+      "generated_token_index": 272,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 336,
+      "cosine_similarity": 0.034288160502910614
+    },
+    {
+      "generated_token_index": 273,
+      "token_id": 9173,
+      "token_text": "NO",
+      "prediction_position": 337,
+      "cosine_similarity": 0.037071578204631805
+    },
+    {
+      "generated_token_index": 274,
+      "token_id": 334,
+      "token_text": "**",
+      "prediction_position": 338,
+      "cosine_similarity": 0.008941533975303173
+    },
+    {
+      "generated_token_index": 275,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 339,
+      "cosine_similarity": -0.017236804589629173
+    },
+    {
+      "generated_token_index": 276,
+      "token_id": 128009,
+      "token_text": "<|eot_id|>",
+      "prediction_position": 340,
+      "cosine_similarity": -0.020211834460496902
+    }
+  ],
+  "csv_path": "feature_46732_response_cosine_llama33_70b_it_location_direction_batch/individual/0020_wm-nyc-place-long_is_fdny_rac_unit_2_brooklyn_located_west_of_libertad_urban_farm_bronx/feature_46732_response_token_cosine.csv",
+  "plot_path": "feature_46732_response_cosine_llama33_70b_it_location_direction_batch/individual/0020_wm-nyc-place-long_is_fdny_rac_unit_2_brooklyn_located_west_of_libertad_urban_farm_bronx/feature_46732_response_token_cosine.png"
+}

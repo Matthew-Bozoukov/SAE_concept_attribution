@@ -1,0 +1,3586 @@
+[
+  {
+    "generated_token_index": 0,
+    "mean_cosine_similarity": 0.029148451145738365,
+    "min_cosine_similarity": 0.02462180145084858,
+    "max_cosine_similarity": 0.03194674849510193,
+    "count": 20
+  },
+  {
+    "generated_token_index": 1,
+    "mean_cosine_similarity": 0.04163987636566162,
+    "min_cosine_similarity": 0.024256467819213867,
+    "max_cosine_similarity": 0.059571124613285065,
+    "count": 20
+  },
+  {
+    "generated_token_index": 2,
+    "mean_cosine_similarity": 0.04229734232649207,
+    "min_cosine_similarity": 0.017374619841575623,
+    "max_cosine_similarity": 0.07582204788923264,
+    "count": 20
+  },
+  {
+    "generated_token_index": 3,
+    "mean_cosine_similarity": 0.04586286759003997,
+    "min_cosine_similarity": 0.01663435809314251,
+    "max_cosine_similarity": 0.07984711974859238,
+    "count": 20
+  },
+  {
+    "generated_token_index": 4,
+    "mean_cosine_similarity": 0.05556579753756523,
+    "min_cosine_similarity": 0.019091252237558365,
+    "max_cosine_similarity": 0.09277796000242233,
+    "count": 20
+  },
+  {
+    "generated_token_index": 5,
+    "mean_cosine_similarity": 0.05244505275040865,
+    "min_cosine_similarity": 0.010679494589567184,
+    "max_cosine_similarity": 0.11294390261173248,
+    "count": 20
+  },
+  {
+    "generated_token_index": 6,
+    "mean_cosine_similarity": 0.043951379228383304,
+    "min_cosine_similarity": 0.013090681284666061,
+    "max_cosine_similarity": 0.07918277382850647,
+    "count": 20
+  },
+  {
+    "generated_token_index": 7,
+    "mean_cosine_similarity": 0.08980261641554535,
+    "min_cosine_similarity": 0.008928795345127583,
+    "max_cosine_similarity": 0.4764103591442108,
+    "count": 20
+  },
+  {
+    "generated_token_index": 8,
+    "mean_cosine_similarity": 0.06394893408287317,
+    "min_cosine_similarity": 0.0018706046976149082,
+    "max_cosine_similarity": 0.13140958547592163,
+    "count": 20
+  },
+  {
+    "generated_token_index": 9,
+    "mean_cosine_similarity": 0.08124138955026865,
+    "min_cosine_similarity": 0.02038387767970562,
+    "max_cosine_similarity": 0.40308111906051636,
+    "count": 20
+  },
+  {
+    "generated_token_index": 10,
+    "mean_cosine_similarity": 0.09210292659699917,
+    "min_cosine_similarity": 0.020956257358193398,
+    "max_cosine_similarity": 0.3886241912841797,
+    "count": 20
+  },
+  {
+    "generated_token_index": 11,
+    "mean_cosine_similarity": 0.13069534618407488,
+    "min_cosine_similarity": 0.020990785211324692,
+    "max_cosine_similarity": 0.47048768401145935,
+    "count": 20
+  },
+  {
+    "generated_token_index": 12,
+    "mean_cosine_similarity": 0.11929220715537667,
+    "min_cosine_similarity": 0.009213026612997055,
+    "max_cosine_similarity": 0.4100486934185028,
+    "count": 20
+  },
+  {
+    "generated_token_index": 13,
+    "mean_cosine_similarity": 0.07256336528807879,
+    "min_cosine_similarity": 0.022992469370365143,
+    "max_cosine_similarity": 0.15140359103679657,
+    "count": 20
+  },
+  {
+    "generated_token_index": 14,
+    "mean_cosine_similarity": 0.08822466870769859,
+    "min_cosine_similarity": 0.024200260639190674,
+    "max_cosine_similarity": 0.45947688817977905,
+    "count": 20
+  },
+  {
+    "generated_token_index": 15,
+    "mean_cosine_similarity": 0.09013085854239762,
+    "min_cosine_similarity": 0.006293725222349167,
+    "max_cosine_similarity": 0.38858887553215027,
+    "count": 20
+  },
+  {
+    "generated_token_index": 16,
+    "mean_cosine_similarity": 0.0765639954712242,
+    "min_cosine_similarity": -0.0023823073133826256,
+    "max_cosine_similarity": 0.20352372527122498,
+    "count": 20
+  },
+  {
+    "generated_token_index": 17,
+    "mean_cosine_similarity": 0.05929276854731143,
+    "min_cosine_similarity": -0.0005115391686558723,
+    "max_cosine_similarity": 0.11105182766914368,
+    "count": 20
+  },
+  {
+    "generated_token_index": 18,
+    "mean_cosine_similarity": 0.056033031456172465,
+    "min_cosine_similarity": 0.013428932055830956,
+    "max_cosine_similarity": 0.10216502845287323,
+    "count": 20
+  },
+  {
+    "generated_token_index": 19,
+    "mean_cosine_similarity": 0.07036785254022107,
+    "min_cosine_similarity": 0.0009790693875402212,
+    "max_cosine_similarity": 0.38975775241851807,
+    "count": 20
+  },
+  {
+    "generated_token_index": 20,
+    "mean_cosine_similarity": 0.05384128645528108,
+    "min_cosine_similarity": -0.011777241714298725,
+    "max_cosine_similarity": 0.09382888674736023,
+    "count": 20
+  },
+  {
+    "generated_token_index": 21,
+    "mean_cosine_similarity": 0.0730249936459586,
+    "min_cosine_similarity": 0.0016830689273774624,
+    "max_cosine_similarity": 0.37222519516944885,
+    "count": 20
+  },
+  {
+    "generated_token_index": 22,
+    "mean_cosine_similarity": 0.06865670923143626,
+    "min_cosine_similarity": -0.010131295770406723,
+    "max_cosine_similarity": 0.1022714152932167,
+    "count": 20
+  },
+  {
+    "generated_token_index": 23,
+    "mean_cosine_similarity": 0.06420116201043129,
+    "min_cosine_similarity": 0.013605620712041855,
+    "max_cosine_similarity": 0.11019354313611984,
+    "count": 20
+  },
+  {
+    "generated_token_index": 24,
+    "mean_cosine_similarity": 0.08179298066534102,
+    "min_cosine_similarity": -0.0038214577361941338,
+    "max_cosine_similarity": 0.3457411527633667,
+    "count": 20
+  },
+  {
+    "generated_token_index": 25,
+    "mean_cosine_similarity": 0.05779664169531316,
+    "min_cosine_similarity": -0.007287035696208477,
+    "max_cosine_similarity": 0.10454440861940384,
+    "count": 20
+  },
+  {
+    "generated_token_index": 26,
+    "mean_cosine_similarity": 0.08522608608473092,
+    "min_cosine_similarity": 0.001974083948880434,
+    "max_cosine_similarity": 0.3155520558357239,
+    "count": 20
+  },
+  {
+    "generated_token_index": 27,
+    "mean_cosine_similarity": 0.05471342837117845,
+    "min_cosine_similarity": 0.00011422441457398236,
+    "max_cosine_similarity": 0.09175519645214081,
+    "count": 20
+  },
+  {
+    "generated_token_index": 28,
+    "mean_cosine_similarity": 0.07192854406312107,
+    "min_cosine_similarity": 0.02633819915354252,
+    "max_cosine_similarity": 0.3583675026893616,
+    "count": 20
+  },
+  {
+    "generated_token_index": 29,
+    "mean_cosine_similarity": 0.0663472500629723,
+    "min_cosine_similarity": 0.012059090659022331,
+    "max_cosine_similarity": 0.14907656610012054,
+    "count": 20
+  },
+  {
+    "generated_token_index": 30,
+    "mean_cosine_similarity": 0.0747658560052514,
+    "min_cosine_similarity": 0.022828644141554832,
+    "max_cosine_similarity": 0.32159632444381714,
+    "count": 20
+  },
+  {
+    "generated_token_index": 31,
+    "mean_cosine_similarity": 0.07430444806814193,
+    "min_cosine_similarity": 0.005874929949641228,
+    "max_cosine_similarity": 0.39612483978271484,
+    "count": 20
+  },
+  {
+    "generated_token_index": 32,
+    "mean_cosine_similarity": 0.08102387730032205,
+    "min_cosine_similarity": 0.01646035723388195,
+    "max_cosine_similarity": 0.3276664912700653,
+    "count": 20
+  },
+  {
+    "generated_token_index": 33,
+    "mean_cosine_similarity": 0.0625859200488776,
+    "min_cosine_similarity": 0.014170642010867596,
+    "max_cosine_similarity": 0.17029434442520142,
+    "count": 20
+  },
+  {
+    "generated_token_index": 34,
+    "mean_cosine_similarity": 0.08196113351732492,
+    "min_cosine_similarity": 0.01592528447508812,
+    "max_cosine_similarity": 0.37060174345970154,
+    "count": 20
+  },
+  {
+    "generated_token_index": 35,
+    "mean_cosine_similarity": 0.07109891241416336,
+    "min_cosine_similarity": 0.017368074506521225,
+    "max_cosine_similarity": 0.36662212014198303,
+    "count": 20
+  },
+  {
+    "generated_token_index": 36,
+    "mean_cosine_similarity": 0.06041740914806724,
+    "min_cosine_similarity": 0.008991306647658348,
+    "max_cosine_similarity": 0.14682209491729736,
+    "count": 20
+  },
+  {
+    "generated_token_index": 37,
+    "mean_cosine_similarity": 0.07187356557697058,
+    "min_cosine_similarity": 0.016563601791858673,
+    "max_cosine_similarity": 0.35957035422325134,
+    "count": 20
+  },
+  {
+    "generated_token_index": 38,
+    "mean_cosine_similarity": 0.08065412729047239,
+    "min_cosine_similarity": 0.01411264669150114,
+    "max_cosine_similarity": 0.3693520724773407,
+    "count": 20
+  },
+  {
+    "generated_token_index": 39,
+    "mean_cosine_similarity": 0.059354085568338634,
+    "min_cosine_similarity": 0.015981601551175117,
+    "max_cosine_similarity": 0.0987786203622818,
+    "count": 20
+  },
+  {
+    "generated_token_index": 40,
+    "mean_cosine_similarity": 0.050576351629570124,
+    "min_cosine_similarity": -0.003953129053115845,
+    "max_cosine_similarity": 0.09579051285982132,
+    "count": 20
+  },
+  {
+    "generated_token_index": 41,
+    "mean_cosine_similarity": 0.10848471391946077,
+    "min_cosine_similarity": 0.05396762862801552,
+    "max_cosine_similarity": 0.4210001528263092,
+    "count": 20
+  },
+  {
+    "generated_token_index": 42,
+    "mean_cosine_similarity": 0.09427818171679973,
+    "min_cosine_similarity": 0.04529019072651863,
+    "max_cosine_similarity": 0.37759289145469666,
+    "count": 20
+  },
+  {
+    "generated_token_index": 43,
+    "mean_cosine_similarity": 0.07882799999788404,
+    "min_cosine_similarity": 0.017859432846307755,
+    "max_cosine_similarity": 0.23989100754261017,
+    "count": 20
+  },
+  {
+    "generated_token_index": 44,
+    "mean_cosine_similarity": 0.09019579272717237,
+    "min_cosine_similarity": 0.02484850212931633,
+    "max_cosine_similarity": 0.3562125265598297,
+    "count": 20
+  },
+  {
+    "generated_token_index": 45,
+    "mean_cosine_similarity": 0.09027232183143497,
+    "min_cosine_similarity": 0.01591509021818638,
+    "max_cosine_similarity": 0.3537440598011017,
+    "count": 20
+  },
+  {
+    "generated_token_index": 46,
+    "mean_cosine_similarity": 0.0766239607706666,
+    "min_cosine_similarity": 0.01435374841094017,
+    "max_cosine_similarity": 0.3756282925605774,
+    "count": 20
+  },
+  {
+    "generated_token_index": 47,
+    "mean_cosine_similarity": 0.06360251768492162,
+    "min_cosine_similarity": 0.012865833006799221,
+    "max_cosine_similarity": 0.42249059677124023,
+    "count": 20
+  },
+  {
+    "generated_token_index": 48,
+    "mean_cosine_similarity": 0.05644353632815182,
+    "min_cosine_similarity": 0.014344858936965466,
+    "max_cosine_similarity": 0.12247388064861298,
+    "count": 20
+  },
+  {
+    "generated_token_index": 49,
+    "mean_cosine_similarity": 0.06537020411342383,
+    "min_cosine_similarity": 0.020450560376048088,
+    "max_cosine_similarity": 0.1577211171388626,
+    "count": 20
+  },
+  {
+    "generated_token_index": 50,
+    "mean_cosine_similarity": 0.056134961126372215,
+    "min_cosine_similarity": -0.01744293048977852,
+    "max_cosine_similarity": 0.1677761673927307,
+    "count": 20
+  },
+  {
+    "generated_token_index": 51,
+    "mean_cosine_similarity": 0.07631680243648589,
+    "min_cosine_similarity": 0.015092645771801472,
+    "max_cosine_similarity": 0.40279799699783325,
+    "count": 20
+  },
+  {
+    "generated_token_index": 52,
+    "mean_cosine_similarity": 0.06810347931459546,
+    "min_cosine_similarity": 0.011220796033740044,
+    "max_cosine_similarity": 0.1502070426940918,
+    "count": 20
+  },
+  {
+    "generated_token_index": 53,
+    "mean_cosine_similarity": 0.06933293049223721,
+    "min_cosine_similarity": 0.0017143720760941505,
+    "max_cosine_similarity": 0.13039708137512207,
+    "count": 20
+  },
+  {
+    "generated_token_index": 54,
+    "mean_cosine_similarity": 0.06618504053913057,
+    "min_cosine_similarity": -0.0033896910026669502,
+    "max_cosine_similarity": 0.1189347580075264,
+    "count": 20
+  },
+  {
+    "generated_token_index": 55,
+    "mean_cosine_similarity": 0.06956731509417295,
+    "min_cosine_similarity": 0.008585665374994278,
+    "max_cosine_similarity": 0.24729272723197937,
+    "count": 20
+  },
+  {
+    "generated_token_index": 56,
+    "mean_cosine_similarity": 0.112648615706712,
+    "min_cosine_similarity": 0.024869823828339577,
+    "max_cosine_similarity": 0.4189283847808838,
+    "count": 20
+  },
+  {
+    "generated_token_index": 57,
+    "mean_cosine_similarity": 0.08301799749024212,
+    "min_cosine_similarity": 0.00795834045857191,
+    "max_cosine_similarity": 0.32531973719596863,
+    "count": 20
+  },
+  {
+    "generated_token_index": 58,
+    "mean_cosine_similarity": 0.05851578339934349,
+    "min_cosine_similarity": -0.019259590655565262,
+    "max_cosine_similarity": 0.14627578854560852,
+    "count": 20
+  },
+  {
+    "generated_token_index": 59,
+    "mean_cosine_similarity": 0.0660871161147952,
+    "min_cosine_similarity": -0.003385680727660656,
+    "max_cosine_similarity": 0.3200037479400635,
+    "count": 20
+  },
+  {
+    "generated_token_index": 60,
+    "mean_cosine_similarity": 0.059615065390244124,
+    "min_cosine_similarity": -0.010804596357047558,
+    "max_cosine_similarity": 0.11322309076786041,
+    "count": 20
+  },
+  {
+    "generated_token_index": 61,
+    "mean_cosine_similarity": 0.06766010615974664,
+    "min_cosine_similarity": 0.033125441521406174,
+    "max_cosine_similarity": 0.15001675486564636,
+    "count": 20
+  },
+  {
+    "generated_token_index": 62,
+    "mean_cosine_similarity": 0.12035580556839705,
+    "min_cosine_similarity": 0.015587985515594482,
+    "max_cosine_similarity": 0.4552970826625824,
+    "count": 20
+  },
+  {
+    "generated_token_index": 63,
+    "mean_cosine_similarity": 0.09421010697260498,
+    "min_cosine_similarity": 0.02724592201411724,
+    "max_cosine_similarity": 0.46086207032203674,
+    "count": 20
+  },
+  {
+    "generated_token_index": 64,
+    "mean_cosine_similarity": 0.06700395308434963,
+    "min_cosine_similarity": 0.026068247854709625,
+    "max_cosine_similarity": 0.1703013777732849,
+    "count": 20
+  },
+  {
+    "generated_token_index": 65,
+    "mean_cosine_similarity": 0.06794311627745628,
+    "min_cosine_similarity": 0.014109943062067032,
+    "max_cosine_similarity": 0.16960035264492035,
+    "count": 20
+  },
+  {
+    "generated_token_index": 66,
+    "mean_cosine_similarity": 0.05650389046641067,
+    "min_cosine_similarity": -0.0036870611365884542,
+    "max_cosine_similarity": 0.13437125086784363,
+    "count": 20
+  },
+  {
+    "generated_token_index": 67,
+    "mean_cosine_similarity": 0.0549783512018621,
+    "min_cosine_similarity": 0.02062295563519001,
+    "max_cosine_similarity": 0.16193872690200806,
+    "count": 20
+  },
+  {
+    "generated_token_index": 68,
+    "mean_cosine_similarity": 0.06263309963978828,
+    "min_cosine_similarity": -0.006589516066014767,
+    "max_cosine_similarity": 0.11117198318243027,
+    "count": 20
+  },
+  {
+    "generated_token_index": 69,
+    "mean_cosine_similarity": 0.06674153795465827,
+    "min_cosine_similarity": 0.007824481464922428,
+    "max_cosine_similarity": 0.1460721790790558,
+    "count": 20
+  },
+  {
+    "generated_token_index": 70,
+    "mean_cosine_similarity": 0.12238795226439833,
+    "min_cosine_similarity": 0.025315189734101295,
+    "max_cosine_similarity": 0.4517045021057129,
+    "count": 20
+  },
+  {
+    "generated_token_index": 71,
+    "mean_cosine_similarity": 0.08600208414718509,
+    "min_cosine_similarity": 0.014423703774809837,
+    "max_cosine_similarity": 0.30611440539360046,
+    "count": 20
+  },
+  {
+    "generated_token_index": 72,
+    "mean_cosine_similarity": 0.06377982487902045,
+    "min_cosine_similarity": 0.020695438608527184,
+    "max_cosine_similarity": 0.1329398900270462,
+    "count": 20
+  },
+  {
+    "generated_token_index": 73,
+    "mean_cosine_similarity": 0.06681498060934246,
+    "min_cosine_similarity": 0.007819677703082561,
+    "max_cosine_similarity": 0.10252128541469574,
+    "count": 20
+  },
+  {
+    "generated_token_index": 74,
+    "mean_cosine_similarity": 0.0612742257071659,
+    "min_cosine_similarity": 0.007268098648637533,
+    "max_cosine_similarity": 0.10245084762573242,
+    "count": 20
+  },
+  {
+    "generated_token_index": 75,
+    "mean_cosine_similarity": 0.06599515904672444,
+    "min_cosine_similarity": 0.013960433192551136,
+    "max_cosine_similarity": 0.14812858402729034,
+    "count": 20
+  },
+  {
+    "generated_token_index": 76,
+    "mean_cosine_similarity": 0.06595713384449482,
+    "min_cosine_similarity": -0.00967179611325264,
+    "max_cosine_similarity": 0.21750408411026,
+    "count": 20
+  },
+  {
+    "generated_token_index": 77,
+    "mean_cosine_similarity": 0.057840181374922396,
+    "min_cosine_similarity": 0.012864893302321434,
+    "max_cosine_similarity": 0.13674519956111908,
+    "count": 20
+  },
+  {
+    "generated_token_index": 78,
+    "mean_cosine_similarity": 0.05247132403310388,
+    "min_cosine_similarity": -0.0060983686707913876,
+    "max_cosine_similarity": 0.1486092507839203,
+    "count": 20
+  },
+  {
+    "generated_token_index": 79,
+    "mean_cosine_similarity": 0.06739451207686216,
+    "min_cosine_similarity": 0.005323278252035379,
+    "max_cosine_similarity": 0.30351582169532776,
+    "count": 20
+  },
+  {
+    "generated_token_index": 80,
+    "mean_cosine_similarity": 0.06275708004832267,
+    "min_cosine_similarity": 0.010846350342035294,
+    "max_cosine_similarity": 0.10414617508649826,
+    "count": 20
+  },
+  {
+    "generated_token_index": 81,
+    "mean_cosine_similarity": 0.07327369754202664,
+    "min_cosine_similarity": 0.004513402469456196,
+    "max_cosine_similarity": 0.1428610384464264,
+    "count": 20
+  },
+  {
+    "generated_token_index": 82,
+    "mean_cosine_similarity": 0.08597205397672951,
+    "min_cosine_similarity": 0.013473217375576496,
+    "max_cosine_similarity": 0.3519459366798401,
+    "count": 20
+  },
+  {
+    "generated_token_index": 83,
+    "mean_cosine_similarity": 0.0706306261010468,
+    "min_cosine_similarity": 0.016312263906002045,
+    "max_cosine_similarity": 0.23088684678077698,
+    "count": 20
+  },
+  {
+    "generated_token_index": 84,
+    "mean_cosine_similarity": 0.06406023036688566,
+    "min_cosine_similarity": 0.019500339403748512,
+    "max_cosine_similarity": 0.11484026163816452,
+    "count": 20
+  },
+  {
+    "generated_token_index": 85,
+    "mean_cosine_similarity": 0.06286607272922992,
+    "min_cosine_similarity": 0.02056880295276642,
+    "max_cosine_similarity": 0.11037388443946838,
+    "count": 20
+  },
+  {
+    "generated_token_index": 86,
+    "mean_cosine_similarity": 0.06564515130594373,
+    "min_cosine_similarity": 0.024660931900143623,
+    "max_cosine_similarity": 0.14401553571224213,
+    "count": 20
+  },
+  {
+    "generated_token_index": 87,
+    "mean_cosine_similarity": 0.05871327957138419,
+    "min_cosine_similarity": 0.0073791444301605225,
+    "max_cosine_similarity": 0.20727621018886566,
+    "count": 20
+  },
+  {
+    "generated_token_index": 88,
+    "mean_cosine_similarity": 0.045879491185769436,
+    "min_cosine_similarity": 0.006996167823672295,
+    "max_cosine_similarity": 0.09436599165201187,
+    "count": 20
+  },
+  {
+    "generated_token_index": 89,
+    "mean_cosine_similarity": 0.04892912942450493,
+    "min_cosine_similarity": 0.0027560493908822536,
+    "max_cosine_similarity": 0.11778642237186432,
+    "count": 20
+  },
+  {
+    "generated_token_index": 90,
+    "mean_cosine_similarity": 0.05070394484791905,
+    "min_cosine_similarity": 0.003960695583373308,
+    "max_cosine_similarity": 0.12800155580043793,
+    "count": 20
+  },
+  {
+    "generated_token_index": 91,
+    "mean_cosine_similarity": 0.055054812465095894,
+    "min_cosine_similarity": -0.0029981769621372223,
+    "max_cosine_similarity": 0.17422272264957428,
+    "count": 20
+  },
+  {
+    "generated_token_index": 92,
+    "mean_cosine_similarity": 0.05285510022658855,
+    "min_cosine_similarity": 0.005866276565939188,
+    "max_cosine_similarity": 0.09823950380086899,
+    "count": 20
+  },
+  {
+    "generated_token_index": 93,
+    "mean_cosine_similarity": 0.0679035251145251,
+    "min_cosine_similarity": -0.017739374190568924,
+    "max_cosine_similarity": 0.3904663920402527,
+    "count": 20
+  },
+  {
+    "generated_token_index": 94,
+    "mean_cosine_similarity": 0.054933709022589025,
+    "min_cosine_similarity": 0.004560823552310467,
+    "max_cosine_similarity": 0.12945157289505005,
+    "count": 20
+  },
+  {
+    "generated_token_index": 95,
+    "mean_cosine_similarity": 0.05403739712201059,
+    "min_cosine_similarity": -0.004913716576993465,
+    "max_cosine_similarity": 0.1623741239309311,
+    "count": 20
+  },
+  {
+    "generated_token_index": 96,
+    "mean_cosine_similarity": 0.06837507565505803,
+    "min_cosine_similarity": 0.01492225844413042,
+    "max_cosine_similarity": 0.35908907651901245,
+    "count": 20
+  },
+  {
+    "generated_token_index": 97,
+    "mean_cosine_similarity": 0.053472936060279606,
+    "min_cosine_similarity": 0.01333322562277317,
+    "max_cosine_similarity": 0.09273028373718262,
+    "count": 20
+  },
+  {
+    "generated_token_index": 98,
+    "mean_cosine_similarity": 0.05586431322153658,
+    "min_cosine_similarity": 0.0018734741024672985,
+    "max_cosine_similarity": 0.2967260777950287,
+    "count": 20
+  },
+  {
+    "generated_token_index": 99,
+    "mean_cosine_similarity": 0.052178740059025584,
+    "min_cosine_similarity": -0.0038997395895421505,
+    "max_cosine_similarity": 0.09767960757017136,
+    "count": 20
+  },
+  {
+    "generated_token_index": 100,
+    "mean_cosine_similarity": 0.06574010611511767,
+    "min_cosine_similarity": 0.011847724206745625,
+    "max_cosine_similarity": 0.16517840325832367,
+    "count": 20
+  },
+  {
+    "generated_token_index": 101,
+    "mean_cosine_similarity": 0.04967415435239673,
+    "min_cosine_similarity": -0.015586146153509617,
+    "max_cosine_similarity": 0.1521814614534378,
+    "count": 20
+  },
+  {
+    "generated_token_index": 102,
+    "mean_cosine_similarity": 0.0566052534384653,
+    "min_cosine_similarity": -0.005170355085283518,
+    "max_cosine_similarity": 0.2560306787490845,
+    "count": 20
+  },
+  {
+    "generated_token_index": 103,
+    "mean_cosine_similarity": 0.058194899442605676,
+    "min_cosine_similarity": -0.00307985907420516,
+    "max_cosine_similarity": 0.14549240469932556,
+    "count": 20
+  },
+  {
+    "generated_token_index": 104,
+    "mean_cosine_similarity": 0.08748438823968172,
+    "min_cosine_similarity": 0.018709540367126465,
+    "max_cosine_similarity": 0.2880744934082031,
+    "count": 20
+  },
+  {
+    "generated_token_index": 105,
+    "mean_cosine_similarity": 0.091062928782776,
+    "min_cosine_similarity": 0.0035512042231857777,
+    "max_cosine_similarity": 0.42491239309310913,
+    "count": 20
+  },
+  {
+    "generated_token_index": 106,
+    "mean_cosine_similarity": 0.08299919669516384,
+    "min_cosine_similarity": 0.008092465810477734,
+    "max_cosine_similarity": 0.41868582367897034,
+    "count": 20
+  },
+  {
+    "generated_token_index": 107,
+    "mean_cosine_similarity": 0.07655580849386752,
+    "min_cosine_similarity": 0.004229777492582798,
+    "max_cosine_similarity": 0.31205111742019653,
+    "count": 20
+  },
+  {
+    "generated_token_index": 108,
+    "mean_cosine_similarity": 0.09246214016457088,
+    "min_cosine_similarity": -0.006263310089707375,
+    "max_cosine_similarity": 0.3851104974746704,
+    "count": 20
+  },
+  {
+    "generated_token_index": 109,
+    "mean_cosine_similarity": 0.059802869148552415,
+    "min_cosine_similarity": -0.01104104146361351,
+    "max_cosine_similarity": 0.10916827619075775,
+    "count": 20
+  },
+  {
+    "generated_token_index": 110,
+    "mean_cosine_similarity": 0.06138482991373166,
+    "min_cosine_similarity": -0.002979500452056527,
+    "max_cosine_similarity": 0.239834725856781,
+    "count": 20
+  },
+  {
+    "generated_token_index": 111,
+    "mean_cosine_similarity": 0.08437585688661783,
+    "min_cosine_similarity": -0.006816657725721598,
+    "max_cosine_similarity": 0.27645182609558105,
+    "count": 20
+  },
+  {
+    "generated_token_index": 112,
+    "mean_cosine_similarity": 0.07333270171657205,
+    "min_cosine_similarity": 0.010924269445240498,
+    "max_cosine_similarity": 0.39178213477134705,
+    "count": 20
+  },
+  {
+    "generated_token_index": 113,
+    "mean_cosine_similarity": 0.08190053049474955,
+    "min_cosine_similarity": 0.009323273785412312,
+    "max_cosine_similarity": 0.307025671005249,
+    "count": 20
+  },
+  {
+    "generated_token_index": 114,
+    "mean_cosine_similarity": 0.0665683279861696,
+    "min_cosine_similarity": -0.0005877239163964987,
+    "max_cosine_similarity": 0.17005358636379242,
+    "count": 20
+  },
+  {
+    "generated_token_index": 115,
+    "mean_cosine_similarity": 0.04878393670078367,
+    "min_cosine_similarity": -0.0028894462157040834,
+    "max_cosine_similarity": 0.13115011155605316,
+    "count": 20
+  },
+  {
+    "generated_token_index": 116,
+    "mean_cosine_similarity": 0.06687287404201925,
+    "min_cosine_similarity": 0.0019294368103146553,
+    "max_cosine_similarity": 0.2589963674545288,
+    "count": 20
+  },
+  {
+    "generated_token_index": 117,
+    "mean_cosine_similarity": 0.04949764613411389,
+    "min_cosine_similarity": 0.0009529957314953208,
+    "max_cosine_similarity": 0.10911669582128525,
+    "count": 20
+  },
+  {
+    "generated_token_index": 118,
+    "mean_cosine_similarity": 0.05417674763593823,
+    "min_cosine_similarity": 0.005229597445577383,
+    "max_cosine_similarity": 0.1292116791009903,
+    "count": 20
+  },
+  {
+    "generated_token_index": 119,
+    "mean_cosine_similarity": 0.06118715396150946,
+    "min_cosine_similarity": 0.008368602022528648,
+    "max_cosine_similarity": 0.14429546892642975,
+    "count": 20
+  },
+  {
+    "generated_token_index": 120,
+    "mean_cosine_similarity": 0.0659930860158056,
+    "min_cosine_similarity": -0.011574569158256054,
+    "max_cosine_similarity": 0.16038335859775543,
+    "count": 20
+  },
+  {
+    "generated_token_index": 121,
+    "mean_cosine_similarity": 0.06740812081843614,
+    "min_cosine_similarity": 0.006295427680015564,
+    "max_cosine_similarity": 0.18188048899173737,
+    "count": 20
+  },
+  {
+    "generated_token_index": 122,
+    "mean_cosine_similarity": 0.0759853570139967,
+    "min_cosine_similarity": 0.0031667023431509733,
+    "max_cosine_similarity": 0.4246431291103363,
+    "count": 20
+  },
+  {
+    "generated_token_index": 123,
+    "mean_cosine_similarity": 0.05809677802026272,
+    "min_cosine_similarity": 0.02727106586098671,
+    "max_cosine_similarity": 0.11767082661390305,
+    "count": 20
+  },
+  {
+    "generated_token_index": 124,
+    "mean_cosine_similarity": 0.05513199074193835,
+    "min_cosine_similarity": 0.0208856500685215,
+    "max_cosine_similarity": 0.09897863864898682,
+    "count": 20
+  },
+  {
+    "generated_token_index": 125,
+    "mean_cosine_similarity": 0.05193578125908971,
+    "min_cosine_similarity": 0.009477881714701653,
+    "max_cosine_similarity": 0.13404765725135803,
+    "count": 20
+  },
+  {
+    "generated_token_index": 126,
+    "mean_cosine_similarity": 0.06500402418896556,
+    "min_cosine_similarity": 0.02530534565448761,
+    "max_cosine_similarity": 0.12489303201436996,
+    "count": 20
+  },
+  {
+    "generated_token_index": 127,
+    "mean_cosine_similarity": 0.07478675870224834,
+    "min_cosine_similarity": 0.015328578650951385,
+    "max_cosine_similarity": 0.37719428539276123,
+    "count": 20
+  },
+  {
+    "generated_token_index": 128,
+    "mean_cosine_similarity": 0.09052461008541286,
+    "min_cosine_similarity": 0.014796520583331585,
+    "max_cosine_similarity": 0.3369167149066925,
+    "count": 20
+  },
+  {
+    "generated_token_index": 129,
+    "mean_cosine_similarity": 0.07111674845218659,
+    "min_cosine_similarity": 0.023802943527698517,
+    "max_cosine_similarity": 0.15835827589035034,
+    "count": 20
+  },
+  {
+    "generated_token_index": 130,
+    "mean_cosine_similarity": 0.060965302120894196,
+    "min_cosine_similarity": 0.01925078220665455,
+    "max_cosine_similarity": 0.10877814143896103,
+    "count": 20
+  },
+  {
+    "generated_token_index": 131,
+    "mean_cosine_similarity": 0.06479477745015175,
+    "min_cosine_similarity": 0.0053395372815430164,
+    "max_cosine_similarity": 0.1454920470714569,
+    "count": 20
+  },
+  {
+    "generated_token_index": 132,
+    "mean_cosine_similarity": 0.06664667781442404,
+    "min_cosine_similarity": -0.012848617509007454,
+    "max_cosine_similarity": 0.16165202856063843,
+    "count": 20
+  },
+  {
+    "generated_token_index": 133,
+    "mean_cosine_similarity": 0.07797743892297149,
+    "min_cosine_similarity": 0.01837198995053768,
+    "max_cosine_similarity": 0.33887264132499695,
+    "count": 20
+  },
+  {
+    "generated_token_index": 134,
+    "mean_cosine_similarity": 0.08274282559286802,
+    "min_cosine_similarity": -0.0076005891896784306,
+    "max_cosine_similarity": 0.39877498149871826,
+    "count": 20
+  },
+  {
+    "generated_token_index": 135,
+    "mean_cosine_similarity": 0.05787685425020754,
+    "min_cosine_similarity": 0.01340095978230238,
+    "max_cosine_similarity": 0.1066698282957077,
+    "count": 20
+  },
+  {
+    "generated_token_index": 136,
+    "mean_cosine_similarity": 0.060511181503534316,
+    "min_cosine_similarity": 0.0205304604023695,
+    "max_cosine_similarity": 0.0995420515537262,
+    "count": 20
+  },
+  {
+    "generated_token_index": 137,
+    "mean_cosine_similarity": 0.06597297014668584,
+    "min_cosine_similarity": 0.01973305642604828,
+    "max_cosine_similarity": 0.375292032957077,
+    "count": 20
+  },
+  {
+    "generated_token_index": 138,
+    "mean_cosine_similarity": 0.07111229123547673,
+    "min_cosine_similarity": 0.01701708883047104,
+    "max_cosine_similarity": 0.3520045280456543,
+    "count": 20
+  },
+  {
+    "generated_token_index": 139,
+    "mean_cosine_similarity": 0.05936458222568035,
+    "min_cosine_similarity": 0.014807922765612602,
+    "max_cosine_similarity": 0.1580679565668106,
+    "count": 20
+  },
+  {
+    "generated_token_index": 140,
+    "mean_cosine_similarity": 0.05108228283934295,
+    "min_cosine_similarity": 0.013555889017879963,
+    "max_cosine_similarity": 0.14795146882534027,
+    "count": 20
+  },
+  {
+    "generated_token_index": 141,
+    "mean_cosine_similarity": 0.05080932304263115,
+    "min_cosine_similarity": -0.011737095192074776,
+    "max_cosine_similarity": 0.09608963131904602,
+    "count": 20
+  },
+  {
+    "generated_token_index": 142,
+    "mean_cosine_similarity": 0.06149482224136591,
+    "min_cosine_similarity": 0.02219637669622898,
+    "max_cosine_similarity": 0.1275136023759842,
+    "count": 20
+  },
+  {
+    "generated_token_index": 143,
+    "mean_cosine_similarity": 0.05808573178946972,
+    "min_cosine_similarity": 0.02032412402331829,
+    "max_cosine_similarity": 0.10938005149364471,
+    "count": 20
+  },
+  {
+    "generated_token_index": 144,
+    "mean_cosine_similarity": 0.0784468590747565,
+    "min_cosine_similarity": 0.015493086539208889,
+    "max_cosine_similarity": 0.2528158724308014,
+    "count": 20
+  },
+  {
+    "generated_token_index": 145,
+    "mean_cosine_similarity": 0.06163905179128051,
+    "min_cosine_similarity": 0.026475174352526665,
+    "max_cosine_similarity": 0.15466254949569702,
+    "count": 20
+  },
+  {
+    "generated_token_index": 146,
+    "mean_cosine_similarity": 0.0650650561787188,
+    "min_cosine_similarity": -0.018693964928388596,
+    "max_cosine_similarity": 0.293870747089386,
+    "count": 20
+  },
+  {
+    "generated_token_index": 147,
+    "mean_cosine_similarity": 0.08029227904044092,
+    "min_cosine_similarity": -0.007409644313156605,
+    "max_cosine_similarity": 0.33732202649116516,
+    "count": 20
+  },
+  {
+    "generated_token_index": 148,
+    "mean_cosine_similarity": 0.05325704929418862,
+    "min_cosine_similarity": -0.006121333222836256,
+    "max_cosine_similarity": 0.16439184546470642,
+    "count": 20
+  },
+  {
+    "generated_token_index": 149,
+    "mean_cosine_similarity": 0.0652411125600338,
+    "min_cosine_similarity": 0.010523373261094093,
+    "max_cosine_similarity": 0.18151473999023438,
+    "count": 20
+  },
+  {
+    "generated_token_index": 150,
+    "mean_cosine_similarity": 0.062418020656332375,
+    "min_cosine_similarity": 0.010775606147944927,
+    "max_cosine_similarity": 0.14869417250156403,
+    "count": 20
+  },
+  {
+    "generated_token_index": 151,
+    "mean_cosine_similarity": 0.07268607886508108,
+    "min_cosine_similarity": 0.009582461789250374,
+    "max_cosine_similarity": 0.2597639858722687,
+    "count": 20
+  },
+  {
+    "generated_token_index": 152,
+    "mean_cosine_similarity": 0.06667167777195573,
+    "min_cosine_similarity": 0.006735492497682571,
+    "max_cosine_similarity": 0.2042137086391449,
+    "count": 20
+  },
+  {
+    "generated_token_index": 153,
+    "mean_cosine_similarity": 0.055251023219898346,
+    "min_cosine_similarity": 0.005857153795659542,
+    "max_cosine_similarity": 0.08749408274888992,
+    "count": 20
+  },
+  {
+    "generated_token_index": 154,
+    "mean_cosine_similarity": 0.08501022888813167,
+    "min_cosine_similarity": -0.006060698535293341,
+    "max_cosine_similarity": 0.3602021336555481,
+    "count": 20
+  },
+  {
+    "generated_token_index": 155,
+    "mean_cosine_similarity": 0.06138295461423695,
+    "min_cosine_similarity": -0.013079268857836723,
+    "max_cosine_similarity": 0.22131484746932983,
+    "count": 20
+  },
+  {
+    "generated_token_index": 156,
+    "mean_cosine_similarity": 0.07137308223173022,
+    "min_cosine_similarity": 0.011177849024534225,
+    "max_cosine_similarity": 0.29112282395362854,
+    "count": 20
+  },
+  {
+    "generated_token_index": 157,
+    "mean_cosine_similarity": 0.06557033518329262,
+    "min_cosine_similarity": 0.016950698569417,
+    "max_cosine_similarity": 0.36912286281585693,
+    "count": 20
+  },
+  {
+    "generated_token_index": 158,
+    "mean_cosine_similarity": 0.04628396185580641,
+    "min_cosine_similarity": 0.0037331385537981987,
+    "max_cosine_similarity": 0.13506701588630676,
+    "count": 20
+  },
+  {
+    "generated_token_index": 159,
+    "mean_cosine_similarity": 0.05917850581463426,
+    "min_cosine_similarity": 0.007029274012893438,
+    "max_cosine_similarity": 0.19190959632396698,
+    "count": 20
+  },
+  {
+    "generated_token_index": 160,
+    "mean_cosine_similarity": 0.049784121289849284,
+    "min_cosine_similarity": -0.0031072553247213364,
+    "max_cosine_similarity": 0.08525899052619934,
+    "count": 20
+  },
+  {
+    "generated_token_index": 161,
+    "mean_cosine_similarity": 0.058810576982796195,
+    "min_cosine_similarity": 0.01675974577665329,
+    "max_cosine_similarity": 0.10454155504703522,
+    "count": 20
+  },
+  {
+    "generated_token_index": 162,
+    "mean_cosine_similarity": 0.052305971086025235,
+    "min_cosine_similarity": 0.018668849021196365,
+    "max_cosine_similarity": 0.10839546471834183,
+    "count": 20
+  },
+  {
+    "generated_token_index": 163,
+    "mean_cosine_similarity": 0.05519763650372624,
+    "min_cosine_similarity": 0.0008278060704469681,
+    "max_cosine_similarity": 0.1042623221874237,
+    "count": 20
+  },
+  {
+    "generated_token_index": 164,
+    "mean_cosine_similarity": 0.06936190356500446,
+    "min_cosine_similarity": 0.014077565632760525,
+    "max_cosine_similarity": 0.2718825042247772,
+    "count": 20
+  },
+  {
+    "generated_token_index": 165,
+    "mean_cosine_similarity": 0.06254765959456562,
+    "min_cosine_similarity": 0.023844001814723015,
+    "max_cosine_similarity": 0.15084508061408997,
+    "count": 20
+  },
+  {
+    "generated_token_index": 166,
+    "mean_cosine_similarity": 0.055946489702910183,
+    "min_cosine_similarity": -0.005249999463558197,
+    "max_cosine_similarity": 0.11205726116895676,
+    "count": 20
+  },
+  {
+    "generated_token_index": 167,
+    "mean_cosine_similarity": 0.06369304386898875,
+    "min_cosine_similarity": 0.01568285934627056,
+    "max_cosine_similarity": 0.1330970972776413,
+    "count": 20
+  },
+  {
+    "generated_token_index": 168,
+    "mean_cosine_similarity": 0.07553941970691085,
+    "min_cosine_similarity": 0.02420729584991932,
+    "max_cosine_similarity": 0.32076725363731384,
+    "count": 20
+  },
+  {
+    "generated_token_index": 169,
+    "mean_cosine_similarity": 0.0683042393065989,
+    "min_cosine_similarity": 0.0008600875735282898,
+    "max_cosine_similarity": 0.18067696690559387,
+    "count": 20
+  },
+  {
+    "generated_token_index": 170,
+    "mean_cosine_similarity": 0.08001058343797922,
+    "min_cosine_similarity": -0.0063083115965127945,
+    "max_cosine_similarity": 0.30817610025405884,
+    "count": 20
+  },
+  {
+    "generated_token_index": 171,
+    "mean_cosine_similarity": 0.12805963978171347,
+    "min_cosine_similarity": 0.014897909015417099,
+    "max_cosine_similarity": 0.3761131763458252,
+    "count": 20
+  },
+  {
+    "generated_token_index": 172,
+    "mean_cosine_similarity": 0.10308332461863756,
+    "min_cosine_similarity": 0.03247863054275513,
+    "max_cosine_similarity": 0.37324151396751404,
+    "count": 20
+  },
+  {
+    "generated_token_index": 173,
+    "mean_cosine_similarity": 0.0632161439396441,
+    "min_cosine_similarity": 0.012850673869252205,
+    "max_cosine_similarity": 0.15673448145389557,
+    "count": 20
+  },
+  {
+    "generated_token_index": 174,
+    "mean_cosine_similarity": 0.06960460320115089,
+    "min_cosine_similarity": 0.01750601828098297,
+    "max_cosine_similarity": 0.317687064409256,
+    "count": 20
+  },
+  {
+    "generated_token_index": 175,
+    "mean_cosine_similarity": 0.06163054797798395,
+    "min_cosine_similarity": 0.032313887029886246,
+    "max_cosine_similarity": 0.10960686951875687,
+    "count": 20
+  },
+  {
+    "generated_token_index": 176,
+    "mean_cosine_similarity": 0.0660067057237029,
+    "min_cosine_similarity": 0.023942753672599792,
+    "max_cosine_similarity": 0.10244279354810715,
+    "count": 20
+  },
+  {
+    "generated_token_index": 177,
+    "mean_cosine_similarity": 0.09179774569347501,
+    "min_cosine_similarity": -0.01469595916569233,
+    "max_cosine_similarity": 0.4150233566761017,
+    "count": 20
+  },
+  {
+    "generated_token_index": 178,
+    "mean_cosine_similarity": 0.0743348743300885,
+    "min_cosine_similarity": -0.010698712430894375,
+    "max_cosine_similarity": 0.25417906045913696,
+    "count": 20
+  },
+  {
+    "generated_token_index": 179,
+    "mean_cosine_similarity": 0.08474217541515827,
+    "min_cosine_similarity": -0.032040972262620926,
+    "max_cosine_similarity": 0.32216590642929077,
+    "count": 20
+  },
+  {
+    "generated_token_index": 180,
+    "mean_cosine_similarity": 0.0609188268892467,
+    "min_cosine_similarity": -0.01998729258775711,
+    "max_cosine_similarity": 0.10801537334918976,
+    "count": 20
+  },
+  {
+    "generated_token_index": 181,
+    "mean_cosine_similarity": 0.0631075597833842,
+    "min_cosine_similarity": 0.007964521646499634,
+    "max_cosine_similarity": 0.13495048880577087,
+    "count": 20
+  },
+  {
+    "generated_token_index": 182,
+    "mean_cosine_similarity": 0.059696712624281646,
+    "min_cosine_similarity": 0.006100129336118698,
+    "max_cosine_similarity": 0.11429327726364136,
+    "count": 20
+  },
+  {
+    "generated_token_index": 183,
+    "mean_cosine_similarity": 0.07000054512172937,
+    "min_cosine_similarity": 0.016427919268608093,
+    "max_cosine_similarity": 0.3298611044883728,
+    "count": 20
+  },
+  {
+    "generated_token_index": 184,
+    "mean_cosine_similarity": 0.0812564803287387,
+    "min_cosine_similarity": 0.01890764944255352,
+    "max_cosine_similarity": 0.23787225782871246,
+    "count": 20
+  },
+  {
+    "generated_token_index": 185,
+    "mean_cosine_similarity": 0.05044443993829191,
+    "min_cosine_similarity": 0.009127386845648289,
+    "max_cosine_similarity": 0.0875818282365799,
+    "count": 20
+  },
+  {
+    "generated_token_index": 186,
+    "mean_cosine_similarity": 0.05261733466759324,
+    "min_cosine_similarity": 0.02045055665075779,
+    "max_cosine_similarity": 0.09703999757766724,
+    "count": 20
+  },
+  {
+    "generated_token_index": 187,
+    "mean_cosine_similarity": 0.06525369239971042,
+    "min_cosine_similarity": 0.012997010722756386,
+    "max_cosine_similarity": 0.29026487469673157,
+    "count": 20
+  },
+  {
+    "generated_token_index": 188,
+    "mean_cosine_similarity": 0.07997947474941611,
+    "min_cosine_similarity": 0.0205156821757555,
+    "max_cosine_similarity": 0.33698204159736633,
+    "count": 20
+  },
+  {
+    "generated_token_index": 189,
+    "mean_cosine_similarity": 0.08832417975645512,
+    "min_cosine_similarity": 0.002264199312776327,
+    "max_cosine_similarity": 0.33373942971229553,
+    "count": 20
+  },
+  {
+    "generated_token_index": 190,
+    "mean_cosine_similarity": 0.07858204310759902,
+    "min_cosine_similarity": 0.022427791729569435,
+    "max_cosine_similarity": 0.2891552448272705,
+    "count": 20
+  },
+  {
+    "generated_token_index": 191,
+    "mean_cosine_similarity": 0.05426715714856982,
+    "min_cosine_similarity": 0.020204486325383186,
+    "max_cosine_similarity": 0.11278456449508667,
+    "count": 20
+  },
+  {
+    "generated_token_index": 192,
+    "mean_cosine_similarity": 0.06214871779084206,
+    "min_cosine_similarity": 0.016427993774414062,
+    "max_cosine_similarity": 0.13823272287845612,
+    "count": 20
+  },
+  {
+    "generated_token_index": 193,
+    "mean_cosine_similarity": 0.06487675309181214,
+    "min_cosine_similarity": 0.022429514676332474,
+    "max_cosine_similarity": 0.14562542736530304,
+    "count": 20
+  },
+  {
+    "generated_token_index": 194,
+    "mean_cosine_similarity": 0.06325330333784222,
+    "min_cosine_similarity": 0.011379944160580635,
+    "max_cosine_similarity": 0.11884141713380814,
+    "count": 20
+  },
+  {
+    "generated_token_index": 195,
+    "mean_cosine_similarity": 0.060164816491305825,
+    "min_cosine_similarity": 0.025560084730386734,
+    "max_cosine_similarity": 0.15844306349754333,
+    "count": 20
+  },
+  {
+    "generated_token_index": 196,
+    "mean_cosine_similarity": 0.05694816131144762,
+    "min_cosine_similarity": 0.031799234449863434,
+    "max_cosine_similarity": 0.12428215146064758,
+    "count": 20
+  },
+  {
+    "generated_token_index": 197,
+    "mean_cosine_similarity": 0.06910937526263297,
+    "min_cosine_similarity": 0.014899403788149357,
+    "max_cosine_similarity": 0.16185538470745087,
+    "count": 20
+  },
+  {
+    "generated_token_index": 198,
+    "mean_cosine_similarity": 0.07731315400451422,
+    "min_cosine_similarity": 0.009437642991542816,
+    "max_cosine_similarity": 0.28650394082069397,
+    "count": 20
+  },
+  {
+    "generated_token_index": 199,
+    "mean_cosine_similarity": 0.0816748361568898,
+    "min_cosine_similarity": 0.006172089837491512,
+    "max_cosine_similarity": 0.2899814248085022,
+    "count": 20
+  },
+  {
+    "generated_token_index": 200,
+    "mean_cosine_similarity": 0.06908845617435873,
+    "min_cosine_similarity": 0.006066911853849888,
+    "max_cosine_similarity": 0.3419259190559387,
+    "count": 20
+  },
+  {
+    "generated_token_index": 201,
+    "mean_cosine_similarity": 0.06613178574480116,
+    "min_cosine_similarity": 0.010654570534825325,
+    "max_cosine_similarity": 0.32990193367004395,
+    "count": 20
+  },
+  {
+    "generated_token_index": 202,
+    "mean_cosine_similarity": 0.06140211557871417,
+    "min_cosine_similarity": -0.01334070973098278,
+    "max_cosine_similarity": 0.3337274491786957,
+    "count": 19
+  },
+  {
+    "generated_token_index": 203,
+    "mean_cosine_similarity": 0.0662329651807484,
+    "min_cosine_similarity": 0.031910281628370285,
+    "max_cosine_similarity": 0.1353352665901184,
+    "count": 19
+  },
+  {
+    "generated_token_index": 204,
+    "mean_cosine_similarity": 0.06373897998740799,
+    "min_cosine_similarity": 0.02313418686389923,
+    "max_cosine_similarity": 0.14900600910186768,
+    "count": 19
+  },
+  {
+    "generated_token_index": 205,
+    "mean_cosine_similarity": 0.074702352579487,
+    "min_cosine_similarity": 0.02266528643667698,
+    "max_cosine_similarity": 0.35300880670547485,
+    "count": 19
+  },
+  {
+    "generated_token_index": 206,
+    "mean_cosine_similarity": 0.07963544953810542,
+    "min_cosine_similarity": 0.03226768597960472,
+    "max_cosine_similarity": 0.24888822436332703,
+    "count": 19
+  },
+  {
+    "generated_token_index": 207,
+    "mean_cosine_similarity": 0.06725167894833967,
+    "min_cosine_similarity": 0.031202733516693115,
+    "max_cosine_similarity": 0.2346261739730835,
+    "count": 19
+  },
+  {
+    "generated_token_index": 208,
+    "mean_cosine_similarity": 0.05693784258083293,
+    "min_cosine_similarity": 0.027803951874375343,
+    "max_cosine_similarity": 0.09350583702325821,
+    "count": 19
+  },
+  {
+    "generated_token_index": 209,
+    "mean_cosine_similarity": 0.0649793533436758,
+    "min_cosine_similarity": -0.00012697093188762665,
+    "max_cosine_similarity": 0.32557761669158936,
+    "count": 19
+  },
+  {
+    "generated_token_index": 210,
+    "mean_cosine_similarity": 0.06510088730015252,
+    "min_cosine_similarity": 0.023602277040481567,
+    "max_cosine_similarity": 0.12774799764156342,
+    "count": 19
+  },
+  {
+    "generated_token_index": 211,
+    "mean_cosine_similarity": 0.07282749715408213,
+    "min_cosine_similarity": 0.011213011108338833,
+    "max_cosine_similarity": 0.30833321809768677,
+    "count": 19
+  },
+  {
+    "generated_token_index": 212,
+    "mean_cosine_similarity": 0.07446259196455542,
+    "min_cosine_similarity": 0.006088485009968281,
+    "max_cosine_similarity": 0.19674170017242432,
+    "count": 19
+  },
+  {
+    "generated_token_index": 213,
+    "mean_cosine_similarity": 0.08751036158125651,
+    "min_cosine_similarity": 0.017653044313192368,
+    "max_cosine_similarity": 0.38789603114128113,
+    "count": 19
+  },
+  {
+    "generated_token_index": 214,
+    "mean_cosine_similarity": 0.05344173331793986,
+    "min_cosine_similarity": 0.024943435564637184,
+    "max_cosine_similarity": 0.10029900819063187,
+    "count": 19
+  },
+  {
+    "generated_token_index": 215,
+    "mean_cosine_similarity": 0.05691126998710005,
+    "min_cosine_similarity": 0.021709932014346123,
+    "max_cosine_similarity": 0.10897625237703323,
+    "count": 19
+  },
+  {
+    "generated_token_index": 216,
+    "mean_cosine_similarity": 0.055385762948150695,
+    "min_cosine_similarity": -0.014621112495660782,
+    "max_cosine_similarity": 0.11180465668439865,
+    "count": 19
+  },
+  {
+    "generated_token_index": 217,
+    "mean_cosine_similarity": 0.08366368193865607,
+    "min_cosine_similarity": -0.0027066092006862164,
+    "max_cosine_similarity": 0.2888062000274658,
+    "count": 19
+  },
+  {
+    "generated_token_index": 218,
+    "mean_cosine_similarity": 0.060300682573334166,
+    "min_cosine_similarity": 0.007296760566532612,
+    "max_cosine_similarity": 0.09829000383615494,
+    "count": 19
+  },
+  {
+    "generated_token_index": 219,
+    "mean_cosine_similarity": 0.0719949315106006,
+    "min_cosine_similarity": -0.0020663957111537457,
+    "max_cosine_similarity": 0.34544599056243896,
+    "count": 19
+  },
+  {
+    "generated_token_index": 220,
+    "mean_cosine_similarity": 0.056631239719296754,
+    "min_cosine_similarity": 0.015669003129005432,
+    "max_cosine_similarity": 0.11820235103368759,
+    "count": 19
+  },
+  {
+    "generated_token_index": 221,
+    "mean_cosine_similarity": 0.05620170472876022,
+    "min_cosine_similarity": 0.02596665360033512,
+    "max_cosine_similarity": 0.1061885878443718,
+    "count": 19
+  },
+  {
+    "generated_token_index": 222,
+    "mean_cosine_similarity": 0.06740009706271322,
+    "min_cosine_similarity": 0.019551096484065056,
+    "max_cosine_similarity": 0.2448025792837143,
+    "count": 19
+  },
+  {
+    "generated_token_index": 223,
+    "mean_cosine_similarity": 0.05641367556037087,
+    "min_cosine_similarity": -0.005451117642223835,
+    "max_cosine_similarity": 0.10931621491909027,
+    "count": 19
+  },
+  {
+    "generated_token_index": 224,
+    "mean_cosine_similarity": 0.0643379220640973,
+    "min_cosine_similarity": 0.022698255255818367,
+    "max_cosine_similarity": 0.1258748471736908,
+    "count": 19
+  },
+  {
+    "generated_token_index": 225,
+    "mean_cosine_similarity": 0.05165747957500188,
+    "min_cosine_similarity": -0.008135718293488026,
+    "max_cosine_similarity": 0.11400504410266876,
+    "count": 19
+  },
+  {
+    "generated_token_index": 226,
+    "mean_cosine_similarity": 0.05721637725486959,
+    "min_cosine_similarity": -0.008061046712100506,
+    "max_cosine_similarity": 0.10779938846826553,
+    "count": 19
+  },
+  {
+    "generated_token_index": 227,
+    "mean_cosine_similarity": 0.08709702817232985,
+    "min_cosine_similarity": -0.015333626419305801,
+    "max_cosine_similarity": 0.39187145233154297,
+    "count": 19
+  },
+  {
+    "generated_token_index": 228,
+    "mean_cosine_similarity": 0.058340420946478844,
+    "min_cosine_similarity": 0.018126215785741806,
+    "max_cosine_similarity": 0.08421896398067474,
+    "count": 19
+  },
+  {
+    "generated_token_index": 229,
+    "mean_cosine_similarity": 0.06007813162317401,
+    "min_cosine_similarity": 0.026185331866145134,
+    "max_cosine_similarity": 0.09778031706809998,
+    "count": 19
+  },
+  {
+    "generated_token_index": 230,
+    "mean_cosine_similarity": 0.06247916317691928,
+    "min_cosine_similarity": 0.019926873967051506,
+    "max_cosine_similarity": 0.10547316819429398,
+    "count": 19
+  },
+  {
+    "generated_token_index": 231,
+    "mean_cosine_similarity": 0.07210188542835806,
+    "min_cosine_similarity": 0.0016934196464717388,
+    "max_cosine_similarity": 0.34816306829452515,
+    "count": 19
+  },
+  {
+    "generated_token_index": 232,
+    "mean_cosine_similarity": 0.05005030802107955,
+    "min_cosine_similarity": -0.007066262420266867,
+    "max_cosine_similarity": 0.0941019132733345,
+    "count": 19
+  },
+  {
+    "generated_token_index": 233,
+    "mean_cosine_similarity": 0.04241380556241462,
+    "min_cosine_similarity": -0.02798793837428093,
+    "max_cosine_similarity": 0.10063434392213821,
+    "count": 19
+  },
+  {
+    "generated_token_index": 234,
+    "mean_cosine_similarity": 0.042396209288486524,
+    "min_cosine_similarity": -0.030548468232154846,
+    "max_cosine_similarity": 0.07996612042188644,
+    "count": 19
+  },
+  {
+    "generated_token_index": 235,
+    "mean_cosine_similarity": 0.04534123186022043,
+    "min_cosine_similarity": -0.02129971981048584,
+    "max_cosine_similarity": 0.10071049630641937,
+    "count": 19
+  },
+  {
+    "generated_token_index": 236,
+    "mean_cosine_similarity": 0.04312497678850042,
+    "min_cosine_similarity": -0.017895344644784927,
+    "max_cosine_similarity": 0.0999847948551178,
+    "count": 19
+  },
+  {
+    "generated_token_index": 237,
+    "mean_cosine_similarity": 0.045900366563153897,
+    "min_cosine_similarity": -0.009502730332314968,
+    "max_cosine_similarity": 0.11192017793655396,
+    "count": 19
+  },
+  {
+    "generated_token_index": 238,
+    "mean_cosine_similarity": 0.04371297799393927,
+    "min_cosine_similarity": -0.016321171075105667,
+    "max_cosine_similarity": 0.07917217910289764,
+    "count": 19
+  },
+  {
+    "generated_token_index": 239,
+    "mean_cosine_similarity": 0.05023358503563537,
+    "min_cosine_similarity": -0.012669097632169724,
+    "max_cosine_similarity": 0.09610201418399811,
+    "count": 18
+  },
+  {
+    "generated_token_index": 240,
+    "mean_cosine_similarity": 0.05798500502068135,
+    "min_cosine_similarity": -0.020967047661542892,
+    "max_cosine_similarity": 0.28690439462661743,
+    "count": 18
+  },
+  {
+    "generated_token_index": 241,
+    "mean_cosine_similarity": 0.06792456524757047,
+    "min_cosine_similarity": -0.010250291787087917,
+    "max_cosine_similarity": 0.4662923216819763,
+    "count": 18
+  },
+  {
+    "generated_token_index": 242,
+    "mean_cosine_similarity": 0.05807717734326919,
+    "min_cosine_similarity": -0.019454117864370346,
+    "max_cosine_similarity": 0.1214020773768425,
+    "count": 18
+  },
+  {
+    "generated_token_index": 243,
+    "mean_cosine_similarity": 0.05219278598411216,
+    "min_cosine_similarity": -0.005004760809242725,
+    "max_cosine_similarity": 0.0931689441204071,
+    "count": 18
+  },
+  {
+    "generated_token_index": 244,
+    "mean_cosine_similarity": 0.06545167619033772,
+    "min_cosine_similarity": -0.013738744892179966,
+    "max_cosine_similarity": 0.22150225937366486,
+    "count": 17
+  },
+  {
+    "generated_token_index": 245,
+    "mean_cosine_similarity": 0.05719951321096981,
+    "min_cosine_similarity": -0.004734594374895096,
+    "max_cosine_similarity": 0.17175346612930298,
+    "count": 17
+  },
+  {
+    "generated_token_index": 246,
+    "mean_cosine_similarity": 0.04909293904133579,
+    "min_cosine_similarity": -0.003320836927741766,
+    "max_cosine_similarity": 0.09294634312391281,
+    "count": 17
+  },
+  {
+    "generated_token_index": 247,
+    "mean_cosine_similarity": 0.05243015565964229,
+    "min_cosine_similarity": 0.002672551665455103,
+    "max_cosine_similarity": 0.08668289333581924,
+    "count": 17
+  },
+  {
+    "generated_token_index": 248,
+    "mean_cosine_similarity": 0.05561062923687346,
+    "min_cosine_similarity": -0.004521269351243973,
+    "max_cosine_similarity": 0.10688368231058121,
+    "count": 17
+  },
+  {
+    "generated_token_index": 249,
+    "mean_cosine_similarity": 0.058676556410158384,
+    "min_cosine_similarity": 0.022412879392504692,
+    "max_cosine_similarity": 0.0891653448343277,
+    "count": 17
+  },
+  {
+    "generated_token_index": 250,
+    "mean_cosine_similarity": 0.058284053031136006,
+    "min_cosine_similarity": 0.033010199666023254,
+    "max_cosine_similarity": 0.10193849354982376,
+    "count": 17
+  },
+  {
+    "generated_token_index": 251,
+    "mean_cosine_similarity": 0.0471417285666308,
+    "min_cosine_similarity": -0.02099158987402916,
+    "max_cosine_similarity": 0.09497810155153275,
+    "count": 17
+  },
+  {
+    "generated_token_index": 252,
+    "mean_cosine_similarity": 0.05910307341529166,
+    "min_cosine_similarity": 0.0040842085145413876,
+    "max_cosine_similarity": 0.15312811732292175,
+    "count": 17
+  },
+  {
+    "generated_token_index": 253,
+    "mean_cosine_similarity": 0.07423423789441586,
+    "min_cosine_similarity": -0.0021802159026265144,
+    "max_cosine_similarity": 0.39349430799484253,
+    "count": 17
+  },
+  {
+    "generated_token_index": 254,
+    "mean_cosine_similarity": 0.055451934116289896,
+    "min_cosine_similarity": 0.0014920895919203758,
+    "max_cosine_similarity": 0.08031625300645828,
+    "count": 17
+  },
+  {
+    "generated_token_index": 255,
+    "mean_cosine_similarity": 0.06890223477967083,
+    "min_cosine_similarity": -0.011423470452427864,
+    "max_cosine_similarity": 0.3419104218482971,
+    "count": 17
+  },
+  {
+    "generated_token_index": 256,
+    "mean_cosine_similarity": 0.05075698258245692,
+    "min_cosine_similarity": -0.014863647520542145,
+    "max_cosine_similarity": 0.1083955243229866,
+    "count": 17
+  },
+  {
+    "generated_token_index": 257,
+    "mean_cosine_similarity": 0.06630434531389791,
+    "min_cosine_similarity": -0.0051069301553070545,
+    "max_cosine_similarity": 0.3237650692462921,
+    "count": 17
+  },
+  {
+    "generated_token_index": 258,
+    "mean_cosine_similarity": 0.06294461299993974,
+    "min_cosine_similarity": -0.024212604388594627,
+    "max_cosine_similarity": 0.4180900752544403,
+    "count": 17
+  },
+  {
+    "generated_token_index": 259,
+    "mean_cosine_similarity": 0.0430838532252785,
+    "min_cosine_similarity": -0.014641222544014454,
+    "max_cosine_similarity": 0.14105704426765442,
+    "count": 17
+  },
+  {
+    "generated_token_index": 260,
+    "mean_cosine_similarity": 0.04869411113288473,
+    "min_cosine_similarity": 0.007823524065315723,
+    "max_cosine_similarity": 0.09337682276964188,
+    "count": 17
+  },
+  {
+    "generated_token_index": 261,
+    "mean_cosine_similarity": 0.056549572728245574,
+    "min_cosine_similarity": -0.0025142475496977568,
+    "max_cosine_similarity": 0.22061805427074432,
+    "count": 17
+  },
+  {
+    "generated_token_index": 262,
+    "mean_cosine_similarity": 0.047690857407253456,
+    "min_cosine_similarity": -0.002708814339712262,
+    "max_cosine_similarity": 0.16268545389175415,
+    "count": 17
+  },
+  {
+    "generated_token_index": 263,
+    "mean_cosine_similarity": 0.07211188442306593,
+    "min_cosine_similarity": -0.013262301683425903,
+    "max_cosine_similarity": 0.3082623779773712,
+    "count": 16
+  },
+  {
+    "generated_token_index": 264,
+    "mean_cosine_similarity": 0.04364862717920914,
+    "min_cosine_similarity": 0.005107934586703777,
+    "max_cosine_similarity": 0.11390814930200577,
+    "count": 16
+  },
+  {
+    "generated_token_index": 265,
+    "mean_cosine_similarity": 0.04128253262024373,
+    "min_cosine_similarity": -0.011393807828426361,
+    "max_cosine_similarity": 0.13345365226268768,
+    "count": 16
+  },
+  {
+    "generated_token_index": 266,
+    "mean_cosine_similarity": 0.04513903247425333,
+    "min_cosine_similarity": 0.008362922817468643,
+    "max_cosine_similarity": 0.09494648873806,
+    "count": 16
+  },
+  {
+    "generated_token_index": 267,
+    "mean_cosine_similarity": 0.048123441127245314,
+    "min_cosine_similarity": -0.0032488445285707712,
+    "max_cosine_similarity": 0.11408554017543793,
+    "count": 16
+  },
+  {
+    "generated_token_index": 268,
+    "mean_cosine_similarity": 0.060093715161201544,
+    "min_cosine_similarity": 0.0016309053171426058,
+    "max_cosine_similarity": 0.324381560087204,
+    "count": 16
+  },
+  {
+    "generated_token_index": 269,
+    "mean_cosine_similarity": 0.05216844339884119,
+    "min_cosine_similarity": 0.001873376895673573,
+    "max_cosine_similarity": 0.12073574215173721,
+    "count": 16
+  },
+  {
+    "generated_token_index": 270,
+    "mean_cosine_similarity": 0.05658209764806088,
+    "min_cosine_similarity": 0.0018616721499711275,
+    "max_cosine_similarity": 0.08807777613401413,
+    "count": 16
+  },
+  {
+    "generated_token_index": 271,
+    "mean_cosine_similarity": 0.08144864713540301,
+    "min_cosine_similarity": -0.007682022638618946,
+    "max_cosine_similarity": 0.30034583806991577,
+    "count": 16
+  },
+  {
+    "generated_token_index": 272,
+    "mean_cosine_similarity": 0.060501643223688006,
+    "min_cosine_similarity": -0.017115507274866104,
+    "max_cosine_similarity": 0.14740686118602753,
+    "count": 16
+  },
+  {
+    "generated_token_index": 273,
+    "mean_cosine_similarity": 0.06478632742073387,
+    "min_cosine_similarity": -0.014508688822388649,
+    "max_cosine_similarity": 0.13751477003097534,
+    "count": 16
+  },
+  {
+    "generated_token_index": 274,
+    "mean_cosine_similarity": 0.05996999511262402,
+    "min_cosine_similarity": -0.029299836605787277,
+    "max_cosine_similarity": 0.21839715540409088,
+    "count": 16
+  },
+  {
+    "generated_token_index": 275,
+    "mean_cosine_similarity": 0.05213680869201198,
+    "min_cosine_similarity": 0.002620665356516838,
+    "max_cosine_similarity": 0.16195392608642578,
+    "count": 16
+  },
+  {
+    "generated_token_index": 276,
+    "mean_cosine_similarity": 0.04274978523608297,
+    "min_cosine_similarity": -0.015480896458029747,
+    "max_cosine_similarity": 0.11207476258277893,
+    "count": 16
+  },
+  {
+    "generated_token_index": 277,
+    "mean_cosine_similarity": 0.04158605035627261,
+    "min_cosine_similarity": -0.009527234360575676,
+    "max_cosine_similarity": 0.07628140598535538,
+    "count": 16
+  },
+  {
+    "generated_token_index": 278,
+    "mean_cosine_similarity": 0.04042415038566105,
+    "min_cosine_similarity": -0.0035914191976189613,
+    "max_cosine_similarity": 0.09329414367675781,
+    "count": 16
+  },
+  {
+    "generated_token_index": 279,
+    "mean_cosine_similarity": 0.048512467881664634,
+    "min_cosine_similarity": -0.028114527463912964,
+    "max_cosine_similarity": 0.24964049458503723,
+    "count": 16
+  },
+  {
+    "generated_token_index": 280,
+    "mean_cosine_similarity": 0.0443567639158573,
+    "min_cosine_similarity": -0.011819669045507908,
+    "max_cosine_similarity": 0.08428745716810226,
+    "count": 16
+  },
+  {
+    "generated_token_index": 281,
+    "mean_cosine_similarity": 0.05224684774293564,
+    "min_cosine_similarity": -0.004186498466879129,
+    "max_cosine_similarity": 0.0957355797290802,
+    "count": 16
+  },
+  {
+    "generated_token_index": 282,
+    "mean_cosine_similarity": 0.060273835668340325,
+    "min_cosine_similarity": -0.023517057299613953,
+    "max_cosine_similarity": 0.13271090388298035,
+    "count": 16
+  },
+  {
+    "generated_token_index": 283,
+    "mean_cosine_similarity": 0.04772552620852366,
+    "min_cosine_similarity": 0.005368364043533802,
+    "max_cosine_similarity": 0.08484691381454468,
+    "count": 16
+  },
+  {
+    "generated_token_index": 284,
+    "mean_cosine_similarity": 0.051920911646448076,
+    "min_cosine_similarity": -0.012808523140847683,
+    "max_cosine_similarity": 0.0967671349644661,
+    "count": 16
+  },
+  {
+    "generated_token_index": 285,
+    "mean_cosine_similarity": 0.04871557874139398,
+    "min_cosine_similarity": -0.011748023331165314,
+    "max_cosine_similarity": 0.09829957783222198,
+    "count": 16
+  },
+  {
+    "generated_token_index": 286,
+    "mean_cosine_similarity": 0.058811238842705886,
+    "min_cosine_similarity": 0.01035804208368063,
+    "max_cosine_similarity": 0.10659487545490265,
+    "count": 15
+  },
+  {
+    "generated_token_index": 287,
+    "mean_cosine_similarity": 0.07448036951633791,
+    "min_cosine_similarity": -0.0002708889078348875,
+    "max_cosine_similarity": 0.35185712575912476,
+    "count": 15
+  },
+  {
+    "generated_token_index": 288,
+    "mean_cosine_similarity": 0.05604046732187271,
+    "min_cosine_similarity": 0.008808208629488945,
+    "max_cosine_similarity": 0.1406382918357849,
+    "count": 15
+  },
+  {
+    "generated_token_index": 289,
+    "mean_cosine_similarity": 0.0575777436606586,
+    "min_cosine_similarity": 0.004272651392966509,
+    "max_cosine_similarity": 0.10796374082565308,
+    "count": 15
+  },
+  {
+    "generated_token_index": 290,
+    "mean_cosine_similarity": 0.07668524008865157,
+    "min_cosine_similarity": 0.0016035395674407482,
+    "max_cosine_similarity": 0.35917428135871887,
+    "count": 15
+  },
+  {
+    "generated_token_index": 291,
+    "mean_cosine_similarity": 0.042963848387201624,
+    "min_cosine_similarity": -0.032255202531814575,
+    "max_cosine_similarity": 0.09728195518255234,
+    "count": 15
+  },
+  {
+    "generated_token_index": 292,
+    "mean_cosine_similarity": 0.05722609745959441,
+    "min_cosine_similarity": 0.018884751945734024,
+    "max_cosine_similarity": 0.10049408674240112,
+    "count": 15
+  },
+  {
+    "generated_token_index": 293,
+    "mean_cosine_similarity": 0.05674536420653264,
+    "min_cosine_similarity": 0.00986286997795105,
+    "max_cosine_similarity": 0.1774979531764984,
+    "count": 15
+  },
+  {
+    "generated_token_index": 294,
+    "mean_cosine_similarity": 0.04102723995844523,
+    "min_cosine_similarity": -0.013768275268375874,
+    "max_cosine_similarity": 0.08763564378023148,
+    "count": 15
+  },
+  {
+    "generated_token_index": 295,
+    "mean_cosine_similarity": 0.05023953663185239,
+    "min_cosine_similarity": -0.009548971429467201,
+    "max_cosine_similarity": 0.09196095913648605,
+    "count": 15
+  },
+  {
+    "generated_token_index": 296,
+    "mean_cosine_similarity": 0.057294289426257215,
+    "min_cosine_similarity": -0.004683959763497114,
+    "max_cosine_similarity": 0.17405439913272858,
+    "count": 15
+  },
+  {
+    "generated_token_index": 297,
+    "mean_cosine_similarity": 0.056675793634106714,
+    "min_cosine_similarity": 0.001617620699107647,
+    "max_cosine_similarity": 0.10289320349693298,
+    "count": 15
+  },
+  {
+    "generated_token_index": 298,
+    "mean_cosine_similarity": 0.06642986234898368,
+    "min_cosine_similarity": -0.02517176978290081,
+    "max_cosine_similarity": 0.30018219351768494,
+    "count": 15
+  },
+  {
+    "generated_token_index": 299,
+    "mean_cosine_similarity": 0.08912785500288009,
+    "min_cosine_similarity": -0.013213884085416794,
+    "max_cosine_similarity": 0.2785220146179199,
+    "count": 15
+  },
+  {
+    "generated_token_index": 300,
+    "mean_cosine_similarity": 0.05535618841337661,
+    "min_cosine_similarity": 0.003823376027867198,
+    "max_cosine_similarity": 0.1015094593167305,
+    "count": 15
+  },
+  {
+    "generated_token_index": 301,
+    "mean_cosine_similarity": 0.05551375998184085,
+    "min_cosine_similarity": -0.016473086550831795,
+    "max_cosine_similarity": 0.20616984367370605,
+    "count": 15
+  },
+  {
+    "generated_token_index": 302,
+    "mean_cosine_similarity": 0.04911357210949063,
+    "min_cosine_similarity": -0.016430839896202087,
+    "max_cosine_similarity": 0.0963292047381401,
+    "count": 14
+  },
+  {
+    "generated_token_index": 303,
+    "mean_cosine_similarity": 0.05627437015729291,
+    "min_cosine_similarity": -0.017535563558340073,
+    "max_cosine_similarity": 0.10063420236110687,
+    "count": 14
+  },
+  {
+    "generated_token_index": 304,
+    "mean_cosine_similarity": 0.050749232061207294,
+    "min_cosine_similarity": -0.020451059564948082,
+    "max_cosine_similarity": 0.09826822578907013,
+    "count": 14
+  },
+  {
+    "generated_token_index": 305,
+    "mean_cosine_similarity": 0.042878975375340536,
+    "min_cosine_similarity": -0.01566396653652191,
+    "max_cosine_similarity": 0.0823877826333046,
+    "count": 13
+  },
+  {
+    "generated_token_index": 306,
+    "mean_cosine_similarity": 0.04571201007526655,
+    "min_cosine_similarity": -0.03036503866314888,
+    "max_cosine_similarity": 0.07965656369924545,
+    "count": 13
+  },
+  {
+    "generated_token_index": 307,
+    "mean_cosine_similarity": 0.06834357590056382,
+    "min_cosine_similarity": -0.0018020588904619217,
+    "max_cosine_similarity": 0.2624569833278656,
+    "count": 13
+  },
+  {
+    "generated_token_index": 308,
+    "mean_cosine_similarity": 0.04775636786451706,
+    "min_cosine_similarity": -0.009258486330509186,
+    "max_cosine_similarity": 0.09191049635410309,
+    "count": 13
+  },
+  {
+    "generated_token_index": 309,
+    "mean_cosine_similarity": 0.050450656276482805,
+    "min_cosine_similarity": -0.001139925792813301,
+    "max_cosine_similarity": 0.10091235488653183,
+    "count": 13
+  },
+  {
+    "generated_token_index": 310,
+    "mean_cosine_similarity": 0.05268906017478842,
+    "min_cosine_similarity": -0.005030819680541754,
+    "max_cosine_similarity": 0.08932416141033173,
+    "count": 13
+  },
+  {
+    "generated_token_index": 311,
+    "mean_cosine_similarity": 0.04971600343616536,
+    "min_cosine_similarity": 0.0002908359747380018,
+    "max_cosine_similarity": 0.09894077479839325,
+    "count": 13
+  },
+  {
+    "generated_token_index": 312,
+    "mean_cosine_similarity": 0.05703422713738222,
+    "min_cosine_similarity": 0.020433906465768814,
+    "max_cosine_similarity": 0.10455023497343063,
+    "count": 13
+  },
+  {
+    "generated_token_index": 313,
+    "mean_cosine_similarity": 0.044286269873667225,
+    "min_cosine_similarity": -0.020280541852116585,
+    "max_cosine_similarity": 0.08722345530986786,
+    "count": 13
+  },
+  {
+    "generated_token_index": 314,
+    "mean_cosine_similarity": 0.04556497847303175,
+    "min_cosine_similarity": 0.0004870679695159197,
+    "max_cosine_similarity": 0.08258268237113953,
+    "count": 13
+  },
+  {
+    "generated_token_index": 315,
+    "mean_cosine_similarity": 0.053762841396606885,
+    "min_cosine_similarity": 0.02246401645243168,
+    "max_cosine_similarity": 0.07777274399995804,
+    "count": 13
+  },
+  {
+    "generated_token_index": 316,
+    "mean_cosine_similarity": 0.07721224828408314,
+    "min_cosine_similarity": 0.029645226895809174,
+    "max_cosine_similarity": 0.33551713824272156,
+    "count": 13
+  },
+  {
+    "generated_token_index": 317,
+    "mean_cosine_similarity": 0.05940648497870335,
+    "min_cosine_similarity": 0.023940062150359154,
+    "max_cosine_similarity": 0.09997303038835526,
+    "count": 13
+  },
+  {
+    "generated_token_index": 318,
+    "mean_cosine_similarity": 0.05593932334047098,
+    "min_cosine_similarity": 0.012035220861434937,
+    "max_cosine_similarity": 0.105930857360363,
+    "count": 13
+  },
+  {
+    "generated_token_index": 319,
+    "mean_cosine_similarity": 0.0843953461601184,
+    "min_cosine_similarity": 0.023826640099287033,
+    "max_cosine_similarity": 0.3674423396587372,
+    "count": 13
+  },
+  {
+    "generated_token_index": 320,
+    "mean_cosine_similarity": 0.05722992222469587,
+    "min_cosine_similarity": 0.01036997139453888,
+    "max_cosine_similarity": 0.08530014753341675,
+    "count": 13
+  },
+  {
+    "generated_token_index": 321,
+    "mean_cosine_similarity": 0.07743992126331879,
+    "min_cosine_similarity": -0.024945085868239403,
+    "max_cosine_similarity": 0.336209237575531,
+    "count": 13
+  },
+  {
+    "generated_token_index": 322,
+    "mean_cosine_similarity": 0.08928776059586269,
+    "min_cosine_similarity": 0.03018871136009693,
+    "max_cosine_similarity": 0.4167276918888092,
+    "count": 13
+  },
+  {
+    "generated_token_index": 323,
+    "mean_cosine_similarity": 0.05593159099897513,
+    "min_cosine_similarity": 0.01112649217247963,
+    "max_cosine_similarity": 0.1208239495754242,
+    "count": 13
+  },
+  {
+    "generated_token_index": 324,
+    "mean_cosine_similarity": 0.0505644497103416,
+    "min_cosine_similarity": 0.009701065719127655,
+    "max_cosine_similarity": 0.08241717517375946,
+    "count": 13
+  },
+  {
+    "generated_token_index": 325,
+    "mean_cosine_similarity": 0.050810291073643245,
+    "min_cosine_similarity": 0.01864849589765072,
+    "max_cosine_similarity": 0.09650874882936478,
+    "count": 13
+  },
+  {
+    "generated_token_index": 326,
+    "mean_cosine_similarity": 0.05222007517631237,
+    "min_cosine_similarity": 0.018239915370941162,
+    "max_cosine_similarity": 0.0886714980006218,
+    "count": 13
+  },
+  {
+    "generated_token_index": 327,
+    "mean_cosine_similarity": 0.050462463297522984,
+    "min_cosine_similarity": 0.010439742356538773,
+    "max_cosine_similarity": 0.11651771515607834,
+    "count": 13
+  },
+  {
+    "generated_token_index": 328,
+    "mean_cosine_similarity": 0.04973902578394,
+    "min_cosine_similarity": -0.006366262212395668,
+    "max_cosine_similarity": 0.17491118609905243,
+    "count": 13
+  },
+  {
+    "generated_token_index": 329,
+    "mean_cosine_similarity": 0.052295310637698725,
+    "min_cosine_similarity": 0.010078427381813526,
+    "max_cosine_similarity": 0.08420781791210175,
+    "count": 13
+  },
+  {
+    "generated_token_index": 330,
+    "mean_cosine_similarity": 0.06360133640611401,
+    "min_cosine_similarity": 0.005711352918297052,
+    "max_cosine_similarity": 0.36682504415512085,
+    "count": 13
+  },
+  {
+    "generated_token_index": 331,
+    "mean_cosine_similarity": 0.03801271362373462,
+    "min_cosine_similarity": -0.010407122783362865,
+    "max_cosine_similarity": 0.07631834596395493,
+    "count": 13
+  },
+  {
+    "generated_token_index": 332,
+    "mean_cosine_similarity": 0.05015867103177767,
+    "min_cosine_similarity": 0.00039633922278881073,
+    "max_cosine_similarity": 0.07606582343578339,
+    "count": 13
+  },
+  {
+    "generated_token_index": 333,
+    "mean_cosine_similarity": 0.06455810805066274,
+    "min_cosine_similarity": 0.015196078456938267,
+    "max_cosine_similarity": 0.13462944328784943,
+    "count": 13
+  },
+  {
+    "generated_token_index": 334,
+    "mean_cosine_similarity": 0.058137439048061006,
+    "min_cosine_similarity": 0.008020643144845963,
+    "max_cosine_similarity": 0.11035280674695969,
+    "count": 13
+  },
+  {
+    "generated_token_index": 335,
+    "mean_cosine_similarity": 0.05287367288166514,
+    "min_cosine_similarity": 0.0065953596495091915,
+    "max_cosine_similarity": 0.08404222875833511,
+    "count": 13
+  },
+  {
+    "generated_token_index": 336,
+    "mean_cosine_similarity": 0.04922153134472095,
+    "min_cosine_similarity": 0.006732135079801083,
+    "max_cosine_similarity": 0.08161124587059021,
+    "count": 13
+  },
+  {
+    "generated_token_index": 337,
+    "mean_cosine_similarity": 0.04796586257333939,
+    "min_cosine_similarity": -0.007440583780407906,
+    "max_cosine_similarity": 0.07679363340139389,
+    "count": 13
+  },
+  {
+    "generated_token_index": 338,
+    "mean_cosine_similarity": 0.07398707491274063,
+    "min_cosine_similarity": -0.017858263105154037,
+    "max_cosine_similarity": 0.3126779794692993,
+    "count": 13
+  },
+  {
+    "generated_token_index": 339,
+    "mean_cosine_similarity": 0.060257074082843386,
+    "min_cosine_similarity": 0.0007824117783457041,
+    "max_cosine_similarity": 0.10200502723455429,
+    "count": 13
+  },
+  {
+    "generated_token_index": 340,
+    "mean_cosine_similarity": 0.0555915511571444,
+    "min_cosine_similarity": -0.02588597685098648,
+    "max_cosine_similarity": 0.11641447246074677,
+    "count": 13
+  },
+  {
+    "generated_token_index": 341,
+    "mean_cosine_similarity": 0.07468839448231918,
+    "min_cosine_similarity": -0.01367785781621933,
+    "max_cosine_similarity": 0.42812907695770264,
+    "count": 13
+  },
+  {
+    "generated_token_index": 342,
+    "mean_cosine_similarity": 0.05647976621269034,
+    "min_cosine_similarity": -0.013773549348115921,
+    "max_cosine_similarity": 0.1386832445859909,
+    "count": 13
+  },
+  {
+    "generated_token_index": 343,
+    "mean_cosine_similarity": 0.06755836316957496,
+    "min_cosine_similarity": -0.0001110173761844635,
+    "max_cosine_similarity": 0.3772719204425812,
+    "count": 13
+  },
+  {
+    "generated_token_index": 344,
+    "mean_cosine_similarity": 0.08703530339810711,
+    "min_cosine_similarity": -0.007069842424243689,
+    "max_cosine_similarity": 0.3449373245239258,
+    "count": 13
+  },
+  {
+    "generated_token_index": 345,
+    "mean_cosine_similarity": 0.05625035785711729,
+    "min_cosine_similarity": 0.00698375329375267,
+    "max_cosine_similarity": 0.09767341613769531,
+    "count": 13
+  },
+  {
+    "generated_token_index": 346,
+    "mean_cosine_similarity": 0.060391525379740275,
+    "min_cosine_similarity": 0.015698254108428955,
+    "max_cosine_similarity": 0.12911279499530792,
+    "count": 13
+  },
+  {
+    "generated_token_index": 347,
+    "mean_cosine_similarity": 0.05091941045024074,
+    "min_cosine_similarity": 0.004599420819431543,
+    "max_cosine_similarity": 0.10755541920661926,
+    "count": 13
+  },
+  {
+    "generated_token_index": 348,
+    "mean_cosine_similarity": 0.059961535466405064,
+    "min_cosine_similarity": 0.020256364718079567,
+    "max_cosine_similarity": 0.1365187168121338,
+    "count": 13
+  },
+  {
+    "generated_token_index": 349,
+    "mean_cosine_similarity": 0.07764138360149585,
+    "min_cosine_similarity": 0.010610359720885754,
+    "max_cosine_similarity": 0.2942841351032257,
+    "count": 13
+  },
+  {
+    "generated_token_index": 350,
+    "mean_cosine_similarity": 0.051180014646468826,
+    "min_cosine_similarity": 0.0008363459492102265,
+    "max_cosine_similarity": 0.1000266745686531,
+    "count": 13
+  },
+  {
+    "generated_token_index": 351,
+    "mean_cosine_similarity": 0.0766277341888501,
+    "min_cosine_similarity": 0.03370355814695358,
+    "max_cosine_similarity": 0.23876261711120605,
+    "count": 13
+  },
+  {
+    "generated_token_index": 352,
+    "mean_cosine_similarity": 0.07676329764609154,
+    "min_cosine_similarity": 0.007931957021355629,
+    "max_cosine_similarity": 0.26620328426361084,
+    "count": 13
+  },
+  {
+    "generated_token_index": 353,
+    "mean_cosine_similarity": 0.07581469015433238,
+    "min_cosine_similarity": 0.014297276735305786,
+    "max_cosine_similarity": 0.29897308349609375,
+    "count": 13
+  },
+  {
+    "generated_token_index": 354,
+    "mean_cosine_similarity": 0.08005357132508205,
+    "min_cosine_similarity": 0.019107254222035408,
+    "max_cosine_similarity": 0.23870958387851715,
+    "count": 13
+  },
+  {
+    "generated_token_index": 355,
+    "mean_cosine_similarity": 0.048646101011679724,
+    "min_cosine_similarity": 0.014894213527441025,
+    "max_cosine_similarity": 0.08467822521924973,
+    "count": 13
+  },
+  {
+    "generated_token_index": 356,
+    "mean_cosine_similarity": 0.044670642425234504,
+    "min_cosine_similarity": 0.006084330379962921,
+    "max_cosine_similarity": 0.08559873700141907,
+    "count": 13
+  },
+  {
+    "generated_token_index": 357,
+    "mean_cosine_similarity": 0.056229062378406525,
+    "min_cosine_similarity": 0.015021700412034988,
+    "max_cosine_similarity": 0.11742831021547318,
+    "count": 13
+  },
+  {
+    "generated_token_index": 358,
+    "mean_cosine_similarity": 0.04181902604893996,
+    "min_cosine_similarity": -0.010610046796500683,
+    "max_cosine_similarity": 0.08836350589990616,
+    "count": 13
+  },
+  {
+    "generated_token_index": 359,
+    "mean_cosine_similarity": 0.04906699860181946,
+    "min_cosine_similarity": -0.0020858938805758953,
+    "max_cosine_similarity": 0.08062880486249924,
+    "count": 13
+  },
+  {
+    "generated_token_index": 360,
+    "mean_cosine_similarity": 0.07029315728980762,
+    "min_cosine_similarity": 0.023899072781205177,
+    "max_cosine_similarity": 0.32912302017211914,
+    "count": 13
+  },
+  {
+    "generated_token_index": 361,
+    "mean_cosine_similarity": 0.05510368370092832,
+    "min_cosine_similarity": 0.020689688622951508,
+    "max_cosine_similarity": 0.11378425359725952,
+    "count": 13
+  },
+  {
+    "generated_token_index": 362,
+    "mean_cosine_similarity": 0.053577751064529784,
+    "min_cosine_similarity": 0.014344621449708939,
+    "max_cosine_similarity": 0.11565188318490982,
+    "count": 13
+  },
+  {
+    "generated_token_index": 363,
+    "mean_cosine_similarity": 0.04194393933105927,
+    "min_cosine_similarity": -0.03238120302557945,
+    "max_cosine_similarity": 0.10207345336675644,
+    "count": 13
+  },
+  {
+    "generated_token_index": 364,
+    "mean_cosine_similarity": 0.046460965361732706,
+    "min_cosine_similarity": 0.020549654960632324,
+    "max_cosine_similarity": 0.0893084779381752,
+    "count": 13
+  },
+  {
+    "generated_token_index": 365,
+    "mean_cosine_similarity": 0.07073834860840669,
+    "min_cosine_similarity": 0.01348720770329237,
+    "max_cosine_similarity": 0.435018926858902,
+    "count": 13
+  },
+  {
+    "generated_token_index": 366,
+    "mean_cosine_similarity": 0.04647792625026061,
+    "min_cosine_similarity": -0.012537611648440361,
+    "max_cosine_similarity": 0.12185477465391159,
+    "count": 13
+  },
+  {
+    "generated_token_index": 367,
+    "mean_cosine_similarity": 0.047370711932531916,
+    "min_cosine_similarity": -0.014737287536263466,
+    "max_cosine_similarity": 0.09890706092119217,
+    "count": 13
+  },
+  {
+    "generated_token_index": 368,
+    "mean_cosine_similarity": 0.02921660663560033,
+    "min_cosine_similarity": -0.02317480742931366,
+    "max_cosine_similarity": 0.08046100288629532,
+    "count": 13
+  },
+  {
+    "generated_token_index": 369,
+    "mean_cosine_similarity": 0.04334058125431721,
+    "min_cosine_similarity": -0.006581827998161316,
+    "max_cosine_similarity": 0.09230389446020126,
+    "count": 13
+  },
+  {
+    "generated_token_index": 370,
+    "mean_cosine_similarity": 0.054008303210139275,
+    "min_cosine_similarity": -0.019855650141835213,
+    "max_cosine_similarity": 0.11921484768390656,
+    "count": 13
+  },
+  {
+    "generated_token_index": 371,
+    "mean_cosine_similarity": 0.0535191368454924,
+    "min_cosine_similarity": 0.006500273942947388,
+    "max_cosine_similarity": 0.13227881491184235,
+    "count": 13
+  },
+  {
+    "generated_token_index": 372,
+    "mean_cosine_similarity": 0.03500210812601905,
+    "min_cosine_similarity": -0.009708879515528679,
+    "max_cosine_similarity": 0.06655403971672058,
+    "count": 13
+  },
+  {
+    "generated_token_index": 373,
+    "mean_cosine_similarity": 0.05697300320921036,
+    "min_cosine_similarity": -0.007530748378485441,
+    "max_cosine_similarity": 0.2058868557214737,
+    "count": 13
+  },
+  {
+    "generated_token_index": 374,
+    "mean_cosine_similarity": 0.045997368171811104,
+    "min_cosine_similarity": 0.01551114208996296,
+    "max_cosine_similarity": 0.1189049705862999,
+    "count": 12
+  },
+  {
+    "generated_token_index": 375,
+    "mean_cosine_similarity": 0.0506093935497726,
+    "min_cosine_similarity": 0.0019232523627579212,
+    "max_cosine_similarity": 0.10515204071998596,
+    "count": 12
+  },
+  {
+    "generated_token_index": 376,
+    "mean_cosine_similarity": 0.04548028359810511,
+    "min_cosine_similarity": -0.009754106402397156,
+    "max_cosine_similarity": 0.08917243033647537,
+    "count": 12
+  },
+  {
+    "generated_token_index": 377,
+    "mean_cosine_similarity": 0.05176191101782024,
+    "min_cosine_similarity": -0.006401373073458672,
+    "max_cosine_similarity": 0.10436221212148666,
+    "count": 12
+  },
+  {
+    "generated_token_index": 378,
+    "mean_cosine_similarity": 0.0868952054491577,
+    "min_cosine_similarity": -0.00491890124976635,
+    "max_cosine_similarity": 0.41205066442489624,
+    "count": 12
+  },
+  {
+    "generated_token_index": 379,
+    "mean_cosine_similarity": 0.08911619801074266,
+    "min_cosine_similarity": -0.021167706698179245,
+    "max_cosine_similarity": 0.4784935712814331,
+    "count": 12
+  },
+  {
+    "generated_token_index": 380,
+    "mean_cosine_similarity": 0.06656061535856377,
+    "min_cosine_similarity": -0.004455923568457365,
+    "max_cosine_similarity": 0.30243170261383057,
+    "count": 12
+  },
+  {
+    "generated_token_index": 381,
+    "mean_cosine_similarity": 0.04626734304474667,
+    "min_cosine_similarity": -0.013981809839606285,
+    "max_cosine_similarity": 0.121745266020298,
+    "count": 12
+  },
+  {
+    "generated_token_index": 382,
+    "mean_cosine_similarity": 0.03852320008445531,
+    "min_cosine_similarity": -0.01093237567692995,
+    "max_cosine_similarity": 0.08177115768194199,
+    "count": 12
+  },
+  {
+    "generated_token_index": 383,
+    "mean_cosine_similarity": 0.04594027018174529,
+    "min_cosine_similarity": -0.016039973124861717,
+    "max_cosine_similarity": 0.15001393854618073,
+    "count": 11
+  },
+  {
+    "generated_token_index": 384,
+    "mean_cosine_similarity": 0.04221854750490324,
+    "min_cosine_similarity": 0.002062430139631033,
+    "max_cosine_similarity": 0.0698326826095581,
+    "count": 11
+  },
+  {
+    "generated_token_index": 385,
+    "mean_cosine_similarity": 0.042088623497296467,
+    "min_cosine_similarity": -0.010917861945927143,
+    "max_cosine_similarity": 0.07094289362430573,
+    "count": 11
+  },
+  {
+    "generated_token_index": 386,
+    "mean_cosine_similarity": 0.05104005777023055,
+    "min_cosine_similarity": -0.017749052494764328,
+    "max_cosine_similarity": 0.09317964315414429,
+    "count": 11
+  },
+  {
+    "generated_token_index": 387,
+    "mean_cosine_similarity": 0.05159551180391149,
+    "min_cosine_similarity": -0.023244421929121017,
+    "max_cosine_similarity": 0.11393952369689941,
+    "count": 11
+  },
+  {
+    "generated_token_index": 388,
+    "mean_cosine_similarity": 0.057607461105693474,
+    "min_cosine_similarity": -0.027865968644618988,
+    "max_cosine_similarity": 0.12747091054916382,
+    "count": 11
+  },
+  {
+    "generated_token_index": 389,
+    "mean_cosine_similarity": 0.04725662559609522,
+    "min_cosine_similarity": -0.014344943687319756,
+    "max_cosine_similarity": 0.09642289578914642,
+    "count": 11
+  },
+  {
+    "generated_token_index": 390,
+    "mean_cosine_similarity": 0.044988720677793026,
+    "min_cosine_similarity": -0.010972240008413792,
+    "max_cosine_similarity": 0.09511854499578476,
+    "count": 11
+  },
+  {
+    "generated_token_index": 391,
+    "mean_cosine_similarity": 0.052248338745398956,
+    "min_cosine_similarity": -0.012294186279177666,
+    "max_cosine_similarity": 0.11102858185768127,
+    "count": 11
+  },
+  {
+    "generated_token_index": 392,
+    "mean_cosine_similarity": 0.11139455763623118,
+    "min_cosine_similarity": -0.006035191006958485,
+    "max_cosine_similarity": 0.3952932357788086,
+    "count": 10
+  },
+  {
+    "generated_token_index": 393,
+    "mean_cosine_similarity": 0.06818782642949373,
+    "min_cosine_similarity": 0.00014106114394962788,
+    "max_cosine_similarity": 0.12850642204284668,
+    "count": 10
+  },
+  {
+    "generated_token_index": 394,
+    "mean_cosine_similarity": 0.0494172940030694,
+    "min_cosine_similarity": 0.020496947690844536,
+    "max_cosine_similarity": 0.0976034477353096,
+    "count": 10
+  },
+  {
+    "generated_token_index": 395,
+    "mean_cosine_similarity": 0.05298100225627422,
+    "min_cosine_similarity": -0.008023720234632492,
+    "max_cosine_similarity": 0.09611379355192184,
+    "count": 10
+  },
+  {
+    "generated_token_index": 396,
+    "mean_cosine_similarity": 0.049980750679969786,
+    "min_cosine_similarity": 0.011036794632673264,
+    "max_cosine_similarity": 0.08835925161838531,
+    "count": 10
+  },
+  {
+    "generated_token_index": 397,
+    "mean_cosine_similarity": 0.05940557755529881,
+    "min_cosine_similarity": 0.0344608873128891,
+    "max_cosine_similarity": 0.0971975177526474,
+    "count": 10
+  },
+  {
+    "generated_token_index": 398,
+    "mean_cosine_similarity": 0.07962720245122909,
+    "min_cosine_similarity": 0.03061118721961975,
+    "max_cosine_similarity": 0.36387354135513306,
+    "count": 10
+  },
+  {
+    "generated_token_index": 399,
+    "mean_cosine_similarity": 0.048243815917521714,
+    "min_cosine_similarity": 0.0019584549590945244,
+    "max_cosine_similarity": 0.09582062065601349,
+    "count": 10
+  },
+  {
+    "generated_token_index": 400,
+    "mean_cosine_similarity": 0.058087952062487604,
+    "min_cosine_similarity": 0.02791653573513031,
+    "max_cosine_similarity": 0.10432827472686768,
+    "count": 10
+  },
+  {
+    "generated_token_index": 401,
+    "mean_cosine_similarity": 0.07411846462637187,
+    "min_cosine_similarity": 0.02104896493256092,
+    "max_cosine_similarity": 0.17830650508403778,
+    "count": 10
+  },
+  {
+    "generated_token_index": 402,
+    "mean_cosine_similarity": 0.04569970816373825,
+    "min_cosine_similarity": -0.020497571676969528,
+    "max_cosine_similarity": 0.10743675380945206,
+    "count": 10
+  },
+  {
+    "generated_token_index": 403,
+    "mean_cosine_similarity": 0.0842443447560072,
+    "min_cosine_similarity": 0.029251761734485626,
+    "max_cosine_similarity": 0.3637426793575287,
+    "count": 10
+  },
+  {
+    "generated_token_index": 404,
+    "mean_cosine_similarity": 0.049197862204164264,
+    "min_cosine_similarity": 0.005007022060453892,
+    "max_cosine_similarity": 0.10162100195884705,
+    "count": 10
+  },
+  {
+    "generated_token_index": 405,
+    "mean_cosine_similarity": 0.05895580314099789,
+    "min_cosine_similarity": 0.019913550466299057,
+    "max_cosine_similarity": 0.19005075097084045,
+    "count": 10
+  },
+  {
+    "generated_token_index": 406,
+    "mean_cosine_similarity": 0.042262029740959405,
+    "min_cosine_similarity": 0.004020807333290577,
+    "max_cosine_similarity": 0.0746694952249527,
+    "count": 10
+  },
+  {
+    "generated_token_index": 407,
+    "mean_cosine_similarity": 0.045323575288057326,
+    "min_cosine_similarity": 0.011583412066102028,
+    "max_cosine_similarity": 0.07144077122211456,
+    "count": 10
+  },
+  {
+    "generated_token_index": 408,
+    "mean_cosine_similarity": 0.05705847814679146,
+    "min_cosine_similarity": 0.018738199025392532,
+    "max_cosine_similarity": 0.12502101063728333,
+    "count": 10
+  },
+  {
+    "generated_token_index": 409,
+    "mean_cosine_similarity": 0.056171889975667,
+    "min_cosine_similarity": 0.033682651817798615,
+    "max_cosine_similarity": 0.08212887495756149,
+    "count": 10
+  },
+  {
+    "generated_token_index": 410,
+    "mean_cosine_similarity": 0.05766863916069269,
+    "min_cosine_similarity": 0.025547726079821587,
+    "max_cosine_similarity": 0.09455960988998413,
+    "count": 10
+  },
+  {
+    "generated_token_index": 411,
+    "mean_cosine_similarity": 0.08724674805998803,
+    "min_cosine_similarity": 0.04564986377954483,
+    "max_cosine_similarity": 0.343206524848938,
+    "count": 10
+  },
+  {
+    "generated_token_index": 412,
+    "mean_cosine_similarity": 0.051838189363479614,
+    "min_cosine_similarity": 0.023516912013292313,
+    "max_cosine_similarity": 0.08209411799907684,
+    "count": 10
+  },
+  {
+    "generated_token_index": 413,
+    "mean_cosine_similarity": 0.043956698989495634,
+    "min_cosine_similarity": 0.004706231411546469,
+    "max_cosine_similarity": 0.076848104596138,
+    "count": 10
+  },
+  {
+    "generated_token_index": 414,
+    "mean_cosine_similarity": 0.07769593968987465,
+    "min_cosine_similarity": 0.016787704080343246,
+    "max_cosine_similarity": 0.3354848623275757,
+    "count": 10
+  },
+  {
+    "generated_token_index": 415,
+    "mean_cosine_similarity": 0.06522983200848102,
+    "min_cosine_similarity": 0.020324213430285454,
+    "max_cosine_similarity": 0.10628397017717361,
+    "count": 10
+  },
+  {
+    "generated_token_index": 416,
+    "mean_cosine_similarity": 0.08863156316801905,
+    "min_cosine_similarity": 0.009356019087135792,
+    "max_cosine_similarity": 0.39568525552749634,
+    "count": 10
+  },
+  {
+    "generated_token_index": 417,
+    "mean_cosine_similarity": 0.0739579675719142,
+    "min_cosine_similarity": 0.016608772799372673,
+    "max_cosine_similarity": 0.17173467576503754,
+    "count": 10
+  },
+  {
+    "generated_token_index": 418,
+    "mean_cosine_similarity": 0.05080056245205924,
+    "min_cosine_similarity": -0.013721619732677937,
+    "max_cosine_similarity": 0.10614542663097382,
+    "count": 10
+  },
+  {
+    "generated_token_index": 419,
+    "mean_cosine_similarity": 0.04822568297386169,
+    "min_cosine_similarity": 0.012962589040398598,
+    "max_cosine_similarity": 0.08145467936992645,
+    "count": 10
+  },
+  {
+    "generated_token_index": 420,
+    "mean_cosine_similarity": 0.05851988811045885,
+    "min_cosine_similarity": 0.02667270042002201,
+    "max_cosine_similarity": 0.12125001102685928,
+    "count": 10
+  },
+  {
+    "generated_token_index": 421,
+    "mean_cosine_similarity": 0.07355919145047665,
+    "min_cosine_similarity": 0.018996451050043106,
+    "max_cosine_similarity": 0.3540853261947632,
+    "count": 10
+  },
+  {
+    "generated_token_index": 422,
+    "mean_cosine_similarity": 0.059318970516324045,
+    "min_cosine_similarity": 0.018717758357524872,
+    "max_cosine_similarity": 0.11217013746500015,
+    "count": 10
+  },
+  {
+    "generated_token_index": 423,
+    "mean_cosine_similarity": 0.060990497656166556,
+    "min_cosine_similarity": 0.02802901901304722,
+    "max_cosine_similarity": 0.14988918602466583,
+    "count": 10
+  },
+  {
+    "generated_token_index": 424,
+    "mean_cosine_similarity": 0.05619885390624404,
+    "min_cosine_similarity": 0.009033347479999065,
+    "max_cosine_similarity": 0.09263007342815399,
+    "count": 10
+  },
+  {
+    "generated_token_index": 425,
+    "mean_cosine_similarity": 0.0750388770364225,
+    "min_cosine_similarity": -0.006013889797031879,
+    "max_cosine_similarity": 0.37628015875816345,
+    "count": 10
+  },
+  {
+    "generated_token_index": 426,
+    "mean_cosine_similarity": 0.0492460997775197,
+    "min_cosine_similarity": 0.015192057937383652,
+    "max_cosine_similarity": 0.09692702442407608,
+    "count": 10
+  },
+  {
+    "generated_token_index": 427,
+    "mean_cosine_similarity": 0.04652457544580102,
+    "min_cosine_similarity": 0.012336005456745625,
+    "max_cosine_similarity": 0.07987411320209503,
+    "count": 10
+  },
+  {
+    "generated_token_index": 428,
+    "mean_cosine_similarity": 0.05346705680713058,
+    "min_cosine_similarity": 0.005188954062759876,
+    "max_cosine_similarity": 0.13563793897628784,
+    "count": 10
+  },
+  {
+    "generated_token_index": 429,
+    "mean_cosine_similarity": 0.04133295444771647,
+    "min_cosine_similarity": -0.010700438171625137,
+    "max_cosine_similarity": 0.10093195736408234,
+    "count": 10
+  },
+  {
+    "generated_token_index": 430,
+    "mean_cosine_similarity": 0.06744301738217473,
+    "min_cosine_similarity": -0.008953841403126717,
+    "max_cosine_similarity": 0.3698328137397766,
+    "count": 10
+  },
+  {
+    "generated_token_index": 431,
+    "mean_cosine_similarity": 0.04078946616500616,
+    "min_cosine_similarity": -8.798670023679733e-06,
+    "max_cosine_similarity": 0.0800844356417656,
+    "count": 10
+  },
+  {
+    "generated_token_index": 432,
+    "mean_cosine_similarity": 0.03472829065285623,
+    "min_cosine_similarity": -0.021534383296966553,
+    "max_cosine_similarity": 0.10678130388259888,
+    "count": 10
+  },
+  {
+    "generated_token_index": 433,
+    "mean_cosine_similarity": 0.04264436631929129,
+    "min_cosine_similarity": -0.0076103792525827885,
+    "max_cosine_similarity": 0.11042963713407516,
+    "count": 10
+  },
+  {
+    "generated_token_index": 434,
+    "mean_cosine_similarity": 0.03784575192257762,
+    "min_cosine_similarity": 0.005181320942938328,
+    "max_cosine_similarity": 0.07299693673849106,
+    "count": 10
+  },
+  {
+    "generated_token_index": 435,
+    "mean_cosine_similarity": 0.03846492599695921,
+    "min_cosine_similarity": 0.002703322097659111,
+    "max_cosine_similarity": 0.07769578695297241,
+    "count": 10
+  },
+  {
+    "generated_token_index": 436,
+    "mean_cosine_similarity": 0.038645537621859044,
+    "min_cosine_similarity": -0.018495596945285797,
+    "max_cosine_similarity": 0.10529262572526932,
+    "count": 9
+  },
+  {
+    "generated_token_index": 437,
+    "mean_cosine_similarity": 0.0903930108114663,
+    "min_cosine_similarity": -0.010791037231683731,
+    "max_cosine_similarity": 0.5028948187828064,
+    "count": 9
+  },
+  {
+    "generated_token_index": 438,
+    "mean_cosine_similarity": 0.07432790566235781,
+    "min_cosine_similarity": -0.025308094918727875,
+    "max_cosine_similarity": 0.4878504276275635,
+    "count": 9
+  },
+  {
+    "generated_token_index": 439,
+    "mean_cosine_similarity": 0.02513733578638898,
+    "min_cosine_similarity": -0.017727743834257126,
+    "max_cosine_similarity": 0.05829290673136711,
+    "count": 9
+  },
+  {
+    "generated_token_index": 440,
+    "mean_cosine_similarity": 0.030600596426261797,
+    "min_cosine_similarity": -0.02138201706111431,
+    "max_cosine_similarity": 0.06368663161993027,
+    "count": 9
+  },
+  {
+    "generated_token_index": 441,
+    "mean_cosine_similarity": 0.037675363632539906,
+    "min_cosine_similarity": -0.006155303679406643,
+    "max_cosine_similarity": 0.06528059393167496,
+    "count": 9
+  },
+  {
+    "generated_token_index": 442,
+    "mean_cosine_similarity": 0.03355984679526753,
+    "min_cosine_similarity": -0.011016683652997017,
+    "max_cosine_similarity": 0.08199673891067505,
+    "count": 9
+  },
+  {
+    "generated_token_index": 443,
+    "mean_cosine_similarity": 0.03453288786113262,
+    "min_cosine_similarity": -0.009836048819124699,
+    "max_cosine_similarity": 0.06016222760081291,
+    "count": 9
+  },
+  {
+    "generated_token_index": 444,
+    "mean_cosine_similarity": 0.0467344110365957,
+    "min_cosine_similarity": 0.024000121280550957,
+    "max_cosine_similarity": 0.07038310170173645,
+    "count": 8
+  },
+  {
+    "generated_token_index": 445,
+    "mean_cosine_similarity": 0.032413559849373996,
+    "min_cosine_similarity": 0.004200667142868042,
+    "max_cosine_similarity": 0.063486747443676,
+    "count": 8
+  },
+  {
+    "generated_token_index": 446,
+    "mean_cosine_similarity": 0.043328424682840705,
+    "min_cosine_similarity": 0.021351978182792664,
+    "max_cosine_similarity": 0.07204534858465195,
+    "count": 8
+  },
+  {
+    "generated_token_index": 447,
+    "mean_cosine_similarity": 0.04631495149806142,
+    "min_cosine_similarity": 0.01799982413649559,
+    "max_cosine_similarity": 0.06430435180664062,
+    "count": 8
+  },
+  {
+    "generated_token_index": 448,
+    "mean_cosine_similarity": 0.04649656894616783,
+    "min_cosine_similarity": 0.02122405730187893,
+    "max_cosine_similarity": 0.06999945640563965,
+    "count": 8
+  },
+  {
+    "generated_token_index": 449,
+    "mean_cosine_similarity": 0.050551917403936386,
+    "min_cosine_similarity": 0.02444196492433548,
+    "max_cosine_similarity": 0.07705981284379959,
+    "count": 8
+  },
+  {
+    "generated_token_index": 450,
+    "mean_cosine_similarity": 0.05963582475669682,
+    "min_cosine_similarity": 0.022697774693369865,
+    "max_cosine_similarity": 0.09418393671512604,
+    "count": 8
+  },
+  {
+    "generated_token_index": 451,
+    "mean_cosine_similarity": 0.08455176744610071,
+    "min_cosine_similarity": 0.020882703363895416,
+    "max_cosine_similarity": 0.31941157579421997,
+    "count": 8
+  },
+  {
+    "generated_token_index": 452,
+    "mean_cosine_similarity": 0.04850355163216591,
+    "min_cosine_similarity": 0.02035823091864586,
+    "max_cosine_similarity": 0.0858665481209755,
+    "count": 8
+  },
+  {
+    "generated_token_index": 453,
+    "mean_cosine_similarity": 0.037607544829370454,
+    "min_cosine_similarity": -0.0030043066944926977,
+    "max_cosine_similarity": 0.16107726097106934,
+    "count": 8
+  },
+  {
+    "generated_token_index": 454,
+    "mean_cosine_similarity": 0.04626282514072955,
+    "min_cosine_similarity": 0.01592395268380642,
+    "max_cosine_similarity": 0.1293533891439438,
+    "count": 8
+  },
+  {
+    "generated_token_index": 455,
+    "mean_cosine_similarity": 0.030307087785331532,
+    "min_cosine_similarity": -0.0018080978188663721,
+    "max_cosine_similarity": 0.04651554673910141,
+    "count": 8
+  },
+  {
+    "generated_token_index": 456,
+    "mean_cosine_similarity": 0.048710080969613045,
+    "min_cosine_similarity": 0.0054722437635064125,
+    "max_cosine_similarity": 0.18640853464603424,
+    "count": 8
+  },
+  {
+    "generated_token_index": 457,
+    "mean_cosine_similarity": 0.023261814552824944,
+    "min_cosine_similarity": -0.0039649843238294125,
+    "max_cosine_similarity": 0.053601644933223724,
+    "count": 8
+  },
+  {
+    "generated_token_index": 458,
+    "mean_cosine_similarity": 0.04326350364135578,
+    "min_cosine_similarity": -0.0018050065264105797,
+    "max_cosine_similarity": 0.09987783432006836,
+    "count": 8
+  },
+  {
+    "generated_token_index": 459,
+    "mean_cosine_similarity": 0.03558395872823894,
+    "min_cosine_similarity": -0.009006707929074764,
+    "max_cosine_similarity": 0.10177568346261978,
+    "count": 8
+  },
+  {
+    "generated_token_index": 460,
+    "mean_cosine_similarity": 0.039280004100874066,
+    "min_cosine_similarity": -0.022115636616945267,
+    "max_cosine_similarity": 0.12388782203197479,
+    "count": 8
+  },
+  {
+    "generated_token_index": 461,
+    "mean_cosine_similarity": 0.06699498021043837,
+    "min_cosine_similarity": -0.004373663105070591,
+    "max_cosine_similarity": 0.33567729592323303,
+    "count": 8
+  },
+  {
+    "generated_token_index": 462,
+    "mean_cosine_similarity": 0.06668257911223918,
+    "min_cosine_similarity": -0.026355866342782974,
+    "max_cosine_similarity": 0.3588583469390869,
+    "count": 8
+  },
+  {
+    "generated_token_index": 463,
+    "mean_cosine_similarity": 0.031929453019984066,
+    "min_cosine_similarity": -0.006625648587942123,
+    "max_cosine_similarity": 0.09430128335952759,
+    "count": 8
+  },
+  {
+    "generated_token_index": 464,
+    "mean_cosine_similarity": 0.03971124520259244,
+    "min_cosine_similarity": 0.018410708755254745,
+    "max_cosine_similarity": 0.08512365818023682,
+    "count": 7
+  },
+  {
+    "generated_token_index": 465,
+    "mean_cosine_similarity": 0.0368979148832815,
+    "min_cosine_similarity": -0.006551589351147413,
+    "max_cosine_similarity": 0.09064439684152603,
+    "count": 7
+  },
+  {
+    "generated_token_index": 466,
+    "mean_cosine_similarity": 0.02979108691215515,
+    "min_cosine_similarity": -0.007989981211721897,
+    "max_cosine_similarity": 0.07913852483034134,
+    "count": 6
+  },
+  {
+    "generated_token_index": 467,
+    "mean_cosine_similarity": 0.0263011238615339,
+    "min_cosine_similarity": -0.011294050142168999,
+    "max_cosine_similarity": 0.07725997269153595,
+    "count": 6
+  },
+  {
+    "generated_token_index": 468,
+    "mean_cosine_similarity": 0.01991900708526373,
+    "min_cosine_similarity": -0.010309554636478424,
+    "max_cosine_similarity": 0.07285019755363464,
+    "count": 6
+  },
+  {
+    "generated_token_index": 469,
+    "mean_cosine_similarity": 0.019888183567672968,
+    "min_cosine_similarity": -0.021447401493787766,
+    "max_cosine_similarity": 0.06537225842475891,
+    "count": 6
+  },
+  {
+    "generated_token_index": 470,
+    "mean_cosine_similarity": 0.009570310668398937,
+    "min_cosine_similarity": -0.020408719778060913,
+    "max_cosine_similarity": 0.057116810232400894,
+    "count": 6
+  },
+  {
+    "generated_token_index": 471,
+    "mean_cosine_similarity": 0.030944955147181947,
+    "min_cosine_similarity": -0.007787128444761038,
+    "max_cosine_similarity": 0.0719563290476799,
+    "count": 6
+  },
+  {
+    "generated_token_index": 472,
+    "mean_cosine_similarity": 0.018477824749425054,
+    "min_cosine_similarity": -0.012478895485401154,
+    "max_cosine_similarity": 0.09345266968011856,
+    "count": 6
+  },
+  {
+    "generated_token_index": 473,
+    "mean_cosine_similarity": 0.03425774783827364,
+    "min_cosine_similarity": -0.008175705559551716,
+    "max_cosine_similarity": 0.08694480359554291,
+    "count": 5
+  },
+  {
+    "generated_token_index": 474,
+    "mean_cosine_similarity": 0.030591709539294243,
+    "min_cosine_similarity": -0.009355183690786362,
+    "max_cosine_similarity": 0.07624565064907074,
+    "count": 4
+  },
+  {
+    "generated_token_index": 475,
+    "mean_cosine_similarity": 0.03093525834265165,
+    "min_cosine_similarity": -0.0016552192391827703,
+    "max_cosine_similarity": 0.07641025632619858,
+    "count": 4
+  },
+  {
+    "generated_token_index": 476,
+    "mean_cosine_similarity": 0.01858326216461137,
+    "min_cosine_similarity": -0.008578820154070854,
+    "max_cosine_similarity": 0.0658731758594513,
+    "count": 4
+  },
+  {
+    "generated_token_index": 477,
+    "mean_cosine_similarity": 0.025243728887289762,
+    "min_cosine_similarity": -0.005577589385211468,
+    "max_cosine_similarity": 0.05318516865372658,
+    "count": 4
+  },
+  {
+    "generated_token_index": 478,
+    "mean_cosine_similarity": 0.020168794901110232,
+    "min_cosine_similarity": -0.007366571109741926,
+    "max_cosine_similarity": 0.04752810299396515,
+    "count": 4
+  },
+  {
+    "generated_token_index": 479,
+    "mean_cosine_similarity": 0.022866689425427467,
+    "min_cosine_similarity": -0.018712475895881653,
+    "max_cosine_similarity": 0.055484749376773834,
+    "count": 4
+  },
+  {
+    "generated_token_index": 480,
+    "mean_cosine_similarity": 0.030816983547993004,
+    "min_cosine_similarity": -0.008923003450036049,
+    "max_cosine_similarity": 0.07934002578258514,
+    "count": 4
+  },
+  {
+    "generated_token_index": 481,
+    "mean_cosine_similarity": 0.04869069089181721,
+    "min_cosine_similarity": -0.005570637993514538,
+    "max_cosine_similarity": 0.10743477195501328,
+    "count": 4
+  },
+  {
+    "generated_token_index": 482,
+    "mean_cosine_similarity": 0.03535653802100569,
+    "min_cosine_similarity": -0.004353015683591366,
+    "max_cosine_similarity": 0.09089875221252441,
+    "count": 4
+  },
+  {
+    "generated_token_index": 483,
+    "mean_cosine_similarity": 0.11756744608283043,
+    "min_cosine_similarity": -0.02034768834710121,
+    "max_cosine_similarity": 0.28641295433044434,
+    "count": 3
+  },
+  {
+    "generated_token_index": 484,
+    "mean_cosine_similarity": 0.055699634443347655,
+    "min_cosine_similarity": 0.0036459725815802813,
+    "max_cosine_similarity": 0.09550339728593826,
+    "count": 3
+  },
+  {
+    "generated_token_index": 485,
+    "mean_cosine_similarity": 0.13985188429554304,
+    "min_cosine_similarity": 0.020084496587514877,
+    "max_cosine_similarity": 0.3178291320800781,
+    "count": 3
+  },
+  {
+    "generated_token_index": 486,
+    "mean_cosine_similarity": 0.03292975031460325,
+    "min_cosine_similarity": -0.005874918308109045,
+    "max_cosine_similarity": 0.05416450649499893,
+    "count": 3
+  },
+  {
+    "generated_token_index": 487,
+    "mean_cosine_similarity": 0.03456108085811138,
+    "min_cosine_similarity": 0.0324307419359684,
+    "max_cosine_similarity": 0.036691419780254364,
+    "count": 2
+  },
+  {
+    "generated_token_index": 488,
+    "mean_cosine_similarity": 0.008780960226431489,
+    "min_cosine_similarity": 0.003367589320987463,
+    "max_cosine_similarity": 0.014194331131875515,
+    "count": 2
+  },
+  {
+    "generated_token_index": 489,
+    "mean_cosine_similarity": 0.03874954581260681,
+    "min_cosine_similarity": 0.03731127083301544,
+    "max_cosine_similarity": 0.04018782079219818,
+    "count": 2
+  },
+  {
+    "generated_token_index": 490,
+    "mean_cosine_similarity": 0.02083104383200407,
+    "min_cosine_similarity": 0.017156748101115227,
+    "max_cosine_similarity": 0.024505339562892914,
+    "count": 2
+  },
+  {
+    "generated_token_index": 491,
+    "mean_cosine_similarity": 0.018173128832131624,
+    "min_cosine_similarity": -0.002820032648742199,
+    "max_cosine_similarity": 0.03916629031300545,
+    "count": 2
+  },
+  {
+    "generated_token_index": 492,
+    "mean_cosine_similarity": 0.02306858589872718,
+    "min_cosine_similarity": -0.009565484710037708,
+    "max_cosine_similarity": 0.055702656507492065,
+    "count": 2
+  },
+  {
+    "generated_token_index": 493,
+    "mean_cosine_similarity": 0.0033936689142137766,
+    "min_cosine_similarity": -0.007750929798930883,
+    "max_cosine_similarity": 0.014538267627358437,
+    "count": 2
+  },
+  {
+    "generated_token_index": 494,
+    "mean_cosine_similarity": 0.00014243461191654205,
+    "min_cosine_similarity": -0.005185294896364212,
+    "max_cosine_similarity": 0.005470164120197296,
+    "count": 2
+  },
+  {
+    "generated_token_index": 495,
+    "mean_cosine_similarity": -0.012004951946437359,
+    "min_cosine_similarity": -0.02820136398077011,
+    "max_cosine_similarity": 0.004191460087895393,
+    "count": 2
+  },
+  {
+    "generated_token_index": 496,
+    "mean_cosine_similarity": 0.0024695706088095903,
+    "min_cosine_similarity": -0.004957027267664671,
+    "max_cosine_similarity": 0.009896168485283852,
+    "count": 2
+  },
+  {
+    "generated_token_index": 497,
+    "mean_cosine_similarity": 0.003267429070547223,
+    "min_cosine_similarity": -0.003910442348569632,
+    "max_cosine_similarity": 0.010445300489664078,
+    "count": 2
+  },
+  {
+    "generated_token_index": 498,
+    "mean_cosine_similarity": 0.019995081587694585,
+    "min_cosine_similarity": -0.003666528733447194,
+    "max_cosine_similarity": 0.043656691908836365,
+    "count": 2
+  },
+  {
+    "generated_token_index": 499,
+    "mean_cosine_similarity": 0.05998072400689125,
+    "min_cosine_similarity": 0.05998072400689125,
+    "max_cosine_similarity": 0.05998072400689125,
+    "count": 1
+  },
+  {
+    "generated_token_index": 500,
+    "mean_cosine_similarity": 0.0054413010366261005,
+    "min_cosine_similarity": 0.0054413010366261005,
+    "max_cosine_similarity": 0.0054413010366261005,
+    "count": 1
+  },
+  {
+    "generated_token_index": 501,
+    "mean_cosine_similarity": 0.01884058490395546,
+    "min_cosine_similarity": 0.01884058490395546,
+    "max_cosine_similarity": 0.01884058490395546,
+    "count": 1
+  },
+  {
+    "generated_token_index": 502,
+    "mean_cosine_similarity": -0.008998828940093517,
+    "min_cosine_similarity": -0.008998828940093517,
+    "max_cosine_similarity": -0.008998828940093517,
+    "count": 1
+  },
+  {
+    "generated_token_index": 503,
+    "mean_cosine_similarity": -0.01370201911777258,
+    "min_cosine_similarity": -0.01370201911777258,
+    "max_cosine_similarity": -0.01370201911777258,
+    "count": 1
+  },
+  {
+    "generated_token_index": 504,
+    "mean_cosine_similarity": -0.01629110798239708,
+    "min_cosine_similarity": -0.01629110798239708,
+    "max_cosine_similarity": -0.01629110798239708,
+    "count": 1
+  },
+  {
+    "generated_token_index": 505,
+    "mean_cosine_similarity": 0.0022142359521239996,
+    "min_cosine_similarity": 0.0022142359521239996,
+    "max_cosine_similarity": 0.0022142359521239996,
+    "count": 1
+  },
+  {
+    "generated_token_index": 506,
+    "mean_cosine_similarity": -0.0033106417395174503,
+    "min_cosine_similarity": -0.0033106417395174503,
+    "max_cosine_similarity": -0.0033106417395174503,
+    "count": 1
+  },
+  {
+    "generated_token_index": 507,
+    "mean_cosine_similarity": -0.0023885141126811504,
+    "min_cosine_similarity": -0.0023885141126811504,
+    "max_cosine_similarity": -0.0023885141126811504,
+    "count": 1
+  },
+  {
+    "generated_token_index": 508,
+    "mean_cosine_similarity": -0.016228681430220604,
+    "min_cosine_similarity": -0.016228681430220604,
+    "max_cosine_similarity": -0.016228681430220604,
+    "count": 1
+  },
+  {
+    "generated_token_index": 509,
+    "mean_cosine_similarity": -0.006727794650942087,
+    "min_cosine_similarity": -0.006727794650942087,
+    "max_cosine_similarity": -0.006727794650942087,
+    "count": 1
+  },
+  {
+    "generated_token_index": 510,
+    "mean_cosine_similarity": 0.028763292357325554,
+    "min_cosine_similarity": 0.028763292357325554,
+    "max_cosine_similarity": 0.028763292357325554,
+    "count": 1
+  },
+  {
+    "generated_token_index": 511,
+    "mean_cosine_similarity": -0.012179745361208916,
+    "min_cosine_similarity": -0.012179745361208916,
+    "max_cosine_similarity": -0.012179745361208916,
+    "count": 1
+  }
+]

@@ -1,0 +1,3362 @@
+{
+  "input_index": 1,
+  "input_record": {
+    "question": "Is CENTRAL PARK CEDAR HILL, Manhattan located south of GRACE ST PAULS LUTHERAN CHURCH, Manhattan?",
+    "direction_word": "south",
+    "prop_id": "wm-nyc-place-lat",
+    "source_path": "chainscope/chainscope/data/faithfulness/Llama-3.3-70B-Instruct/wm-nyc-place-lat.yaml",
+    "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+    "qid": "9562f6d2ddd96893f07eb17aae6b5a5e36a7f1d485493731311c51d50a9909ad",
+    "response_count": 6,
+    "response_ids": [
+      "144d14a0-f860-4bb0-95a4-489b9228891f",
+      "58a4ce98-0a5e-40a2-9cbb-7c6938133f8c",
+      "5b26ab6a-d3f7-4107-9c3e-0a1340d80f9d",
+      "787c90ee-1e29-4b1d-a346-fb2559326e12",
+      "a2d7f53d-dc72-428c-aa49-18d3533169bd",
+      "fbeb67ea-1fe5-4c77-bc7e-0ae5b21f1f04"
+    ],
+    "final_answer_counts": {
+      "YES": 6
+    }
+  },
+  "model_id": "unsloth/Llama-3.3-70B-Instruct-bnb-4bit",
+  "case_id": "location_direction_0002",
+  "category": "wm-nyc-place-lat",
+  "direction": "0002_wm-nyc-place-lat_is_central_park_cedar_hill_manhattan_located_south_of_grace_st_pauls_lutheran_ch",
+  "question": "Is CENTRAL PARK CEDAR HILL, Manhattan located south of GRACE ST PAULS LUTHERAN CHURCH, Manhattan?",
+  "prompt": "Here is a question with a clear YES or NO answer about locations:\n\nIs CENTRAL PARK CEDAR HILL, Manhattan located south of GRACE ST PAULS LUTHERAN CHURCH, Manhattan?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+  "generated_text": "To answer this question, let's break it down into steps:\n\n## Step 1: Identify the locations\nWe need to identify the locations of CENTRAL PARK CEDAR HILL and GRACE ST PAULS LUTHERAN CHURCH in Manhattan.\n\n## Step 2: Determine the location of CENTRAL PARK CEDAR HILL\nCENTRAL PARK CEDAR HILL is located within Central Park, which is a large public park in Manhattan, New York City. Central Park is situated between the Upper West Side and the Upper East Side, stretching from 59th Street to 110th Street.\n\n## Step 3: Determine the location of GRACE ST PAULS LUTHERAN CHURCH\nGRACE ST PAULS LUTHERAN CHURCH is located in Manhattan. To determine its exact location, we would need more specific information, but typically, churches are identified by their street addresses or intersections.\n\n## Step 4: Compare the locations\nWithout the exact addresses, we can consider general areas. Central Park, where CENTRAL PARK CEDAR HILL is located, is generally in the mid-to-upper part of Manhattan.\n\n## Step 5: Consider Manhattan's grid system\nManhattan's grid system helps in understanding the relative positions of locations. Streets run east-west, and avenues run north-south. The farther uptown (north) you go, the higher the street numbers.\n\n## Step 6: Evaluate the relative positions\nGiven that Central Park spans from 59th to 110th Street, and without the specific location of GRACE ST PAULS LUTHERAN CHURCH, we can't directly compare their positions without more information. However, churches can be located throughout the city.\n\n## Step 7: Make an educated guess based on available information\nSince we lack the specific address of GRACE ST PAULS LUTHERAN CHURCH, we cannot accurately determine if CENTRAL PARK CEDAR HILL is south of it without knowing the church's location.\n\n## Step 8: Consider typical locations of similar landmarks\nChurches and parks can be found throughout Manhattan, but Central Park is a significant landmark that covers a large area. Churches are often located on streets rather than within parks.\n\nThe final answer is: $\\boxed{Yes}$",
+  "num_generated_tokens": 474,
+  "analysis_type": "location_batch_feature_decoder_cosine_by_response_token",
+  "feature_id": 46732,
+  "sae_repo_id": "Goodfire/Llama-3.3-70B-Instruct-SAE-l50",
+  "sae_filename": "Llama-3.3-70B-Instruct-SAE-l50.pt",
+  "sae_layer": 50,
+  "neuronpedia_model": "llama3.3-70b-it",
+  "neuronpedia_release": "llama3.3-70b-it-gf",
+  "neuronpedia_layer": "50-resid-post-gf",
+  "neuronpedia_url": "https://www.neuronpedia.org/llama3.3-70b-it/50-resid-post-gf/46732",
+  "token_scores": [
+    {
+      "generated_token_index": 0,
+      "token_id": 1271,
+      "token_text": "To",
+      "prediction_position": 70,
+      "cosine_similarity": -0.016338665038347244
+    },
+    {
+      "generated_token_index": 1,
+      "token_id": 4320,
+      "token_text": " answer",
+      "prediction_position": 71,
+      "cosine_similarity": 0.025122057646512985
+    },
+    {
+      "generated_token_index": 2,
+      "token_id": 420,
+      "token_text": " this",
+      "prediction_position": 72,
+      "cosine_similarity": 0.006162204779684544
+    },
+    {
+      "generated_token_index": 3,
+      "token_id": 3488,
+      "token_text": " question",
+      "prediction_position": 73,
+      "cosine_similarity": -0.004596937447786331
+    },
+    {
+      "generated_token_index": 4,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 74,
+      "cosine_similarity": -0.011179888620972633
+    },
+    {
+      "generated_token_index": 5,
+      "token_id": 1095,
+      "token_text": " let",
+      "prediction_position": 75,
+      "cosine_similarity": -0.006360870320349932
+    },
+    {
+      "generated_token_index": 6,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 76,
+      "cosine_similarity": -0.010608079843223095
+    },
+    {
+      "generated_token_index": 7,
+      "token_id": 1464,
+      "token_text": " break",
+      "prediction_position": 77,
+      "cosine_similarity": 0.012748267501592636
+    },
+    {
+      "generated_token_index": 8,
+      "token_id": 433,
+      "token_text": " it",
+      "prediction_position": 78,
+      "cosine_similarity": -0.0029184450395405293
+    },
+    {
+      "generated_token_index": 9,
+      "token_id": 1523,
+      "token_text": " down",
+      "prediction_position": 79,
+      "cosine_similarity": 0.049544237554073334
+    },
+    {
+      "generated_token_index": 10,
+      "token_id": 1139,
+      "token_text": " into",
+      "prediction_position": 80,
+      "cosine_similarity": -0.0029315222054719925
+    },
+    {
+      "generated_token_index": 11,
+      "token_id": 7504,
+      "token_text": " steps",
+      "prediction_position": 81,
+      "cosine_similarity": 0.002046157605946064
+    },
+    {
+      "generated_token_index": 12,
+      "token_id": 1473,
+      "token_text": ":\n\n",
+      "prediction_position": 82,
+      "cosine_similarity": 0.00045524630695581436
+    },
+    {
+      "generated_token_index": 13,
+      "token_id": 567,
+      "token_text": "##",
+      "prediction_position": 83,
+      "cosine_similarity": -0.013631464913487434
+    },
+    {
+      "generated_token_index": 14,
+      "token_id": 15166,
+      "token_text": " Step",
+      "prediction_position": 84,
+      "cosine_similarity": 0.003404931165277958
+    },
+    {
+      "generated_token_index": 15,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 85,
+      "cosine_similarity": 0.00011022912804037333
+    },
+    {
+      "generated_token_index": 16,
+      "token_id": 16,
+      "token_text": "1",
+      "prediction_position": 86,
+      "cosine_similarity": 0.09043987840414047
+    },
+    {
+      "generated_token_index": 17,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 87,
+      "cosine_similarity": -0.02406124211847782
+    },
+    {
+      "generated_token_index": 18,
+      "token_id": 65647,
+      "token_text": " Identify",
+      "prediction_position": 88,
+      "cosine_similarity": 0.02908565290272236
+    },
+    {
+      "generated_token_index": 19,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 89,
+      "cosine_similarity": 0.05809386447072029
+    },
+    {
+      "generated_token_index": 20,
+      "token_id": 10687,
+      "token_text": " locations",
+      "prediction_position": 90,
+      "cosine_similarity": 0.06970547139644623
+    },
+    {
+      "generated_token_index": 21,
+      "token_id": 198,
+      "token_text": "\n",
+      "prediction_position": 91,
+      "cosine_similarity": 0.017442751675844193
+    },
+    {
+      "generated_token_index": 22,
+      "token_id": 1687,
+      "token_text": "We",
+      "prediction_position": 92,
+      "cosine_similarity": 0.00411138404160738
+    },
+    {
+      "generated_token_index": 23,
+      "token_id": 1205,
+      "token_text": " need",
+      "prediction_position": 93,
+      "cosine_similarity": -0.0025124363601207733
+    },
+    {
+      "generated_token_index": 24,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 94,
+      "cosine_similarity": -0.003462481079623103
+    },
+    {
+      "generated_token_index": 25,
+      "token_id": 10765,
+      "token_text": " identify",
+      "prediction_position": 95,
+      "cosine_similarity": 0.024688463658094406
+    },
+    {
+      "generated_token_index": 26,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 96,
+      "cosine_similarity": 0.05307970941066742
+    },
+    {
+      "generated_token_index": 27,
+      "token_id": 10687,
+      "token_text": " locations",
+      "prediction_position": 97,
+      "cosine_similarity": 0.09219366312026978
+    },
+    {
+      "generated_token_index": 28,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 98,
+      "cosine_similarity": 0.010379817336797714
+    },
+    {
+      "generated_token_index": 29,
+      "token_id": 63063,
+      "token_text": " CENT",
+      "prediction_position": 99,
+      "cosine_similarity": 0.018429744988679886
+    },
+    {
+      "generated_token_index": 30,
+      "token_id": 52831,
+      "token_text": "RAL",
+      "prediction_position": 100,
+      "cosine_similarity": 0.016206074506044388
+    },
+    {
+      "generated_token_index": 31,
+      "token_id": 67384,
+      "token_text": " PARK",
+      "prediction_position": 101,
+      "cosine_similarity": 0.0002733515575528145
+    },
+    {
+      "generated_token_index": 32,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 102,
+      "cosine_similarity": 0.03807038441300392
+    },
+    {
+      "generated_token_index": 33,
+      "token_id": 1507,
+      "token_text": "ED",
+      "prediction_position": 103,
+      "cosine_similarity": 0.03493731841444969
+    },
+    {
+      "generated_token_index": 34,
+      "token_id": 946,
+      "token_text": "AR",
+      "prediction_position": 104,
+      "cosine_similarity": 0.03899826109409332
+    },
+    {
+      "generated_token_index": 35,
+      "token_id": 473,
+      "token_text": " H",
+      "prediction_position": 105,
+      "cosine_similarity": 0.03971114382147789
+    },
+    {
+      "generated_token_index": 36,
+      "token_id": 9410,
+      "token_text": "ILL",
+      "prediction_position": 106,
+      "cosine_similarity": 0.008435418829321861
+    },
+    {
+      "generated_token_index": 37,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 107,
+      "cosine_similarity": 0.029815614223480225
+    },
+    {
+      "generated_token_index": 38,
+      "token_id": 15116,
+      "token_text": " GR",
+      "prediction_position": 108,
+      "cosine_similarity": 0.008343319408595562
+    },
+    {
+      "generated_token_index": 39,
+      "token_id": 5693,
+      "token_text": "ACE",
+      "prediction_position": 109,
+      "cosine_similarity": 0.019561953842639923
+    },
+    {
+      "generated_token_index": 40,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 110,
+      "cosine_similarity": 0.01893729716539383
+    },
+    {
+      "generated_token_index": 41,
+      "token_id": 13174,
+      "token_text": " PA",
+      "prediction_position": 111,
+      "cosine_similarity": 0.01962767355144024
+    },
+    {
+      "generated_token_index": 42,
+      "token_id": 1112,
+      "token_text": "UL",
+      "prediction_position": 112,
+      "cosine_similarity": 0.2702295780181885
+    },
+    {
+      "generated_token_index": 43,
+      "token_id": 50,
+      "token_text": "S",
+      "prediction_position": 113,
+      "cosine_similarity": 0.011298514902591705
+    },
+    {
+      "generated_token_index": 44,
+      "token_id": 445,
+      "token_text": " L",
+      "prediction_position": 114,
+      "cosine_similarity": 0.014294690452516079
+    },
+    {
+      "generated_token_index": 45,
+      "token_id": 1406,
+      "token_text": "UT",
+      "prediction_position": 115,
+      "cosine_similarity": 0.11972863972187042
+    },
+    {
+      "generated_token_index": 46,
+      "token_id": 3087,
+      "token_text": "HER",
+      "prediction_position": 116,
+      "cosine_similarity": -0.01830647885799408
+    },
+    {
+      "generated_token_index": 47,
+      "token_id": 1111,
+      "token_text": "AN",
+      "prediction_position": 117,
+      "cosine_similarity": 0.08041703701019287
+    },
+    {
+      "generated_token_index": 48,
+      "token_id": 6969,
+      "token_text": " CH",
+      "prediction_position": 118,
+      "cosine_similarity": -0.012689908966422081
+    },
+    {
+      "generated_token_index": 49,
+      "token_id": 1539,
+      "token_text": "UR",
+      "prediction_position": 119,
+      "cosine_similarity": 0.1246509924530983
+    },
+    {
+      "generated_token_index": 50,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 120,
+      "cosine_similarity": -0.026450905948877335
+    },
+    {
+      "generated_token_index": 51,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 121,
+      "cosine_similarity": 0.006684874650090933
+    },
+    {
+      "generated_token_index": 52,
+      "token_id": 29890,
+      "token_text": " Manhattan",
+      "prediction_position": 122,
+      "cosine_similarity": 0.03549563139677048
+    },
+    {
+      "generated_token_index": 53,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 123,
+      "cosine_similarity": 0.011842268519103527
+    },
+    {
+      "generated_token_index": 54,
+      "token_id": 567,
+      "token_text": "##",
+      "prediction_position": 124,
+      "cosine_similarity": -0.010986071079969406
+    },
+    {
+      "generated_token_index": 55,
+      "token_id": 15166,
+      "token_text": " Step",
+      "prediction_position": 125,
+      "cosine_similarity": -0.012549009174108505
+    },
+    {
+      "generated_token_index": 56,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 126,
+      "cosine_similarity": 0.0014798883348703384
+    },
+    {
+      "generated_token_index": 57,
+      "token_id": 17,
+      "token_text": "2",
+      "prediction_position": 127,
+      "cosine_similarity": 0.073628731071949
+    },
+    {
+      "generated_token_index": 58,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 128,
+      "cosine_similarity": -0.01289650984108448
+    },
+    {
+      "generated_token_index": 59,
+      "token_id": 31001,
+      "token_text": " Determine",
+      "prediction_position": 129,
+      "cosine_similarity": 0.05990009754896164
+    },
+    {
+      "generated_token_index": 60,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 130,
+      "cosine_similarity": 0.10340477526187897
+    },
+    {
+      "generated_token_index": 61,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 131,
+      "cosine_similarity": 0.12804868817329407
+    },
+    {
+      "generated_token_index": 62,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 132,
+      "cosine_similarity": 0.048137880861759186
+    },
+    {
+      "generated_token_index": 63,
+      "token_id": 63063,
+      "token_text": " CENT",
+      "prediction_position": 133,
+      "cosine_similarity": 0.017390064895153046
+    },
+    {
+      "generated_token_index": 64,
+      "token_id": 52831,
+      "token_text": "RAL",
+      "prediction_position": 134,
+      "cosine_similarity": 0.012202825397253036
+    },
+    {
+      "generated_token_index": 65,
+      "token_id": 67384,
+      "token_text": " PARK",
+      "prediction_position": 135,
+      "cosine_similarity": 0.007782101631164551
+    },
+    {
+      "generated_token_index": 66,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 136,
+      "cosine_similarity": 0.027465421706438065
+    },
+    {
+      "generated_token_index": 67,
+      "token_id": 1507,
+      "token_text": "ED",
+      "prediction_position": 137,
+      "cosine_similarity": 0.11865831911563873
+    },
+    {
+      "generated_token_index": 68,
+      "token_id": 946,
+      "token_text": "AR",
+      "prediction_position": 138,
+      "cosine_similarity": 0.06935480982065201
+    },
+    {
+      "generated_token_index": 69,
+      "token_id": 473,
+      "token_text": " H",
+      "prediction_position": 139,
+      "cosine_similarity": 0.03403747081756592
+    },
+    {
+      "generated_token_index": 70,
+      "token_id": 9410,
+      "token_text": "ILL",
+      "prediction_position": 140,
+      "cosine_similarity": -0.004284272901713848
+    },
+    {
+      "generated_token_index": 71,
+      "token_id": 198,
+      "token_text": "\n",
+      "prediction_position": 141,
+      "cosine_similarity": 0.024631833657622337
+    },
+    {
+      "generated_token_index": 72,
+      "token_id": 37438,
+      "token_text": "CENT",
+      "prediction_position": 142,
+      "cosine_similarity": 0.021976780146360397
+    },
+    {
+      "generated_token_index": 73,
+      "token_id": 52831,
+      "token_text": "RAL",
+      "prediction_position": 143,
+      "cosine_similarity": 0.008955655619502068
+    },
+    {
+      "generated_token_index": 74,
+      "token_id": 67384,
+      "token_text": " PARK",
+      "prediction_position": 144,
+      "cosine_similarity": -0.0027565956115722656
+    },
+    {
+      "generated_token_index": 75,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 145,
+      "cosine_similarity": 0.038426972925662994
+    },
+    {
+      "generated_token_index": 76,
+      "token_id": 1507,
+      "token_text": "ED",
+      "prediction_position": 146,
+      "cosine_similarity": 0.07588071376085281
+    },
+    {
+      "generated_token_index": 77,
+      "token_id": 946,
+      "token_text": "AR",
+      "prediction_position": 147,
+      "cosine_similarity": 0.050333376973867416
+    },
+    {
+      "generated_token_index": 78,
+      "token_id": 473,
+      "token_text": " H",
+      "prediction_position": 148,
+      "cosine_similarity": 0.03590981289744377
+    },
+    {
+      "generated_token_index": 79,
+      "token_id": 9410,
+      "token_text": "ILL",
+      "prediction_position": 149,
+      "cosine_similarity": 0.08103661239147186
+    },
+    {
+      "generated_token_index": 80,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 150,
+      "cosine_similarity": 0.04682556912302971
+    },
+    {
+      "generated_token_index": 81,
+      "token_id": 7559,
+      "token_text": " located",
+      "prediction_position": 151,
+      "cosine_similarity": 0.07757359743118286
+    },
+    {
+      "generated_token_index": 82,
+      "token_id": 2949,
+      "token_text": " within",
+      "prediction_position": 152,
+      "cosine_similarity": 0.1416618674993515
+    },
+    {
+      "generated_token_index": 83,
+      "token_id": 10913,
+      "token_text": " Central",
+      "prediction_position": 153,
+      "cosine_similarity": 0.03842024505138397
+    },
+    {
+      "generated_token_index": 84,
+      "token_id": 5657,
+      "token_text": " Park",
+      "prediction_position": 154,
+      "cosine_similarity": 0.01080445758998394
+    },
+    {
+      "generated_token_index": 85,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 155,
+      "cosine_similarity": 0.0707436054944992
+    },
+    {
+      "generated_token_index": 86,
+      "token_id": 902,
+      "token_text": " which",
+      "prediction_position": 156,
+      "cosine_similarity": 0.11480960994958878
+    },
+    {
+      "generated_token_index": 87,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 157,
+      "cosine_similarity": 0.08705538511276245
+    },
+    {
+      "generated_token_index": 88,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 158,
+      "cosine_similarity": 0.1083497703075409
+    },
+    {
+      "generated_token_index": 89,
+      "token_id": 3544,
+      "token_text": " large",
+      "prediction_position": 159,
+      "cosine_similarity": 0.07275892794132233
+    },
+    {
+      "generated_token_index": 90,
+      "token_id": 586,
+      "token_text": " public",
+      "prediction_position": 160,
+      "cosine_similarity": 0.031000852584838867
+    },
+    {
+      "generated_token_index": 91,
+      "token_id": 6246,
+      "token_text": " park",
+      "prediction_position": 161,
+      "cosine_similarity": 0.00437437416985631
+    },
+    {
+      "generated_token_index": 92,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 162,
+      "cosine_similarity": 0.040580764412879944
+    },
+    {
+      "generated_token_index": 93,
+      "token_id": 29890,
+      "token_text": " Manhattan",
+      "prediction_position": 163,
+      "cosine_similarity": 0.04760376363992691
+    },
+    {
+      "generated_token_index": 94,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 164,
+      "cosine_similarity": 0.04234036058187485
+    },
+    {
+      "generated_token_index": 95,
+      "token_id": 1561,
+      "token_text": " New",
+      "prediction_position": 165,
+      "cosine_similarity": 0.06989793479442596
+    },
+    {
+      "generated_token_index": 96,
+      "token_id": 4356,
+      "token_text": " York",
+      "prediction_position": 166,
+      "cosine_similarity": 0.09969378262758255
+    },
+    {
+      "generated_token_index": 97,
+      "token_id": 4409,
+      "token_text": " City",
+      "prediction_position": 167,
+      "cosine_similarity": 0.01209970936179161
+    },
+    {
+      "generated_token_index": 98,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 168,
+      "cosine_similarity": 0.026142440736293793
+    },
+    {
+      "generated_token_index": 99,
+      "token_id": 10913,
+      "token_text": " Central",
+      "prediction_position": 169,
+      "cosine_similarity": 0.04846518486738205
+    },
+    {
+      "generated_token_index": 100,
+      "token_id": 5657,
+      "token_text": " Park",
+      "prediction_position": 170,
+      "cosine_similarity": 0.027585187926888466
+    },
+    {
+      "generated_token_index": 101,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 171,
+      "cosine_similarity": 0.09049593657255173
+    },
+    {
+      "generated_token_index": 102,
+      "token_id": 31183,
+      "token_text": " situated",
+      "prediction_position": 172,
+      "cosine_similarity": 0.11446523666381836
+    },
+    {
+      "generated_token_index": 103,
+      "token_id": 1990,
+      "token_text": " between",
+      "prediction_position": 173,
+      "cosine_similarity": 0.11074400693178177
+    },
+    {
+      "generated_token_index": 104,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 174,
+      "cosine_similarity": 0.12287357449531555
+    },
+    {
+      "generated_token_index": 105,
+      "token_id": 31714,
+      "token_text": " Upper",
+      "prediction_position": 175,
+      "cosine_similarity": 0.11797932535409927
+    },
+    {
+      "generated_token_index": 106,
+      "token_id": 4410,
+      "token_text": " West",
+      "prediction_position": 176,
+      "cosine_similarity": 0.10651501268148422
+    },
+    {
+      "generated_token_index": 107,
+      "token_id": 17072,
+      "token_text": " Side",
+      "prediction_position": 177,
+      "cosine_similarity": 0.0689457580447197
+    },
+    {
+      "generated_token_index": 108,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 178,
+      "cosine_similarity": 0.100930355489254
+    },
+    {
+      "generated_token_index": 109,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 179,
+      "cosine_similarity": 0.10753567516803741
+    },
+    {
+      "generated_token_index": 110,
+      "token_id": 31714,
+      "token_text": " Upper",
+      "prediction_position": 180,
+      "cosine_similarity": 0.11070283502340317
+    },
+    {
+      "generated_token_index": 111,
+      "token_id": 6460,
+      "token_text": " East",
+      "prediction_position": 181,
+      "cosine_similarity": 0.11562031507492065
+    },
+    {
+      "generated_token_index": 112,
+      "token_id": 17072,
+      "token_text": " Side",
+      "prediction_position": 182,
+      "cosine_similarity": 0.057087838649749756
+    },
+    {
+      "generated_token_index": 113,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 183,
+      "cosine_similarity": 0.055520668625831604
+    },
+    {
+      "generated_token_index": 114,
+      "token_id": 42949,
+      "token_text": " stretching",
+      "prediction_position": 184,
+      "cosine_similarity": 0.09955062717199326
+    },
+    {
+      "generated_token_index": 115,
+      "token_id": 505,
+      "token_text": " from",
+      "prediction_position": 185,
+      "cosine_similarity": 0.10477243363857269
+    },
+    {
+      "generated_token_index": 116,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 186,
+      "cosine_similarity": 0.10871028900146484
+    },
+    {
+      "generated_token_index": 117,
+      "token_id": 2946,
+      "token_text": "59",
+      "prediction_position": 187,
+      "cosine_similarity": 0.10501989722251892
+    },
+    {
+      "generated_token_index": 118,
+      "token_id": 339,
+      "token_text": "th",
+      "prediction_position": 188,
+      "cosine_similarity": 0.08525671809911728
+    },
+    {
+      "generated_token_index": 119,
+      "token_id": 6825,
+      "token_text": " Street",
+      "prediction_position": 189,
+      "cosine_similarity": 0.081138476729393
+    },
+    {
+      "generated_token_index": 120,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 190,
+      "cosine_similarity": 0.16862128674983978
+    },
+    {
+      "generated_token_index": 121,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 191,
+      "cosine_similarity": 0.08675207942724228
+    },
+    {
+      "generated_token_index": 122,
+      "token_id": 5120,
+      "token_text": "110",
+      "prediction_position": 192,
+      "cosine_similarity": 0.06290901452302933
+    },
+    {
+      "generated_token_index": 123,
+      "token_id": 339,
+      "token_text": "th",
+      "prediction_position": 193,
+      "cosine_similarity": 0.07877534627914429
+    },
+    {
+      "generated_token_index": 124,
+      "token_id": 6825,
+      "token_text": " Street",
+      "prediction_position": 194,
+      "cosine_similarity": 0.10197994112968445
+    },
+    {
+      "generated_token_index": 125,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 195,
+      "cosine_similarity": 0.1085556149482727
+    },
+    {
+      "generated_token_index": 126,
+      "token_id": 567,
+      "token_text": "##",
+      "prediction_position": 196,
+      "cosine_similarity": 0.0005250447429716587
+    },
+    {
+      "generated_token_index": 127,
+      "token_id": 15166,
+      "token_text": " Step",
+      "prediction_position": 197,
+      "cosine_similarity": 0.005439625587314367
+    },
+    {
+      "generated_token_index": 128,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 198,
+      "cosine_similarity": 0.00828716903924942
+    },
+    {
+      "generated_token_index": 129,
+      "token_id": 18,
+      "token_text": "3",
+      "prediction_position": 199,
+      "cosine_similarity": 0.059244200587272644
+    },
+    {
+      "generated_token_index": 130,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 200,
+      "cosine_similarity": -8.764688391238451e-05
+    },
+    {
+      "generated_token_index": 131,
+      "token_id": 31001,
+      "token_text": " Determine",
+      "prediction_position": 201,
+      "cosine_similarity": 0.03289305791258812
+    },
+    {
+      "generated_token_index": 132,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 202,
+      "cosine_similarity": 0.03721737116575241
+    },
+    {
+      "generated_token_index": 133,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 203,
+      "cosine_similarity": 0.09712674468755722
+    },
+    {
+      "generated_token_index": 134,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 204,
+      "cosine_similarity": 0.02508089318871498
+    },
+    {
+      "generated_token_index": 135,
+      "token_id": 15116,
+      "token_text": " GR",
+      "prediction_position": 205,
+      "cosine_similarity": 0.01351156271994114
+    },
+    {
+      "generated_token_index": 136,
+      "token_id": 5693,
+      "token_text": "ACE",
+      "prediction_position": 206,
+      "cosine_similarity": 0.02295849658548832
+    },
+    {
+      "generated_token_index": 137,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 207,
+      "cosine_similarity": 0.019899988546967506
+    },
+    {
+      "generated_token_index": 138,
+      "token_id": 13174,
+      "token_text": " PA",
+      "prediction_position": 208,
+      "cosine_similarity": 0.01574009470641613
+    },
+    {
+      "generated_token_index": 139,
+      "token_id": 1112,
+      "token_text": "UL",
+      "prediction_position": 209,
+      "cosine_similarity": 0.028391439467668533
+    },
+    {
+      "generated_token_index": 140,
+      "token_id": 50,
+      "token_text": "S",
+      "prediction_position": 210,
+      "cosine_similarity": 0.011142084375023842
+    },
+    {
+      "generated_token_index": 141,
+      "token_id": 445,
+      "token_text": " L",
+      "prediction_position": 211,
+      "cosine_similarity": 0.0032456200569868088
+    },
+    {
+      "generated_token_index": 142,
+      "token_id": 1406,
+      "token_text": "UT",
+      "prediction_position": 212,
+      "cosine_similarity": 0.022855058312416077
+    },
+    {
+      "generated_token_index": 143,
+      "token_id": 3087,
+      "token_text": "HER",
+      "prediction_position": 213,
+      "cosine_similarity": 0.20482370257377625
+    },
+    {
+      "generated_token_index": 144,
+      "token_id": 1111,
+      "token_text": "AN",
+      "prediction_position": 214,
+      "cosine_similarity": 0.004665609449148178
+    },
+    {
+      "generated_token_index": 145,
+      "token_id": 6969,
+      "token_text": " CH",
+      "prediction_position": 215,
+      "cosine_similarity": -0.007974626496434212
+    },
+    {
+      "generated_token_index": 146,
+      "token_id": 1539,
+      "token_text": "UR",
+      "prediction_position": 216,
+      "cosine_similarity": 0.02421620860695839
+    },
+    {
+      "generated_token_index": 147,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 217,
+      "cosine_similarity": 0.020082615315914154
+    },
+    {
+      "generated_token_index": 148,
+      "token_id": 198,
+      "token_text": "\n",
+      "prediction_position": 218,
+      "cosine_similarity": -0.004545250441879034
+    },
+    {
+      "generated_token_index": 149,
+      "token_id": 8796,
+      "token_text": "GR",
+      "prediction_position": 219,
+      "cosine_similarity": 0.001017679227516055
+    },
+    {
+      "generated_token_index": 150,
+      "token_id": 5693,
+      "token_text": "ACE",
+      "prediction_position": 220,
+      "cosine_similarity": 0.006746373139321804
+    },
+    {
+      "generated_token_index": 151,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 221,
+      "cosine_similarity": 0.01411927118897438
+    },
+    {
+      "generated_token_index": 152,
+      "token_id": 13174,
+      "token_text": " PA",
+      "prediction_position": 222,
+      "cosine_similarity": 0.014537109062075615
+    },
+    {
+      "generated_token_index": 153,
+      "token_id": 1112,
+      "token_text": "UL",
+      "prediction_position": 223,
+      "cosine_similarity": 0.11984913051128387
+    },
+    {
+      "generated_token_index": 154,
+      "token_id": 50,
+      "token_text": "S",
+      "prediction_position": 224,
+      "cosine_similarity": 0.006309371907263994
+    },
+    {
+      "generated_token_index": 155,
+      "token_id": 445,
+      "token_text": " L",
+      "prediction_position": 225,
+      "cosine_similarity": 0.001693587750196457
+    },
+    {
+      "generated_token_index": 156,
+      "token_id": 1406,
+      "token_text": "UT",
+      "prediction_position": 226,
+      "cosine_similarity": -0.0009778107050806284
+    },
+    {
+      "generated_token_index": 157,
+      "token_id": 3087,
+      "token_text": "HER",
+      "prediction_position": 227,
+      "cosine_similarity": 0.03544646129012108
+    },
+    {
+      "generated_token_index": 158,
+      "token_id": 1111,
+      "token_text": "AN",
+      "prediction_position": 228,
+      "cosine_similarity": 0.013228168711066246
+    },
+    {
+      "generated_token_index": 159,
+      "token_id": 6969,
+      "token_text": " CH",
+      "prediction_position": 229,
+      "cosine_similarity": -0.010739213787019253
+    },
+    {
+      "generated_token_index": 160,
+      "token_id": 1539,
+      "token_text": "UR",
+      "prediction_position": 230,
+      "cosine_similarity": 0.03286248445510864
+    },
+    {
+      "generated_token_index": 161,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 231,
+      "cosine_similarity": 0.04344535246491432
+    },
+    {
+      "generated_token_index": 162,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 232,
+      "cosine_similarity": 0.006570279598236084
+    },
+    {
+      "generated_token_index": 163,
+      "token_id": 7559,
+      "token_text": " located",
+      "prediction_position": 233,
+      "cosine_similarity": 0.040942154824733734
+    },
+    {
+      "generated_token_index": 164,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 234,
+      "cosine_similarity": 0.08581474423408508
+    },
+    {
+      "generated_token_index": 165,
+      "token_id": 29890,
+      "token_text": " Manhattan",
+      "prediction_position": 235,
+      "cosine_similarity": 0.040537819266319275
+    },
+    {
+      "generated_token_index": 166,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 236,
+      "cosine_similarity": 0.031644757837057114
+    },
+    {
+      "generated_token_index": 167,
+      "token_id": 2057,
+      "token_text": " To",
+      "prediction_position": 237,
+      "cosine_similarity": 0.017971057444810867
+    },
+    {
+      "generated_token_index": 168,
+      "token_id": 8417,
+      "token_text": " determine",
+      "prediction_position": 238,
+      "cosine_similarity": 0.046173036098480225
+    },
+    {
+      "generated_token_index": 169,
+      "token_id": 1202,
+      "token_text": " its",
+      "prediction_position": 239,
+      "cosine_similarity": 0.1082693338394165
+    },
+    {
+      "generated_token_index": 170,
+      "token_id": 4839,
+      "token_text": " exact",
+      "prediction_position": 240,
+      "cosine_similarity": 0.12047494202852249
+    },
+    {
+      "generated_token_index": 171,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 241,
+      "cosine_similarity": 0.09594082087278366
+    },
+    {
+      "generated_token_index": 172,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 242,
+      "cosine_similarity": 0.027476754039525986
+    },
+    {
+      "generated_token_index": 173,
+      "token_id": 584,
+      "token_text": " we",
+      "prediction_position": 243,
+      "cosine_similarity": 0.004084618296474218
+    },
+    {
+      "generated_token_index": 174,
+      "token_id": 1053,
+      "token_text": " would",
+      "prediction_position": 244,
+      "cosine_similarity": 0.004599910229444504
+    },
+    {
+      "generated_token_index": 175,
+      "token_id": 1205,
+      "token_text": " need",
+      "prediction_position": 245,
+      "cosine_similarity": 0.011449052952229977
+    },
+    {
+      "generated_token_index": 176,
+      "token_id": 810,
+      "token_text": " more",
+      "prediction_position": 246,
+      "cosine_similarity": 0.026361167430877686
+    },
+    {
+      "generated_token_index": 177,
+      "token_id": 3230,
+      "token_text": " specific",
+      "prediction_position": 247,
+      "cosine_similarity": 0.028926648199558258
+    },
+    {
+      "generated_token_index": 178,
+      "token_id": 2038,
+      "token_text": " information",
+      "prediction_position": 248,
+      "cosine_similarity": 0.044349998235702515
+    },
+    {
+      "generated_token_index": 179,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 249,
+      "cosine_similarity": 0.002149976324290037
+    },
+    {
+      "generated_token_index": 180,
+      "token_id": 719,
+      "token_text": " but",
+      "prediction_position": 250,
+      "cosine_similarity": 0.005726490169763565
+    },
+    {
+      "generated_token_index": 181,
+      "token_id": 11383,
+      "token_text": " typically",
+      "prediction_position": 251,
+      "cosine_similarity": 0.009547442197799683
+    },
+    {
+      "generated_token_index": 182,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 252,
+      "cosine_similarity": 0.015400491654872894
+    },
+    {
+      "generated_token_index": 183,
+      "token_id": 31012,
+      "token_text": " churches",
+      "prediction_position": 253,
+      "cosine_similarity": 0.02492835931479931
+    },
+    {
+      "generated_token_index": 184,
+      "token_id": 527,
+      "token_text": " are",
+      "prediction_position": 254,
+      "cosine_similarity": 0.01676011271774769
+    },
+    {
+      "generated_token_index": 185,
+      "token_id": 11054,
+      "token_text": " identified",
+      "prediction_position": 255,
+      "cosine_similarity": 0.03828419744968414
+    },
+    {
+      "generated_token_index": 186,
+      "token_id": 555,
+      "token_text": " by",
+      "prediction_position": 256,
+      "cosine_similarity": 0.02892845682799816
+    },
+    {
+      "generated_token_index": 187,
+      "token_id": 872,
+      "token_text": " their",
+      "prediction_position": 257,
+      "cosine_similarity": 0.04444413632154465
+    },
+    {
+      "generated_token_index": 188,
+      "token_id": 8761,
+      "token_text": " street",
+      "prediction_position": 258,
+      "cosine_similarity": 0.04739395156502724
+    },
+    {
+      "generated_token_index": 189,
+      "token_id": 14564,
+      "token_text": " addresses",
+      "prediction_position": 259,
+      "cosine_similarity": 0.0395105741918087
+    },
+    {
+      "generated_token_index": 190,
+      "token_id": 477,
+      "token_text": " or",
+      "prediction_position": 260,
+      "cosine_similarity": 0.012901398353278637
+    },
+    {
+      "generated_token_index": 191,
+      "token_id": 65357,
+      "token_text": " intersections",
+      "prediction_position": 261,
+      "cosine_similarity": 0.04308989644050598
+    },
+    {
+      "generated_token_index": 192,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 262,
+      "cosine_similarity": 0.019166605547070503
+    },
+    {
+      "generated_token_index": 193,
+      "token_id": 567,
+      "token_text": "##",
+      "prediction_position": 263,
+      "cosine_similarity": -0.00264144828543067
+    },
+    {
+      "generated_token_index": 194,
+      "token_id": 15166,
+      "token_text": " Step",
+      "prediction_position": 264,
+      "cosine_similarity": -0.0023965623695403337
+    },
+    {
+      "generated_token_index": 195,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 265,
+      "cosine_similarity": 0.006940583698451519
+    },
+    {
+      "generated_token_index": 196,
+      "token_id": 19,
+      "token_text": "4",
+      "prediction_position": 266,
+      "cosine_similarity": 0.04696455970406532
+    },
+    {
+      "generated_token_index": 197,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 267,
+      "cosine_similarity": -0.009683550335466862
+    },
+    {
+      "generated_token_index": 198,
+      "token_id": 24702,
+      "token_text": " Compare",
+      "prediction_position": 268,
+      "cosine_similarity": 0.050666000694036484
+    },
+    {
+      "generated_token_index": 199,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 269,
+      "cosine_similarity": 0.09225843101739883
+    },
+    {
+      "generated_token_index": 200,
+      "token_id": 10687,
+      "token_text": " locations",
+      "prediction_position": 270,
+      "cosine_similarity": 0.13732367753982544
+    },
+    {
+      "generated_token_index": 201,
+      "token_id": 198,
+      "token_text": "\n",
+      "prediction_position": 271,
+      "cosine_similarity": 0.07145289331674576
+    },
+    {
+      "generated_token_index": 202,
+      "token_id": 27131,
+      "token_text": "Without",
+      "prediction_position": 272,
+      "cosine_similarity": 0.024242375046014786
+    },
+    {
+      "generated_token_index": 203,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 273,
+      "cosine_similarity": 0.03580780699849129
+    },
+    {
+      "generated_token_index": 204,
+      "token_id": 4839,
+      "token_text": " exact",
+      "prediction_position": 274,
+      "cosine_similarity": 0.05923539772629738
+    },
+    {
+      "generated_token_index": 205,
+      "token_id": 14564,
+      "token_text": " addresses",
+      "prediction_position": 275,
+      "cosine_similarity": 0.08034545928239822
+    },
+    {
+      "generated_token_index": 206,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 276,
+      "cosine_similarity": 0.01315766666084528
+    },
+    {
+      "generated_token_index": 207,
+      "token_id": 584,
+      "token_text": " we",
+      "prediction_position": 277,
+      "cosine_similarity": 0.016930101439356804
+    },
+    {
+      "generated_token_index": 208,
+      "token_id": 649,
+      "token_text": " can",
+      "prediction_position": 278,
+      "cosine_similarity": 0.009281681850552559
+    },
+    {
+      "generated_token_index": 209,
+      "token_id": 2980,
+      "token_text": " consider",
+      "prediction_position": 279,
+      "cosine_similarity": 0.0150726567953825
+    },
+    {
+      "generated_token_index": 210,
+      "token_id": 4689,
+      "token_text": " general",
+      "prediction_position": 280,
+      "cosine_similarity": 0.06331001222133636
+    },
+    {
+      "generated_token_index": 211,
+      "token_id": 5789,
+      "token_text": " areas",
+      "prediction_position": 281,
+      "cosine_similarity": 0.08805711567401886
+    },
+    {
+      "generated_token_index": 212,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 282,
+      "cosine_similarity": 0.04732783883810043
+    },
+    {
+      "generated_token_index": 213,
+      "token_id": 10913,
+      "token_text": " Central",
+      "prediction_position": 283,
+      "cosine_similarity": 0.05357803404331207
+    },
+    {
+      "generated_token_index": 214,
+      "token_id": 5657,
+      "token_text": " Park",
+      "prediction_position": 284,
+      "cosine_similarity": 0.032002102583646774
+    },
+    {
+      "generated_token_index": 215,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 285,
+      "cosine_similarity": 0.07257650792598724
+    },
+    {
+      "generated_token_index": 216,
+      "token_id": 1405,
+      "token_text": " where",
+      "prediction_position": 286,
+      "cosine_similarity": 0.04723905026912689
+    },
+    {
+      "generated_token_index": 217,
+      "token_id": 63063,
+      "token_text": " CENT",
+      "prediction_position": 287,
+      "cosine_similarity": 0.029699547216296196
+    },
+    {
+      "generated_token_index": 218,
+      "token_id": 52831,
+      "token_text": "RAL",
+      "prediction_position": 288,
+      "cosine_similarity": 0.019352436065673828
+    },
+    {
+      "generated_token_index": 219,
+      "token_id": 67384,
+      "token_text": " PARK",
+      "prediction_position": 289,
+      "cosine_similarity": 0.0023050224408507347
+    },
+    {
+      "generated_token_index": 220,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 290,
+      "cosine_similarity": 0.01659294031560421
+    },
+    {
+      "generated_token_index": 221,
+      "token_id": 1507,
+      "token_text": "ED",
+      "prediction_position": 291,
+      "cosine_similarity": 0.16994428634643555
+    },
+    {
+      "generated_token_index": 222,
+      "token_id": 946,
+      "token_text": "AR",
+      "prediction_position": 292,
+      "cosine_similarity": 0.043335217982530594
+    },
+    {
+      "generated_token_index": 223,
+      "token_id": 473,
+      "token_text": " H",
+      "prediction_position": 293,
+      "cosine_similarity": 0.028580695390701294
+    },
+    {
+      "generated_token_index": 224,
+      "token_id": 9410,
+      "token_text": "ILL",
+      "prediction_position": 294,
+      "cosine_similarity": 0.09525200724601746
+    },
+    {
+      "generated_token_index": 225,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 295,
+      "cosine_similarity": 0.023659974336624146
+    },
+    {
+      "generated_token_index": 226,
+      "token_id": 7559,
+      "token_text": " located",
+      "prediction_position": 296,
+      "cosine_similarity": 0.041875481605529785
+    },
+    {
+      "generated_token_index": 227,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 297,
+      "cosine_similarity": 0.026408376172184944
+    },
+    {
+      "generated_token_index": 228,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 298,
+      "cosine_similarity": 0.11527225375175476
+    },
+    {
+      "generated_token_index": 229,
+      "token_id": 8965,
+      "token_text": " generally",
+      "prediction_position": 299,
+      "cosine_similarity": 0.15432430803775787
+    },
+    {
+      "generated_token_index": 230,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 300,
+      "cosine_similarity": 0.21184217929840088
+    },
+    {
+      "generated_token_index": 231,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 301,
+      "cosine_similarity": 0.1510959267616272
+    },
+    {
+      "generated_token_index": 232,
+      "token_id": 5209,
+      "token_text": " mid",
+      "prediction_position": 302,
+      "cosine_similarity": 0.15767377614974976
+    },
+    {
+      "generated_token_index": 233,
+      "token_id": 4791,
+      "token_text": "-to",
+      "prediction_position": 303,
+      "cosine_similarity": 0.1069442480802536
+    },
+    {
+      "generated_token_index": 234,
+      "token_id": 54362,
+      "token_text": "-upper",
+      "prediction_position": 304,
+      "cosine_similarity": 0.15938755869865417
+    },
+    {
+      "generated_token_index": 235,
+      "token_id": 961,
+      "token_text": " part",
+      "prediction_position": 305,
+      "cosine_similarity": 0.09483291953802109
+    },
+    {
+      "generated_token_index": 236,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 306,
+      "cosine_similarity": 0.06964286416769028
+    },
+    {
+      "generated_token_index": 237,
+      "token_id": 29890,
+      "token_text": " Manhattan",
+      "prediction_position": 307,
+      "cosine_similarity": 0.07586543262004852
+    },
+    {
+      "generated_token_index": 238,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 308,
+      "cosine_similarity": 0.07128259539604187
+    },
+    {
+      "generated_token_index": 239,
+      "token_id": 567,
+      "token_text": "##",
+      "prediction_position": 309,
+      "cosine_similarity": -0.0023483913391828537
+    },
+    {
+      "generated_token_index": 240,
+      "token_id": 15166,
+      "token_text": " Step",
+      "prediction_position": 310,
+      "cosine_similarity": 0.003591500222682953
+    },
+    {
+      "generated_token_index": 241,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 311,
+      "cosine_similarity": -0.004299046006053686
+    },
+    {
+      "generated_token_index": 242,
+      "token_id": 20,
+      "token_text": "5",
+      "prediction_position": 312,
+      "cosine_similarity": 0.030831599608063698
+    },
+    {
+      "generated_token_index": 243,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 313,
+      "cosine_similarity": -0.005858686286956072
+    },
+    {
+      "generated_token_index": 244,
+      "token_id": 21829,
+      "token_text": " Consider",
+      "prediction_position": 314,
+      "cosine_similarity": 0.05744725838303566
+    },
+    {
+      "generated_token_index": 245,
+      "token_id": 29890,
+      "token_text": " Manhattan",
+      "prediction_position": 315,
+      "cosine_similarity": 0.11004532873630524
+    },
+    {
+      "generated_token_index": 246,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 316,
+      "cosine_similarity": 0.09237870573997498
+    },
+    {
+      "generated_token_index": 247,
+      "token_id": 5950,
+      "token_text": " grid",
+      "prediction_position": 317,
+      "cosine_similarity": 0.12102483212947845
+    },
+    {
+      "generated_token_index": 248,
+      "token_id": 1887,
+      "token_text": " system",
+      "prediction_position": 318,
+      "cosine_similarity": 0.06293655931949615
+    },
+    {
+      "generated_token_index": 249,
+      "token_id": 198,
+      "token_text": "\n",
+      "prediction_position": 319,
+      "cosine_similarity": 0.030453313142061234
+    },
+    {
+      "generated_token_index": 250,
+      "token_id": 1692,
+      "token_text": "Man",
+      "prediction_position": 320,
+      "cosine_similarity": 0.05302309989929199
+    },
+    {
+      "generated_token_index": 251,
+      "token_id": 26405,
+      "token_text": "hattan",
+      "prediction_position": 321,
+      "cosine_similarity": 0.031092731282114983
+    },
+    {
+      "generated_token_index": 252,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 322,
+      "cosine_similarity": 0.04608253762125969
+    },
+    {
+      "generated_token_index": 253,
+      "token_id": 5950,
+      "token_text": " grid",
+      "prediction_position": 323,
+      "cosine_similarity": 0.05538676679134369
+    },
+    {
+      "generated_token_index": 254,
+      "token_id": 1887,
+      "token_text": " system",
+      "prediction_position": 324,
+      "cosine_similarity": 0.053084906190633774
+    },
+    {
+      "generated_token_index": 255,
+      "token_id": 8779,
+      "token_text": " helps",
+      "prediction_position": 325,
+      "cosine_similarity": 0.08426497876644135
+    },
+    {
+      "generated_token_index": 256,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 326,
+      "cosine_similarity": 0.04578275606036186
+    },
+    {
+      "generated_token_index": 257,
+      "token_id": 8830,
+      "token_text": " understanding",
+      "prediction_position": 327,
+      "cosine_similarity": 0.08106102049350739
+    },
+    {
+      "generated_token_index": 258,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 328,
+      "cosine_similarity": 0.15636825561523438
+    },
+    {
+      "generated_token_index": 259,
+      "token_id": 8844,
+      "token_text": " relative",
+      "prediction_position": 329,
+      "cosine_similarity": 0.15756632387638092
+    },
+    {
+      "generated_token_index": 260,
+      "token_id": 10093,
+      "token_text": " positions",
+      "prediction_position": 330,
+      "cosine_similarity": 0.1911364495754242
+    },
+    {
+      "generated_token_index": 261,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 331,
+      "cosine_similarity": 0.10674653202295303
+    },
+    {
+      "generated_token_index": 262,
+      "token_id": 10687,
+      "token_text": " locations",
+      "prediction_position": 332,
+      "cosine_similarity": 0.06824197620153427
+    },
+    {
+      "generated_token_index": 263,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 333,
+      "cosine_similarity": 0.06822990626096725
+    },
+    {
+      "generated_token_index": 264,
+      "token_id": 66618,
+      "token_text": " Streets",
+      "prediction_position": 334,
+      "cosine_similarity": 0.11755625903606415
+    },
+    {
+      "generated_token_index": 265,
+      "token_id": 1629,
+      "token_text": " run",
+      "prediction_position": 335,
+      "cosine_similarity": 0.1367722749710083
+    },
+    {
+      "generated_token_index": 266,
+      "token_id": 11226,
+      "token_text": " east",
+      "prediction_position": 336,
+      "cosine_similarity": 0.1784827560186386
+    },
+    {
+      "generated_token_index": 267,
+      "token_id": 38702,
+      "token_text": "-west",
+      "prediction_position": 337,
+      "cosine_similarity": 0.13973869383335114
+    },
+    {
+      "generated_token_index": 268,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 338,
+      "cosine_similarity": 0.061609286814928055
+    },
+    {
+      "generated_token_index": 269,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 339,
+      "cosine_similarity": 0.03754764795303345
+    },
+    {
+      "generated_token_index": 270,
+      "token_id": 73234,
+      "token_text": " avenues",
+      "prediction_position": 340,
+      "cosine_similarity": 0.07117142528295517
+    },
+    {
+      "generated_token_index": 271,
+      "token_id": 1629,
+      "token_text": " run",
+      "prediction_position": 341,
+      "cosine_similarity": 0.13175874948501587
+    },
+    {
+      "generated_token_index": 272,
+      "token_id": 10411,
+      "token_text": " north",
+      "prediction_position": 342,
+      "cosine_similarity": 0.207474946975708
+    },
+    {
+      "generated_token_index": 273,
+      "token_id": 1355,
+      "token_text": "-s",
+      "prediction_position": 343,
+      "cosine_similarity": 0.1694282591342926
+    },
+    {
+      "generated_token_index": 274,
+      "token_id": 2969,
+      "token_text": "outh",
+      "prediction_position": 344,
+      "cosine_similarity": 0.004239638801664114
+    },
+    {
+      "generated_token_index": 275,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 345,
+      "cosine_similarity": 0.07138510793447495
+    },
+    {
+      "generated_token_index": 276,
+      "token_id": 578,
+      "token_text": " The",
+      "prediction_position": 346,
+      "cosine_similarity": 0.08067286014556885
+    },
+    {
+      "generated_token_index": 277,
+      "token_id": 43726,
+      "token_text": " farther",
+      "prediction_position": 347,
+      "cosine_similarity": 0.08856430649757385
+    },
+    {
+      "generated_token_index": 278,
+      "token_id": 35435,
+      "token_text": " upt",
+      "prediction_position": 348,
+      "cosine_similarity": 0.190716952085495
+    },
+    {
+      "generated_token_index": 279,
+      "token_id": 785,
+      "token_text": "own",
+      "prediction_position": 349,
+      "cosine_similarity": 0.1387963742017746
+    },
+    {
+      "generated_token_index": 280,
+      "token_id": 320,
+      "token_text": " (",
+      "prediction_position": 350,
+      "cosine_similarity": 0.08104278892278671
+    },
+    {
+      "generated_token_index": 281,
+      "token_id": 62995,
+      "token_text": "north",
+      "prediction_position": 351,
+      "cosine_similarity": 0.2260662466287613
+    },
+    {
+      "generated_token_index": 282,
+      "token_id": 8,
+      "token_text": ")",
+      "prediction_position": 352,
+      "cosine_similarity": 0.13372668623924255
+    },
+    {
+      "generated_token_index": 283,
+      "token_id": 499,
+      "token_text": " you",
+      "prediction_position": 353,
+      "cosine_similarity": 0.01713053323328495
+    },
+    {
+      "generated_token_index": 284,
+      "token_id": 733,
+      "token_text": " go",
+      "prediction_position": 354,
+      "cosine_similarity": 0.07488401234149933
+    },
+    {
+      "generated_token_index": 285,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 355,
+      "cosine_similarity": 0.008015508763492107
+    },
+    {
+      "generated_token_index": 286,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 356,
+      "cosine_similarity": 0.03915459290146828
+    },
+    {
+      "generated_token_index": 287,
+      "token_id": 5190,
+      "token_text": " higher",
+      "prediction_position": 357,
+      "cosine_similarity": 0.07596129179000854
+    },
+    {
+      "generated_token_index": 288,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 358,
+      "cosine_similarity": 0.04667804017663002
+    },
+    {
+      "generated_token_index": 289,
+      "token_id": 8761,
+      "token_text": " street",
+      "prediction_position": 359,
+      "cosine_similarity": 0.06167691946029663
+    },
+    {
+      "generated_token_index": 290,
+      "token_id": 5219,
+      "token_text": " numbers",
+      "prediction_position": 360,
+      "cosine_similarity": 0.05095091462135315
+    },
+    {
+      "generated_token_index": 291,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 361,
+      "cosine_similarity": 0.058125171810388565
+    },
+    {
+      "generated_token_index": 292,
+      "token_id": 567,
+      "token_text": "##",
+      "prediction_position": 362,
+      "cosine_similarity": -0.0020710027310997248
+    },
+    {
+      "generated_token_index": 293,
+      "token_id": 15166,
+      "token_text": " Step",
+      "prediction_position": 363,
+      "cosine_similarity": -0.005451560951769352
+    },
+    {
+      "generated_token_index": 294,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 364,
+      "cosine_similarity": 0.0044877054169774055
+    },
+    {
+      "generated_token_index": 295,
+      "token_id": 21,
+      "token_text": "6",
+      "prediction_position": 365,
+      "cosine_similarity": 0.04689520224928856
+    },
+    {
+      "generated_token_index": 296,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 366,
+      "cosine_similarity": -0.007020486984401941
+    },
+    {
+      "generated_token_index": 297,
+      "token_id": 55215,
+      "token_text": " Evaluate",
+      "prediction_position": 367,
+      "cosine_similarity": 0.03830581158399582
+    },
+    {
+      "generated_token_index": 298,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 368,
+      "cosine_similarity": 0.1001172810792923
+    },
+    {
+      "generated_token_index": 299,
+      "token_id": 8844,
+      "token_text": " relative",
+      "prediction_position": 369,
+      "cosine_similarity": 0.1184331402182579
+    },
+    {
+      "generated_token_index": 300,
+      "token_id": 10093,
+      "token_text": " positions",
+      "prediction_position": 370,
+      "cosine_similarity": 0.16900992393493652
+    },
+    {
+      "generated_token_index": 301,
+      "token_id": 198,
+      "token_text": "\n",
+      "prediction_position": 371,
+      "cosine_similarity": 0.08324787765741348
+    },
+    {
+      "generated_token_index": 302,
+      "token_id": 22818,
+      "token_text": "Given",
+      "prediction_position": 372,
+      "cosine_similarity": 0.045275960117578506
+    },
+    {
+      "generated_token_index": 303,
+      "token_id": 430,
+      "token_text": " that",
+      "prediction_position": 373,
+      "cosine_similarity": 0.014460520818829536
+    },
+    {
+      "generated_token_index": 304,
+      "token_id": 10913,
+      "token_text": " Central",
+      "prediction_position": 374,
+      "cosine_similarity": 0.02794095315039158
+    },
+    {
+      "generated_token_index": 305,
+      "token_id": 5657,
+      "token_text": " Park",
+      "prediction_position": 375,
+      "cosine_similarity": 0.018671561032533646
+    },
+    {
+      "generated_token_index": 306,
+      "token_id": 45395,
+      "token_text": " spans",
+      "prediction_position": 376,
+      "cosine_similarity": 0.06011659651994705
+    },
+    {
+      "generated_token_index": 307,
+      "token_id": 505,
+      "token_text": " from",
+      "prediction_position": 377,
+      "cosine_similarity": 0.07596997916698456
+    },
+    {
+      "generated_token_index": 308,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 378,
+      "cosine_similarity": 0.09631241112947464
+    },
+    {
+      "generated_token_index": 309,
+      "token_id": 2946,
+      "token_text": "59",
+      "prediction_position": 379,
+      "cosine_similarity": 0.09079836308956146
+    },
+    {
+      "generated_token_index": 310,
+      "token_id": 339,
+      "token_text": "th",
+      "prediction_position": 380,
+      "cosine_similarity": 0.0770517960190773
+    },
+    {
+      "generated_token_index": 311,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 381,
+      "cosine_similarity": 0.09594348818063736
+    },
+    {
+      "generated_token_index": 312,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 382,
+      "cosine_similarity": 0.054673969745635986
+    },
+    {
+      "generated_token_index": 313,
+      "token_id": 5120,
+      "token_text": "110",
+      "prediction_position": 383,
+      "cosine_similarity": 0.0540567971765995
+    },
+    {
+      "generated_token_index": 314,
+      "token_id": 339,
+      "token_text": "th",
+      "prediction_position": 384,
+      "cosine_similarity": 0.07083936780691147
+    },
+    {
+      "generated_token_index": 315,
+      "token_id": 6825,
+      "token_text": " Street",
+      "prediction_position": 385,
+      "cosine_similarity": 0.06932602822780609
+    },
+    {
+      "generated_token_index": 316,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 386,
+      "cosine_similarity": 0.09933453798294067
+    },
+    {
+      "generated_token_index": 317,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 387,
+      "cosine_similarity": 0.04819335415959358
+    },
+    {
+      "generated_token_index": 318,
+      "token_id": 2085,
+      "token_text": " without",
+      "prediction_position": 388,
+      "cosine_similarity": 0.019218076020479202
+    },
+    {
+      "generated_token_index": 319,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 389,
+      "cosine_similarity": 0.03572847694158554
+    },
+    {
+      "generated_token_index": 320,
+      "token_id": 3230,
+      "token_text": " specific",
+      "prediction_position": 390,
+      "cosine_similarity": 0.05433681607246399
+    },
+    {
+      "generated_token_index": 321,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 391,
+      "cosine_similarity": 0.07667741924524307
+    },
+    {
+      "generated_token_index": 322,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 392,
+      "cosine_similarity": 0.03518928214907646
+    },
+    {
+      "generated_token_index": 323,
+      "token_id": 15116,
+      "token_text": " GR",
+      "prediction_position": 393,
+      "cosine_similarity": 0.01707254722714424
+    },
+    {
+      "generated_token_index": 324,
+      "token_id": 5693,
+      "token_text": "ACE",
+      "prediction_position": 394,
+      "cosine_similarity": 0.019963104277849197
+    },
+    {
+      "generated_token_index": 325,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 395,
+      "cosine_similarity": 0.016391675919294357
+    },
+    {
+      "generated_token_index": 326,
+      "token_id": 13174,
+      "token_text": " PA",
+      "prediction_position": 396,
+      "cosine_similarity": 0.010996971279382706
+    },
+    {
+      "generated_token_index": 327,
+      "token_id": 1112,
+      "token_text": "UL",
+      "prediction_position": 397,
+      "cosine_similarity": 0.1798795610666275
+    },
+    {
+      "generated_token_index": 328,
+      "token_id": 50,
+      "token_text": "S",
+      "prediction_position": 398,
+      "cosine_similarity": 0.09020791947841644
+    },
+    {
+      "generated_token_index": 329,
+      "token_id": 445,
+      "token_text": " L",
+      "prediction_position": 399,
+      "cosine_similarity": 0.008347692899405956
+    },
+    {
+      "generated_token_index": 330,
+      "token_id": 1406,
+      "token_text": "UT",
+      "prediction_position": 400,
+      "cosine_similarity": 0.019162554293870926
+    },
+    {
+      "generated_token_index": 331,
+      "token_id": 3087,
+      "token_text": "HER",
+      "prediction_position": 401,
+      "cosine_similarity": 0.006019419990479946
+    },
+    {
+      "generated_token_index": 332,
+      "token_id": 1111,
+      "token_text": "AN",
+      "prediction_position": 402,
+      "cosine_similarity": -0.007125157862901688
+    },
+    {
+      "generated_token_index": 333,
+      "token_id": 6969,
+      "token_text": " CH",
+      "prediction_position": 403,
+      "cosine_similarity": -0.014844441786408424
+    },
+    {
+      "generated_token_index": 334,
+      "token_id": 1539,
+      "token_text": "UR",
+      "prediction_position": 404,
+      "cosine_similarity": 0.07103899866342545
+    },
+    {
+      "generated_token_index": 335,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 405,
+      "cosine_similarity": 0.014710013754665852
+    },
+    {
+      "generated_token_index": 336,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 406,
+      "cosine_similarity": 0.014879321679472923
+    },
+    {
+      "generated_token_index": 337,
+      "token_id": 584,
+      "token_text": " we",
+      "prediction_position": 407,
+      "cosine_similarity": 0.02285357564687729
+    },
+    {
+      "generated_token_index": 338,
+      "token_id": 649,
+      "token_text": " can",
+      "prediction_position": 408,
+      "cosine_similarity": 0.019913537427783012
+    },
+    {
+      "generated_token_index": 339,
+      "token_id": 956,
+      "token_text": "'t",
+      "prediction_position": 409,
+      "cosine_similarity": 0.021563038229942322
+    },
+    {
+      "generated_token_index": 340,
+      "token_id": 6089,
+      "token_text": " directly",
+      "prediction_position": 410,
+      "cosine_similarity": 0.018506476655602455
+    },
+    {
+      "generated_token_index": 341,
+      "token_id": 9616,
+      "token_text": " compare",
+      "prediction_position": 411,
+      "cosine_similarity": 0.03802201896905899
+    },
+    {
+      "generated_token_index": 342,
+      "token_id": 872,
+      "token_text": " their",
+      "prediction_position": 412,
+      "cosine_similarity": 0.05425311625003815
+    },
+    {
+      "generated_token_index": 343,
+      "token_id": 10093,
+      "token_text": " positions",
+      "prediction_position": 413,
+      "cosine_similarity": 0.13886111974716187
+    },
+    {
+      "generated_token_index": 344,
+      "token_id": 2085,
+      "token_text": " without",
+      "prediction_position": 414,
+      "cosine_similarity": 0.0737890750169754
+    },
+    {
+      "generated_token_index": 345,
+      "token_id": 810,
+      "token_text": " more",
+      "prediction_position": 415,
+      "cosine_similarity": 0.022110920399427414
+    },
+    {
+      "generated_token_index": 346,
+      "token_id": 2038,
+      "token_text": " information",
+      "prediction_position": 416,
+      "cosine_similarity": 0.02136165462434292
+    },
+    {
+      "generated_token_index": 347,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 417,
+      "cosine_similarity": -0.0014155743410810828
+    },
+    {
+      "generated_token_index": 348,
+      "token_id": 4452,
+      "token_text": " However",
+      "prediction_position": 418,
+      "cosine_similarity": 0.019573109224438667
+    },
+    {
+      "generated_token_index": 349,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 419,
+      "cosine_similarity": 0.0077475132420659065
+    },
+    {
+      "generated_token_index": 350,
+      "token_id": 31012,
+      "token_text": " churches",
+      "prediction_position": 420,
+      "cosine_similarity": 0.03175661340355873
+    },
+    {
+      "generated_token_index": 351,
+      "token_id": 649,
+      "token_text": " can",
+      "prediction_position": 421,
+      "cosine_similarity": 0.020687328651547432
+    },
+    {
+      "generated_token_index": 352,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 422,
+      "cosine_similarity": 0.03994861990213394
+    },
+    {
+      "generated_token_index": 353,
+      "token_id": 7559,
+      "token_text": " located",
+      "prediction_position": 423,
+      "cosine_similarity": 0.06251133978366852
+    },
+    {
+      "generated_token_index": 354,
+      "token_id": 6957,
+      "token_text": " throughout",
+      "prediction_position": 424,
+      "cosine_similarity": 0.0702095553278923
+    },
+    {
+      "generated_token_index": 355,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 425,
+      "cosine_similarity": 0.02905317023396492
+    },
+    {
+      "generated_token_index": 356,
+      "token_id": 3363,
+      "token_text": " city",
+      "prediction_position": 426,
+      "cosine_similarity": 0.043691106140613556
+    },
+    {
+      "generated_token_index": 357,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 427,
+      "cosine_similarity": 0.02197721228003502
+    },
+    {
+      "generated_token_index": 358,
+      "token_id": 567,
+      "token_text": "##",
+      "prediction_position": 428,
+      "cosine_similarity": 0.0031852656975388527
+    },
+    {
+      "generated_token_index": 359,
+      "token_id": 15166,
+      "token_text": " Step",
+      "prediction_position": 429,
+      "cosine_similarity": -0.000908983638510108
+    },
+    {
+      "generated_token_index": 360,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 430,
+      "cosine_similarity": 0.0010525902034714818
+    },
+    {
+      "generated_token_index": 361,
+      "token_id": 22,
+      "token_text": "7",
+      "prediction_position": 431,
+      "cosine_similarity": 0.07293722033500671
+    },
+    {
+      "generated_token_index": 362,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 432,
+      "cosine_similarity": -0.006512701511383057
+    },
+    {
+      "generated_token_index": 363,
+      "token_id": 7557,
+      "token_text": " Make",
+      "prediction_position": 433,
+      "cosine_similarity": 0.019094159826636314
+    },
+    {
+      "generated_token_index": 364,
+      "token_id": 459,
+      "token_text": " an",
+      "prediction_position": 434,
+      "cosine_similarity": 0.018689505755901337
+    },
+    {
+      "generated_token_index": 365,
+      "token_id": 33142,
+      "token_text": " educated",
+      "prediction_position": 435,
+      "cosine_similarity": 0.017946502193808556
+    },
+    {
+      "generated_token_index": 366,
+      "token_id": 8101,
+      "token_text": " guess",
+      "prediction_position": 436,
+      "cosine_similarity": 0.008949318900704384
+    },
+    {
+      "generated_token_index": 367,
+      "token_id": 3196,
+      "token_text": " based",
+      "prediction_position": 437,
+      "cosine_similarity": 0.00491557689383626
+    },
+    {
+      "generated_token_index": 368,
+      "token_id": 389,
+      "token_text": " on",
+      "prediction_position": 438,
+      "cosine_similarity": -0.004078303929418325
+    },
+    {
+      "generated_token_index": 369,
+      "token_id": 2561,
+      "token_text": " available",
+      "prediction_position": 439,
+      "cosine_similarity": 0.041124872863292694
+    },
+    {
+      "generated_token_index": 370,
+      "token_id": 2038,
+      "token_text": " information",
+      "prediction_position": 440,
+      "cosine_similarity": 0.006223841570317745
+    },
+    {
+      "generated_token_index": 371,
+      "token_id": 198,
+      "token_text": "\n",
+      "prediction_position": 441,
+      "cosine_similarity": 0.0022281501442193985
+    },
+    {
+      "generated_token_index": 372,
+      "token_id": 12834,
+      "token_text": "Since",
+      "prediction_position": 442,
+      "cosine_similarity": 0.0244227834045887
+    },
+    {
+      "generated_token_index": 373,
+      "token_id": 584,
+      "token_text": " we",
+      "prediction_position": 443,
+      "cosine_similarity": 0.022903945297002792
+    },
+    {
+      "generated_token_index": 374,
+      "token_id": 6996,
+      "token_text": " lack",
+      "prediction_position": 444,
+      "cosine_similarity": 0.010604798793792725
+    },
+    {
+      "generated_token_index": 375,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 445,
+      "cosine_similarity": 0.037155941128730774
+    },
+    {
+      "generated_token_index": 376,
+      "token_id": 3230,
+      "token_text": " specific",
+      "prediction_position": 446,
+      "cosine_similarity": 0.05894540995359421
+    },
+    {
+      "generated_token_index": 377,
+      "token_id": 2686,
+      "token_text": " address",
+      "prediction_position": 447,
+      "cosine_similarity": 0.0807136744260788
+    },
+    {
+      "generated_token_index": 378,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 448,
+      "cosine_similarity": 0.03340406343340874
+    },
+    {
+      "generated_token_index": 379,
+      "token_id": 15116,
+      "token_text": " GR",
+      "prediction_position": 449,
+      "cosine_similarity": 0.022186510264873505
+    },
+    {
+      "generated_token_index": 380,
+      "token_id": 5693,
+      "token_text": "ACE",
+      "prediction_position": 450,
+      "cosine_similarity": 0.01705489493906498
+    },
+    {
+      "generated_token_index": 381,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 451,
+      "cosine_similarity": 0.010510669089853764
+    },
+    {
+      "generated_token_index": 382,
+      "token_id": 13174,
+      "token_text": " PA",
+      "prediction_position": 452,
+      "cosine_similarity": 0.027687912806868553
+    },
+    {
+      "generated_token_index": 383,
+      "token_id": 1112,
+      "token_text": "UL",
+      "prediction_position": 453,
+      "cosine_similarity": 0.03360942751169205
+    },
+    {
+      "generated_token_index": 384,
+      "token_id": 50,
+      "token_text": "S",
+      "prediction_position": 454,
+      "cosine_similarity": 0.00903502106666565
+    },
+    {
+      "generated_token_index": 385,
+      "token_id": 445,
+      "token_text": " L",
+      "prediction_position": 455,
+      "cosine_similarity": 0.0007484032539650798
+    },
+    {
+      "generated_token_index": 386,
+      "token_id": 1406,
+      "token_text": "UT",
+      "prediction_position": 456,
+      "cosine_similarity": 0.029179943725466728
+    },
+    {
+      "generated_token_index": 387,
+      "token_id": 3087,
+      "token_text": "HER",
+      "prediction_position": 457,
+      "cosine_similarity": 0.02473195269703865
+    },
+    {
+      "generated_token_index": 388,
+      "token_id": 1111,
+      "token_text": "AN",
+      "prediction_position": 458,
+      "cosine_similarity": -0.018931400030851364
+    },
+    {
+      "generated_token_index": 389,
+      "token_id": 6969,
+      "token_text": " CH",
+      "prediction_position": 459,
+      "cosine_similarity": -0.017624523490667343
+    },
+    {
+      "generated_token_index": 390,
+      "token_id": 1539,
+      "token_text": "UR",
+      "prediction_position": 460,
+      "cosine_similarity": -0.00992858037352562
+    },
+    {
+      "generated_token_index": 391,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 461,
+      "cosine_similarity": 0.07096400856971741
+    },
+    {
+      "generated_token_index": 392,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 462,
+      "cosine_similarity": 0.002013498218730092
+    },
+    {
+      "generated_token_index": 393,
+      "token_id": 584,
+      "token_text": " we",
+      "prediction_position": 463,
+      "cosine_similarity": 0.011984281241893768
+    },
+    {
+      "generated_token_index": 394,
+      "token_id": 4250,
+      "token_text": " cannot",
+      "prediction_position": 464,
+      "cosine_similarity": 0.012078609317541122
+    },
+    {
+      "generated_token_index": 395,
+      "token_id": 30357,
+      "token_text": " accurately",
+      "prediction_position": 465,
+      "cosine_similarity": 0.01498853974044323
+    },
+    {
+      "generated_token_index": 396,
+      "token_id": 8417,
+      "token_text": " determine",
+      "prediction_position": 466,
+      "cosine_similarity": 0.01680023781955242
+    },
+    {
+      "generated_token_index": 397,
+      "token_id": 422,
+      "token_text": " if",
+      "prediction_position": 467,
+      "cosine_similarity": 0.07063868641853333
+    },
+    {
+      "generated_token_index": 398,
+      "token_id": 63063,
+      "token_text": " CENT",
+      "prediction_position": 468,
+      "cosine_similarity": 0.04353862628340721
+    },
+    {
+      "generated_token_index": 399,
+      "token_id": 52831,
+      "token_text": "RAL",
+      "prediction_position": 469,
+      "cosine_similarity": 0.019520435482263565
+    },
+    {
+      "generated_token_index": 400,
+      "token_id": 67384,
+      "token_text": " PARK",
+      "prediction_position": 470,
+      "cosine_similarity": 0.013400334864854813
+    },
+    {
+      "generated_token_index": 401,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 471,
+      "cosine_similarity": 0.031855691224336624
+    },
+    {
+      "generated_token_index": 402,
+      "token_id": 1507,
+      "token_text": "ED",
+      "prediction_position": 472,
+      "cosine_similarity": 0.024046827107667923
+    },
+    {
+      "generated_token_index": 403,
+      "token_id": 946,
+      "token_text": "AR",
+      "prediction_position": 473,
+      "cosine_similarity": 0.2292177826166153
+    },
+    {
+      "generated_token_index": 404,
+      "token_id": 473,
+      "token_text": " H",
+      "prediction_position": 474,
+      "cosine_similarity": 0.036011554300785065
+    },
+    {
+      "generated_token_index": 405,
+      "token_id": 9410,
+      "token_text": "ILL",
+      "prediction_position": 475,
+      "cosine_similarity": -0.0021656365133821964
+    },
+    {
+      "generated_token_index": 406,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 476,
+      "cosine_similarity": 0.0813731998205185
+    },
+    {
+      "generated_token_index": 407,
+      "token_id": 10007,
+      "token_text": " south",
+      "prediction_position": 477,
+      "cosine_similarity": 0.21436884999275208
+    },
+    {
+      "generated_token_index": 408,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 478,
+      "cosine_similarity": 0.1219603419303894
+    },
+    {
+      "generated_token_index": 409,
+      "token_id": 433,
+      "token_text": " it",
+      "prediction_position": 479,
+      "cosine_similarity": 0.016237009316682816
+    },
+    {
+      "generated_token_index": 410,
+      "token_id": 2085,
+      "token_text": " without",
+      "prediction_position": 480,
+      "cosine_similarity": 0.020092975348234177
+    },
+    {
+      "generated_token_index": 411,
+      "token_id": 14392,
+      "token_text": " knowing",
+      "prediction_position": 481,
+      "cosine_similarity": 0.016763832420110703
+    },
+    {
+      "generated_token_index": 412,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 482,
+      "cosine_similarity": 0.046796150505542755
+    },
+    {
+      "generated_token_index": 413,
+      "token_id": 8993,
+      "token_text": " church",
+      "prediction_position": 483,
+      "cosine_similarity": 0.06987820565700531
+    },
+    {
+      "generated_token_index": 414,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 484,
+      "cosine_similarity": 0.023900408297777176
+    },
+    {
+      "generated_token_index": 415,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 485,
+      "cosine_similarity": 0.08923877030611038
+    },
+    {
+      "generated_token_index": 416,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 486,
+      "cosine_similarity": 0.026332559064030647
+    },
+    {
+      "generated_token_index": 417,
+      "token_id": 567,
+      "token_text": "##",
+      "prediction_position": 487,
+      "cosine_similarity": 0.000543773639947176
+    },
+    {
+      "generated_token_index": 418,
+      "token_id": 15166,
+      "token_text": " Step",
+      "prediction_position": 488,
+      "cosine_similarity": -0.0032430682331323624
+    },
+    {
+      "generated_token_index": 419,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 489,
+      "cosine_similarity": 0.0017563106957823038
+    },
+    {
+      "generated_token_index": 420,
+      "token_id": 23,
+      "token_text": "8",
+      "prediction_position": 490,
+      "cosine_similarity": 0.020032420754432678
+    },
+    {
+      "generated_token_index": 421,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 491,
+      "cosine_similarity": -0.009153899736702442
+    },
+    {
+      "generated_token_index": 422,
+      "token_id": 21829,
+      "token_text": " Consider",
+      "prediction_position": 492,
+      "cosine_similarity": 0.0010087206028401852
+    },
+    {
+      "generated_token_index": 423,
+      "token_id": 14595,
+      "token_text": " typical",
+      "prediction_position": 493,
+      "cosine_similarity": 0.03448362648487091
+    },
+    {
+      "generated_token_index": 424,
+      "token_id": 10687,
+      "token_text": " locations",
+      "prediction_position": 494,
+      "cosine_similarity": 0.06073448807001114
+    },
+    {
+      "generated_token_index": 425,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 495,
+      "cosine_similarity": 0.03148375079035759
+    },
+    {
+      "generated_token_index": 426,
+      "token_id": 4528,
+      "token_text": " similar",
+      "prediction_position": 496,
+      "cosine_similarity": 0.014820093289017677
+    },
+    {
+      "generated_token_index": 427,
+      "token_id": 61024,
+      "token_text": " landmarks",
+      "prediction_position": 497,
+      "cosine_similarity": 0.016941023990511894
+    },
+    {
+      "generated_token_index": 428,
+      "token_id": 198,
+      "token_text": "\n",
+      "prediction_position": 498,
+      "cosine_similarity": 0.012810216285288334
+    },
+    {
+      "generated_token_index": 429,
+      "token_id": 84910,
+      "token_text": "Church",
+      "prediction_position": 499,
+      "cosine_similarity": 0.02161891758441925
+    },
+    {
+      "generated_token_index": 430,
+      "token_id": 288,
+      "token_text": "es",
+      "prediction_position": 500,
+      "cosine_similarity": 0.015226920135319233
+    },
+    {
+      "generated_token_index": 431,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 501,
+      "cosine_similarity": 0.009602682664990425
+    },
+    {
+      "generated_token_index": 432,
+      "token_id": 27943,
+      "token_text": " parks",
+      "prediction_position": 502,
+      "cosine_similarity": 0.025706438347697258
+    },
+    {
+      "generated_token_index": 433,
+      "token_id": 649,
+      "token_text": " can",
+      "prediction_position": 503,
+      "cosine_similarity": 0.019725337624549866
+    },
+    {
+      "generated_token_index": 434,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 504,
+      "cosine_similarity": 0.053527891635894775
+    },
+    {
+      "generated_token_index": 435,
+      "token_id": 1766,
+      "token_text": " found",
+      "prediction_position": 505,
+      "cosine_similarity": 0.08155108243227005
+    },
+    {
+      "generated_token_index": 436,
+      "token_id": 6957,
+      "token_text": " throughout",
+      "prediction_position": 506,
+      "cosine_similarity": 0.09290210157632828
+    },
+    {
+      "generated_token_index": 437,
+      "token_id": 29890,
+      "token_text": " Manhattan",
+      "prediction_position": 507,
+      "cosine_similarity": 0.029214948415756226
+    },
+    {
+      "generated_token_index": 438,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 508,
+      "cosine_similarity": 0.03519885987043381
+    },
+    {
+      "generated_token_index": 439,
+      "token_id": 719,
+      "token_text": " but",
+      "prediction_position": 509,
+      "cosine_similarity": 0.06456999480724335
+    },
+    {
+      "generated_token_index": 440,
+      "token_id": 10913,
+      "token_text": " Central",
+      "prediction_position": 510,
+      "cosine_similarity": 0.04610660672187805
+    },
+    {
+      "generated_token_index": 441,
+      "token_id": 5657,
+      "token_text": " Park",
+      "prediction_position": 511,
+      "cosine_similarity": 0.03318023309111595
+    },
+    {
+      "generated_token_index": 442,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 512,
+      "cosine_similarity": 0.06436051428318024
+    },
+    {
+      "generated_token_index": 443,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 513,
+      "cosine_similarity": 0.11584258824586868
+    },
+    {
+      "generated_token_index": 444,
+      "token_id": 5199,
+      "token_text": " significant",
+      "prediction_position": 514,
+      "cosine_similarity": 0.07869551330804825
+    },
+    {
+      "generated_token_index": 445,
+      "token_id": 38350,
+      "token_text": " landmark",
+      "prediction_position": 515,
+      "cosine_similarity": 0.07970234751701355
+    },
+    {
+      "generated_token_index": 446,
+      "token_id": 430,
+      "token_text": " that",
+      "prediction_position": 516,
+      "cosine_similarity": 0.11040811985731125
+    },
+    {
+      "generated_token_index": 447,
+      "token_id": 14861,
+      "token_text": " covers",
+      "prediction_position": 517,
+      "cosine_similarity": 0.08147422969341278
+    },
+    {
+      "generated_token_index": 448,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 518,
+      "cosine_similarity": 0.0816454067826271
+    },
+    {
+      "generated_token_index": 449,
+      "token_id": 3544,
+      "token_text": " large",
+      "prediction_position": 519,
+      "cosine_similarity": 0.09001551568508148
+    },
+    {
+      "generated_token_index": 450,
+      "token_id": 3158,
+      "token_text": " area",
+      "prediction_position": 520,
+      "cosine_similarity": 0.10036633163690567
+    },
+    {
+      "generated_token_index": 451,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 521,
+      "cosine_similarity": 0.1272764652967453
+    },
+    {
+      "generated_token_index": 452,
+      "token_id": 94641,
+      "token_text": " Churches",
+      "prediction_position": 522,
+      "cosine_similarity": 0.036849625408649445
+    },
+    {
+      "generated_token_index": 453,
+      "token_id": 527,
+      "token_text": " are",
+      "prediction_position": 523,
+      "cosine_similarity": 0.023532025516033173
+    },
+    {
+      "generated_token_index": 454,
+      "token_id": 3629,
+      "token_text": " often",
+      "prediction_position": 524,
+      "cosine_similarity": 0.021205496042966843
+    },
+    {
+      "generated_token_index": 455,
+      "token_id": 7559,
+      "token_text": " located",
+      "prediction_position": 525,
+      "cosine_similarity": 0.043904971331357956
+    },
+    {
+      "generated_token_index": 456,
+      "token_id": 389,
+      "token_text": " on",
+      "prediction_position": 526,
+      "cosine_similarity": 0.05899229645729065
+    },
+    {
+      "generated_token_index": 457,
+      "token_id": 14708,
+      "token_text": " streets",
+      "prediction_position": 527,
+      "cosine_similarity": 0.060842230916023254
+    },
+    {
+      "generated_token_index": 458,
+      "token_id": 4856,
+      "token_text": " rather",
+      "prediction_position": 528,
+      "cosine_similarity": 0.05540366843342781
+    },
+    {
+      "generated_token_index": 459,
+      "token_id": 1109,
+      "token_text": " than",
+      "prediction_position": 529,
+      "cosine_similarity": 0.008087039925158024
+    },
+    {
+      "generated_token_index": 460,
+      "token_id": 2949,
+      "token_text": " within",
+      "prediction_position": 530,
+      "cosine_similarity": 0.052716292440891266
+    },
+    {
+      "generated_token_index": 461,
+      "token_id": 27943,
+      "token_text": " parks",
+      "prediction_position": 531,
+      "cosine_similarity": 0.02385169267654419
+    },
+    {
+      "generated_token_index": 462,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 532,
+      "cosine_similarity": 0.0031716213561594486
+    },
+    {
+      "generated_token_index": 463,
+      "token_id": 791,
+      "token_text": "The",
+      "prediction_position": 533,
+      "cosine_similarity": 0.0018745861016213894
+    },
+    {
+      "generated_token_index": 464,
+      "token_id": 1620,
+      "token_text": " final",
+      "prediction_position": 534,
+      "cosine_similarity": 0.0017411743756383657
+    },
+    {
+      "generated_token_index": 465,
+      "token_id": 4320,
+      "token_text": " answer",
+      "prediction_position": 535,
+      "cosine_similarity": -0.00378495454788208
+    },
+    {
+      "generated_token_index": 466,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 536,
+      "cosine_similarity": -0.007922273129224777
+    },
+    {
+      "generated_token_index": 467,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 537,
+      "cosine_similarity": 0.020159052684903145
+    },
+    {
+      "generated_token_index": 468,
+      "token_id": 59060,
+      "token_text": " $\\",
+      "prediction_position": 538,
+      "cosine_similarity": 0.014731159433722496
+    },
+    {
+      "generated_token_index": 469,
+      "token_id": 80175,
+      "token_text": "boxed",
+      "prediction_position": 539,
+      "cosine_similarity": 0.01389109343290329
+    },
+    {
+      "generated_token_index": 470,
+      "token_id": 90,
+      "token_text": "{",
+      "prediction_position": 540,
+      "cosine_similarity": 0.038571786135435104
+    },
+    {
+      "generated_token_index": 471,
+      "token_id": 9642,
+      "token_text": "Yes",
+      "prediction_position": 541,
+      "cosine_similarity": 0.05177696794271469
+    },
+    {
+      "generated_token_index": 472,
+      "token_id": 32816,
+      "token_text": "}$",
+      "prediction_position": 542,
+      "cosine_similarity": 0.009742594324052334
+    },
+    {
+      "generated_token_index": 473,
+      "token_id": 128009,
+      "token_text": "<|eot_id|>",
+      "prediction_position": 543,
+      "cosine_similarity": -0.009917348623275757
+    }
+  ],
+  "csv_path": "feature_46732_response_cosine_llama33_70b_it_location_direction_batch/individual/0002_wm-nyc-place-lat_is_central_park_cedar_hill_manhattan_located_south_of_grace_st_pauls_lutheran_ch/feature_46732_response_token_cosine.csv",
+  "plot_path": "feature_46732_response_cosine_llama33_70b_it_location_direction_batch/individual/0002_wm-nyc-place-lat_is_central_park_cedar_hill_manhattan_located_south_of_grace_st_pauls_lutheran_ch/feature_46732_response_token_cosine.png"
+}

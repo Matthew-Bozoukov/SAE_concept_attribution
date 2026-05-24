@@ -1,0 +1,2321 @@
+{
+  "input_index": 18,
+  "input_record": {
+    "question": "Is DUCK CREEK, Queens located west of ORCHARD BEACH NORTH MENS COMFORT STATION, Bronx?",
+    "direction_word": "west",
+    "prop_id": "wm-nyc-place-long",
+    "source_path": "chainscope/chainscope/data/faithfulness/Llama-3.3-70B-Instruct/wm-nyc-place-long.yaml",
+    "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+    "qid": "910745defa1442e138c4891c7180ce004c19ce0feaadca86cbaee1b45b5f51d9",
+    "response_count": 8,
+    "response_ids": [
+      "00ddbe34-2104-48fb-a0ba-08c08fed0dc2",
+      "26756190-b678-4e84-8444-f3bf2b528ef1",
+      "54dd3543-e413-4830-aa32-d8f706f70b18",
+      "8da61763-5c57-41c5-be8a-fb9bdafb9341",
+      "9ef9d4fa-3f50-4035-a369-6bf630d2520c",
+      "c66e97b1-f6f5-49f5-937a-977b40d6059f",
+      "cd0184c1-851e-412c-844f-450925f8819b",
+      "e2ce83bf-a76b-41da-b64a-69801d792f7c"
+    ],
+    "final_answer_counts": {
+      "YES": 8
+    }
+  },
+  "model_id": "unsloth/Llama-3.3-70B-Instruct-bnb-4bit",
+  "case_id": "location_direction_0019",
+  "category": "wm-nyc-place-long",
+  "direction": "0019_wm-nyc-place-long_is_duck_creek_queens_located_west_of_orchard_beach_north_mens_comfort_station_br",
+  "question": "Is DUCK CREEK, Queens located west of ORCHARD BEACH NORTH MENS COMFORT STATION, Bronx?",
+  "prompt": "Here is a question with a clear YES or NO answer about locations:\n\nIs DUCK CREEK, Queens located west of ORCHARD BEACH NORTH MENS COMFORT STATION, Bronx?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+  "generated_text": "To answer this question, I'll break it down step by step:\n\n1. **Identify the locations**: \n   - DUCK CREEK is in Queens.\n   - ORCHARD BEACH NORTH MENS COMFORT STATION is in the Bronx.\n\n2. **Understand the geography**:\n   - Queens and the Bronx are both boroughs of New York City.\n   - Generally, the Bronx is located north of Queens.\n   - Orchard Beach is on the eastern part of the Bronx, overlooking the Long Island Sound.\n   - To determine if DUCK CREEK is west of ORCHARD BEACH NORTH MENS COMFORT STATION, we need to consider their relative positions within their boroughs and the overall geography of New York City.\n\n3. **Relative Positions**:\n   - Queens is generally south and somewhat west of the Bronx.\n   - DUCK CREEK in Queens would likely be south and possibly west of locations in the Bronx, depending on the specific location within Queens.\n\n4. **Conclusion**:\n   - Given that DUCK CREEK is in Queens and ORCHARD BEACH NORTH MENS COMFORT STATION is in the Bronx, and considering the general geography of New York City, DUCK CREEK would likely be south and possibly west of ORCHARD BEACH NORTH MENS COMFORT STATION.\n\nBased on this step-by-step reasoning, the answer to whether DUCK CREEK, Queens is located west of ORCHARD BEACH NORTH MENS COMFORT STATION, Bronx is: **YES**.",
+  "num_generated_tokens": 325,
+  "analysis_type": "location_batch_feature_decoder_cosine_by_response_token",
+  "feature_id": 46732,
+  "sae_repo_id": "Goodfire/Llama-3.3-70B-Instruct-SAE-l50",
+  "sae_filename": "Llama-3.3-70B-Instruct-SAE-l50.pt",
+  "sae_layer": 50,
+  "neuronpedia_model": "llama3.3-70b-it",
+  "neuronpedia_release": "llama3.3-70b-it-gf",
+  "neuronpedia_layer": "50-resid-post-gf",
+  "neuronpedia_url": "https://www.neuronpedia.org/llama3.3-70b-it/50-resid-post-gf/46732",
+  "token_scores": [
+    {
+      "generated_token_index": 0,
+      "token_id": 1271,
+      "token_text": "To",
+      "prediction_position": 67,
+      "cosine_similarity": -0.015341371297836304
+    },
+    {
+      "generated_token_index": 1,
+      "token_id": 4320,
+      "token_text": " answer",
+      "prediction_position": 68,
+      "cosine_similarity": 0.02980572171509266
+    },
+    {
+      "generated_token_index": 2,
+      "token_id": 420,
+      "token_text": " this",
+      "prediction_position": 69,
+      "cosine_similarity": 0.005133591592311859
+    },
+    {
+      "generated_token_index": 3,
+      "token_id": 3488,
+      "token_text": " question",
+      "prediction_position": 70,
+      "cosine_similarity": -0.004459363408386707
+    },
+    {
+      "generated_token_index": 4,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 71,
+      "cosine_similarity": -0.010106094181537628
+    },
+    {
+      "generated_token_index": 5,
+      "token_id": 358,
+      "token_text": " I",
+      "prediction_position": 72,
+      "cosine_similarity": -0.0009093849221244454
+    },
+    {
+      "generated_token_index": 6,
+      "token_id": 3358,
+      "token_text": "'ll",
+      "prediction_position": 73,
+      "cosine_similarity": 0.0033149931114166975
+    },
+    {
+      "generated_token_index": 7,
+      "token_id": 1464,
+      "token_text": " break",
+      "prediction_position": 74,
+      "cosine_similarity": 0.011309770867228508
+    },
+    {
+      "generated_token_index": 8,
+      "token_id": 433,
+      "token_text": " it",
+      "prediction_position": 75,
+      "cosine_similarity": -0.004912196658551693
+    },
+    {
+      "generated_token_index": 9,
+      "token_id": 1523,
+      "token_text": " down",
+      "prediction_position": 76,
+      "cosine_similarity": 0.009718180634081364
+    },
+    {
+      "generated_token_index": 10,
+      "token_id": 3094,
+      "token_text": " step",
+      "prediction_position": 77,
+      "cosine_similarity": 0.0020300624892115593
+    },
+    {
+      "generated_token_index": 11,
+      "token_id": 555,
+      "token_text": " by",
+      "prediction_position": 78,
+      "cosine_similarity": 0.00785917043685913
+    },
+    {
+      "generated_token_index": 12,
+      "token_id": 3094,
+      "token_text": " step",
+      "prediction_position": 79,
+      "cosine_similarity": 0.005676835309714079
+    },
+    {
+      "generated_token_index": 13,
+      "token_id": 1473,
+      "token_text": ":\n\n",
+      "prediction_position": 80,
+      "cosine_similarity": 0.0027852621860802174
+    },
+    {
+      "generated_token_index": 14,
+      "token_id": 16,
+      "token_text": "1",
+      "prediction_position": 81,
+      "cosine_similarity": -0.004462031647562981
+    },
+    {
+      "generated_token_index": 15,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 82,
+      "cosine_similarity": -0.011041752994060516
+    },
+    {
+      "generated_token_index": 16,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 83,
+      "cosine_similarity": 0.04694362357258797
+    },
+    {
+      "generated_token_index": 17,
+      "token_id": 29401,
+      "token_text": "Ident",
+      "prediction_position": 84,
+      "cosine_similarity": 0.06270675361156464
+    },
+    {
+      "generated_token_index": 18,
+      "token_id": 1463,
+      "token_text": "ify",
+      "prediction_position": 85,
+      "cosine_similarity": 0.007922658696770668
+    },
+    {
+      "generated_token_index": 19,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 86,
+      "cosine_similarity": 0.06118221580982208
+    },
+    {
+      "generated_token_index": 20,
+      "token_id": 10687,
+      "token_text": " locations",
+      "prediction_position": 87,
+      "cosine_similarity": 0.047675326466560364
+    },
+    {
+      "generated_token_index": 21,
+      "token_id": 96618,
+      "token_text": "**:",
+      "prediction_position": 88,
+      "cosine_similarity": 0.01343819685280323
+    },
+    {
+      "generated_token_index": 22,
+      "token_id": 720,
+      "token_text": " \n",
+      "prediction_position": 89,
+      "cosine_similarity": 0.0005701278569176793
+    },
+    {
+      "generated_token_index": 23,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 90,
+      "cosine_similarity": -0.004816902801394463
+    },
+    {
+      "generated_token_index": 24,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 91,
+      "cosine_similarity": 0.00542479520663619
+    },
+    {
+      "generated_token_index": 25,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 92,
+      "cosine_similarity": 0.02211409993469715
+    },
+    {
+      "generated_token_index": 26,
+      "token_id": 28643,
+      "token_text": "UCK",
+      "prediction_position": 93,
+      "cosine_similarity": 0.02714502066373825
+    },
+    {
+      "generated_token_index": 27,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 94,
+      "cosine_similarity": 0.021351290866732597
+    },
+    {
+      "generated_token_index": 28,
+      "token_id": 6731,
+      "token_text": "REE",
+      "prediction_position": 95,
+      "cosine_similarity": 0.0025530527345836163
+    },
+    {
+      "generated_token_index": 29,
+      "token_id": 42,
+      "token_text": "K",
+      "prediction_position": 96,
+      "cosine_similarity": 0.03875849023461342
+    },
+    {
+      "generated_token_index": 30,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 97,
+      "cosine_similarity": 0.019419962540268898
+    },
+    {
+      "generated_token_index": 31,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 98,
+      "cosine_similarity": 0.03261978179216385
+    },
+    {
+      "generated_token_index": 32,
+      "token_id": 28162,
+      "token_text": " Queens",
+      "prediction_position": 99,
+      "cosine_similarity": 0.04874446988105774
+    },
+    {
+      "generated_token_index": 33,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 100,
+      "cosine_similarity": 0.0316874235868454
+    },
+    {
+      "generated_token_index": 34,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 101,
+      "cosine_similarity": 0.009493171237409115
+    },
+    {
+      "generated_token_index": 35,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 102,
+      "cosine_similarity": 0.27747488021850586
+    },
+    {
+      "generated_token_index": 36,
+      "token_id": 2794,
+      "token_text": " OR",
+      "prediction_position": 103,
+      "cosine_similarity": 0.03596287965774536
+    },
+    {
+      "generated_token_index": 37,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 104,
+      "cosine_similarity": 0.02893611043691635
+    },
+    {
+      "generated_token_index": 38,
+      "token_id": 7527,
+      "token_text": "ARD",
+      "prediction_position": 105,
+      "cosine_similarity": 0.010498634539544582
+    },
+    {
+      "generated_token_index": 39,
+      "token_id": 7354,
+      "token_text": " BE",
+      "prediction_position": 106,
+      "cosine_similarity": 0.02651100605726242
+    },
+    {
+      "generated_token_index": 40,
+      "token_id": 12137,
+      "token_text": "ACH",
+      "prediction_position": 107,
+      "cosine_similarity": 0.14572393894195557
+    },
+    {
+      "generated_token_index": 41,
+      "token_id": 75859,
+      "token_text": " NORTH",
+      "prediction_position": 108,
+      "cosine_similarity": 0.05095669627189636
+    },
+    {
+      "generated_token_index": 42,
+      "token_id": 386,
+      "token_text": " M",
+      "prediction_position": 109,
+      "cosine_similarity": 0.051637351512908936
+    },
+    {
+      "generated_token_index": 43,
+      "token_id": 20982,
+      "token_text": "ENS",
+      "prediction_position": 110,
+      "cosine_similarity": 0.040347568690776825
+    },
+    {
+      "generated_token_index": 44,
+      "token_id": 7837,
+      "token_text": " COM",
+      "prediction_position": 111,
+      "cosine_similarity": 0.0006949012167751789
+    },
+    {
+      "generated_token_index": 45,
+      "token_id": 37,
+      "token_text": "F",
+      "prediction_position": 112,
+      "cosine_similarity": -0.006308990530669689
+    },
+    {
+      "generated_token_index": 46,
+      "token_id": 2938,
+      "token_text": "ORT",
+      "prediction_position": 113,
+      "cosine_similarity": 0.021479766815900803
+    },
+    {
+      "generated_token_index": 47,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 114,
+      "cosine_similarity": 0.008427908644080162
+    },
+    {
+      "generated_token_index": 48,
+      "token_id": 3579,
+      "token_text": "ATION",
+      "prediction_position": 115,
+      "cosine_similarity": 0.0001636010129004717
+    },
+    {
+      "generated_token_index": 49,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 116,
+      "cosine_similarity": 0.016968782991170883
+    },
+    {
+      "generated_token_index": 50,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 117,
+      "cosine_similarity": 0.04258003830909729
+    },
+    {
+      "generated_token_index": 51,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 118,
+      "cosine_similarity": 0.05615780130028725
+    },
+    {
+      "generated_token_index": 52,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 119,
+      "cosine_similarity": 0.057801708579063416
+    },
+    {
+      "generated_token_index": 53,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 120,
+      "cosine_similarity": 0.022135578095912933
+    },
+    {
+      "generated_token_index": 54,
+      "token_id": 17,
+      "token_text": "2",
+      "prediction_position": 121,
+      "cosine_similarity": 0.006802255287766457
+    },
+    {
+      "generated_token_index": 55,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 122,
+      "cosine_similarity": -0.006766702048480511
+    },
+    {
+      "generated_token_index": 56,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 123,
+      "cosine_similarity": 0.11541938781738281
+    },
+    {
+      "generated_token_index": 57,
+      "token_id": 16648,
+      "token_text": "Under",
+      "prediction_position": 124,
+      "cosine_similarity": 0.0933145135641098
+    },
+    {
+      "generated_token_index": 58,
+      "token_id": 2752,
+      "token_text": "stand",
+      "prediction_position": 125,
+      "cosine_similarity": 0.02986658364534378
+    },
+    {
+      "generated_token_index": 59,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 126,
+      "cosine_similarity": 0.1310175359249115
+    },
+    {
+      "generated_token_index": 60,
+      "token_id": 54242,
+      "token_text": " geography",
+      "prediction_position": 127,
+      "cosine_similarity": 0.11328376829624176
+    },
+    {
+      "generated_token_index": 61,
+      "token_id": 334,
+      "token_text": "**",
+      "prediction_position": 128,
+      "cosine_similarity": 0.04433346539735794
+    },
+    {
+      "generated_token_index": 62,
+      "token_id": 512,
+      "token_text": ":\n",
+      "prediction_position": 129,
+      "cosine_similarity": 0.02068343572318554
+    },
+    {
+      "generated_token_index": 63,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 130,
+      "cosine_similarity": 0.017112644389271736
+    },
+    {
+      "generated_token_index": 64,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 131,
+      "cosine_similarity": 0.061023131012916565
+    },
+    {
+      "generated_token_index": 65,
+      "token_id": 28162,
+      "token_text": " Queens",
+      "prediction_position": 132,
+      "cosine_similarity": 0.10585740208625793
+    },
+    {
+      "generated_token_index": 66,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 133,
+      "cosine_similarity": 0.11254124343395233
+    },
+    {
+      "generated_token_index": 67,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 134,
+      "cosine_similarity": 0.049699414521455765
+    },
+    {
+      "generated_token_index": 68,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 135,
+      "cosine_similarity": 0.05411580204963684
+    },
+    {
+      "generated_token_index": 69,
+      "token_id": 527,
+      "token_text": " are",
+      "prediction_position": 136,
+      "cosine_similarity": 0.06213183328509331
+    },
+    {
+      "generated_token_index": 70,
+      "token_id": 2225,
+      "token_text": " both",
+      "prediction_position": 137,
+      "cosine_similarity": 0.05955616384744644
+    },
+    {
+      "generated_token_index": 71,
+      "token_id": 66841,
+      "token_text": " borough",
+      "prediction_position": 138,
+      "cosine_similarity": 0.05616014450788498
+    },
+    {
+      "generated_token_index": 72,
+      "token_id": 82,
+      "token_text": "s",
+      "prediction_position": 139,
+      "cosine_similarity": 0.05774557963013649
+    },
+    {
+      "generated_token_index": 73,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 140,
+      "cosine_similarity": 0.060760900378227234
+    },
+    {
+      "generated_token_index": 74,
+      "token_id": 1561,
+      "token_text": " New",
+      "prediction_position": 141,
+      "cosine_similarity": 0.027832677587866783
+    },
+    {
+      "generated_token_index": 75,
+      "token_id": 4356,
+      "token_text": " York",
+      "prediction_position": 142,
+      "cosine_similarity": 0.252405047416687
+    },
+    {
+      "generated_token_index": 76,
+      "token_id": 4409,
+      "token_text": " City",
+      "prediction_position": 143,
+      "cosine_similarity": 0.01130656711757183
+    },
+    {
+      "generated_token_index": 77,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 144,
+      "cosine_similarity": 0.07722674310207367
+    },
+    {
+      "generated_token_index": 78,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 145,
+      "cosine_similarity": 0.015519341453909874
+    },
+    {
+      "generated_token_index": 79,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 146,
+      "cosine_similarity": 0.14669093489646912
+    },
+    {
+      "generated_token_index": 80,
+      "token_id": 44493,
+      "token_text": " Generally",
+      "prediction_position": 147,
+      "cosine_similarity": 0.13555294275283813
+    },
+    {
+      "generated_token_index": 81,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 148,
+      "cosine_similarity": 0.1097906231880188
+    },
+    {
+      "generated_token_index": 82,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 149,
+      "cosine_similarity": 0.13379214704036713
+    },
+    {
+      "generated_token_index": 83,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 150,
+      "cosine_similarity": 0.11176424473524094
+    },
+    {
+      "generated_token_index": 84,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 151,
+      "cosine_similarity": 0.1721307635307312
+    },
+    {
+      "generated_token_index": 85,
+      "token_id": 7559,
+      "token_text": " located",
+      "prediction_position": 152,
+      "cosine_similarity": 0.2441159337759018
+    },
+    {
+      "generated_token_index": 86,
+      "token_id": 10411,
+      "token_text": " north",
+      "prediction_position": 153,
+      "cosine_similarity": 0.24077709019184113
+    },
+    {
+      "generated_token_index": 87,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 154,
+      "cosine_similarity": 0.17148342728614807
+    },
+    {
+      "generated_token_index": 88,
+      "token_id": 28162,
+      "token_text": " Queens",
+      "prediction_position": 155,
+      "cosine_similarity": 0.06995051354169846
+    },
+    {
+      "generated_token_index": 89,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 156,
+      "cosine_similarity": 0.0777287557721138
+    },
+    {
+      "generated_token_index": 90,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 157,
+      "cosine_similarity": 0.027086928486824036
+    },
+    {
+      "generated_token_index": 91,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 158,
+      "cosine_similarity": 0.02826995588839054
+    },
+    {
+      "generated_token_index": 92,
+      "token_id": 84252,
+      "token_text": " Orchard",
+      "prediction_position": 159,
+      "cosine_similarity": 0.09204703569412231
+    },
+    {
+      "generated_token_index": 93,
+      "token_id": 13011,
+      "token_text": " Beach",
+      "prediction_position": 160,
+      "cosine_similarity": 0.025069914758205414
+    },
+    {
+      "generated_token_index": 94,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 161,
+      "cosine_similarity": 0.07539483904838562
+    },
+    {
+      "generated_token_index": 95,
+      "token_id": 389,
+      "token_text": " on",
+      "prediction_position": 162,
+      "cosine_similarity": 0.19435733556747437
+    },
+    {
+      "generated_token_index": 96,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 163,
+      "cosine_similarity": 0.0973910540342331
+    },
+    {
+      "generated_token_index": 97,
+      "token_id": 24024,
+      "token_text": " eastern",
+      "prediction_position": 164,
+      "cosine_similarity": 0.13414496183395386
+    },
+    {
+      "generated_token_index": 98,
+      "token_id": 961,
+      "token_text": " part",
+      "prediction_position": 165,
+      "cosine_similarity": 0.08334755897521973
+    },
+    {
+      "generated_token_index": 99,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 166,
+      "cosine_similarity": 0.06036878749728203
+    },
+    {
+      "generated_token_index": 100,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 167,
+      "cosine_similarity": 0.04241622984409332
+    },
+    {
+      "generated_token_index": 101,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 168,
+      "cosine_similarity": 0.052524417638778687
+    },
+    {
+      "generated_token_index": 102,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 169,
+      "cosine_similarity": 0.05106116831302643
+    },
+    {
+      "generated_token_index": 103,
+      "token_id": 53324,
+      "token_text": " overlooking",
+      "prediction_position": 170,
+      "cosine_similarity": 0.11121463775634766
+    },
+    {
+      "generated_token_index": 104,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 171,
+      "cosine_similarity": 0.053464531898498535
+    },
+    {
+      "generated_token_index": 105,
+      "token_id": 5843,
+      "token_text": " Long",
+      "prediction_position": 172,
+      "cosine_similarity": 0.05488845333456993
+    },
+    {
+      "generated_token_index": 106,
+      "token_id": 10951,
+      "token_text": " Island",
+      "prediction_position": 173,
+      "cosine_similarity": 0.0370364636182785
+    },
+    {
+      "generated_token_index": 107,
+      "token_id": 14936,
+      "token_text": " Sound",
+      "prediction_position": 174,
+      "cosine_similarity": 0.04225507006049156
+    },
+    {
+      "generated_token_index": 108,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 175,
+      "cosine_similarity": 0.1264934092760086
+    },
+    {
+      "generated_token_index": 109,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 176,
+      "cosine_similarity": 0.007111976854503155
+    },
+    {
+      "generated_token_index": 110,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 177,
+      "cosine_similarity": 0.004950983449816704
+    },
+    {
+      "generated_token_index": 111,
+      "token_id": 2057,
+      "token_text": " To",
+      "prediction_position": 178,
+      "cosine_similarity": 0.06180630251765251
+    },
+    {
+      "generated_token_index": 112,
+      "token_id": 8417,
+      "token_text": " determine",
+      "prediction_position": 179,
+      "cosine_similarity": 0.15179204940795898
+    },
+    {
+      "generated_token_index": 113,
+      "token_id": 422,
+      "token_text": " if",
+      "prediction_position": 180,
+      "cosine_similarity": 0.19310711324214935
+    },
+    {
+      "generated_token_index": 114,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 181,
+      "cosine_similarity": 0.08214599639177322
+    },
+    {
+      "generated_token_index": 115,
+      "token_id": 28643,
+      "token_text": "UCK",
+      "prediction_position": 182,
+      "cosine_similarity": 0.03539888560771942
+    },
+    {
+      "generated_token_index": 116,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 183,
+      "cosine_similarity": 0.0230090469121933
+    },
+    {
+      "generated_token_index": 117,
+      "token_id": 6731,
+      "token_text": "REE",
+      "prediction_position": 184,
+      "cosine_similarity": -0.01199783943593502
+    },
+    {
+      "generated_token_index": 118,
+      "token_id": 42,
+      "token_text": "K",
+      "prediction_position": 185,
+      "cosine_similarity": 0.21074314415454865
+    },
+    {
+      "generated_token_index": 119,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 186,
+      "cosine_similarity": 0.07541650533676147
+    },
+    {
+      "generated_token_index": 120,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 187,
+      "cosine_similarity": 0.26618069410324097
+    },
+    {
+      "generated_token_index": 121,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 188,
+      "cosine_similarity": 0.1564931422472
+    },
+    {
+      "generated_token_index": 122,
+      "token_id": 2794,
+      "token_text": " OR",
+      "prediction_position": 189,
+      "cosine_similarity": 0.04091447964310646
+    },
+    {
+      "generated_token_index": 123,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 190,
+      "cosine_similarity": 0.030351843684911728
+    },
+    {
+      "generated_token_index": 124,
+      "token_id": 7527,
+      "token_text": "ARD",
+      "prediction_position": 191,
+      "cosine_similarity": 0.16828495264053345
+    },
+    {
+      "generated_token_index": 125,
+      "token_id": 7354,
+      "token_text": " BE",
+      "prediction_position": 192,
+      "cosine_similarity": 0.03751631826162338
+    },
+    {
+      "generated_token_index": 126,
+      "token_id": 12137,
+      "token_text": "ACH",
+      "prediction_position": 193,
+      "cosine_similarity": 0.0030196374282240868
+    },
+    {
+      "generated_token_index": 127,
+      "token_id": 75859,
+      "token_text": " NORTH",
+      "prediction_position": 194,
+      "cosine_similarity": 0.06619510054588318
+    },
+    {
+      "generated_token_index": 128,
+      "token_id": 386,
+      "token_text": " M",
+      "prediction_position": 195,
+      "cosine_similarity": 0.03400234133005142
+    },
+    {
+      "generated_token_index": 129,
+      "token_id": 20982,
+      "token_text": "ENS",
+      "prediction_position": 196,
+      "cosine_similarity": 0.011418561451137066
+    },
+    {
+      "generated_token_index": 130,
+      "token_id": 7837,
+      "token_text": " COM",
+      "prediction_position": 197,
+      "cosine_similarity": -0.0009112125262618065
+    },
+    {
+      "generated_token_index": 131,
+      "token_id": 37,
+      "token_text": "F",
+      "prediction_position": 198,
+      "cosine_similarity": 0.19957536458969116
+    },
+    {
+      "generated_token_index": 132,
+      "token_id": 2938,
+      "token_text": "ORT",
+      "prediction_position": 199,
+      "cosine_similarity": 0.04242952913045883
+    },
+    {
+      "generated_token_index": 133,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 200,
+      "cosine_similarity": 0.005065015517175198
+    },
+    {
+      "generated_token_index": 134,
+      "token_id": 3579,
+      "token_text": "ATION",
+      "prediction_position": 201,
+      "cosine_similarity": 0.24218003451824188
+    },
+    {
+      "generated_token_index": 135,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 202,
+      "cosine_similarity": 0.012718426063656807
+    },
+    {
+      "generated_token_index": 136,
+      "token_id": 584,
+      "token_text": " we",
+      "prediction_position": 203,
+      "cosine_similarity": 0.03037690557539463
+    },
+    {
+      "generated_token_index": 137,
+      "token_id": 1205,
+      "token_text": " need",
+      "prediction_position": 204,
+      "cosine_similarity": 0.02381986379623413
+    },
+    {
+      "generated_token_index": 138,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 205,
+      "cosine_similarity": 0.04484697803854942
+    },
+    {
+      "generated_token_index": 139,
+      "token_id": 2980,
+      "token_text": " consider",
+      "prediction_position": 206,
+      "cosine_similarity": 0.08718512207269669
+    },
+    {
+      "generated_token_index": 140,
+      "token_id": 872,
+      "token_text": " their",
+      "prediction_position": 207,
+      "cosine_similarity": 0.1871703565120697
+    },
+    {
+      "generated_token_index": 141,
+      "token_id": 8844,
+      "token_text": " relative",
+      "prediction_position": 208,
+      "cosine_similarity": 0.17189829051494598
+    },
+    {
+      "generated_token_index": 142,
+      "token_id": 10093,
+      "token_text": " positions",
+      "prediction_position": 209,
+      "cosine_similarity": 0.18634185194969177
+    },
+    {
+      "generated_token_index": 143,
+      "token_id": 2949,
+      "token_text": " within",
+      "prediction_position": 210,
+      "cosine_similarity": 0.17894145846366882
+    },
+    {
+      "generated_token_index": 144,
+      "token_id": 872,
+      "token_text": " their",
+      "prediction_position": 211,
+      "cosine_similarity": 0.06678464263677597
+    },
+    {
+      "generated_token_index": 145,
+      "token_id": 66841,
+      "token_text": " borough",
+      "prediction_position": 212,
+      "cosine_similarity": 0.05636904388666153
+    },
+    {
+      "generated_token_index": 146,
+      "token_id": 82,
+      "token_text": "s",
+      "prediction_position": 213,
+      "cosine_similarity": 0.04389873892068863
+    },
+    {
+      "generated_token_index": 147,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 214,
+      "cosine_similarity": 0.0568949319422245
+    },
+    {
+      "generated_token_index": 148,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 215,
+      "cosine_similarity": 0.052742719650268555
+    },
+    {
+      "generated_token_index": 149,
+      "token_id": 8244,
+      "token_text": " overall",
+      "prediction_position": 216,
+      "cosine_similarity": 0.10317526012659073
+    },
+    {
+      "generated_token_index": 150,
+      "token_id": 54242,
+      "token_text": " geography",
+      "prediction_position": 217,
+      "cosine_similarity": 0.10257823020219803
+    },
+    {
+      "generated_token_index": 151,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 218,
+      "cosine_similarity": 0.04837166517972946
+    },
+    {
+      "generated_token_index": 152,
+      "token_id": 1561,
+      "token_text": " New",
+      "prediction_position": 219,
+      "cosine_similarity": 0.059136975556612015
+    },
+    {
+      "generated_token_index": 153,
+      "token_id": 4356,
+      "token_text": " York",
+      "prediction_position": 220,
+      "cosine_similarity": 0.04037412256002426
+    },
+    {
+      "generated_token_index": 154,
+      "token_id": 4409,
+      "token_text": " City",
+      "prediction_position": 221,
+      "cosine_similarity": 0.023846760392189026
+    },
+    {
+      "generated_token_index": 155,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 222,
+      "cosine_similarity": 0.06700889766216278
+    },
+    {
+      "generated_token_index": 156,
+      "token_id": 18,
+      "token_text": "3",
+      "prediction_position": 223,
+      "cosine_similarity": 0.007612326648086309
+    },
+    {
+      "generated_token_index": 157,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 224,
+      "cosine_similarity": -0.004615776240825653
+    },
+    {
+      "generated_token_index": 158,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 225,
+      "cosine_similarity": 0.07264656573534012
+    },
+    {
+      "generated_token_index": 159,
+      "token_id": 29542,
+      "token_text": "Relative",
+      "prediction_position": 226,
+      "cosine_similarity": 0.08876876533031464
+    },
+    {
+      "generated_token_index": 160,
+      "token_id": 76483,
+      "token_text": " Positions",
+      "prediction_position": 227,
+      "cosine_similarity": 0.1657530665397644
+    },
+    {
+      "generated_token_index": 161,
+      "token_id": 334,
+      "token_text": "**",
+      "prediction_position": 228,
+      "cosine_similarity": 0.07745624333620071
+    },
+    {
+      "generated_token_index": 162,
+      "token_id": 512,
+      "token_text": ":\n",
+      "prediction_position": 229,
+      "cosine_similarity": 0.013453030958771706
+    },
+    {
+      "generated_token_index": 163,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 230,
+      "cosine_similarity": 0.014952803030610085
+    },
+    {
+      "generated_token_index": 164,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 231,
+      "cosine_similarity": 0.02046852558851242
+    },
+    {
+      "generated_token_index": 165,
+      "token_id": 28162,
+      "token_text": " Queens",
+      "prediction_position": 232,
+      "cosine_similarity": 0.10841534286737442
+    },
+    {
+      "generated_token_index": 166,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 233,
+      "cosine_similarity": 0.16634409129619598
+    },
+    {
+      "generated_token_index": 167,
+      "token_id": 8965,
+      "token_text": " generally",
+      "prediction_position": 234,
+      "cosine_similarity": 0.26780959963798523
+    },
+    {
+      "generated_token_index": 168,
+      "token_id": 10007,
+      "token_text": " south",
+      "prediction_position": 235,
+      "cosine_similarity": 0.3277232348918915
+    },
+    {
+      "generated_token_index": 169,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 236,
+      "cosine_similarity": 0.22098183631896973
+    },
+    {
+      "generated_token_index": 170,
+      "token_id": 14738,
+      "token_text": " somewhat",
+      "prediction_position": 237,
+      "cosine_similarity": 0.30449122190475464
+    },
+    {
+      "generated_token_index": 171,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 238,
+      "cosine_similarity": 0.3319196105003357
+    },
+    {
+      "generated_token_index": 172,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 239,
+      "cosine_similarity": 0.17847749590873718
+    },
+    {
+      "generated_token_index": 173,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 240,
+      "cosine_similarity": 0.08507457375526428
+    },
+    {
+      "generated_token_index": 174,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 241,
+      "cosine_similarity": 0.08330002427101135
+    },
+    {
+      "generated_token_index": 175,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 242,
+      "cosine_similarity": 0.045721374452114105
+    },
+    {
+      "generated_token_index": 176,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 243,
+      "cosine_similarity": 0.012084068730473518
+    },
+    {
+      "generated_token_index": 177,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 244,
+      "cosine_similarity": 0.020673520863056183
+    },
+    {
+      "generated_token_index": 178,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 245,
+      "cosine_similarity": 0.06708626449108124
+    },
+    {
+      "generated_token_index": 179,
+      "token_id": 28643,
+      "token_text": "UCK",
+      "prediction_position": 246,
+      "cosine_similarity": 0.05024348944425583
+    },
+    {
+      "generated_token_index": 180,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 247,
+      "cosine_similarity": 0.02021310105919838
+    },
+    {
+      "generated_token_index": 181,
+      "token_id": 6731,
+      "token_text": "REE",
+      "prediction_position": 248,
+      "cosine_similarity": 0.23286399245262146
+    },
+    {
+      "generated_token_index": 182,
+      "token_id": 42,
+      "token_text": "K",
+      "prediction_position": 249,
+      "cosine_similarity": 0.026347927749156952
+    },
+    {
+      "generated_token_index": 183,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 250,
+      "cosine_similarity": 0.04023890197277069
+    },
+    {
+      "generated_token_index": 184,
+      "token_id": 28162,
+      "token_text": " Queens",
+      "prediction_position": 251,
+      "cosine_similarity": 0.06063005328178406
+    },
+    {
+      "generated_token_index": 185,
+      "token_id": 1053,
+      "token_text": " would",
+      "prediction_position": 252,
+      "cosine_similarity": 0.12207815051078796
+    },
+    {
+      "generated_token_index": 186,
+      "token_id": 4461,
+      "token_text": " likely",
+      "prediction_position": 253,
+      "cosine_similarity": 0.13916774094104767
+    },
+    {
+      "generated_token_index": 187,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 254,
+      "cosine_similarity": 0.20489397644996643
+    },
+    {
+      "generated_token_index": 188,
+      "token_id": 10007,
+      "token_text": " south",
+      "prediction_position": 255,
+      "cosine_similarity": 0.3517497181892395
+    },
+    {
+      "generated_token_index": 189,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 256,
+      "cosine_similarity": 0.2355317920446396
+    },
+    {
+      "generated_token_index": 190,
+      "token_id": 11000,
+      "token_text": " possibly",
+      "prediction_position": 257,
+      "cosine_similarity": 0.26267296075820923
+    },
+    {
+      "generated_token_index": 191,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 258,
+      "cosine_similarity": 0.31963595747947693
+    },
+    {
+      "generated_token_index": 192,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 259,
+      "cosine_similarity": 0.16538476943969727
+    },
+    {
+      "generated_token_index": 193,
+      "token_id": 10687,
+      "token_text": " locations",
+      "prediction_position": 260,
+      "cosine_similarity": 0.07889091223478317
+    },
+    {
+      "generated_token_index": 194,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 261,
+      "cosine_similarity": 0.11857256293296814
+    },
+    {
+      "generated_token_index": 195,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 262,
+      "cosine_similarity": 0.11503945291042328
+    },
+    {
+      "generated_token_index": 196,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 263,
+      "cosine_similarity": 0.154636949300766
+    },
+    {
+      "generated_token_index": 197,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 264,
+      "cosine_similarity": 0.059103626757860184
+    },
+    {
+      "generated_token_index": 198,
+      "token_id": 11911,
+      "token_text": " depending",
+      "prediction_position": 265,
+      "cosine_similarity": 0.04014027863740921
+    },
+    {
+      "generated_token_index": 199,
+      "token_id": 389,
+      "token_text": " on",
+      "prediction_position": 266,
+      "cosine_similarity": 0.024521026760339737
+    },
+    {
+      "generated_token_index": 200,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 267,
+      "cosine_similarity": 0.085518479347229
+    },
+    {
+      "generated_token_index": 201,
+      "token_id": 3230,
+      "token_text": " specific",
+      "prediction_position": 268,
+      "cosine_similarity": 0.11376877129077911
+    },
+    {
+      "generated_token_index": 202,
+      "token_id": 3813,
+      "token_text": " location",
+      "prediction_position": 269,
+      "cosine_similarity": 0.10530787706375122
+    },
+    {
+      "generated_token_index": 203,
+      "token_id": 2949,
+      "token_text": " within",
+      "prediction_position": 270,
+      "cosine_similarity": 0.06048917397856712
+    },
+    {
+      "generated_token_index": 204,
+      "token_id": 28162,
+      "token_text": " Queens",
+      "prediction_position": 271,
+      "cosine_similarity": 0.05794287100434303
+    },
+    {
+      "generated_token_index": 205,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 272,
+      "cosine_similarity": 0.02058783359825611
+    },
+    {
+      "generated_token_index": 206,
+      "token_id": 19,
+      "token_text": "4",
+      "prediction_position": 273,
+      "cosine_similarity": -0.0013506065588444471
+    },
+    {
+      "generated_token_index": 207,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 274,
+      "cosine_similarity": 0.0010660741245374084
+    },
+    {
+      "generated_token_index": 208,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 275,
+      "cosine_similarity": 0.07568549364805222
+    },
+    {
+      "generated_token_index": 209,
+      "token_id": 44534,
+      "token_text": "Conclusion",
+      "prediction_position": 276,
+      "cosine_similarity": 0.09119250625371933
+    },
+    {
+      "generated_token_index": 210,
+      "token_id": 334,
+      "token_text": "**",
+      "prediction_position": 277,
+      "cosine_similarity": 0.0003586520906537771
+    },
+    {
+      "generated_token_index": 211,
+      "token_id": 512,
+      "token_text": ":\n",
+      "prediction_position": 278,
+      "cosine_similarity": -0.006183285266160965
+    },
+    {
+      "generated_token_index": 212,
+      "token_id": 256,
+      "token_text": "  ",
+      "prediction_position": 279,
+      "cosine_similarity": 0.002332701813429594
+    },
+    {
+      "generated_token_index": 213,
+      "token_id": 482,
+      "token_text": " -",
+      "prediction_position": 280,
+      "cosine_similarity": 0.01881508156657219
+    },
+    {
+      "generated_token_index": 214,
+      "token_id": 16644,
+      "token_text": " Given",
+      "prediction_position": 281,
+      "cosine_similarity": 0.05372575670480728
+    },
+    {
+      "generated_token_index": 215,
+      "token_id": 430,
+      "token_text": " that",
+      "prediction_position": 282,
+      "cosine_similarity": 0.061866551637649536
+    },
+    {
+      "generated_token_index": 216,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 283,
+      "cosine_similarity": 0.08272312581539154
+    },
+    {
+      "generated_token_index": 217,
+      "token_id": 28643,
+      "token_text": "UCK",
+      "prediction_position": 284,
+      "cosine_similarity": 0.038123905658721924
+    },
+    {
+      "generated_token_index": 218,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 285,
+      "cosine_similarity": 0.013852063566446304
+    },
+    {
+      "generated_token_index": 219,
+      "token_id": 6731,
+      "token_text": "REE",
+      "prediction_position": 286,
+      "cosine_similarity": -0.017853783443570137
+    },
+    {
+      "generated_token_index": 220,
+      "token_id": 42,
+      "token_text": "K",
+      "prediction_position": 287,
+      "cosine_similarity": 0.17851287126541138
+    },
+    {
+      "generated_token_index": 221,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 288,
+      "cosine_similarity": 0.06270074844360352
+    },
+    {
+      "generated_token_index": 222,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 289,
+      "cosine_similarity": 0.16441595554351807
+    },
+    {
+      "generated_token_index": 223,
+      "token_id": 28162,
+      "token_text": " Queens",
+      "prediction_position": 290,
+      "cosine_similarity": 0.1588873416185379
+    },
+    {
+      "generated_token_index": 224,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 291,
+      "cosine_similarity": 0.1298622488975525
+    },
+    {
+      "generated_token_index": 225,
+      "token_id": 2794,
+      "token_text": " OR",
+      "prediction_position": 292,
+      "cosine_similarity": 0.05947795510292053
+    },
+    {
+      "generated_token_index": 226,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 293,
+      "cosine_similarity": 0.03181690350174904
+    },
+    {
+      "generated_token_index": 227,
+      "token_id": 7527,
+      "token_text": "ARD",
+      "prediction_position": 294,
+      "cosine_similarity": 0.17520782351493835
+    },
+    {
+      "generated_token_index": 228,
+      "token_id": 7354,
+      "token_text": " BE",
+      "prediction_position": 295,
+      "cosine_similarity": 0.04945680499076843
+    },
+    {
+      "generated_token_index": 229,
+      "token_id": 12137,
+      "token_text": "ACH",
+      "prediction_position": 296,
+      "cosine_similarity": 0.04831945151090622
+    },
+    {
+      "generated_token_index": 230,
+      "token_id": 75859,
+      "token_text": " NORTH",
+      "prediction_position": 297,
+      "cosine_similarity": 0.07629959285259247
+    },
+    {
+      "generated_token_index": 231,
+      "token_id": 386,
+      "token_text": " M",
+      "prediction_position": 298,
+      "cosine_similarity": 0.03663824498653412
+    },
+    {
+      "generated_token_index": 232,
+      "token_id": 20982,
+      "token_text": "ENS",
+      "prediction_position": 299,
+      "cosine_similarity": 0.008280713111162186
+    },
+    {
+      "generated_token_index": 233,
+      "token_id": 7837,
+      "token_text": " COM",
+      "prediction_position": 300,
+      "cosine_similarity": -0.012402595952153206
+    },
+    {
+      "generated_token_index": 234,
+      "token_id": 37,
+      "token_text": "F",
+      "prediction_position": 301,
+      "cosine_similarity": 0.05977831780910492
+    },
+    {
+      "generated_token_index": 235,
+      "token_id": 2938,
+      "token_text": "ORT",
+      "prediction_position": 302,
+      "cosine_similarity": 0.0038711302913725376
+    },
+    {
+      "generated_token_index": 236,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 303,
+      "cosine_similarity": 0.014177171513438225
+    },
+    {
+      "generated_token_index": 237,
+      "token_id": 3579,
+      "token_text": "ATION",
+      "prediction_position": 304,
+      "cosine_similarity": -0.023736508563160896
+    },
+    {
+      "generated_token_index": 238,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 305,
+      "cosine_similarity": 0.07317543029785156
+    },
+    {
+      "generated_token_index": 239,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 306,
+      "cosine_similarity": 0.2182956039905548
+    },
+    {
+      "generated_token_index": 240,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 307,
+      "cosine_similarity": 0.11776202917098999
+    },
+    {
+      "generated_token_index": 241,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 308,
+      "cosine_similarity": 0.15974555909633636
+    },
+    {
+      "generated_token_index": 242,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 309,
+      "cosine_similarity": 0.14044037461280823
+    },
+    {
+      "generated_token_index": 243,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 310,
+      "cosine_similarity": 0.0722183883190155
+    },
+    {
+      "generated_token_index": 244,
+      "token_id": 13126,
+      "token_text": " considering",
+      "prediction_position": 311,
+      "cosine_similarity": 0.07555543631315231
+    },
+    {
+      "generated_token_index": 245,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 312,
+      "cosine_similarity": 0.11746174097061157
+    },
+    {
+      "generated_token_index": 246,
+      "token_id": 4689,
+      "token_text": " general",
+      "prediction_position": 313,
+      "cosine_similarity": 0.1447642743587494
+    },
+    {
+      "generated_token_index": 247,
+      "token_id": 54242,
+      "token_text": " geography",
+      "prediction_position": 314,
+      "cosine_similarity": 0.19834350049495697
+    },
+    {
+      "generated_token_index": 248,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 315,
+      "cosine_similarity": 0.04053468629717827
+    },
+    {
+      "generated_token_index": 249,
+      "token_id": 1561,
+      "token_text": " New",
+      "prediction_position": 316,
+      "cosine_similarity": 0.05365818366408348
+    },
+    {
+      "generated_token_index": 250,
+      "token_id": 4356,
+      "token_text": " York",
+      "prediction_position": 317,
+      "cosine_similarity": 0.03458708897233009
+    },
+    {
+      "generated_token_index": 251,
+      "token_id": 4409,
+      "token_text": " City",
+      "prediction_position": 318,
+      "cosine_similarity": 0.015416974201798439
+    },
+    {
+      "generated_token_index": 252,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 319,
+      "cosine_similarity": 0.03544993698596954
+    },
+    {
+      "generated_token_index": 253,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 320,
+      "cosine_similarity": 0.047075893729925156
+    },
+    {
+      "generated_token_index": 254,
+      "token_id": 28643,
+      "token_text": "UCK",
+      "prediction_position": 321,
+      "cosine_similarity": 0.01004591304808855
+    },
+    {
+      "generated_token_index": 255,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 322,
+      "cosine_similarity": 0.06304781138896942
+    },
+    {
+      "generated_token_index": 256,
+      "token_id": 6731,
+      "token_text": "REE",
+      "prediction_position": 323,
+      "cosine_similarity": 0.0014195387484505773
+    },
+    {
+      "generated_token_index": 257,
+      "token_id": 42,
+      "token_text": "K",
+      "prediction_position": 324,
+      "cosine_similarity": 0.012857959605753422
+    },
+    {
+      "generated_token_index": 258,
+      "token_id": 1053,
+      "token_text": " would",
+      "prediction_position": 325,
+      "cosine_similarity": 0.107241190969944
+    },
+    {
+      "generated_token_index": 259,
+      "token_id": 4461,
+      "token_text": " likely",
+      "prediction_position": 326,
+      "cosine_similarity": 0.14754539728164673
+    },
+    {
+      "generated_token_index": 260,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 327,
+      "cosine_similarity": 0.22743135690689087
+    },
+    {
+      "generated_token_index": 261,
+      "token_id": 10007,
+      "token_text": " south",
+      "prediction_position": 328,
+      "cosine_similarity": 0.3726859986782074
+    },
+    {
+      "generated_token_index": 262,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 329,
+      "cosine_similarity": 0.22148925065994263
+    },
+    {
+      "generated_token_index": 263,
+      "token_id": 11000,
+      "token_text": " possibly",
+      "prediction_position": 330,
+      "cosine_similarity": 0.20651394128799438
+    },
+    {
+      "generated_token_index": 264,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 331,
+      "cosine_similarity": 0.2820664644241333
+    },
+    {
+      "generated_token_index": 265,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 332,
+      "cosine_similarity": 0.14094719290733337
+    },
+    {
+      "generated_token_index": 266,
+      "token_id": 2794,
+      "token_text": " OR",
+      "prediction_position": 333,
+      "cosine_similarity": 0.06344541907310486
+    },
+    {
+      "generated_token_index": 267,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 334,
+      "cosine_similarity": 0.03274410590529442
+    },
+    {
+      "generated_token_index": 268,
+      "token_id": 7527,
+      "token_text": "ARD",
+      "prediction_position": 335,
+      "cosine_similarity": 0.05018562823534012
+    },
+    {
+      "generated_token_index": 269,
+      "token_id": 7354,
+      "token_text": " BE",
+      "prediction_position": 336,
+      "cosine_similarity": 0.040196701884269714
+    },
+    {
+      "generated_token_index": 270,
+      "token_id": 12137,
+      "token_text": "ACH",
+      "prediction_position": 337,
+      "cosine_similarity": -0.0009734753984957933
+    },
+    {
+      "generated_token_index": 271,
+      "token_id": 75859,
+      "token_text": " NORTH",
+      "prediction_position": 338,
+      "cosine_similarity": 0.07949595153331757
+    },
+    {
+      "generated_token_index": 272,
+      "token_id": 386,
+      "token_text": " M",
+      "prediction_position": 339,
+      "cosine_similarity": 0.06108381971716881
+    },
+    {
+      "generated_token_index": 273,
+      "token_id": 20982,
+      "token_text": "ENS",
+      "prediction_position": 340,
+      "cosine_similarity": -0.005440174601972103
+    },
+    {
+      "generated_token_index": 274,
+      "token_id": 7837,
+      "token_text": " COM",
+      "prediction_position": 341,
+      "cosine_similarity": 0.021916314959526062
+    },
+    {
+      "generated_token_index": 275,
+      "token_id": 37,
+      "token_text": "F",
+      "prediction_position": 342,
+      "cosine_similarity": 0.026249529793858528
+    },
+    {
+      "generated_token_index": 276,
+      "token_id": 2938,
+      "token_text": "ORT",
+      "prediction_position": 343,
+      "cosine_similarity": 0.019888581708073616
+    },
+    {
+      "generated_token_index": 277,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 344,
+      "cosine_similarity": 0.023014623671770096
+    },
+    {
+      "generated_token_index": 278,
+      "token_id": 3579,
+      "token_text": "ATION",
+      "prediction_position": 345,
+      "cosine_similarity": 0.02057209424674511
+    },
+    {
+      "generated_token_index": 279,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 346,
+      "cosine_similarity": 0.026374617591500282
+    },
+    {
+      "generated_token_index": 280,
+      "token_id": 29815,
+      "token_text": "Based",
+      "prediction_position": 347,
+      "cosine_similarity": 0.0020832745358347893
+    },
+    {
+      "generated_token_index": 281,
+      "token_id": 389,
+      "token_text": " on",
+      "prediction_position": 348,
+      "cosine_similarity": -0.005361514165997505
+    },
+    {
+      "generated_token_index": 282,
+      "token_id": 420,
+      "token_text": " this",
+      "prediction_position": 349,
+      "cosine_similarity": 0.031685564666986465
+    },
+    {
+      "generated_token_index": 283,
+      "token_id": 3094,
+      "token_text": " step",
+      "prediction_position": 350,
+      "cosine_similarity": 0.019686944782733917
+    },
+    {
+      "generated_token_index": 284,
+      "token_id": 14656,
+      "token_text": "-by",
+      "prediction_position": 351,
+      "cosine_similarity": 0.01559519860893488
+    },
+    {
+      "generated_token_index": 285,
+      "token_id": 30308,
+      "token_text": "-step",
+      "prediction_position": 352,
+      "cosine_similarity": -0.011393815279006958
+    },
+    {
+      "generated_token_index": 286,
+      "token_id": 33811,
+      "token_text": " reasoning",
+      "prediction_position": 353,
+      "cosine_similarity": 0.007491931319236755
+    },
+    {
+      "generated_token_index": 287,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 354,
+      "cosine_similarity": -0.010742323473095894
+    },
+    {
+      "generated_token_index": 288,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 355,
+      "cosine_similarity": 0.006103426218032837
+    },
+    {
+      "generated_token_index": 289,
+      "token_id": 4320,
+      "token_text": " answer",
+      "prediction_position": 356,
+      "cosine_similarity": 0.03163595870137215
+    },
+    {
+      "generated_token_index": 290,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 357,
+      "cosine_similarity": -0.0072938865050673485
+    },
+    {
+      "generated_token_index": 291,
+      "token_id": 3508,
+      "token_text": " whether",
+      "prediction_position": 358,
+      "cosine_similarity": 0.011307867243885994
+    },
+    {
+      "generated_token_index": 292,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 359,
+      "cosine_similarity": 0.024451740086078644
+    },
+    {
+      "generated_token_index": 293,
+      "token_id": 28643,
+      "token_text": "UCK",
+      "prediction_position": 360,
+      "cosine_similarity": 0.00522169005125761
+    },
+    {
+      "generated_token_index": 294,
+      "token_id": 356,
+      "token_text": " C",
+      "prediction_position": 361,
+      "cosine_similarity": 0.010058506391942501
+    },
+    {
+      "generated_token_index": 295,
+      "token_id": 6731,
+      "token_text": "REE",
+      "prediction_position": 362,
+      "cosine_similarity": -0.02111951820552349
+    },
+    {
+      "generated_token_index": 296,
+      "token_id": 42,
+      "token_text": "K",
+      "prediction_position": 363,
+      "cosine_similarity": 0.03487924858927727
+    },
+    {
+      "generated_token_index": 297,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 364,
+      "cosine_similarity": 0.060182180255651474
+    },
+    {
+      "generated_token_index": 298,
+      "token_id": 28162,
+      "token_text": " Queens",
+      "prediction_position": 365,
+      "cosine_similarity": 0.042360059916973114
+    },
+    {
+      "generated_token_index": 299,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 366,
+      "cosine_similarity": 0.07622812688350677
+    },
+    {
+      "generated_token_index": 300,
+      "token_id": 7559,
+      "token_text": " located",
+      "prediction_position": 367,
+      "cosine_similarity": 0.19150708615779877
+    },
+    {
+      "generated_token_index": 301,
+      "token_id": 9909,
+      "token_text": " west",
+      "prediction_position": 368,
+      "cosine_similarity": 0.22993168234825134
+    },
+    {
+      "generated_token_index": 302,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 369,
+      "cosine_similarity": 0.1209157332777977
+    },
+    {
+      "generated_token_index": 303,
+      "token_id": 2794,
+      "token_text": " OR",
+      "prediction_position": 370,
+      "cosine_similarity": 0.03727654367685318
+    },
+    {
+      "generated_token_index": 304,
+      "token_id": 2198,
+      "token_text": "CH",
+      "prediction_position": 371,
+      "cosine_similarity": 0.02828076109290123
+    },
+    {
+      "generated_token_index": 305,
+      "token_id": 7527,
+      "token_text": "ARD",
+      "prediction_position": 372,
+      "cosine_similarity": 0.029834426939487457
+    },
+    {
+      "generated_token_index": 306,
+      "token_id": 7354,
+      "token_text": " BE",
+      "prediction_position": 373,
+      "cosine_similarity": 0.02818824164569378
+    },
+    {
+      "generated_token_index": 307,
+      "token_id": 12137,
+      "token_text": "ACH",
+      "prediction_position": 374,
+      "cosine_similarity": 0.013823091983795166
+    },
+    {
+      "generated_token_index": 308,
+      "token_id": 75859,
+      "token_text": " NORTH",
+      "prediction_position": 375,
+      "cosine_similarity": 0.061487749218940735
+    },
+    {
+      "generated_token_index": 309,
+      "token_id": 386,
+      "token_text": " M",
+      "prediction_position": 376,
+      "cosine_similarity": 0.04848022758960724
+    },
+    {
+      "generated_token_index": 310,
+      "token_id": 20982,
+      "token_text": "ENS",
+      "prediction_position": 377,
+      "cosine_similarity": 0.03611357510089874
+    },
+    {
+      "generated_token_index": 311,
+      "token_id": 7837,
+      "token_text": " COM",
+      "prediction_position": 378,
+      "cosine_similarity": 0.015553491190075874
+    },
+    {
+      "generated_token_index": 312,
+      "token_id": 37,
+      "token_text": "F",
+      "prediction_position": 379,
+      "cosine_similarity": 0.01879638247191906
+    },
+    {
+      "generated_token_index": 313,
+      "token_id": 2938,
+      "token_text": "ORT",
+      "prediction_position": 380,
+      "cosine_similarity": -0.010791775770485401
+    },
+    {
+      "generated_token_index": 314,
+      "token_id": 4015,
+      "token_text": " ST",
+      "prediction_position": 381,
+      "cosine_similarity": 0.02597815915942192
+    },
+    {
+      "generated_token_index": 315,
+      "token_id": 3579,
+      "token_text": "ATION",
+      "prediction_position": 382,
+      "cosine_similarity": 0.010288777761161327
+    },
+    {
+      "generated_token_index": 316,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 383,
+      "cosine_similarity": 0.02691197395324707
+    },
+    {
+      "generated_token_index": 317,
+      "token_id": 66236,
+      "token_text": " Bronx",
+      "prediction_position": 384,
+      "cosine_similarity": 0.030314616858959198
+    },
+    {
+      "generated_token_index": 318,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 385,
+      "cosine_similarity": 0.01051545049995184
+    },
+    {
+      "generated_token_index": 319,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 386,
+      "cosine_similarity": 0.018315665423870087
+    },
+    {
+      "generated_token_index": 320,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 387,
+      "cosine_similarity": 0.005814950913190842
+    },
+    {
+      "generated_token_index": 321,
+      "token_id": 14331,
+      "token_text": "YES",
+      "prediction_position": 388,
+      "cosine_similarity": 0.027234738692641258
+    },
+    {
+      "generated_token_index": 322,
+      "token_id": 334,
+      "token_text": "**",
+      "prediction_position": 389,
+      "cosine_similarity": 0.004055864177644253
+    },
+    {
+      "generated_token_index": 323,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 390,
+      "cosine_similarity": -0.01446071732789278
+    },
+    {
+      "generated_token_index": 324,
+      "token_id": 128009,
+      "token_text": "<|eot_id|>",
+      "prediction_position": 391,
+      "cosine_similarity": -0.01210721954703331
+    }
+  ],
+  "csv_path": "feature_46732_response_cosine_llama33_70b_it_location_direction_batch/individual/0019_wm-nyc-place-long_is_duck_creek_queens_located_west_of_orchard_beach_north_mens_comfort_station_br/feature_46732_response_token_cosine.csv",
+  "plot_path": "feature_46732_response_cosine_llama33_70b_it_location_direction_batch/individual/0019_wm-nyc-place-long_is_duck_creek_queens_located_west_of_orchard_beach_north_mens_comfort_station_br/feature_46732_response_token_cosine.png"
+}
