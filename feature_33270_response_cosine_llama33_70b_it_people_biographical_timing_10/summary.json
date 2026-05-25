@@ -1,0 +1,132 @@
+{
+  "model_id": "unsloth/Llama-3.3-70B-Instruct-bnb-4bit",
+  "examples_path": "llama31_70b_4bit_unfaithful_examples.json",
+  "cases_jsonl": "chainscope_exports/people_biographical_timing_10_cases.jsonl",
+  "prompt_file": null,
+  "case_id": "book_length_say_nothing_vs_great_zoo",
+  "directions": [
+    "people_bio_01",
+    "people_bio_02",
+    "people_bio_03",
+    "people_bio_04",
+    "people_bio_05",
+    "people_bio_06",
+    "people_bio_07",
+    "people_bio_08",
+    "people_bio_09",
+    "people_bio_10"
+  ],
+  "max_new_tokens": 256,
+  "feature_id": 33270,
+  "seed": 42,
+  "sae_repo_id": "Goodfire/Llama-3.3-70B-Instruct-SAE-l50",
+  "sae_filename": "Llama-3.3-70B-Instruct-SAE-l50.pt",
+  "sae_layer": 50,
+  "sae_d_hidden": 65536,
+  "sae_expansion_factor": 8,
+  "neuronpedia_model": "llama3.3-70b-it",
+  "neuronpedia_release": "llama3.3-70b-it-gf",
+  "neuronpedia_layer": "50-resid-post-gf",
+  "cases": [
+    {
+      "case_id": "00019779e22881816817190e331a9f08a13943d63080f50ffaa174c0b4e220f5",
+      "direction": "people_bio_01",
+      "num_generated_tokens": 256,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_01_00019779e22881816817190e331a9f08a13943d63080f50ffaa174c0b4e220f5/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_01_00019779e22881816817190e331a9f08a13943d63080f50ffaa174c0b4e220f5/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_01_00019779e22881816817190e331a9f08a13943d63080f50ffaa174c0b4e220f5/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.2275301069021225,
+      "min_cosine_similarity": -0.04108485206961632
+    },
+    {
+      "case_id": "0c8acf10b37ddc49dc805e123452c78b62f941e4154307272bf4452d235ef6ab",
+      "direction": "people_bio_02",
+      "num_generated_tokens": 238,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_02_0c8acf10b37ddc49dc805e123452c78b62f941e4154307272bf4452d235ef6ab/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_02_0c8acf10b37ddc49dc805e123452c78b62f941e4154307272bf4452d235ef6ab/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_02_0c8acf10b37ddc49dc805e123452c78b62f941e4154307272bf4452d235ef6ab/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.30829158425331116,
+      "min_cosine_similarity": -0.03709906339645386
+    },
+    {
+      "case_id": "1658d968e9ef871820650f8e7cdea8d9719ff0b749eea25a56a1c850eb77a6d8",
+      "direction": "people_bio_03",
+      "num_generated_tokens": 256,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_03_1658d968e9ef871820650f8e7cdea8d9719ff0b749eea25a56a1c850eb77a6d8/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_03_1658d968e9ef871820650f8e7cdea8d9719ff0b749eea25a56a1c850eb77a6d8/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_03_1658d968e9ef871820650f8e7cdea8d9719ff0b749eea25a56a1c850eb77a6d8/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.32829567790031433,
+      "min_cosine_similarity": -0.037746623158454895
+    },
+    {
+      "case_id": "16c68789e34b5ca5f066536c2f7cf126191fd4fd634a42aaa55a41302442980b",
+      "direction": "people_bio_04",
+      "num_generated_tokens": 150,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_04_16c68789e34b5ca5f066536c2f7cf126191fd4fd634a42aaa55a41302442980b/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_04_16c68789e34b5ca5f066536c2f7cf126191fd4fd634a42aaa55a41302442980b/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_04_16c68789e34b5ca5f066536c2f7cf126191fd4fd634a42aaa55a41302442980b/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.2681422829627991,
+      "min_cosine_similarity": -0.03549214452505112
+    },
+    {
+      "case_id": "1b662c6d3b47cc11d1ea1f97fbd7f759c17cf5fdb016feaf6bcf59f9d353f9cb",
+      "direction": "people_bio_05",
+      "num_generated_tokens": 256,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_05_1b662c6d3b47cc11d1ea1f97fbd7f759c17cf5fdb016feaf6bcf59f9d353f9cb/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_05_1b662c6d3b47cc11d1ea1f97fbd7f759c17cf5fdb016feaf6bcf59f9d353f9cb/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_05_1b662c6d3b47cc11d1ea1f97fbd7f759c17cf5fdb016feaf6bcf59f9d353f9cb/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.22316347062587738,
+      "min_cosine_similarity": -0.036813780665397644
+    },
+    {
+      "case_id": "1b8864f8659402b9754f8a37ae4d8f0c8f78133b52d8d00870adaf7c073dd528",
+      "direction": "people_bio_06",
+      "num_generated_tokens": 202,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_06_1b8864f8659402b9754f8a37ae4d8f0c8f78133b52d8d00870adaf7c073dd528/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_06_1b8864f8659402b9754f8a37ae4d8f0c8f78133b52d8d00870adaf7c073dd528/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_06_1b8864f8659402b9754f8a37ae4d8f0c8f78133b52d8d00870adaf7c073dd528/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.26097092032432556,
+      "min_cosine_similarity": -0.04395323991775513
+    },
+    {
+      "case_id": "1cb29c06efca94ef97f553dd429f611704db311ff32fbccdc459ad76c1f132b7",
+      "direction": "people_bio_07",
+      "num_generated_tokens": 123,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_07_1cb29c06efca94ef97f553dd429f611704db311ff32fbccdc459ad76c1f132b7/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_07_1cb29c06efca94ef97f553dd429f611704db311ff32fbccdc459ad76c1f132b7/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_07_1cb29c06efca94ef97f553dd429f611704db311ff32fbccdc459ad76c1f132b7/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.23557443916797638,
+      "min_cosine_similarity": -0.034212127327919006
+    },
+    {
+      "case_id": "252a305dece598cd7dc8f366fe228971fc007e6f2837a2f16623e5af4763e701",
+      "direction": "people_bio_08",
+      "num_generated_tokens": 183,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_08_252a305dece598cd7dc8f366fe228971fc007e6f2837a2f16623e5af4763e701/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_08_252a305dece598cd7dc8f366fe228971fc007e6f2837a2f16623e5af4763e701/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_08_252a305dece598cd7dc8f366fe228971fc007e6f2837a2f16623e5af4763e701/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.18090833723545074,
+      "min_cosine_similarity": -0.04217485710978508
+    },
+    {
+      "case_id": "2614f5bea355dc9ba74839acedc324d3ffa25b3d90629d3ca4a94a3f4e87b59a",
+      "direction": "people_bio_09",
+      "num_generated_tokens": 191,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_09_2614f5bea355dc9ba74839acedc324d3ffa25b3d90629d3ca4a94a3f4e87b59a/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_09_2614f5bea355dc9ba74839acedc324d3ffa25b3d90629d3ca4a94a3f4e87b59a/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_09_2614f5bea355dc9ba74839acedc324d3ffa25b3d90629d3ca4a94a3f4e87b59a/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.21093061566352844,
+      "min_cosine_similarity": -0.043148286640644073
+    },
+    {
+      "case_id": "264c770906c28534c2e019de2b43730f0c1768ea69c8e7d0f986fe7494d481f7",
+      "direction": "people_bio_10",
+      "num_generated_tokens": 256,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_10_264c770906c28534c2e019de2b43730f0c1768ea69c8e7d0f986fe7494d481f7/feature_33270_response_token_cosine.json",
+      "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_10_264c770906c28534c2e019de2b43730f0c1768ea69c8e7d0f986fe7494d481f7/feature_33270_response_token_cosine.csv",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_10_264c770906c28534c2e019de2b43730f0c1768ea69c8e7d0f986fe7494d481f7/feature_33270_response_token_cosine.png",
+      "max_cosine_similarity": 0.17551963031291962,
+      "min_cosine_similarity": -0.03862228989601135
+    }
+  ]
+}

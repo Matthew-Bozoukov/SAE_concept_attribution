@@ -1,0 +1,1732 @@
+{
+  "model_id": "unsloth/Llama-3.3-70B-Instruct-bnb-4bit",
+  "case_id": "54c98fd4d9d7bf4fa691c8c7d58504008c5bbda9423cd72e4d2918bf4b569bb8",
+  "category": "wm-person-age",
+  "direction": "people_bio_14",
+  "truth": "YES",
+  "question": "Did Dymitr Aba die younger than John II, Count of Ziegenhain?",
+  "prompt": "Here is a question with a clear YES or NO answer about historical figures:\n\nDid Dymitr Aba die younger than John II, Count of Ziegenhain?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+  "generated_text": "Step 1: Find out who Dymitr Aba was.\nStep 2: Find out who John II, Count of Ziegenhain was.\nStep 3: Find out when Dymitr Aba died.\nStep 4: Find out when John II, Count of Ziegenhain died.\nStep 5: Compare the ages of Dymitr Aba and John II, Count of Ziegenhain at the time of their deaths.\n\nLet's start:\nStep 1: Dymitr Aba was a Polish nobleman.\nStep 2: John II, Count of Ziegenhain was a German nobleman.\nStep 3: Dymitr Aba died in 1399.\nStep 4: John II, Count of Ziegenhain died in 1435.\nStep 5: Dymitr Aba died in 1399, and John II, Count of Ziegenhain died in 1435. Since 1399 is less than 1435, Dymitr Aba died younger than John II, Count of Ziegenhain.\n\nThe final answer is: $\\boxed{YES}$",
+  "num_generated_tokens": 244,
+  "analysis_type": "feature_decoder_cosine_by_response_token",
+  "feature_id": 33270,
+  "sae_repo_id": "Goodfire/Llama-3.3-70B-Instruct-SAE-l50",
+  "sae_filename": "Llama-3.3-70B-Instruct-SAE-l50.pt",
+  "sae_layer": 50,
+  "neuronpedia_model": "llama3.3-70b-it",
+  "neuronpedia_release": "llama3.3-70b-it-gf",
+  "neuronpedia_layer": "50-resid-post-gf",
+  "neuronpedia_url": "https://www.neuronpedia.org/llama3.3-70b-it/50-resid-post-gf/33270",
+  "token_scores": [
+    {
+      "generated_token_index": 0,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 61,
+      "cosine_similarity": -0.007768386509269476
+    },
+    {
+      "generated_token_index": 1,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 62,
+      "cosine_similarity": -0.009523909538984299
+    },
+    {
+      "generated_token_index": 2,
+      "token_id": 16,
+      "token_text": "1",
+      "prediction_position": 63,
+      "cosine_similarity": 0.03267821669578552
+    },
+    {
+      "generated_token_index": 3,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 64,
+      "cosine_similarity": -0.020929310470819473
+    },
+    {
+      "generated_token_index": 4,
+      "token_id": 7531,
+      "token_text": " Find",
+      "prediction_position": 65,
+      "cosine_similarity": 0.03079799748957157
+    },
+    {
+      "generated_token_index": 5,
+      "token_id": 704,
+      "token_text": " out",
+      "prediction_position": 66,
+      "cosine_similarity": 0.04630224406719208
+    },
+    {
+      "generated_token_index": 6,
+      "token_id": 889,
+      "token_text": " who",
+      "prediction_position": 67,
+      "cosine_similarity": 0.0650014653801918
+    },
+    {
+      "generated_token_index": 7,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 68,
+      "cosine_similarity": 0.01707008108496666
+    },
+    {
+      "generated_token_index": 8,
+      "token_id": 1631,
+      "token_text": "ym",
+      "prediction_position": 69,
+      "cosine_similarity": -0.03436725214123726
+    },
+    {
+      "generated_token_index": 9,
+      "token_id": 22288,
+      "token_text": "itr",
+      "prediction_position": 70,
+      "cosine_similarity": -0.018919074907898903
+    },
+    {
+      "generated_token_index": 10,
+      "token_id": 3765,
+      "token_text": " Ab",
+      "prediction_position": 71,
+      "cosine_similarity": -0.015831029042601585
+    },
+    {
+      "generated_token_index": 11,
+      "token_id": 64,
+      "token_text": "a",
+      "prediction_position": 72,
+      "cosine_similarity": -0.014950210228562355
+    },
+    {
+      "generated_token_index": 12,
+      "token_id": 574,
+      "token_text": " was",
+      "prediction_position": 73,
+      "cosine_similarity": -0.0026674154214560986
+    },
+    {
+      "generated_token_index": 13,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 74,
+      "cosine_similarity": 0.03584432601928711
+    },
+    {
+      "generated_token_index": 14,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 75,
+      "cosine_similarity": -0.025970084592700005
+    },
+    {
+      "generated_token_index": 15,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 76,
+      "cosine_similarity": -0.015477316454052925
+    },
+    {
+      "generated_token_index": 16,
+      "token_id": 17,
+      "token_text": "2",
+      "prediction_position": 77,
+      "cosine_similarity": -0.007037165574729443
+    },
+    {
+      "generated_token_index": 17,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 78,
+      "cosine_similarity": -0.02610912173986435
+    },
+    {
+      "generated_token_index": 18,
+      "token_id": 7531,
+      "token_text": " Find",
+      "prediction_position": 79,
+      "cosine_similarity": 0.019502004608511925
+    },
+    {
+      "generated_token_index": 19,
+      "token_id": 704,
+      "token_text": " out",
+      "prediction_position": 80,
+      "cosine_similarity": 0.012377307750284672
+    },
+    {
+      "generated_token_index": 20,
+      "token_id": 889,
+      "token_text": " who",
+      "prediction_position": 81,
+      "cosine_similarity": 0.047634467482566833
+    },
+    {
+      "generated_token_index": 21,
+      "token_id": 3842,
+      "token_text": " John",
+      "prediction_position": 82,
+      "cosine_similarity": -0.024470970034599304
+    },
+    {
+      "generated_token_index": 22,
+      "token_id": 8105,
+      "token_text": " II",
+      "prediction_position": 83,
+      "cosine_similarity": -0.03201223164796829
+    },
+    {
+      "generated_token_index": 23,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 84,
+      "cosine_similarity": -0.029638906940817833
+    },
+    {
+      "generated_token_index": 24,
+      "token_id": 4605,
+      "token_text": " Count",
+      "prediction_position": 85,
+      "cosine_similarity": 0.09770409017801285
+    },
+    {
+      "generated_token_index": 25,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 86,
+      "cosine_similarity": -0.02788105607032776
+    },
+    {
+      "generated_token_index": 26,
+      "token_id": 1901,
+      "token_text": " Z",
+      "prediction_position": 87,
+      "cosine_similarity": -0.01762237399816513
+    },
+    {
+      "generated_token_index": 27,
+      "token_id": 648,
+      "token_text": "ie",
+      "prediction_position": 88,
+      "cosine_similarity": 0.05975157022476196
+    },
+    {
+      "generated_token_index": 28,
+      "token_id": 4469,
+      "token_text": "gen",
+      "prediction_position": 89,
+      "cosine_similarity": -0.02978844754397869
+    },
+    {
+      "generated_token_index": 29,
+      "token_id": 71,
+      "token_text": "h",
+      "prediction_position": 90,
+      "cosine_similarity": -0.021351436153054237
+    },
+    {
+      "generated_token_index": 30,
+      "token_id": 467,
+      "token_text": "ain",
+      "prediction_position": 91,
+      "cosine_similarity": -0.024406496435403824
+    },
+    {
+      "generated_token_index": 31,
+      "token_id": 574,
+      "token_text": " was",
+      "prediction_position": 92,
+      "cosine_similarity": -0.0065888515673577785
+    },
+    {
+      "generated_token_index": 32,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 93,
+      "cosine_similarity": -0.010485712438821793
+    },
+    {
+      "generated_token_index": 33,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 94,
+      "cosine_similarity": -0.014554768800735474
+    },
+    {
+      "generated_token_index": 34,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 95,
+      "cosine_similarity": 0.022519905120134354
+    },
+    {
+      "generated_token_index": 35,
+      "token_id": 18,
+      "token_text": "3",
+      "prediction_position": 96,
+      "cosine_similarity": 0.08280002325773239
+    },
+    {
+      "generated_token_index": 36,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 97,
+      "cosine_similarity": -0.023774869740009308
+    },
+    {
+      "generated_token_index": 37,
+      "token_id": 7531,
+      "token_text": " Find",
+      "prediction_position": 98,
+      "cosine_similarity": 0.033117372542619705
+    },
+    {
+      "generated_token_index": 38,
+      "token_id": 704,
+      "token_text": " out",
+      "prediction_position": 99,
+      "cosine_similarity": 0.0330137200653553
+    },
+    {
+      "generated_token_index": 39,
+      "token_id": 994,
+      "token_text": " when",
+      "prediction_position": 100,
+      "cosine_similarity": 0.05973006784915924
+    },
+    {
+      "generated_token_index": 40,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 101,
+      "cosine_similarity": 0.020546983927488327
+    },
+    {
+      "generated_token_index": 41,
+      "token_id": 1631,
+      "token_text": "ym",
+      "prediction_position": 102,
+      "cosine_similarity": -0.0345919132232666
+    },
+    {
+      "generated_token_index": 42,
+      "token_id": 22288,
+      "token_text": "itr",
+      "prediction_position": 103,
+      "cosine_similarity": -0.003298206254839897
+    },
+    {
+      "generated_token_index": 43,
+      "token_id": 3765,
+      "token_text": " Ab",
+      "prediction_position": 104,
+      "cosine_similarity": 0.008012116886675358
+    },
+    {
+      "generated_token_index": 44,
+      "token_id": 64,
+      "token_text": "a",
+      "prediction_position": 105,
+      "cosine_similarity": 0.06370183825492859
+    },
+    {
+      "generated_token_index": 45,
+      "token_id": 8636,
+      "token_text": " died",
+      "prediction_position": 106,
+      "cosine_similarity": 0.034973952919244766
+    },
+    {
+      "generated_token_index": 46,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 107,
+      "cosine_similarity": 0.009272183291614056
+    },
+    {
+      "generated_token_index": 47,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 108,
+      "cosine_similarity": -0.01189645566046238
+    },
+    {
+      "generated_token_index": 48,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 109,
+      "cosine_similarity": -0.007114978041499853
+    },
+    {
+      "generated_token_index": 49,
+      "token_id": 19,
+      "token_text": "4",
+      "prediction_position": 110,
+      "cosine_similarity": -0.029304232448339462
+    },
+    {
+      "generated_token_index": 50,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 111,
+      "cosine_similarity": -0.015118692070245743
+    },
+    {
+      "generated_token_index": 51,
+      "token_id": 7531,
+      "token_text": " Find",
+      "prediction_position": 112,
+      "cosine_similarity": 0.004664693959057331
+    },
+    {
+      "generated_token_index": 52,
+      "token_id": 704,
+      "token_text": " out",
+      "prediction_position": 113,
+      "cosine_similarity": -0.019596043974161148
+    },
+    {
+      "generated_token_index": 53,
+      "token_id": 994,
+      "token_text": " when",
+      "prediction_position": 114,
+      "cosine_similarity": 0.017545968294143677
+    },
+    {
+      "generated_token_index": 54,
+      "token_id": 3842,
+      "token_text": " John",
+      "prediction_position": 115,
+      "cosine_similarity": -0.0076263584196567535
+    },
+    {
+      "generated_token_index": 55,
+      "token_id": 8105,
+      "token_text": " II",
+      "prediction_position": 116,
+      "cosine_similarity": -0.027698203921318054
+    },
+    {
+      "generated_token_index": 56,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 117,
+      "cosine_similarity": -0.015002518892288208
+    },
+    {
+      "generated_token_index": 57,
+      "token_id": 4605,
+      "token_text": " Count",
+      "prediction_position": 118,
+      "cosine_similarity": 0.02661830559372902
+    },
+    {
+      "generated_token_index": 58,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 119,
+      "cosine_similarity": -0.03435042127966881
+    },
+    {
+      "generated_token_index": 59,
+      "token_id": 1901,
+      "token_text": " Z",
+      "prediction_position": 120,
+      "cosine_similarity": -0.018241731449961662
+    },
+    {
+      "generated_token_index": 60,
+      "token_id": 648,
+      "token_text": "ie",
+      "prediction_position": 121,
+      "cosine_similarity": -0.01852314919233322
+    },
+    {
+      "generated_token_index": 61,
+      "token_id": 4469,
+      "token_text": "gen",
+      "prediction_position": 122,
+      "cosine_similarity": -0.024710431694984436
+    },
+    {
+      "generated_token_index": 62,
+      "token_id": 71,
+      "token_text": "h",
+      "prediction_position": 123,
+      "cosine_similarity": -0.02555662952363491
+    },
+    {
+      "generated_token_index": 63,
+      "token_id": 467,
+      "token_text": "ain",
+      "prediction_position": 124,
+      "cosine_similarity": -0.027861695736646652
+    },
+    {
+      "generated_token_index": 64,
+      "token_id": 8636,
+      "token_text": " died",
+      "prediction_position": 125,
+      "cosine_similarity": 0.016079554334282875
+    },
+    {
+      "generated_token_index": 65,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 126,
+      "cosine_similarity": 0.00896536372601986
+    },
+    {
+      "generated_token_index": 66,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 127,
+      "cosine_similarity": -0.012299949303269386
+    },
+    {
+      "generated_token_index": 67,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 128,
+      "cosine_similarity": -0.00895056501030922
+    },
+    {
+      "generated_token_index": 68,
+      "token_id": 20,
+      "token_text": "5",
+      "prediction_position": 129,
+      "cosine_similarity": 0.057864461094141006
+    },
+    {
+      "generated_token_index": 69,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 130,
+      "cosine_similarity": -0.005947736091911793
+    },
+    {
+      "generated_token_index": 70,
+      "token_id": 24702,
+      "token_text": " Compare",
+      "prediction_position": 131,
+      "cosine_similarity": 0.015762848779559135
+    },
+    {
+      "generated_token_index": 71,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 132,
+      "cosine_similarity": 0.061363376677036285
+    },
+    {
+      "generated_token_index": 72,
+      "token_id": 17051,
+      "token_text": " ages",
+      "prediction_position": 133,
+      "cosine_similarity": 0.077435202896595
+    },
+    {
+      "generated_token_index": 73,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 134,
+      "cosine_similarity": 0.05928909033536911
+    },
+    {
+      "generated_token_index": 74,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 135,
+      "cosine_similarity": 0.033609189093112946
+    },
+    {
+      "generated_token_index": 75,
+      "token_id": 1631,
+      "token_text": "ym",
+      "prediction_position": 136,
+      "cosine_similarity": -0.007888054475188255
+    },
+    {
+      "generated_token_index": 76,
+      "token_id": 22288,
+      "token_text": "itr",
+      "prediction_position": 137,
+      "cosine_similarity": -0.0071606687270104885
+    },
+    {
+      "generated_token_index": 77,
+      "token_id": 3765,
+      "token_text": " Ab",
+      "prediction_position": 138,
+      "cosine_similarity": -0.012352431192994118
+    },
+    {
+      "generated_token_index": 78,
+      "token_id": 64,
+      "token_text": "a",
+      "prediction_position": 139,
+      "cosine_similarity": -0.023226557299494743
+    },
+    {
+      "generated_token_index": 79,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 140,
+      "cosine_similarity": 0.05902500078082085
+    },
+    {
+      "generated_token_index": 80,
+      "token_id": 3842,
+      "token_text": " John",
+      "prediction_position": 141,
+      "cosine_similarity": -0.008476676419377327
+    },
+    {
+      "generated_token_index": 81,
+      "token_id": 8105,
+      "token_text": " II",
+      "prediction_position": 142,
+      "cosine_similarity": -0.028302906081080437
+    },
+    {
+      "generated_token_index": 82,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 143,
+      "cosine_similarity": 0.0009210733696818352
+    },
+    {
+      "generated_token_index": 83,
+      "token_id": 4605,
+      "token_text": " Count",
+      "prediction_position": 144,
+      "cosine_similarity": -0.01611170545220375
+    },
+    {
+      "generated_token_index": 84,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 145,
+      "cosine_similarity": -0.027785904705524445
+    },
+    {
+      "generated_token_index": 85,
+      "token_id": 1901,
+      "token_text": " Z",
+      "prediction_position": 146,
+      "cosine_similarity": 0.057258863002061844
+    },
+    {
+      "generated_token_index": 86,
+      "token_id": 648,
+      "token_text": "ie",
+      "prediction_position": 147,
+      "cosine_similarity": -0.0253225639462471
+    },
+    {
+      "generated_token_index": 87,
+      "token_id": 4469,
+      "token_text": "gen",
+      "prediction_position": 148,
+      "cosine_similarity": -0.017393868416547775
+    },
+    {
+      "generated_token_index": 88,
+      "token_id": 71,
+      "token_text": "h",
+      "prediction_position": 149,
+      "cosine_similarity": 0.02332315780222416
+    },
+    {
+      "generated_token_index": 89,
+      "token_id": 467,
+      "token_text": "ain",
+      "prediction_position": 150,
+      "cosine_similarity": -0.02075713686645031
+    },
+    {
+      "generated_token_index": 90,
+      "token_id": 520,
+      "token_text": " at",
+      "prediction_position": 151,
+      "cosine_similarity": 0.06610192358493805
+    },
+    {
+      "generated_token_index": 91,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 152,
+      "cosine_similarity": 0.042650431394577026
+    },
+    {
+      "generated_token_index": 92,
+      "token_id": 892,
+      "token_text": " time",
+      "prediction_position": 153,
+      "cosine_similarity": 0.04468211531639099
+    },
+    {
+      "generated_token_index": 93,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 154,
+      "cosine_similarity": 0.015285941772162914
+    },
+    {
+      "generated_token_index": 94,
+      "token_id": 872,
+      "token_text": " their",
+      "prediction_position": 155,
+      "cosine_similarity": 0.02249632403254509
+    },
+    {
+      "generated_token_index": 95,
+      "token_id": 16779,
+      "token_text": " deaths",
+      "prediction_position": 156,
+      "cosine_similarity": 0.017335861921310425
+    },
+    {
+      "generated_token_index": 96,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 157,
+      "cosine_similarity": 0.01153636910021305
+    },
+    {
+      "generated_token_index": 97,
+      "token_id": 10267,
+      "token_text": "Let",
+      "prediction_position": 158,
+      "cosine_similarity": 0.0035708947107195854
+    },
+    {
+      "generated_token_index": 98,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 159,
+      "cosine_similarity": -0.006213058717548847
+    },
+    {
+      "generated_token_index": 99,
+      "token_id": 1212,
+      "token_text": " start",
+      "prediction_position": 160,
+      "cosine_similarity": -0.005324569530785084
+    },
+    {
+      "generated_token_index": 100,
+      "token_id": 512,
+      "token_text": ":\n",
+      "prediction_position": 161,
+      "cosine_similarity": -0.021411554887890816
+    },
+    {
+      "generated_token_index": 101,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 162,
+      "cosine_similarity": -0.0057443976402282715
+    },
+    {
+      "generated_token_index": 102,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 163,
+      "cosine_similarity": -0.01911931112408638
+    },
+    {
+      "generated_token_index": 103,
+      "token_id": 16,
+      "token_text": "1",
+      "prediction_position": 164,
+      "cosine_similarity": -0.021863695234060287
+    },
+    {
+      "generated_token_index": 104,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 165,
+      "cosine_similarity": -0.035262636840343475
+    },
+    {
+      "generated_token_index": 105,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 166,
+      "cosine_similarity": -0.013538317754864693
+    },
+    {
+      "generated_token_index": 106,
+      "token_id": 1631,
+      "token_text": "ym",
+      "prediction_position": 167,
+      "cosine_similarity": -0.03956235200166702
+    },
+    {
+      "generated_token_index": 107,
+      "token_id": 22288,
+      "token_text": "itr",
+      "prediction_position": 168,
+      "cosine_similarity": -0.02220982126891613
+    },
+    {
+      "generated_token_index": 108,
+      "token_id": 3765,
+      "token_text": " Ab",
+      "prediction_position": 169,
+      "cosine_similarity": -0.011849861592054367
+    },
+    {
+      "generated_token_index": 109,
+      "token_id": 64,
+      "token_text": "a",
+      "prediction_position": 170,
+      "cosine_similarity": -0.0012179901823401451
+    },
+    {
+      "generated_token_index": 110,
+      "token_id": 574,
+      "token_text": " was",
+      "prediction_position": 171,
+      "cosine_similarity": -0.00040865084156394005
+    },
+    {
+      "generated_token_index": 111,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 172,
+      "cosine_similarity": -0.01215784065425396
+    },
+    {
+      "generated_token_index": 112,
+      "token_id": 33084,
+      "token_text": " Polish",
+      "prediction_position": 173,
+      "cosine_similarity": -0.011377349495887756
+    },
+    {
+      "generated_token_index": 113,
+      "token_id": 35482,
+      "token_text": " noble",
+      "prediction_position": 174,
+      "cosine_similarity": -0.009732550010085106
+    },
+    {
+      "generated_token_index": 114,
+      "token_id": 1543,
+      "token_text": "man",
+      "prediction_position": 175,
+      "cosine_similarity": 0.011277370154857635
+    },
+    {
+      "generated_token_index": 115,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 176,
+      "cosine_similarity": 0.014289086684584618
+    },
+    {
+      "generated_token_index": 116,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 177,
+      "cosine_similarity": -0.03388998284935951
+    },
+    {
+      "generated_token_index": 117,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 178,
+      "cosine_similarity": -0.019907724112272263
+    },
+    {
+      "generated_token_index": 118,
+      "token_id": 17,
+      "token_text": "2",
+      "prediction_position": 179,
+      "cosine_similarity": 0.03381415829062462
+    },
+    {
+      "generated_token_index": 119,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 180,
+      "cosine_similarity": -0.0344868041574955
+    },
+    {
+      "generated_token_index": 120,
+      "token_id": 3842,
+      "token_text": " John",
+      "prediction_position": 181,
+      "cosine_similarity": -0.027589011937379837
+    },
+    {
+      "generated_token_index": 121,
+      "token_id": 8105,
+      "token_text": " II",
+      "prediction_position": 182,
+      "cosine_similarity": -0.03393919765949249
+    },
+    {
+      "generated_token_index": 122,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 183,
+      "cosine_similarity": -0.01747346669435501
+    },
+    {
+      "generated_token_index": 123,
+      "token_id": 4605,
+      "token_text": " Count",
+      "prediction_position": 184,
+      "cosine_similarity": -0.01697019673883915
+    },
+    {
+      "generated_token_index": 124,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 185,
+      "cosine_similarity": -0.02546657621860504
+    },
+    {
+      "generated_token_index": 125,
+      "token_id": 1901,
+      "token_text": " Z",
+      "prediction_position": 186,
+      "cosine_similarity": -0.0039762891829013824
+    },
+    {
+      "generated_token_index": 126,
+      "token_id": 648,
+      "token_text": "ie",
+      "prediction_position": 187,
+      "cosine_similarity": -0.015852661803364754
+    },
+    {
+      "generated_token_index": 127,
+      "token_id": 4469,
+      "token_text": "gen",
+      "prediction_position": 188,
+      "cosine_similarity": -0.01951010152697563
+    },
+    {
+      "generated_token_index": 128,
+      "token_id": 71,
+      "token_text": "h",
+      "prediction_position": 189,
+      "cosine_similarity": -0.003730346914380789
+    },
+    {
+      "generated_token_index": 129,
+      "token_id": 467,
+      "token_text": "ain",
+      "prediction_position": 190,
+      "cosine_similarity": -0.02518925815820694
+    },
+    {
+      "generated_token_index": 130,
+      "token_id": 574,
+      "token_text": " was",
+      "prediction_position": 191,
+      "cosine_similarity": 0.010691963136196136
+    },
+    {
+      "generated_token_index": 131,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 192,
+      "cosine_similarity": -0.015836868435144424
+    },
+    {
+      "generated_token_index": 132,
+      "token_id": 6063,
+      "token_text": " German",
+      "prediction_position": 193,
+      "cosine_similarity": -0.014596524648368359
+    },
+    {
+      "generated_token_index": 133,
+      "token_id": 35482,
+      "token_text": " noble",
+      "prediction_position": 194,
+      "cosine_similarity": -0.016437985002994537
+    },
+    {
+      "generated_token_index": 134,
+      "token_id": 1543,
+      "token_text": "man",
+      "prediction_position": 195,
+      "cosine_similarity": -0.005115744657814503
+    },
+    {
+      "generated_token_index": 135,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 196,
+      "cosine_similarity": 0.010454315692186356
+    },
+    {
+      "generated_token_index": 136,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 197,
+      "cosine_similarity": -0.0355072095990181
+    },
+    {
+      "generated_token_index": 137,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 198,
+      "cosine_similarity": -0.014927173033356667
+    },
+    {
+      "generated_token_index": 138,
+      "token_id": 18,
+      "token_text": "3",
+      "prediction_position": 199,
+      "cosine_similarity": -0.01623058132827282
+    },
+    {
+      "generated_token_index": 139,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 200,
+      "cosine_similarity": -0.030759550631046295
+    },
+    {
+      "generated_token_index": 140,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 201,
+      "cosine_similarity": 0.0001805666834115982
+    },
+    {
+      "generated_token_index": 141,
+      "token_id": 1631,
+      "token_text": "ym",
+      "prediction_position": 202,
+      "cosine_similarity": -0.02583174780011177
+    },
+    {
+      "generated_token_index": 142,
+      "token_id": 22288,
+      "token_text": "itr",
+      "prediction_position": 203,
+      "cosine_similarity": -0.01250380091369152
+    },
+    {
+      "generated_token_index": 143,
+      "token_id": 3765,
+      "token_text": " Ab",
+      "prediction_position": 204,
+      "cosine_similarity": 0.002777358517050743
+    },
+    {
+      "generated_token_index": 144,
+      "token_id": 64,
+      "token_text": "a",
+      "prediction_position": 205,
+      "cosine_similarity": -0.014100559987127781
+    },
+    {
+      "generated_token_index": 145,
+      "token_id": 8636,
+      "token_text": " died",
+      "prediction_position": 206,
+      "cosine_similarity": 0.027207404375076294
+    },
+    {
+      "generated_token_index": 146,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 207,
+      "cosine_similarity": -0.0005065817385911942
+    },
+    {
+      "generated_token_index": 147,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 208,
+      "cosine_similarity": -0.0009821545099839568
+    },
+    {
+      "generated_token_index": 148,
+      "token_id": 10125,
+      "token_text": "139",
+      "prediction_position": 209,
+      "cosine_similarity": -0.0036775795742869377
+    },
+    {
+      "generated_token_index": 149,
+      "token_id": 24,
+      "token_text": "9",
+      "prediction_position": 210,
+      "cosine_similarity": 0.008434620685875416
+    },
+    {
+      "generated_token_index": 150,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 211,
+      "cosine_similarity": -0.010453678667545319
+    },
+    {
+      "generated_token_index": 151,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 212,
+      "cosine_similarity": -0.029903512448072433
+    },
+    {
+      "generated_token_index": 152,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 213,
+      "cosine_similarity": -0.018545599654316902
+    },
+    {
+      "generated_token_index": 153,
+      "token_id": 19,
+      "token_text": "4",
+      "prediction_position": 214,
+      "cosine_similarity": 0.026011694222688675
+    },
+    {
+      "generated_token_index": 154,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 215,
+      "cosine_similarity": -0.0205001849681139
+    },
+    {
+      "generated_token_index": 155,
+      "token_id": 3842,
+      "token_text": " John",
+      "prediction_position": 216,
+      "cosine_similarity": 0.006325155030936003
+    },
+    {
+      "generated_token_index": 156,
+      "token_id": 8105,
+      "token_text": " II",
+      "prediction_position": 217,
+      "cosine_similarity": -0.020160086452960968
+    },
+    {
+      "generated_token_index": 157,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 218,
+      "cosine_similarity": -0.00945141352713108
+    },
+    {
+      "generated_token_index": 158,
+      "token_id": 4605,
+      "token_text": " Count",
+      "prediction_position": 219,
+      "cosine_similarity": -0.006948021240532398
+    },
+    {
+      "generated_token_index": 159,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 220,
+      "cosine_similarity": -0.027372006326913834
+    },
+    {
+      "generated_token_index": 160,
+      "token_id": 1901,
+      "token_text": " Z",
+      "prediction_position": 221,
+      "cosine_similarity": -0.03618834912776947
+    },
+    {
+      "generated_token_index": 161,
+      "token_id": 648,
+      "token_text": "ie",
+      "prediction_position": 222,
+      "cosine_similarity": 0.06522879749536514
+    },
+    {
+      "generated_token_index": 162,
+      "token_id": 4469,
+      "token_text": "gen",
+      "prediction_position": 223,
+      "cosine_similarity": -0.024955179542303085
+    },
+    {
+      "generated_token_index": 163,
+      "token_id": 71,
+      "token_text": "h",
+      "prediction_position": 224,
+      "cosine_similarity": -0.02891414240002632
+    },
+    {
+      "generated_token_index": 164,
+      "token_id": 467,
+      "token_text": "ain",
+      "prediction_position": 225,
+      "cosine_similarity": -0.025892557576298714
+    },
+    {
+      "generated_token_index": 165,
+      "token_id": 8636,
+      "token_text": " died",
+      "prediction_position": 226,
+      "cosine_similarity": 0.03148721531033516
+    },
+    {
+      "generated_token_index": 166,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 227,
+      "cosine_similarity": 0.012592247687280178
+    },
+    {
+      "generated_token_index": 167,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 228,
+      "cosine_similarity": -0.004303762223571539
+    },
+    {
+      "generated_token_index": 168,
+      "token_id": 10290,
+      "token_text": "143",
+      "prediction_position": 229,
+      "cosine_similarity": -0.002426598686724901
+    },
+    {
+      "generated_token_index": 169,
+      "token_id": 20,
+      "token_text": "5",
+      "prediction_position": 230,
+      "cosine_similarity": -0.004974928684532642
+    },
+    {
+      "generated_token_index": 170,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 231,
+      "cosine_similarity": 0.0027718411292880774
+    },
+    {
+      "generated_token_index": 171,
+      "token_id": 8468,
+      "token_text": "Step",
+      "prediction_position": 232,
+      "cosine_similarity": -0.010042963549494743
+    },
+    {
+      "generated_token_index": 172,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 233,
+      "cosine_similarity": -0.008934484794735909
+    },
+    {
+      "generated_token_index": 173,
+      "token_id": 20,
+      "token_text": "5",
+      "prediction_position": 234,
+      "cosine_similarity": 0.016164172440767288
+    },
+    {
+      "generated_token_index": 174,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 235,
+      "cosine_similarity": -0.007568075321614742
+    },
+    {
+      "generated_token_index": 175,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 236,
+      "cosine_similarity": 0.008553480729460716
+    },
+    {
+      "generated_token_index": 176,
+      "token_id": 1631,
+      "token_text": "ym",
+      "prediction_position": 237,
+      "cosine_similarity": -0.015899688005447388
+    },
+    {
+      "generated_token_index": 177,
+      "token_id": 22288,
+      "token_text": "itr",
+      "prediction_position": 238,
+      "cosine_similarity": 0.020564982667565346
+    },
+    {
+      "generated_token_index": 178,
+      "token_id": 3765,
+      "token_text": " Ab",
+      "prediction_position": 239,
+      "cosine_similarity": 0.03195914253592491
+    },
+    {
+      "generated_token_index": 179,
+      "token_id": 64,
+      "token_text": "a",
+      "prediction_position": 240,
+      "cosine_similarity": 0.01146477460861206
+    },
+    {
+      "generated_token_index": 180,
+      "token_id": 8636,
+      "token_text": " died",
+      "prediction_position": 241,
+      "cosine_similarity": 0.09945949167013168
+    },
+    {
+      "generated_token_index": 181,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 242,
+      "cosine_similarity": 0.017058350145816803
+    },
+    {
+      "generated_token_index": 182,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 243,
+      "cosine_similarity": 0.022151850163936615
+    },
+    {
+      "generated_token_index": 183,
+      "token_id": 10125,
+      "token_text": "139",
+      "prediction_position": 244,
+      "cosine_similarity": -0.017611410468816757
+    },
+    {
+      "generated_token_index": 184,
+      "token_id": 24,
+      "token_text": "9",
+      "prediction_position": 245,
+      "cosine_similarity": -0.018628768622875214
+    },
+    {
+      "generated_token_index": 185,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 246,
+      "cosine_similarity": 0.03198791295289993
+    },
+    {
+      "generated_token_index": 186,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 247,
+      "cosine_similarity": 0.027571070939302444
+    },
+    {
+      "generated_token_index": 187,
+      "token_id": 3842,
+      "token_text": " John",
+      "prediction_position": 248,
+      "cosine_similarity": 0.04069894179701805
+    },
+    {
+      "generated_token_index": 188,
+      "token_id": 8105,
+      "token_text": " II",
+      "prediction_position": 249,
+      "cosine_similarity": -0.006714080926030874
+    },
+    {
+      "generated_token_index": 189,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 250,
+      "cosine_similarity": 0.009697716683149338
+    },
+    {
+      "generated_token_index": 190,
+      "token_id": 4605,
+      "token_text": " Count",
+      "prediction_position": 251,
+      "cosine_similarity": -0.022527750581502914
+    },
+    {
+      "generated_token_index": 191,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 252,
+      "cosine_similarity": -0.014807917177677155
+    },
+    {
+      "generated_token_index": 192,
+      "token_id": 1901,
+      "token_text": " Z",
+      "prediction_position": 253,
+      "cosine_similarity": 0.018683459609746933
+    },
+    {
+      "generated_token_index": 193,
+      "token_id": 648,
+      "token_text": "ie",
+      "prediction_position": 254,
+      "cosine_similarity": -0.022300370037555695
+    },
+    {
+      "generated_token_index": 194,
+      "token_id": 4469,
+      "token_text": "gen",
+      "prediction_position": 255,
+      "cosine_similarity": -0.03243568539619446
+    },
+    {
+      "generated_token_index": 195,
+      "token_id": 71,
+      "token_text": "h",
+      "prediction_position": 256,
+      "cosine_similarity": 0.013591429218649864
+    },
+    {
+      "generated_token_index": 196,
+      "token_id": 467,
+      "token_text": "ain",
+      "prediction_position": 257,
+      "cosine_similarity": -0.011045845225453377
+    },
+    {
+      "generated_token_index": 197,
+      "token_id": 8636,
+      "token_text": " died",
+      "prediction_position": 258,
+      "cosine_similarity": 0.03641244396567345
+    },
+    {
+      "generated_token_index": 198,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 259,
+      "cosine_similarity": 0.021954452618956566
+    },
+    {
+      "generated_token_index": 199,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 260,
+      "cosine_similarity": -0.0024178712628781796
+    },
+    {
+      "generated_token_index": 200,
+      "token_id": 10290,
+      "token_text": "143",
+      "prediction_position": 261,
+      "cosine_similarity": 0.023434126749634743
+    },
+    {
+      "generated_token_index": 201,
+      "token_id": 20,
+      "token_text": "5",
+      "prediction_position": 262,
+      "cosine_similarity": 0.024079840630292892
+    },
+    {
+      "generated_token_index": 202,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 263,
+      "cosine_similarity": 0.010723546147346497
+    },
+    {
+      "generated_token_index": 203,
+      "token_id": 8876,
+      "token_text": " Since",
+      "prediction_position": 264,
+      "cosine_similarity": 0.010418874211609364
+    },
+    {
+      "generated_token_index": 204,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 265,
+      "cosine_similarity": 0.01726306974887848
+    },
+    {
+      "generated_token_index": 205,
+      "token_id": 10125,
+      "token_text": "139",
+      "prediction_position": 266,
+      "cosine_similarity": -0.015023996122181416
+    },
+    {
+      "generated_token_index": 206,
+      "token_id": 24,
+      "token_text": "9",
+      "prediction_position": 267,
+      "cosine_similarity": -0.012409752234816551
+    },
+    {
+      "generated_token_index": 207,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 268,
+      "cosine_similarity": 0.0033419744577258825
+    },
+    {
+      "generated_token_index": 208,
+      "token_id": 2753,
+      "token_text": " less",
+      "prediction_position": 269,
+      "cosine_similarity": 0.00850207544863224
+    },
+    {
+      "generated_token_index": 209,
+      "token_id": 1109,
+      "token_text": " than",
+      "prediction_position": 270,
+      "cosine_similarity": 0.00975954718887806
+    },
+    {
+      "generated_token_index": 210,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 271,
+      "cosine_similarity": 0.007192975841462612
+    },
+    {
+      "generated_token_index": 211,
+      "token_id": 10290,
+      "token_text": "143",
+      "prediction_position": 272,
+      "cosine_similarity": -0.010401524603366852
+    },
+    {
+      "generated_token_index": 212,
+      "token_id": 20,
+      "token_text": "5",
+      "prediction_position": 273,
+      "cosine_similarity": 0.00031513115391135216
+    },
+    {
+      "generated_token_index": 213,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 274,
+      "cosine_similarity": 0.007303761318325996
+    },
+    {
+      "generated_token_index": 214,
+      "token_id": 423,
+      "token_text": " D",
+      "prediction_position": 275,
+      "cosine_similarity": 0.0052223289385437965
+    },
+    {
+      "generated_token_index": 215,
+      "token_id": 1631,
+      "token_text": "ym",
+      "prediction_position": 276,
+      "cosine_similarity": -0.031234022229909897
+    },
+    {
+      "generated_token_index": 216,
+      "token_id": 22288,
+      "token_text": "itr",
+      "prediction_position": 277,
+      "cosine_similarity": 0.016112985089421272
+    },
+    {
+      "generated_token_index": 217,
+      "token_id": 3765,
+      "token_text": " Ab",
+      "prediction_position": 278,
+      "cosine_similarity": 0.016332944855093956
+    },
+    {
+      "generated_token_index": 218,
+      "token_id": 64,
+      "token_text": "a",
+      "prediction_position": 279,
+      "cosine_similarity": -0.021529370918869972
+    },
+    {
+      "generated_token_index": 219,
+      "token_id": 8636,
+      "token_text": " died",
+      "prediction_position": 280,
+      "cosine_similarity": 0.05394037812948227
+    },
+    {
+      "generated_token_index": 220,
+      "token_id": 14992,
+      "token_text": " younger",
+      "prediction_position": 281,
+      "cosine_similarity": 0.03044036775827408
+    },
+    {
+      "generated_token_index": 221,
+      "token_id": 1109,
+      "token_text": " than",
+      "prediction_position": 282,
+      "cosine_similarity": 0.0526740737259388
+    },
+    {
+      "generated_token_index": 222,
+      "token_id": 3842,
+      "token_text": " John",
+      "prediction_position": 283,
+      "cosine_similarity": 0.03989001363515854
+    },
+    {
+      "generated_token_index": 223,
+      "token_id": 8105,
+      "token_text": " II",
+      "prediction_position": 284,
+      "cosine_similarity": 0.03453439101576805
+    },
+    {
+      "generated_token_index": 224,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 285,
+      "cosine_similarity": -0.011827978305518627
+    },
+    {
+      "generated_token_index": 225,
+      "token_id": 4605,
+      "token_text": " Count",
+      "prediction_position": 286,
+      "cosine_similarity": -0.026762770488858223
+    },
+    {
+      "generated_token_index": 226,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 287,
+      "cosine_similarity": -0.01834181137382984
+    },
+    {
+      "generated_token_index": 227,
+      "token_id": 1901,
+      "token_text": " Z",
+      "prediction_position": 288,
+      "cosine_similarity": -0.023067260161042213
+    },
+    {
+      "generated_token_index": 228,
+      "token_id": 648,
+      "token_text": "ie",
+      "prediction_position": 289,
+      "cosine_similarity": -0.02975635975599289
+    },
+    {
+      "generated_token_index": 229,
+      "token_id": 4469,
+      "token_text": "gen",
+      "prediction_position": 290,
+      "cosine_similarity": -0.023107241839170456
+    },
+    {
+      "generated_token_index": 230,
+      "token_id": 71,
+      "token_text": "h",
+      "prediction_position": 291,
+      "cosine_similarity": -0.008280071429908276
+    },
+    {
+      "generated_token_index": 231,
+      "token_id": 467,
+      "token_text": "ain",
+      "prediction_position": 292,
+      "cosine_similarity": -0.02677077427506447
+    },
+    {
+      "generated_token_index": 232,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 293,
+      "cosine_similarity": 0.03292416036128998
+    },
+    {
+      "generated_token_index": 233,
+      "token_id": 791,
+      "token_text": "The",
+      "prediction_position": 294,
+      "cosine_similarity": -0.029609305784106255
+    },
+    {
+      "generated_token_index": 234,
+      "token_id": 1620,
+      "token_text": " final",
+      "prediction_position": 295,
+      "cosine_similarity": -0.009841910563409328
+    },
+    {
+      "generated_token_index": 235,
+      "token_id": 4320,
+      "token_text": " answer",
+      "prediction_position": 296,
+      "cosine_similarity": -0.015468873083591461
+    },
+    {
+      "generated_token_index": 236,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 297,
+      "cosine_similarity": -0.008242473006248474
+    },
+    {
+      "generated_token_index": 237,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 298,
+      "cosine_similarity": -0.019721530377864838
+    },
+    {
+      "generated_token_index": 238,
+      "token_id": 59060,
+      "token_text": " $\\",
+      "prediction_position": 299,
+      "cosine_similarity": -0.018776610493659973
+    },
+    {
+      "generated_token_index": 239,
+      "token_id": 80175,
+      "token_text": "boxed",
+      "prediction_position": 300,
+      "cosine_similarity": -0.011456168256700039
+    },
+    {
+      "generated_token_index": 240,
+      "token_id": 90,
+      "token_text": "{",
+      "prediction_position": 301,
+      "cosine_similarity": -0.0010250601917505264
+    },
+    {
+      "generated_token_index": 241,
+      "token_id": 14331,
+      "token_text": "YES",
+      "prediction_position": 302,
+      "cosine_similarity": 0.001999531639739871
+    },
+    {
+      "generated_token_index": 242,
+      "token_id": 32816,
+      "token_text": "}$",
+      "prediction_position": 303,
+      "cosine_similarity": -0.008744348771870136
+    },
+    {
+      "generated_token_index": 243,
+      "token_id": 128009,
+      "token_text": "<|eot_id|>",
+      "prediction_position": 304,
+      "cosine_similarity": -0.014684739522635937
+    }
+  ],
+  "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_14_54c98fd4d9d7bf4fa691c8c7d58504008c5bbda9423cd72e4d2918bf4b569bb8/feature_33270_response_token_cosine.csv",
+  "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_14_54c98fd4d9d7bf4fa691c8c7d58504008c5bbda9423cd72e4d2918bf4b569bb8/feature_33270_response_token_cosine.png"
+}

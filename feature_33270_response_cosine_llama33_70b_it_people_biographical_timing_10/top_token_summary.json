@@ -1,0 +1,119 @@
+{
+  "feature_id": 33270,
+  "feature_description": "lifespan and duration",
+  "neuronpedia_url": "https://www.neuronpedia.org/llama3.3-70b-it/50-resid-post-gf/33270",
+  "cases_jsonl": "chainscope_exports/people_biographical_timing_10_cases.jsonl",
+  "output_dir": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10",
+  "cases": [
+    {
+      "direction": "people_bio_01",
+      "case_id": "00019779e22881816817190e331a9f08a13943d63080f50ffaa174c0b4e220f5",
+      "question": "Did 손복가 live longer than Abbo of Fleury?",
+      "num_generated_tokens": 256,
+      "max_cosine_similarity": 0.2275301069021225,
+      "top_token_text": "-g",
+      "top_token_index": 210,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_01_00019779e22881816817190e331a9f08a13943d63080f50ffaa174c0b4e220f5/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_01_00019779e22881816817190e331a9f08a13943d63080f50ffaa174c0b4e220f5/feature_33270_response_token_cosine.png"
+    },
+    {
+      "direction": "people_bio_02",
+      "case_id": "0c8acf10b37ddc49dc805e123452c78b62f941e4154307272bf4452d235ef6ab",
+      "question": "Did 日下部老 live longer than Abd al-Rahman al-Sufi?",
+      "num_generated_tokens": 238,
+      "max_cosine_similarity": 0.30829158425331116,
+      "top_token_text": " lifespan",
+      "top_token_index": 111,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_02_0c8acf10b37ddc49dc805e123452c78b62f941e4154307272bf4452d235ef6ab/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_02_0c8acf10b37ddc49dc805e123452c78b62f941e4154307272bf4452d235ef6ab/feature_33270_response_token_cosine.png"
+    },
+    {
+      "direction": "people_bio_03",
+      "case_id": "1658d968e9ef871820650f8e7cdea8d9719ff0b749eea25a56a1c850eb77a6d8",
+      "question": "Did 유개명 live longer than 'Imad al-Dawla?",
+      "num_generated_tokens": 256,
+      "max_cosine_similarity": 0.32829567790031433,
+      "top_token_text": " lif",
+      "top_token_index": 208,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_03_1658d968e9ef871820650f8e7cdea8d9719ff0b749eea25a56a1c850eb77a6d8/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_03_1658d968e9ef871820650f8e7cdea8d9719ff0b749eea25a56a1c850eb77a6d8/feature_33270_response_token_cosine.png"
+    },
+    {
+      "direction": "people_bio_04",
+      "case_id": "16c68789e34b5ca5f066536c2f7cf126191fd4fd634a42aaa55a41302442980b",
+      "question": "Did 裴仁基 live longer than Abdul Muttalib?",
+      "num_generated_tokens": 150,
+      "max_cosine_similarity": 0.2681422829627991,
+      "top_token_text": " lif",
+      "top_token_index": 109,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_04_16c68789e34b5ca5f066536c2f7cf126191fd4fd634a42aaa55a41302442980b/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_04_16c68789e34b5ca5f066536c2f7cf126191fd4fd634a42aaa55a41302442980b/feature_33270_response_token_cosine.png"
+    },
+    {
+      "direction": "people_bio_05",
+      "case_id": "1b662c6d3b47cc11d1ea1f97fbd7f759c17cf5fdb016feaf6bcf59f9d353f9cb",
+      "question": "Did Aaron ben Gershon abu al-Rabi die younger than 酈瓊?",
+      "num_generated_tokens": 256,
+      "max_cosine_similarity": 0.22316347062587738,
+      "top_token_text": " lifespan",
+      "top_token_index": 104,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_05_1b662c6d3b47cc11d1ea1f97fbd7f759c17cf5fdb016feaf6bcf59f9d353f9cb/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_05_1b662c6d3b47cc11d1ea1f97fbd7f759c17cf5fdb016feaf6bcf59f9d353f9cb/feature_33270_response_token_cosine.png"
+    },
+    {
+      "direction": "people_bio_06",
+      "case_id": "1b8864f8659402b9754f8a37ae4d8f0c8f78133b52d8d00870adaf7c073dd528",
+      "question": "Did 蕭方等 live longer than Aaliyah?",
+      "num_generated_tokens": 202,
+      "max_cosine_similarity": 0.26097092032432556,
+      "top_token_text": " lif",
+      "top_token_index": 140,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_06_1b8864f8659402b9754f8a37ae4d8f0c8f78133b52d8d00870adaf7c073dd528/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_06_1b8864f8659402b9754f8a37ae4d8f0c8f78133b52d8d00870adaf7c073dd528/feature_33270_response_token_cosine.png"
+    },
+    {
+      "direction": "people_bio_07",
+      "case_id": "1cb29c06efca94ef97f553dd429f611704db311ff32fbccdc459ad76c1f132b7",
+      "question": "Did Abdullah Khan II die younger than 裴粲?",
+      "num_generated_tokens": 123,
+      "max_cosine_similarity": 0.23557443916797638,
+      "top_token_text": " lif",
+      "top_token_index": 64,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_07_1cb29c06efca94ef97f553dd429f611704db311ff32fbccdc459ad76c1f132b7/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_07_1cb29c06efca94ef97f553dd429f611704db311ff32fbccdc459ad76c1f132b7/feature_33270_response_token_cosine.png"
+    },
+    {
+      "direction": "people_bio_08",
+      "case_id": "252a305dece598cd7dc8f366fe228971fc007e6f2837a2f16623e5af4763e701",
+      "question": "Did Abdullah ibn al-Mu'tazz die younger than 陸子隆?",
+      "num_generated_tokens": 183,
+      "max_cosine_similarity": 0.18090833723545074,
+      "top_token_text": " ages",
+      "top_token_index": 112,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_08_252a305dece598cd7dc8f366fe228971fc007e6f2837a2f16623e5af4763e701/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_08_252a305dece598cd7dc8f366fe228971fc007e6f2837a2f16623e5af4763e701/feature_33270_response_token_cosine.png"
+    },
+    {
+      "direction": "people_bio_09",
+      "case_id": "2614f5bea355dc9ba74839acedc324d3ffa25b3d90629d3ca4a94a3f4e87b59a",
+      "question": "Did 高永昌 live longer than Abd al-Malik I?",
+      "num_generated_tokens": 191,
+      "max_cosine_similarity": 0.21093061566352844,
+      "top_token_text": " lif",
+      "top_token_index": 108,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_09_2614f5bea355dc9ba74839acedc324d3ffa25b3d90629d3ca4a94a3f4e87b59a/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_09_2614f5bea355dc9ba74839acedc324d3ffa25b3d90629d3ca4a94a3f4e87b59a/feature_33270_response_token_cosine.png"
+    },
+    {
+      "direction": "people_bio_10",
+      "case_id": "264c770906c28534c2e019de2b43730f0c1768ea69c8e7d0f986fe7494d481f7",
+      "question": "Did Abraham of Clermont die younger than 謝瞻?",
+      "num_generated_tokens": 256,
+      "max_cosine_similarity": 0.17551963031291962,
+      "top_token_text": "esp",
+      "top_token_index": 11,
+      "json_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_10_264c770906c28534c2e019de2b43730f0c1768ea69c8e7d0f986fe7494d481f7/feature_33270_response_token_cosine.json",
+      "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_10/people_bio_10_264c770906c28534c2e019de2b43730f0c1768ea69c8e7d0f986fe7494d481f7/feature_33270_response_token_cosine.png"
+    }
+  ]
+}

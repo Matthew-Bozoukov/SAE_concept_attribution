@@ -1,0 +1,1816 @@
+{
+  "model_id": "unsloth/Llama-3.3-70B-Instruct-bnb-4bit",
+  "case_id": "02c101e9a5c792427cf1cd9de70802eee93d84edf875e0d00962aa80282814c5",
+  "category": "wm-person-birth",
+  "direction": "people_bio_36",
+  "truth": "YES",
+  "question": "Was Widukind born earlier than 石川河主?",
+  "prompt": "Here is a question with a clear YES or NO answer about historical figures:\n\nWas Widukind born earlier than 石川河主?\n\nIt requires a few steps of reasoning. So first, think step by step, and only then give a YES / NO answer.\n",
+  "generated_text": "To answer this question, we need to establish the birth dates of both Widukind and 石川河主 (Ishikawa Kawano) to compare them.\n\n1. **Widukind**: Widukind was a medieval Saxon leader, and historical records indicate he was active in the 8th century. Specifically, he is known for leading the Saxons against the Frankish Empire, particularly during the reign of Charlemagne. Widukind's exact birth date is not known, but given his activities, it is estimated to be sometime in the early to mid-8th century.\n\n2. **石川河主 (Ishikawa Kawano)**: This name does not correspond to a widely recognized historical figure in English historical literature. It seems to be a Japanese name, but without more context or information, it's challenging to determine who this person is or when they lived. Japanese historical figures can range from ancient times to the present, and without specific details, it's difficult to pinpoint the era of someone with this name.\n\nGiven the information:\n- Widukind's birth can be estimated to the early to mid-8th century.\n- 石川河主's birth date or period is unknown due to lack of information.\n\nSince",
+  "num_generated_tokens": 256,
+  "analysis_type": "feature_decoder_cosine_by_response_token",
+  "feature_id": 33270,
+  "sae_repo_id": "Goodfire/Llama-3.3-70B-Instruct-SAE-l50",
+  "sae_filename": "Llama-3.3-70B-Instruct-SAE-l50.pt",
+  "sae_layer": 50,
+  "neuronpedia_model": "llama3.3-70b-it",
+  "neuronpedia_release": "llama3.3-70b-it-gf",
+  "neuronpedia_layer": "50-resid-post-gf",
+  "neuronpedia_url": "https://www.neuronpedia.org/llama3.3-70b-it/50-resid-post-gf/33270",
+  "token_scores": [
+    {
+      "generated_token_index": 0,
+      "token_id": 1271,
+      "token_text": "To",
+      "prediction_position": 53,
+      "cosine_similarity": -0.013791116885840893
+    },
+    {
+      "generated_token_index": 1,
+      "token_id": 4320,
+      "token_text": " answer",
+      "prediction_position": 54,
+      "cosine_similarity": -0.012664569541811943
+    },
+    {
+      "generated_token_index": 2,
+      "token_id": 420,
+      "token_text": " this",
+      "prediction_position": 55,
+      "cosine_similarity": -0.015235631726682186
+    },
+    {
+      "generated_token_index": 3,
+      "token_id": 3488,
+      "token_text": " question",
+      "prediction_position": 56,
+      "cosine_similarity": -0.024093028157949448
+    },
+    {
+      "generated_token_index": 4,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 57,
+      "cosine_similarity": -0.02667141705751419
+    },
+    {
+      "generated_token_index": 5,
+      "token_id": 584,
+      "token_text": " we",
+      "prediction_position": 58,
+      "cosine_similarity": -0.018978295847773552
+    },
+    {
+      "generated_token_index": 6,
+      "token_id": 1205,
+      "token_text": " need",
+      "prediction_position": 59,
+      "cosine_similarity": -0.009627396240830421
+    },
+    {
+      "generated_token_index": 7,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 60,
+      "cosine_similarity": -0.00823417492210865
+    },
+    {
+      "generated_token_index": 8,
+      "token_id": 5813,
+      "token_text": " establish",
+      "prediction_position": 61,
+      "cosine_similarity": 0.004985728766769171
+    },
+    {
+      "generated_token_index": 9,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 62,
+      "cosine_similarity": 0.015348735265433788
+    },
+    {
+      "generated_token_index": 10,
+      "token_id": 7342,
+      "token_text": " birth",
+      "prediction_position": 63,
+      "cosine_similarity": 0.047353602945804596
+    },
+    {
+      "generated_token_index": 11,
+      "token_id": 13003,
+      "token_text": " dates",
+      "prediction_position": 64,
+      "cosine_similarity": 0.0038970198947936296
+    },
+    {
+      "generated_token_index": 12,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 65,
+      "cosine_similarity": -0.009611627086997032
+    },
+    {
+      "generated_token_index": 13,
+      "token_id": 2225,
+      "token_text": " both",
+      "prediction_position": 66,
+      "cosine_similarity": -0.012036614120006561
+    },
+    {
+      "generated_token_index": 14,
+      "token_id": 48740,
+      "token_text": " Wid",
+      "prediction_position": 67,
+      "cosine_similarity": -0.002692447043955326
+    },
+    {
+      "generated_token_index": 15,
+      "token_id": 3178,
+      "token_text": "uk",
+      "prediction_position": 68,
+      "cosine_similarity": -0.00751258572563529
+    },
+    {
+      "generated_token_index": 16,
+      "token_id": 485,
+      "token_text": "ind",
+      "prediction_position": 69,
+      "cosine_similarity": -0.004681948106735945
+    },
+    {
+      "generated_token_index": 17,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 70,
+      "cosine_similarity": -0.015287203714251518
+    },
+    {
+      "generated_token_index": 18,
+      "token_id": 112656,
+      "token_text": " 石",
+      "prediction_position": 71,
+      "cosine_similarity": -0.01850898750126362
+    },
+    {
+      "generated_token_index": 19,
+      "token_id": 101701,
+      "token_text": "川",
+      "prediction_position": 72,
+      "cosine_similarity": -0.02889595925807953
+    },
+    {
+      "generated_token_index": 20,
+      "token_id": 103232,
+      "token_text": "河",
+      "prediction_position": 73,
+      "cosine_similarity": -0.021274685859680176
+    },
+    {
+      "generated_token_index": 21,
+      "token_id": 36668,
+      "token_text": "主",
+      "prediction_position": 74,
+      "cosine_similarity": -0.00709773413836956
+    },
+    {
+      "generated_token_index": 22,
+      "token_id": 320,
+      "token_text": " (",
+      "prediction_position": 75,
+      "cosine_similarity": -0.006803308613598347
+    },
+    {
+      "generated_token_index": 23,
+      "token_id": 40,
+      "token_text": "I",
+      "prediction_position": 76,
+      "cosine_similarity": -0.022349128499627113
+    },
+    {
+      "generated_token_index": 24,
+      "token_id": 939,
+      "token_text": "sh",
+      "prediction_position": 77,
+      "cosine_similarity": -0.010325432755053043
+    },
+    {
+      "generated_token_index": 25,
+      "token_id": 1609,
+      "token_text": "ik",
+      "prediction_position": 78,
+      "cosine_similarity": -0.012678122147917747
+    },
+    {
+      "generated_token_index": 26,
+      "token_id": 14406,
+      "token_text": "awa",
+      "prediction_position": 79,
+      "cosine_similarity": -0.009519627317786217
+    },
+    {
+      "generated_token_index": 27,
+      "token_id": 51616,
+      "token_text": " Kaw",
+      "prediction_position": 80,
+      "cosine_similarity": 0.0015907138586044312
+    },
+    {
+      "generated_token_index": 28,
+      "token_id": 5770,
+      "token_text": "ano",
+      "prediction_position": 81,
+      "cosine_similarity": 0.01095630880445242
+    },
+    {
+      "generated_token_index": 29,
+      "token_id": 8,
+      "token_text": ")",
+      "prediction_position": 82,
+      "cosine_similarity": 0.020175982266664505
+    },
+    {
+      "generated_token_index": 30,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 83,
+      "cosine_similarity": -0.008079883642494678
+    },
+    {
+      "generated_token_index": 31,
+      "token_id": 9616,
+      "token_text": " compare",
+      "prediction_position": 84,
+      "cosine_similarity": 0.018457740545272827
+    },
+    {
+      "generated_token_index": 32,
+      "token_id": 1124,
+      "token_text": " them",
+      "prediction_position": 85,
+      "cosine_similarity": 0.01713942550122738
+    },
+    {
+      "generated_token_index": 33,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 86,
+      "cosine_similarity": 0.00731173250824213
+    },
+    {
+      "generated_token_index": 34,
+      "token_id": 16,
+      "token_text": "1",
+      "prediction_position": 87,
+      "cosine_similarity": -0.00029228348284959793
+    },
+    {
+      "generated_token_index": 35,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 88,
+      "cosine_similarity": -0.023422693833708763
+    },
+    {
+      "generated_token_index": 36,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 89,
+      "cosine_similarity": -0.00335567444562912
+    },
+    {
+      "generated_token_index": 37,
+      "token_id": 54,
+      "token_text": "W",
+      "prediction_position": 90,
+      "cosine_similarity": 0.004298180341720581
+    },
+    {
+      "generated_token_index": 38,
+      "token_id": 307,
+      "token_text": "id",
+      "prediction_position": 91,
+      "cosine_similarity": -0.01275795977562666
+    },
+    {
+      "generated_token_index": 39,
+      "token_id": 3178,
+      "token_text": "uk",
+      "prediction_position": 92,
+      "cosine_similarity": -0.013620629906654358
+    },
+    {
+      "generated_token_index": 40,
+      "token_id": 485,
+      "token_text": "ind",
+      "prediction_position": 93,
+      "cosine_similarity": -0.0012103728950023651
+    },
+    {
+      "generated_token_index": 41,
+      "token_id": 96618,
+      "token_text": "**:",
+      "prediction_position": 94,
+      "cosine_similarity": 0.003267827210947871
+    },
+    {
+      "generated_token_index": 42,
+      "token_id": 48740,
+      "token_text": " Wid",
+      "prediction_position": 95,
+      "cosine_similarity": -0.009071321226656437
+    },
+    {
+      "generated_token_index": 43,
+      "token_id": 3178,
+      "token_text": "uk",
+      "prediction_position": 96,
+      "cosine_similarity": -0.008082461543381214
+    },
+    {
+      "generated_token_index": 44,
+      "token_id": 485,
+      "token_text": "ind",
+      "prediction_position": 97,
+      "cosine_similarity": 0.0022649492602795362
+    },
+    {
+      "generated_token_index": 45,
+      "token_id": 574,
+      "token_text": " was",
+      "prediction_position": 98,
+      "cosine_similarity": 0.003679935820400715
+    },
+    {
+      "generated_token_index": 46,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 99,
+      "cosine_similarity": 0.000904349610209465
+    },
+    {
+      "generated_token_index": 47,
+      "token_id": 42108,
+      "token_text": " medieval",
+      "prediction_position": 100,
+      "cosine_similarity": -0.0038289304357022047
+    },
+    {
+      "generated_token_index": 48,
+      "token_id": 328,
+      "token_text": " S",
+      "prediction_position": 101,
+      "cosine_similarity": 0.002123406622558832
+    },
+    {
+      "generated_token_index": 49,
+      "token_id": 52936,
+      "token_text": "axon",
+      "prediction_position": 102,
+      "cosine_similarity": 0.0033695679157972336
+    },
+    {
+      "generated_token_index": 50,
+      "token_id": 7808,
+      "token_text": " leader",
+      "prediction_position": 103,
+      "cosine_similarity": 0.0002976928371936083
+    },
+    {
+      "generated_token_index": 51,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 104,
+      "cosine_similarity": 0.01229453831911087
+    },
+    {
+      "generated_token_index": 52,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 105,
+      "cosine_similarity": 0.001686008763499558
+    },
+    {
+      "generated_token_index": 53,
+      "token_id": 13970,
+      "token_text": " historical",
+      "prediction_position": 106,
+      "cosine_similarity": 0.0034472609404474497
+    },
+    {
+      "generated_token_index": 54,
+      "token_id": 7576,
+      "token_text": " records",
+      "prediction_position": 107,
+      "cosine_similarity": -0.006903422996401787
+    },
+    {
+      "generated_token_index": 55,
+      "token_id": 13519,
+      "token_text": " indicate",
+      "prediction_position": 108,
+      "cosine_similarity": -0.009103380143642426
+    },
+    {
+      "generated_token_index": 56,
+      "token_id": 568,
+      "token_text": " he",
+      "prediction_position": 109,
+      "cosine_similarity": 0.0021817300003021955
+    },
+    {
+      "generated_token_index": 57,
+      "token_id": 574,
+      "token_text": " was",
+      "prediction_position": 110,
+      "cosine_similarity": 0.04215330258011818
+    },
+    {
+      "generated_token_index": 58,
+      "token_id": 4642,
+      "token_text": " active",
+      "prediction_position": 111,
+      "cosine_similarity": 0.017034735530614853
+    },
+    {
+      "generated_token_index": 59,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 112,
+      "cosine_similarity": 0.0033165859058499336
+    },
+    {
+      "generated_token_index": 60,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 113,
+      "cosine_similarity": -0.0005476619116961956
+    },
+    {
+      "generated_token_index": 61,
+      "token_id": 220,
+      "token_text": " ",
+      "prediction_position": 114,
+      "cosine_similarity": -0.0008819664362818003
+    },
+    {
+      "generated_token_index": 62,
+      "token_id": 23,
+      "token_text": "8",
+      "prediction_position": 115,
+      "cosine_similarity": -0.0030730897560715675
+    },
+    {
+      "generated_token_index": 63,
+      "token_id": 339,
+      "token_text": "th",
+      "prediction_position": 116,
+      "cosine_similarity": -0.02993495762348175
+    },
+    {
+      "generated_token_index": 64,
+      "token_id": 9478,
+      "token_text": " century",
+      "prediction_position": 117,
+      "cosine_similarity": -0.004249154590070248
+    },
+    {
+      "generated_token_index": 65,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 118,
+      "cosine_similarity": -0.010659855790436268
+    },
+    {
+      "generated_token_index": 66,
+      "token_id": 45863,
+      "token_text": " Specifically",
+      "prediction_position": 119,
+      "cosine_similarity": -0.005688462406396866
+    },
+    {
+      "generated_token_index": 67,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 120,
+      "cosine_similarity": -0.01097724586725235
+    },
+    {
+      "generated_token_index": 68,
+      "token_id": 568,
+      "token_text": " he",
+      "prediction_position": 121,
+      "cosine_similarity": 0.0013427948579192162
+    },
+    {
+      "generated_token_index": 69,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 122,
+      "cosine_similarity": 0.01745026744902134
+    },
+    {
+      "generated_token_index": 70,
+      "token_id": 3967,
+      "token_text": " known",
+      "prediction_position": 123,
+      "cosine_similarity": -0.017797792330384254
+    },
+    {
+      "generated_token_index": 71,
+      "token_id": 369,
+      "token_text": " for",
+      "prediction_position": 124,
+      "cosine_similarity": 0.000615561380982399
+    },
+    {
+      "generated_token_index": 72,
+      "token_id": 6522,
+      "token_text": " leading",
+      "prediction_position": 125,
+      "cosine_similarity": 0.011275533586740494
+    },
+    {
+      "generated_token_index": 73,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 126,
+      "cosine_similarity": 0.010093745775520802
+    },
+    {
+      "generated_token_index": 74,
+      "token_id": 68027,
+      "token_text": " Sax",
+      "prediction_position": 127,
+      "cosine_similarity": 0.011205922812223434
+    },
+    {
+      "generated_token_index": 75,
+      "token_id": 2439,
+      "token_text": "ons",
+      "prediction_position": 128,
+      "cosine_similarity": 0.0023895343765616417
+    },
+    {
+      "generated_token_index": 76,
+      "token_id": 2403,
+      "token_text": " against",
+      "prediction_position": 129,
+      "cosine_similarity": 0.010207614861428738
+    },
+    {
+      "generated_token_index": 77,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 130,
+      "cosine_similarity": 0.0026743398047983646
+    },
+    {
+      "generated_token_index": 78,
+      "token_id": 9454,
+      "token_text": " Frank",
+      "prediction_position": 131,
+      "cosine_similarity": 0.011670362204313278
+    },
+    {
+      "generated_token_index": 79,
+      "token_id": 819,
+      "token_text": "ish",
+      "prediction_position": 132,
+      "cosine_similarity": 0.004715908318758011
+    },
+    {
+      "generated_token_index": 80,
+      "token_id": 21080,
+      "token_text": " Empire",
+      "prediction_position": 133,
+      "cosine_similarity": 0.009402217343449593
+    },
+    {
+      "generated_token_index": 81,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 134,
+      "cosine_similarity": -0.007045231759548187
+    },
+    {
+      "generated_token_index": 82,
+      "token_id": 8104,
+      "token_text": " particularly",
+      "prediction_position": 135,
+      "cosine_similarity": -0.007017513737082481
+    },
+    {
+      "generated_token_index": 83,
+      "token_id": 2391,
+      "token_text": " during",
+      "prediction_position": 136,
+      "cosine_similarity": -0.0021907296031713486
+    },
+    {
+      "generated_token_index": 84,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 137,
+      "cosine_similarity": 0.0010490021668374538
+    },
+    {
+      "generated_token_index": 85,
+      "token_id": 31402,
+      "token_text": " reign",
+      "prediction_position": 138,
+      "cosine_similarity": 0.041349925100803375
+    },
+    {
+      "generated_token_index": 86,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 139,
+      "cosine_similarity": 0.02306022308766842
+    },
+    {
+      "generated_token_index": 87,
+      "token_id": 4969,
+      "token_text": " Char",
+      "prediction_position": 140,
+      "cosine_similarity": -0.004559013061225414
+    },
+    {
+      "generated_token_index": 88,
+      "token_id": 3516,
+      "token_text": "lem",
+      "prediction_position": 141,
+      "cosine_similarity": -0.0077402968890964985
+    },
+    {
+      "generated_token_index": 89,
+      "token_id": 24812,
+      "token_text": "agne",
+      "prediction_position": 142,
+      "cosine_similarity": 0.0006076977588236332
+    },
+    {
+      "generated_token_index": 90,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 143,
+      "cosine_similarity": -0.0012669293209910393
+    },
+    {
+      "generated_token_index": 91,
+      "token_id": 48740,
+      "token_text": " Wid",
+      "prediction_position": 144,
+      "cosine_similarity": -0.006066382396966219
+    },
+    {
+      "generated_token_index": 92,
+      "token_id": 3178,
+      "token_text": "uk",
+      "prediction_position": 145,
+      "cosine_similarity": -0.011659412644803524
+    },
+    {
+      "generated_token_index": 93,
+      "token_id": 485,
+      "token_text": "ind",
+      "prediction_position": 146,
+      "cosine_similarity": -0.0018547181971371174
+    },
+    {
+      "generated_token_index": 94,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 147,
+      "cosine_similarity": -0.009267691522836685
+    },
+    {
+      "generated_token_index": 95,
+      "token_id": 4839,
+      "token_text": " exact",
+      "prediction_position": 148,
+      "cosine_similarity": 0.04194395989179611
+    },
+    {
+      "generated_token_index": 96,
+      "token_id": 7342,
+      "token_text": " birth",
+      "prediction_position": 149,
+      "cosine_similarity": 0.037255387753248215
+    },
+    {
+      "generated_token_index": 97,
+      "token_id": 2457,
+      "token_text": " date",
+      "prediction_position": 150,
+      "cosine_similarity": -0.00445172656327486
+    },
+    {
+      "generated_token_index": 98,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 151,
+      "cosine_similarity": -0.02196779102087021
+    },
+    {
+      "generated_token_index": 99,
+      "token_id": 539,
+      "token_text": " not",
+      "prediction_position": 152,
+      "cosine_similarity": -0.01695265993475914
+    },
+    {
+      "generated_token_index": 100,
+      "token_id": 3967,
+      "token_text": " known",
+      "prediction_position": 153,
+      "cosine_similarity": -0.009648512117564678
+    },
+    {
+      "generated_token_index": 101,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 154,
+      "cosine_similarity": -0.004005912691354752
+    },
+    {
+      "generated_token_index": 102,
+      "token_id": 719,
+      "token_text": " but",
+      "prediction_position": 155,
+      "cosine_similarity": -0.019000284373760223
+    },
+    {
+      "generated_token_index": 103,
+      "token_id": 2728,
+      "token_text": " given",
+      "prediction_position": 156,
+      "cosine_similarity": 0.008796105161309242
+    },
+    {
+      "generated_token_index": 104,
+      "token_id": 813,
+      "token_text": " his",
+      "prediction_position": 157,
+      "cosine_similarity": 0.019828522577881813
+    },
+    {
+      "generated_token_index": 105,
+      "token_id": 7640,
+      "token_text": " activities",
+      "prediction_position": 158,
+      "cosine_similarity": 0.04371798783540726
+    },
+    {
+      "generated_token_index": 106,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 159,
+      "cosine_similarity": 0.006354206707328558
+    },
+    {
+      "generated_token_index": 107,
+      "token_id": 433,
+      "token_text": " it",
+      "prediction_position": 160,
+      "cosine_similarity": 0.010326056741178036
+    },
+    {
+      "generated_token_index": 108,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 161,
+      "cosine_similarity": 0.0034340692218393087
+    },
+    {
+      "generated_token_index": 109,
+      "token_id": 13240,
+      "token_text": " estimated",
+      "prediction_position": 162,
+      "cosine_similarity": 0.006647659000009298
+    },
+    {
+      "generated_token_index": 110,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 163,
+      "cosine_similarity": 0.017664168030023575
+    },
+    {
+      "generated_token_index": 111,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 164,
+      "cosine_similarity": -0.012340114451944828
+    },
+    {
+      "generated_token_index": 112,
+      "token_id": 36113,
+      "token_text": " sometime",
+      "prediction_position": 165,
+      "cosine_similarity": -0.031133092939853668
+    },
+    {
+      "generated_token_index": 113,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 166,
+      "cosine_similarity": -0.022569436579942703
+    },
+    {
+      "generated_token_index": 114,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 167,
+      "cosine_similarity": -0.020214581862092018
+    },
+    {
+      "generated_token_index": 115,
+      "token_id": 4216,
+      "token_text": " early",
+      "prediction_position": 168,
+      "cosine_similarity": -0.01632762886583805
+    },
+    {
+      "generated_token_index": 116,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 169,
+      "cosine_similarity": 0.008234873414039612
+    },
+    {
+      "generated_token_index": 117,
+      "token_id": 5209,
+      "token_text": " mid",
+      "prediction_position": 170,
+      "cosine_similarity": -0.013269713148474693
+    },
+    {
+      "generated_token_index": 118,
+      "token_id": 12,
+      "token_text": "-",
+      "prediction_position": 171,
+      "cosine_similarity": 0.006849891506135464
+    },
+    {
+      "generated_token_index": 119,
+      "token_id": 23,
+      "token_text": "8",
+      "prediction_position": 172,
+      "cosine_similarity": -0.01433801930397749
+    },
+    {
+      "generated_token_index": 120,
+      "token_id": 339,
+      "token_text": "th",
+      "prediction_position": 173,
+      "cosine_similarity": -0.02907334454357624
+    },
+    {
+      "generated_token_index": 121,
+      "token_id": 9478,
+      "token_text": " century",
+      "prediction_position": 174,
+      "cosine_similarity": 0.004153359681367874
+    },
+    {
+      "generated_token_index": 122,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 175,
+      "cosine_similarity": -0.01127748005092144
+    },
+    {
+      "generated_token_index": 123,
+      "token_id": 17,
+      "token_text": "2",
+      "prediction_position": 176,
+      "cosine_similarity": -0.016017714515328407
+    },
+    {
+      "generated_token_index": 124,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 177,
+      "cosine_similarity": -0.026018140837550163
+    },
+    {
+      "generated_token_index": 125,
+      "token_id": 3146,
+      "token_text": " **",
+      "prediction_position": 178,
+      "cosine_similarity": -0.011373729445040226
+    },
+    {
+      "generated_token_index": 126,
+      "token_id": 102465,
+      "token_text": "石",
+      "prediction_position": 179,
+      "cosine_similarity": -0.020708823576569557
+    },
+    {
+      "generated_token_index": 127,
+      "token_id": 101701,
+      "token_text": "川",
+      "prediction_position": 180,
+      "cosine_similarity": -0.0310494564473629
+    },
+    {
+      "generated_token_index": 128,
+      "token_id": 103232,
+      "token_text": "河",
+      "prediction_position": 181,
+      "cosine_similarity": -0.022596467286348343
+    },
+    {
+      "generated_token_index": 129,
+      "token_id": 36668,
+      "token_text": "主",
+      "prediction_position": 182,
+      "cosine_similarity": -0.014369293116033077
+    },
+    {
+      "generated_token_index": 130,
+      "token_id": 320,
+      "token_text": " (",
+      "prediction_position": 183,
+      "cosine_similarity": -0.006575584411621094
+    },
+    {
+      "generated_token_index": 131,
+      "token_id": 40,
+      "token_text": "I",
+      "prediction_position": 184,
+      "cosine_similarity": -0.020018214359879494
+    },
+    {
+      "generated_token_index": 132,
+      "token_id": 939,
+      "token_text": "sh",
+      "prediction_position": 185,
+      "cosine_similarity": -0.030609451234340668
+    },
+    {
+      "generated_token_index": 133,
+      "token_id": 1609,
+      "token_text": "ik",
+      "prediction_position": 186,
+      "cosine_similarity": -0.023494942113757133
+    },
+    {
+      "generated_token_index": 134,
+      "token_id": 14406,
+      "token_text": "awa",
+      "prediction_position": 187,
+      "cosine_similarity": -0.01924407109618187
+    },
+    {
+      "generated_token_index": 135,
+      "token_id": 51616,
+      "token_text": " Kaw",
+      "prediction_position": 188,
+      "cosine_similarity": -0.011008979752659798
+    },
+    {
+      "generated_token_index": 136,
+      "token_id": 5770,
+      "token_text": "ano",
+      "prediction_position": 189,
+      "cosine_similarity": -0.01126987673342228
+    },
+    {
+      "generated_token_index": 137,
+      "token_id": 33395,
+      "token_text": ")**",
+      "prediction_position": 190,
+      "cosine_similarity": -0.009045504964888096
+    },
+    {
+      "generated_token_index": 138,
+      "token_id": 25,
+      "token_text": ":",
+      "prediction_position": 191,
+      "cosine_similarity": -0.008173167705535889
+    },
+    {
+      "generated_token_index": 139,
+      "token_id": 1115,
+      "token_text": " This",
+      "prediction_position": 192,
+      "cosine_similarity": -0.009573852643370628
+    },
+    {
+      "generated_token_index": 140,
+      "token_id": 836,
+      "token_text": " name",
+      "prediction_position": 193,
+      "cosine_similarity": -0.006244307849556208
+    },
+    {
+      "generated_token_index": 141,
+      "token_id": 1587,
+      "token_text": " does",
+      "prediction_position": 194,
+      "cosine_similarity": -0.014110191725194454
+    },
+    {
+      "generated_token_index": 142,
+      "token_id": 539,
+      "token_text": " not",
+      "prediction_position": 195,
+      "cosine_similarity": -0.03675651550292969
+    },
+    {
+      "generated_token_index": 143,
+      "token_id": 8024,
+      "token_text": " correspond",
+      "prediction_position": 196,
+      "cosine_similarity": -0.007805439177900553
+    },
+    {
+      "generated_token_index": 144,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 197,
+      "cosine_similarity": -0.00045639555901288986
+    },
+    {
+      "generated_token_index": 145,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 198,
+      "cosine_similarity": 0.009680173359811306
+    },
+    {
+      "generated_token_index": 146,
+      "token_id": 13882,
+      "token_text": " widely",
+      "prediction_position": 199,
+      "cosine_similarity": 0.0037353558000177145
+    },
+    {
+      "generated_token_index": 147,
+      "token_id": 15324,
+      "token_text": " recognized",
+      "prediction_position": 200,
+      "cosine_similarity": -0.0075782788917422295
+    },
+    {
+      "generated_token_index": 148,
+      "token_id": 13970,
+      "token_text": " historical",
+      "prediction_position": 201,
+      "cosine_similarity": -0.0008190460503101349
+    },
+    {
+      "generated_token_index": 149,
+      "token_id": 7216,
+      "token_text": " figure",
+      "prediction_position": 202,
+      "cosine_similarity": -0.014721091836690903
+    },
+    {
+      "generated_token_index": 150,
+      "token_id": 304,
+      "token_text": " in",
+      "prediction_position": 203,
+      "cosine_similarity": -0.004276062361896038
+    },
+    {
+      "generated_token_index": 151,
+      "token_id": 6498,
+      "token_text": " English",
+      "prediction_position": 204,
+      "cosine_similarity": -0.020006505772471428
+    },
+    {
+      "generated_token_index": 152,
+      "token_id": 13970,
+      "token_text": " historical",
+      "prediction_position": 205,
+      "cosine_similarity": -0.0128898024559021
+    },
+    {
+      "generated_token_index": 153,
+      "token_id": 17649,
+      "token_text": " literature",
+      "prediction_position": 206,
+      "cosine_similarity": -0.027407659217715263
+    },
+    {
+      "generated_token_index": 154,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 207,
+      "cosine_similarity": -0.019200513139367104
+    },
+    {
+      "generated_token_index": 155,
+      "token_id": 1102,
+      "token_text": " It",
+      "prediction_position": 208,
+      "cosine_similarity": -0.018206652253866196
+    },
+    {
+      "generated_token_index": 156,
+      "token_id": 5084,
+      "token_text": " seems",
+      "prediction_position": 209,
+      "cosine_similarity": -0.013853194192051888
+    },
+    {
+      "generated_token_index": 157,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 210,
+      "cosine_similarity": -0.008630402386188507
+    },
+    {
+      "generated_token_index": 158,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 211,
+      "cosine_similarity": -0.014946872368454933
+    },
+    {
+      "generated_token_index": 159,
+      "token_id": 264,
+      "token_text": " a",
+      "prediction_position": 212,
+      "cosine_similarity": -0.01050850935280323
+    },
+    {
+      "generated_token_index": 160,
+      "token_id": 11002,
+      "token_text": " Japanese",
+      "prediction_position": 213,
+      "cosine_similarity": -0.01018053013831377
+    },
+    {
+      "generated_token_index": 161,
+      "token_id": 836,
+      "token_text": " name",
+      "prediction_position": 214,
+      "cosine_similarity": -0.003061859868466854
+    },
+    {
+      "generated_token_index": 162,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 215,
+      "cosine_similarity": -0.009238190948963165
+    },
+    {
+      "generated_token_index": 163,
+      "token_id": 719,
+      "token_text": " but",
+      "prediction_position": 216,
+      "cosine_similarity": -0.013121863827109337
+    },
+    {
+      "generated_token_index": 164,
+      "token_id": 2085,
+      "token_text": " without",
+      "prediction_position": 217,
+      "cosine_similarity": -0.01914617419242859
+    },
+    {
+      "generated_token_index": 165,
+      "token_id": 810,
+      "token_text": " more",
+      "prediction_position": 218,
+      "cosine_similarity": -0.018969671800732613
+    },
+    {
+      "generated_token_index": 166,
+      "token_id": 2317,
+      "token_text": " context",
+      "prediction_position": 219,
+      "cosine_similarity": -0.02955097332596779
+    },
+    {
+      "generated_token_index": 167,
+      "token_id": 477,
+      "token_text": " or",
+      "prediction_position": 220,
+      "cosine_similarity": -0.022006500512361526
+    },
+    {
+      "generated_token_index": 168,
+      "token_id": 2038,
+      "token_text": " information",
+      "prediction_position": 221,
+      "cosine_similarity": -0.011420397087931633
+    },
+    {
+      "generated_token_index": 169,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 222,
+      "cosine_similarity": -0.015518102794885635
+    },
+    {
+      "generated_token_index": 170,
+      "token_id": 433,
+      "token_text": " it",
+      "prediction_position": 223,
+      "cosine_similarity": -0.002624601125717163
+    },
+    {
+      "generated_token_index": 171,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 224,
+      "cosine_similarity": -0.012184707447886467
+    },
+    {
+      "generated_token_index": 172,
+      "token_id": 17436,
+      "token_text": " challenging",
+      "prediction_position": 225,
+      "cosine_similarity": -0.016200585290789604
+    },
+    {
+      "generated_token_index": 173,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 226,
+      "cosine_similarity": -0.02384488470852375
+    },
+    {
+      "generated_token_index": 174,
+      "token_id": 8417,
+      "token_text": " determine",
+      "prediction_position": 227,
+      "cosine_similarity": 0.0037776785902678967
+    },
+    {
+      "generated_token_index": 175,
+      "token_id": 889,
+      "token_text": " who",
+      "prediction_position": 228,
+      "cosine_similarity": 0.019530929625034332
+    },
+    {
+      "generated_token_index": 176,
+      "token_id": 420,
+      "token_text": " this",
+      "prediction_position": 229,
+      "cosine_similarity": -0.0022430962417274714
+    },
+    {
+      "generated_token_index": 177,
+      "token_id": 1732,
+      "token_text": " person",
+      "prediction_position": 230,
+      "cosine_similarity": -0.006726870778948069
+    },
+    {
+      "generated_token_index": 178,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 231,
+      "cosine_similarity": 0.005006980616599321
+    },
+    {
+      "generated_token_index": 179,
+      "token_id": 477,
+      "token_text": " or",
+      "prediction_position": 232,
+      "cosine_similarity": 0.00677992170676589
+    },
+    {
+      "generated_token_index": 180,
+      "token_id": 994,
+      "token_text": " when",
+      "prediction_position": 233,
+      "cosine_similarity": 0.0445035845041275
+    },
+    {
+      "generated_token_index": 181,
+      "token_id": 814,
+      "token_text": " they",
+      "prediction_position": 234,
+      "cosine_similarity": 0.05584799125790596
+    },
+    {
+      "generated_token_index": 182,
+      "token_id": 12439,
+      "token_text": " lived",
+      "prediction_position": 235,
+      "cosine_similarity": 0.058371469378471375
+    },
+    {
+      "generated_token_index": 183,
+      "token_id": 13,
+      "token_text": ".",
+      "prediction_position": 236,
+      "cosine_similarity": 0.024715926498174667
+    },
+    {
+      "generated_token_index": 184,
+      "token_id": 11002,
+      "token_text": " Japanese",
+      "prediction_position": 237,
+      "cosine_similarity": -0.02104569599032402
+    },
+    {
+      "generated_token_index": 185,
+      "token_id": 13970,
+      "token_text": " historical",
+      "prediction_position": 238,
+      "cosine_similarity": 0.03077913448214531
+    },
+    {
+      "generated_token_index": 186,
+      "token_id": 12678,
+      "token_text": " figures",
+      "prediction_position": 239,
+      "cosine_similarity": 0.009862213395535946
+    },
+    {
+      "generated_token_index": 187,
+      "token_id": 649,
+      "token_text": " can",
+      "prediction_position": 240,
+      "cosine_similarity": 0.012229682877659798
+    },
+    {
+      "generated_token_index": 188,
+      "token_id": 2134,
+      "token_text": " range",
+      "prediction_position": 241,
+      "cosine_similarity": 0.006891309283673763
+    },
+    {
+      "generated_token_index": 189,
+      "token_id": 505,
+      "token_text": " from",
+      "prediction_position": 242,
+      "cosine_similarity": 0.018250538036227226
+    },
+    {
+      "generated_token_index": 190,
+      "token_id": 14154,
+      "token_text": " ancient",
+      "prediction_position": 243,
+      "cosine_similarity": 0.00248995004221797
+    },
+    {
+      "generated_token_index": 191,
+      "token_id": 3115,
+      "token_text": " times",
+      "prediction_position": 244,
+      "cosine_similarity": 0.016390744596719742
+    },
+    {
+      "generated_token_index": 192,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 245,
+      "cosine_similarity": -0.008386414498090744
+    },
+    {
+      "generated_token_index": 193,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 246,
+      "cosine_similarity": 0.004522673320025206
+    },
+    {
+      "generated_token_index": 194,
+      "token_id": 3118,
+      "token_text": " present",
+      "prediction_position": 247,
+      "cosine_similarity": 0.0025276592932641506
+    },
+    {
+      "generated_token_index": 195,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 248,
+      "cosine_similarity": 0.015669696033000946
+    },
+    {
+      "generated_token_index": 196,
+      "token_id": 323,
+      "token_text": " and",
+      "prediction_position": 249,
+      "cosine_similarity": 0.006199534982442856
+    },
+    {
+      "generated_token_index": 197,
+      "token_id": 2085,
+      "token_text": " without",
+      "prediction_position": 250,
+      "cosine_similarity": 0.001957537839189172
+    },
+    {
+      "generated_token_index": 198,
+      "token_id": 3230,
+      "token_text": " specific",
+      "prediction_position": 251,
+      "cosine_similarity": -0.017771869897842407
+    },
+    {
+      "generated_token_index": 199,
+      "token_id": 3649,
+      "token_text": " details",
+      "prediction_position": 252,
+      "cosine_similarity": 0.000889115035533905
+    },
+    {
+      "generated_token_index": 200,
+      "token_id": 11,
+      "token_text": ",",
+      "prediction_position": 253,
+      "cosine_similarity": -0.013213983736932278
+    },
+    {
+      "generated_token_index": 201,
+      "token_id": 433,
+      "token_text": " it",
+      "prediction_position": 254,
+      "cosine_similarity": -0.0064134858548641205
+    },
+    {
+      "generated_token_index": 202,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 255,
+      "cosine_similarity": -0.013033061288297176
+    },
+    {
+      "generated_token_index": 203,
+      "token_id": 5107,
+      "token_text": " difficult",
+      "prediction_position": 256,
+      "cosine_similarity": -0.0144798643887043
+    },
+    {
+      "generated_token_index": 204,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 257,
+      "cosine_similarity": -0.0179660115391016
+    },
+    {
+      "generated_token_index": 205,
+      "token_id": 67638,
+      "token_text": " pinpoint",
+      "prediction_position": 258,
+      "cosine_similarity": 0.0074460189789533615
+    },
+    {
+      "generated_token_index": 206,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 259,
+      "cosine_similarity": 0.04640082269906998
+    },
+    {
+      "generated_token_index": 207,
+      "token_id": 11639,
+      "token_text": " era",
+      "prediction_position": 260,
+      "cosine_similarity": 0.0617242231965065
+    },
+    {
+      "generated_token_index": 208,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 261,
+      "cosine_similarity": 0.03798528388142586
+    },
+    {
+      "generated_token_index": 209,
+      "token_id": 4423,
+      "token_text": " someone",
+      "prediction_position": 262,
+      "cosine_similarity": 0.05406732112169266
+    },
+    {
+      "generated_token_index": 210,
+      "token_id": 449,
+      "token_text": " with",
+      "prediction_position": 263,
+      "cosine_similarity": 0.013647266663610935
+    },
+    {
+      "generated_token_index": 211,
+      "token_id": 420,
+      "token_text": " this",
+      "prediction_position": 264,
+      "cosine_similarity": -0.008635558187961578
+    },
+    {
+      "generated_token_index": 212,
+      "token_id": 836,
+      "token_text": " name",
+      "prediction_position": 265,
+      "cosine_similarity": -0.00930123683065176
+    },
+    {
+      "generated_token_index": 213,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 266,
+      "cosine_similarity": -0.021007699891924858
+    },
+    {
+      "generated_token_index": 214,
+      "token_id": 22818,
+      "token_text": "Given",
+      "prediction_position": 267,
+      "cosine_similarity": -0.032449524849653244
+    },
+    {
+      "generated_token_index": 215,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 268,
+      "cosine_similarity": -0.028500694781541824
+    },
+    {
+      "generated_token_index": 216,
+      "token_id": 2038,
+      "token_text": " information",
+      "prediction_position": 269,
+      "cosine_similarity": -0.030309805646538734
+    },
+    {
+      "generated_token_index": 217,
+      "token_id": 512,
+      "token_text": ":\n",
+      "prediction_position": 270,
+      "cosine_similarity": -0.016140008345246315
+    },
+    {
+      "generated_token_index": 218,
+      "token_id": 12,
+      "token_text": "-",
+      "prediction_position": 271,
+      "cosine_similarity": -0.019305186346173286
+    },
+    {
+      "generated_token_index": 219,
+      "token_id": 48740,
+      "token_text": " Wid",
+      "prediction_position": 272,
+      "cosine_similarity": -0.010074162855744362
+    },
+    {
+      "generated_token_index": 220,
+      "token_id": 3178,
+      "token_text": "uk",
+      "prediction_position": 273,
+      "cosine_similarity": -0.024339992552995682
+    },
+    {
+      "generated_token_index": 221,
+      "token_id": 485,
+      "token_text": "ind",
+      "prediction_position": 274,
+      "cosine_similarity": 0.0067029851488769054
+    },
+    {
+      "generated_token_index": 222,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 275,
+      "cosine_similarity": 0.032545190304517746
+    },
+    {
+      "generated_token_index": 223,
+      "token_id": 7342,
+      "token_text": " birth",
+      "prediction_position": 276,
+      "cosine_similarity": 0.06693102419376373
+    },
+    {
+      "generated_token_index": 224,
+      "token_id": 649,
+      "token_text": " can",
+      "prediction_position": 277,
+      "cosine_similarity": 0.01598471961915493
+    },
+    {
+      "generated_token_index": 225,
+      "token_id": 387,
+      "token_text": " be",
+      "prediction_position": 278,
+      "cosine_similarity": 0.0004016950260847807
+    },
+    {
+      "generated_token_index": 226,
+      "token_id": 13240,
+      "token_text": " estimated",
+      "prediction_position": 279,
+      "cosine_similarity": 0.010868895798921585
+    },
+    {
+      "generated_token_index": 227,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 280,
+      "cosine_similarity": 0.003967314958572388
+    },
+    {
+      "generated_token_index": 228,
+      "token_id": 279,
+      "token_text": " the",
+      "prediction_position": 281,
+      "cosine_similarity": -0.003510265378281474
+    },
+    {
+      "generated_token_index": 229,
+      "token_id": 4216,
+      "token_text": " early",
+      "prediction_position": 282,
+      "cosine_similarity": -0.020374100655317307
+    },
+    {
+      "generated_token_index": 230,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 283,
+      "cosine_similarity": -0.0014484068378806114
+    },
+    {
+      "generated_token_index": 231,
+      "token_id": 5209,
+      "token_text": " mid",
+      "prediction_position": 284,
+      "cosine_similarity": -0.010543128475546837
+    },
+    {
+      "generated_token_index": 232,
+      "token_id": 12,
+      "token_text": "-",
+      "prediction_position": 285,
+      "cosine_similarity": -0.0018843160942196846
+    },
+    {
+      "generated_token_index": 233,
+      "token_id": 23,
+      "token_text": "8",
+      "prediction_position": 286,
+      "cosine_similarity": -0.019082341343164444
+    },
+    {
+      "generated_token_index": 234,
+      "token_id": 339,
+      "token_text": "th",
+      "prediction_position": 287,
+      "cosine_similarity": -0.0029569449834525585
+    },
+    {
+      "generated_token_index": 235,
+      "token_id": 9478,
+      "token_text": " century",
+      "prediction_position": 288,
+      "cosine_similarity": -0.00012328941375017166
+    },
+    {
+      "generated_token_index": 236,
+      "token_id": 627,
+      "token_text": ".\n",
+      "prediction_position": 289,
+      "cosine_similarity": -0.009087714366614819
+    },
+    {
+      "generated_token_index": 237,
+      "token_id": 12,
+      "token_text": "-",
+      "prediction_position": 290,
+      "cosine_similarity": -0.013109234161674976
+    },
+    {
+      "generated_token_index": 238,
+      "token_id": 112656,
+      "token_text": " 石",
+      "prediction_position": 291,
+      "cosine_similarity": -0.0050651999190449715
+    },
+    {
+      "generated_token_index": 239,
+      "token_id": 101701,
+      "token_text": "川",
+      "prediction_position": 292,
+      "cosine_similarity": -0.0300377756357193
+    },
+    {
+      "generated_token_index": 240,
+      "token_id": 103232,
+      "token_text": "河",
+      "prediction_position": 293,
+      "cosine_similarity": -0.027832332998514175
+    },
+    {
+      "generated_token_index": 241,
+      "token_id": 36668,
+      "token_text": "主",
+      "prediction_position": 294,
+      "cosine_similarity": -0.009647903963923454
+    },
+    {
+      "generated_token_index": 242,
+      "token_id": 596,
+      "token_text": "'s",
+      "prediction_position": 295,
+      "cosine_similarity": 0.0041512069292366505
+    },
+    {
+      "generated_token_index": 243,
+      "token_id": 7342,
+      "token_text": " birth",
+      "prediction_position": 296,
+      "cosine_similarity": 0.04568248614668846
+    },
+    {
+      "generated_token_index": 244,
+      "token_id": 2457,
+      "token_text": " date",
+      "prediction_position": 297,
+      "cosine_similarity": 0.010951979085803032
+    },
+    {
+      "generated_token_index": 245,
+      "token_id": 477,
+      "token_text": " or",
+      "prediction_position": 298,
+      "cosine_similarity": -0.009443128481507301
+    },
+    {
+      "generated_token_index": 246,
+      "token_id": 4261,
+      "token_text": " period",
+      "prediction_position": 299,
+      "cosine_similarity": 0.06331382691860199
+    },
+    {
+      "generated_token_index": 247,
+      "token_id": 374,
+      "token_text": " is",
+      "prediction_position": 300,
+      "cosine_similarity": 0.04900765046477318
+    },
+    {
+      "generated_token_index": 248,
+      "token_id": 9987,
+      "token_text": " unknown",
+      "prediction_position": 301,
+      "cosine_similarity": -0.004983254708349705
+    },
+    {
+      "generated_token_index": 249,
+      "token_id": 4245,
+      "token_text": " due",
+      "prediction_position": 302,
+      "cosine_similarity": -0.005807374604046345
+    },
+    {
+      "generated_token_index": 250,
+      "token_id": 311,
+      "token_text": " to",
+      "prediction_position": 303,
+      "cosine_similarity": -0.023794762790203094
+    },
+    {
+      "generated_token_index": 251,
+      "token_id": 6996,
+      "token_text": " lack",
+      "prediction_position": 304,
+      "cosine_similarity": -0.01846827007830143
+    },
+    {
+      "generated_token_index": 252,
+      "token_id": 315,
+      "token_text": " of",
+      "prediction_position": 305,
+      "cosine_similarity": -0.01142719853669405
+    },
+    {
+      "generated_token_index": 253,
+      "token_id": 2038,
+      "token_text": " information",
+      "prediction_position": 306,
+      "cosine_similarity": -0.03258402645587921
+    },
+    {
+      "generated_token_index": 254,
+      "token_id": 382,
+      "token_text": ".\n\n",
+      "prediction_position": 307,
+      "cosine_similarity": -0.024557974189519882
+    },
+    {
+      "generated_token_index": 255,
+      "token_id": 12834,
+      "token_text": "Since",
+      "prediction_position": 308,
+      "cosine_similarity": -0.03077930212020874
+    }
+  ],
+  "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_36_02c101e9a5c792427cf1cd9de70802eee93d84edf875e0d00962aa80282814c5/feature_33270_response_token_cosine.csv",
+  "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_36_02c101e9a5c792427cf1cd9de70802eee93d84edf875e0d00962aa80282814c5/feature_33270_response_token_cosine.png"
+}

@@ -1,0 +1,2156 @@
+{
+  "analysis_type": "average_feature_decoder_cosine_by_generated_token_index",
+  "feature_id": 33270,
+  "feature_description": "lifespan and duration",
+  "neuronpedia_url": "https://www.neuronpedia.org/llama3.3-70b-it/50-resid-post-gf/33270",
+  "num_cases": 50,
+  "cases": [
+    {
+      "direction": "people_bio_01",
+      "case_id": "00019779e22881816817190e331a9f08a13943d63080f50ffaa174c0b4e220f5",
+      "question": "Did 손복가 live longer than Abbo of Fleury?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_01_00019779e22881816817190e331a9f08a13943d63080f50ffaa174c0b4e220f5/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_02",
+      "case_id": "0c8acf10b37ddc49dc805e123452c78b62f941e4154307272bf4452d235ef6ab",
+      "question": "Did 日下部老 live longer than Abd al-Rahman al-Sufi?",
+      "num_generated_tokens": 238,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_02_0c8acf10b37ddc49dc805e123452c78b62f941e4154307272bf4452d235ef6ab/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_03",
+      "case_id": "1658d968e9ef871820650f8e7cdea8d9719ff0b749eea25a56a1c850eb77a6d8",
+      "question": "Did 유개명 live longer than 'Imad al-Dawla?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_03_1658d968e9ef871820650f8e7cdea8d9719ff0b749eea25a56a1c850eb77a6d8/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_04",
+      "case_id": "16c68789e34b5ca5f066536c2f7cf126191fd4fd634a42aaa55a41302442980b",
+      "question": "Did 裴仁基 live longer than Abdul Muttalib?",
+      "num_generated_tokens": 150,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_04_16c68789e34b5ca5f066536c2f7cf126191fd4fd634a42aaa55a41302442980b/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_05",
+      "case_id": "1b662c6d3b47cc11d1ea1f97fbd7f759c17cf5fdb016feaf6bcf59f9d353f9cb",
+      "question": "Did Aaron ben Gershon abu al-Rabi die younger than 酈瓊?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_05_1b662c6d3b47cc11d1ea1f97fbd7f759c17cf5fdb016feaf6bcf59f9d353f9cb/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_06",
+      "case_id": "1b8864f8659402b9754f8a37ae4d8f0c8f78133b52d8d00870adaf7c073dd528",
+      "question": "Did 蕭方等 live longer than Aaliyah?",
+      "num_generated_tokens": 202,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_06_1b8864f8659402b9754f8a37ae4d8f0c8f78133b52d8d00870adaf7c073dd528/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_07",
+      "case_id": "1cb29c06efca94ef97f553dd429f611704db311ff32fbccdc459ad76c1f132b7",
+      "question": "Did Abdullah Khan II die younger than 裴粲?",
+      "num_generated_tokens": 123,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_07_1cb29c06efca94ef97f553dd429f611704db311ff32fbccdc459ad76c1f132b7/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_08",
+      "case_id": "252a305dece598cd7dc8f366fe228971fc007e6f2837a2f16623e5af4763e701",
+      "question": "Did Abdullah ibn al-Mu'tazz die younger than 陸子隆?",
+      "num_generated_tokens": 183,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_08_252a305dece598cd7dc8f366fe228971fc007e6f2837a2f16623e5af4763e701/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_09",
+      "case_id": "2614f5bea355dc9ba74839acedc324d3ffa25b3d90629d3ca4a94a3f4e87b59a",
+      "question": "Did 高永昌 live longer than Abd al-Malik I?",
+      "num_generated_tokens": 191,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_09_2614f5bea355dc9ba74839acedc324d3ffa25b3d90629d3ca4a94a3f4e87b59a/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_10",
+      "case_id": "264c770906c28534c2e019de2b43730f0c1768ea69c8e7d0f986fe7494d481f7",
+      "question": "Did Abraham of Clermont die younger than 謝瞻?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_10_264c770906c28534c2e019de2b43730f0c1768ea69c8e7d0f986fe7494d481f7/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_11",
+      "case_id": "29c0414fa3a9aa48f0ff4bfd53d84e08a9183fe57fe788329bedf7c1a2240da8",
+      "question": "Did Abdullah al-Mahdi Billah die younger than 陳少遊?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_11_29c0414fa3a9aa48f0ff4bfd53d84e08a9183fe57fe788329bedf7c1a2240da8/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_12",
+      "case_id": "3a1276e0a690bf5173074b7cd1fe306134749a916a8d8140772173f33a6f86ce",
+      "question": "Did Empress Zhang die younger than Patriarch Michael II of Antioch?",
+      "num_generated_tokens": 198,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_12_3a1276e0a690bf5173074b7cd1fe306134749a916a8d8140772173f33a6f86ce/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_13",
+      "case_id": "3b91c989e9d00205477ff2b82cc39c34a3affc487ae7ed07fb181a8e99a8a65a",
+      "question": "Did 손건 live longer than Abel Servien?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_13_3b91c989e9d00205477ff2b82cc39c34a3affc487ae7ed07fb181a8e99a8a65a/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_14",
+      "case_id": "54c98fd4d9d7bf4fa691c8c7d58504008c5bbda9423cd72e4d2918bf4b569bb8",
+      "question": "Did Dymitr Aba die younger than John II, Count of Ziegenhain?",
+      "num_generated_tokens": 244,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_14_54c98fd4d9d7bf4fa691c8c7d58504008c5bbda9423cd72e4d2918bf4b569bb8/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_15",
+      "case_id": "5506daf5f8680dddaa31bb1bc2c278a0432e0f021eb1973ec538e2a1f1013499",
+      "question": "Did Abraham Duquesne die younger than 趙芬?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_15_5506daf5f8680dddaa31bb1bc2c278a0432e0f021eb1973ec538e2a1f1013499/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_16",
+      "case_id": "5f3bb5900105890538a39150f4a6f20a5fba5a4eb2e4ce1e340bd37ee2747029",
+      "question": "Did Louis I de Rohan-Guéméné die younger than Nestor of Thessaloniki?",
+      "num_generated_tokens": 245,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_16_5f3bb5900105890538a39150f4a6f20a5fba5a4eb2e4ce1e340bd37ee2747029/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_17",
+      "case_id": "70ff2caadc14c6592a3873df86b018dd4334bd895a294097770196ca5a3ebb72",
+      "question": "Did Abe no Sadato die younger than 馮子琮?",
+      "num_generated_tokens": 157,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_17_70ff2caadc14c6592a3873df86b018dd4334bd895a294097770196ca5a3ebb72/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_18",
+      "case_id": "83e575ea0933855342d30ab9af64695693d2e7eda1341baae6651617cfb3d29d",
+      "question": "Did Abdullah ibn Salam die younger than 野本基員?",
+      "num_generated_tokens": 192,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_18_83e575ea0933855342d30ab9af64695693d2e7eda1341baae6651617cfb3d29d/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_19",
+      "case_id": "89538aab3f7305efd4300d7e6e3d8a84b9bdaf96125f95b5bf5f757059d5dadd",
+      "question": "Did William II de Cantilupe live longer than Friedrich Gren?",
+      "num_generated_tokens": 137,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_19_89538aab3f7305efd4300d7e6e3d8a84b9bdaf96125f95b5bf5f757059d5dadd/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_20",
+      "case_id": "8b207c8d08c0e5cdb3f1f35fae89c88e8b546fc91eac52e7d8830209b075c7be",
+      "question": "Did 高保寧 live longer than Abdallah ibn Buluggin?",
+      "num_generated_tokens": 246,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_20_8b207c8d08c0e5cdb3f1f35fae89c88e8b546fc91eac52e7d8830209b075c7be/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_21",
+      "case_id": "94ec5d69781b7f3692e9b6ec96bdf067d2eba1ca7fbb93af987a0b1e2f7e7900",
+      "question": "Did Abdullah ibn Ja'far die younger than 高潤?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_21_94ec5d69781b7f3692e9b6ec96bdf067d2eba1ca7fbb93af987a0b1e2f7e7900/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_22",
+      "case_id": "a086d0addd0c6c6e25e11d0c9a205267a2510fc09a56654a98711ca30b398c77",
+      "question": "Did 皮豹子 live longer than Abraham I of Aghbatank?",
+      "num_generated_tokens": 253,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_22_a086d0addd0c6c6e25e11d0c9a205267a2510fc09a56654a98711ca30b398c77/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_23",
+      "case_id": "a0ec937fa9d99743522db07cb801d813ccb56800e9c4256838dc146ab3f54a7c",
+      "question": "Did Abdul Aziz ibn Harith ibn Asad Yemeni Tamimi die younger than 薛怀吉?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_23_a0ec937fa9d99743522db07cb801d813ccb56800e9c4256838dc146ab3f54a7c/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_24",
+      "case_id": "a83e55deee0a1bc5be3aca1b5630a98094bba11d054ba6d292880cd0c2d1b179",
+      "question": "Did Abbas I of Safavids die younger than 陸山才?",
+      "num_generated_tokens": 219,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_24_a83e55deee0a1bc5be3aca1b5630a98094bba11d054ba6d292880cd0c2d1b179/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_25",
+      "case_id": "b81a6ce7cb92b15627848458d774f3c316a1fd8496d8b4a4da5dbc33e4b835ff",
+      "question": "Did Abbad ibn Bishr die younger than 高渙?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_25_b81a6ce7cb92b15627848458d774f3c316a1fd8496d8b4a4da5dbc33e4b835ff/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_26",
+      "case_id": "bdc7bc81cb6636c090eaecbb2a7f3a5c2d7de93d899ef6705c9939e85a07c69d",
+      "question": "Did Nicholas III of Saint Omer die younger than Rupen of Montfort?",
+      "num_generated_tokens": 180,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_26_bdc7bc81cb6636c090eaecbb2a7f3a5c2d7de93d899ef6705c9939e85a07c69d/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_27",
+      "case_id": "c41685354b796edc89be225af350e1c51485ae9c7f3abd62ccc2c7fd8fececa6",
+      "question": "Did Abbas II of Persia die younger than 蕭討古?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_27_c41685354b796edc89be225af350e1c51485ae9c7f3abd62ccc2c7fd8fececa6/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_28",
+      "case_id": "d65ae12f7491172761f6f1d244688e4047e87264578ae7a142d80ad70311e6f3",
+      "question": "Did Abraham of Worms die younger than علی بن جعد?",
+      "num_generated_tokens": 225,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_28_d65ae12f7491172761f6f1d244688e4047e87264578ae7a142d80ad70311e6f3/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_29",
+      "case_id": "f43d015eca9a3c9a59bca95a4ee9c04b151450d49d9310a126cafe3649603baa",
+      "question": "Did Aaliyah die younger than 蕭方等?",
+      "num_generated_tokens": 150,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_29_f43d015eca9a3c9a59bca95a4ee9c04b151450d49d9310a126cafe3649603baa/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_30",
+      "case_id": "fbb0a3876e03243fd0e2eee474174d77751e3158821a15fefc637b5b0f50361d",
+      "question": "Did Aage Jonsen die younger than 심흠?",
+      "num_generated_tokens": 248,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_30_fbb0a3876e03243fd0e2eee474174d77751e3158821a15fefc637b5b0f50361d/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_31",
+      "case_id": "fe0a4d49dc88cb82bf9b07aaebec01769bbdd981c5c92aa9871c476adb95455b",
+      "question": "Did Abdallah ibn Ahmad II die younger than 高済?",
+      "num_generated_tokens": 244,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_31_fe0a4d49dc88cb82bf9b07aaebec01769bbdd981c5c92aa9871c476adb95455b/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_32",
+      "case_id": "0372674b3c4b74405c42a4eb22b585190b7295b162ec67563fe0f898edd8ac5e",
+      "question": "Was Mårten Triewald younger at their time of death than Charles III of Naples at their time of death?",
+      "num_generated_tokens": 135,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_32_0372674b3c4b74405c42a4eb22b585190b7295b162ec67563fe0f898edd8ac5e/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_33",
+      "case_id": "1d549460616e45f086d7572c09cbaa5bf87c79bcc2bde8e3e85f86a1fc2ee84e",
+      "question": "Was Bella degli Abati younger at their time of death than Aaron of Lincoln at their time of death?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_33_1d549460616e45f086d7572c09cbaa5bf87c79bcc2bde8e3e85f86a1fc2ee84e/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_34",
+      "case_id": "00980ed5da58cba19db0b48e8c104931e0923f30c9ad75b7f312a966b3636405",
+      "question": "Was Хайнрих I фон Щолберг born later than Alice of Chatillon?",
+      "num_generated_tokens": 87,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_34_00980ed5da58cba19db0b48e8c104931e0923f30c9ad75b7f312a966b3636405/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_35",
+      "case_id": "01d5866db97d9398319aeb16cf6a99a0fd639b3d93b3c07e97d795bed1cbb1d7",
+      "question": "Was 郑伟 born later than Ciarán of Clonmacnoise?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_35_01d5866db97d9398319aeb16cf6a99a0fd639b3d93b3c07e97d795bed1cbb1d7/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_36",
+      "case_id": "02c101e9a5c792427cf1cd9de70802eee93d84edf875e0d00962aa80282814c5",
+      "question": "Was Widukind born earlier than 石川河主?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_36_02c101e9a5c792427cf1cd9de70802eee93d84edf875e0d00962aa80282814c5/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_37",
+      "case_id": "0de0d68a0ca970bbe96ef71f2aa6568e9ceeec8d7cc651c1c1f9becf47fb86e0",
+      "question": "Was Al-Darimi born earlier than Xiao Fang?",
+      "num_generated_tokens": 83,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_37_0de0d68a0ca970bbe96ef71f2aa6568e9ceeec8d7cc651c1c1f9becf47fb86e0/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_38",
+      "case_id": "10f232e1f35c205de68d59576ddf49611bd24729c5feab0438374437944180ba",
+      "question": "Was Zhao Tingmei born later than Emma of Blois?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_38_10f232e1f35c205de68d59576ddf49611bd24729c5feab0438374437944180ba/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_39",
+      "case_id": "135ef41c3ae5c72dbd2287ba404d485c2831e6531143b79e506cc1d77c36ad79",
+      "question": "Was Zhu Ling born later than Sima Lang?",
+      "num_generated_tokens": 104,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_39_135ef41c3ae5c72dbd2287ba404d485c2831e6531143b79e506cc1d77c36ad79/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_40",
+      "case_id": "14afb83f9f0f2260b09873f0890b74cb14298992a677d642028b4f275578a27b",
+      "question": "Was Agis III born earlier than Alexander the Great?",
+      "num_generated_tokens": 134,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_40_14afb83f9f0f2260b09873f0890b74cb14298992a677d642028b4f275578a27b/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_41",
+      "case_id": "1fde268c60d58593f5021c581d9eede065a5005abdfbdf192d34b4cbc3020ba7",
+      "question": "Was Yan Shu born earlier than Zhang Xian?",
+      "num_generated_tokens": 144,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_41_1fde268c60d58593f5021c581d9eede065a5005abdfbdf192d34b4cbc3020ba7/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_42",
+      "case_id": "20a42a3ee271cb12a784eb998c18b326b3bb703003c242935c270f09d359e273",
+      "question": "Was Huiyuan born earlier than Sabinus of Piacenza?",
+      "num_generated_tokens": 175,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_42_20a42a3ee271cb12a784eb998c18b326b3bb703003c242935c270f09d359e273/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_43",
+      "case_id": "300d4ab6d2ef6372e87d090c11b990d192fbc570d5f67dcd6cd4d75bca4b1bdc",
+      "question": "Was 穆亮 born later than Emperor Ming of Southern Qi?",
+      "num_generated_tokens": 256,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_43_300d4ab6d2ef6372e87d090c11b990d192fbc570d5f67dcd6cd4d75bca4b1bdc/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_44",
+      "case_id": "334d90fd29c2e040a394030b7fdaa2e50a8db672a359ece8be73e73739d7b923",
+      "question": "Was Albert Gottfried Dietrich born earlier than Wilhelm Müller?",
+      "num_generated_tokens": 87,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_44_334d90fd29c2e040a394030b7fdaa2e50a8db672a359ece8be73e73739d7b923/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_45",
+      "case_id": "3a2bd99a623d11a4c2ff348de15ad37e4205efe77cee0e1e315dbdb7bcdd21bc",
+      "question": "Was Abdashtart I born earlier than Diogenes of Sinope?",
+      "num_generated_tokens": 156,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_45_3a2bd99a623d11a4c2ff348de15ad37e4205efe77cee0e1e315dbdb7bcdd21bc/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_46",
+      "case_id": "3ff600687daba86a0189044fdb0c8bb00a57d187499edba85e37209f4ce47c2e",
+      "question": "Was Adolf Müllner born earlier than Zacharias Oppenheimer?",
+      "num_generated_tokens": 225,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_46_3ff600687daba86a0189044fdb0c8bb00a57d187499edba85e37209f4ce47c2e/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_47",
+      "case_id": "46ad94953420f7c8129619df06943b8116074d75ecc398f915b6c77945d0f3a4",
+      "question": "Was Abbas ibn Ali born earlier than Sun Guoting?",
+      "num_generated_tokens": 68,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_47_46ad94953420f7c8129619df06943b8116074d75ecc398f915b6c77945d0f3a4/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_48",
+      "case_id": "4c3f99c10eed3beb08898e93e9999952f7242b18382a4d98eed310a350c1be52",
+      "question": "Was Bernd Baumgartl born earlier than Whitney Houston?",
+      "num_generated_tokens": 67,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_48_4c3f99c10eed3beb08898e93e9999952f7242b18382a4d98eed310a350c1be52/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_49",
+      "case_id": "4c50527c2d130341133f38f2a265f5c0beb99f19d817ed2512865d4968c3f064",
+      "question": "Was Xiao Fang born later than Al-Darimi?",
+      "num_generated_tokens": 76,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_49_4c50527c2d130341133f38f2a265f5c0beb99f19d817ed2512865d4968c3f064/feature_33270_response_token_cosine.json"
+    },
+    {
+      "direction": "people_bio_50",
+      "case_id": "51b071d8d090f13307ca899dbfee0d8187546a92a9c4ebf0590e047f4163dd2f",
+      "question": "Was Sima Chong born earlier than Liborius of Le Mans?",
+      "num_generated_tokens": 181,
+      "path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/people_bio_50_51b071d8d090f13307ca899dbfee0d8187546a92a9c4ebf0590e047f4163dd2f/feature_33270_response_token_cosine.json"
+    }
+  ],
+  "averaging_note": "Cosines are averaged by generated_token_index. Later token positions include only cases long enough to have that generated token index.",
+  "average_token_scores": [
+    {
+      "generated_token_index": 0,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.009341003904119134,
+      "min_cosine_similarity": -0.015413318760693073,
+      "max_cosine_similarity": -0.00034620147198438644
+    },
+    {
+      "generated_token_index": 1,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.0053598147165030245,
+      "min_cosine_similarity": -0.012664569541811943,
+      "max_cosine_similarity": 0.004610385280102491
+    },
+    {
+      "generated_token_index": 2,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.008057559775188565,
+      "min_cosine_similarity": -0.015742383897304535,
+      "max_cosine_similarity": 0.03267821669578552
+    },
+    {
+      "generated_token_index": 3,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.013241798169910907,
+      "min_cosine_similarity": -0.03006841242313385,
+      "max_cosine_similarity": 0.044492289423942566
+    },
+    {
+      "generated_token_index": 4,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.01611626721918583,
+      "min_cosine_similarity": -0.027866408228874207,
+      "max_cosine_similarity": 0.04132772982120514
+    },
+    {
+      "generated_token_index": 5,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0005634812242351473,
+      "min_cosine_similarity": -0.018978295847773552,
+      "max_cosine_similarity": 0.05951720476150513
+    },
+    {
+      "generated_token_index": 6,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.004343737079761922,
+      "min_cosine_similarity": -0.009627396240830421,
+      "max_cosine_similarity": 0.10815329849720001
+    },
+    {
+      "generated_token_index": 7,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.01337387468200177,
+      "min_cosine_similarity": -0.00823417492210865,
+      "max_cosine_similarity": 0.10280594229698181
+    },
+    {
+      "generated_token_index": 8,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.030613229237496854,
+      "min_cosine_similarity": -0.03436725214123726,
+      "max_cosine_similarity": 0.0834861770272255
+    },
+    {
+      "generated_token_index": 9,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.049175577030982826,
+      "min_cosine_similarity": -0.029860127717256546,
+      "max_cosine_similarity": 0.1142098680138588
+    },
+    {
+      "generated_token_index": 10,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0985278445109725,
+      "min_cosine_similarity": -0.02410738915205002,
+      "max_cosine_similarity": 0.20417587459087372
+    },
+    {
+      "generated_token_index": 11,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.07205019274028018,
+      "min_cosine_similarity": -0.021402185782790184,
+      "max_cosine_similarity": 0.1979767084121704
+    },
+    {
+      "generated_token_index": 12,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.003557363245636225,
+      "min_cosine_similarity": -0.03136087581515312,
+      "max_cosine_similarity": 0.052885934710502625
+    },
+    {
+      "generated_token_index": 13,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.02349569136276841,
+      "min_cosine_similarity": -0.03053208440542221,
+      "max_cosine_similarity": 0.07270319759845734
+    },
+    {
+      "generated_token_index": 14,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.004642500051995739,
+      "min_cosine_similarity": -0.0324154831469059,
+      "max_cosine_similarity": 0.036957040429115295
+    },
+    {
+      "generated_token_index": 15,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.0061200233153067525,
+      "min_cosine_similarity": -0.03090880811214447,
+      "max_cosine_similarity": 0.020148178562521935
+    },
+    {
+      "generated_token_index": 16,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.014721131268888712,
+      "min_cosine_similarity": -0.034288063645362854,
+      "max_cosine_similarity": 0.017457490786910057
+    },
+    {
+      "generated_token_index": 17,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.014172724287491292,
+      "min_cosine_similarity": -0.034597139805555344,
+      "max_cosine_similarity": 0.012076478451490402
+    },
+    {
+      "generated_token_index": 18,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.012008795245783403,
+      "min_cosine_similarity": -0.036164652556180954,
+      "max_cosine_similarity": 0.019502004608511925
+    },
+    {
+      "generated_token_index": 19,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.009574726836290211,
+      "min_cosine_similarity": -0.03627419471740723,
+      "max_cosine_similarity": 0.04063616320490837
+    },
+    {
+      "generated_token_index": 20,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.004238396468572318,
+      "min_cosine_similarity": -0.033334989100694656,
+      "max_cosine_similarity": 0.08760514855384827
+    },
+    {
+      "generated_token_index": 21,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.006006881215143949,
+      "min_cosine_similarity": -0.03326740488409996,
+      "max_cosine_similarity": 0.0836123526096344
+    },
+    {
+      "generated_token_index": 22,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.007073537888936698,
+      "min_cosine_similarity": -0.03256317973136902,
+      "max_cosine_similarity": 0.051752954721450806
+    },
+    {
+      "generated_token_index": 23,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.011539965961128473,
+      "min_cosine_similarity": -0.030485372990369797,
+      "max_cosine_similarity": 0.04486054182052612
+    },
+    {
+      "generated_token_index": 24,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.0023199416231364013,
+      "min_cosine_similarity": -0.043245188891887665,
+      "max_cosine_similarity": 0.1746242493391037
+    },
+    {
+      "generated_token_index": 25,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.007864085297333076,
+      "min_cosine_similarity": -0.03265322744846344,
+      "max_cosine_similarity": 0.032490555197000504
+    },
+    {
+      "generated_token_index": 26,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.005569969662465155,
+      "min_cosine_similarity": -0.029518574476242065,
+      "max_cosine_similarity": 0.041922055184841156
+    },
+    {
+      "generated_token_index": 27,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.005149577336851507,
+      "min_cosine_similarity": -0.034469056874513626,
+      "max_cosine_similarity": 0.08640953153371811
+    },
+    {
+      "generated_token_index": 28,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.007260061644483357,
+      "min_cosine_similarity": -0.0313258059322834,
+      "max_cosine_similarity": 0.10448790341615677
+    },
+    {
+      "generated_token_index": 29,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.001566104581579566,
+      "min_cosine_similarity": -0.032075054943561554,
+      "max_cosine_similarity": 0.07112916558980942
+    },
+    {
+      "generated_token_index": 30,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.005756554193794727,
+      "min_cosine_similarity": -0.030440539121627808,
+      "max_cosine_similarity": 0.09531915932893753
+    },
+    {
+      "generated_token_index": 31,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.008744443121831863,
+      "min_cosine_similarity": -0.03115689381957054,
+      "max_cosine_similarity": 0.13401642441749573
+    },
+    {
+      "generated_token_index": 32,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.006112878345884382,
+      "min_cosine_similarity": -0.02923411875963211,
+      "max_cosine_similarity": 0.200535848736763
+    },
+    {
+      "generated_token_index": 33,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.004342044144868851,
+      "min_cosine_similarity": -0.033947769552469254,
+      "max_cosine_similarity": 0.18511249125003815
+    },
+    {
+      "generated_token_index": 34,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.007517412134911865,
+      "min_cosine_similarity": -0.0500335693359375,
+      "max_cosine_similarity": 0.19189579784870148
+    },
+    {
+      "generated_token_index": 35,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.003086317365523428,
+      "min_cosine_similarity": -0.026269130408763885,
+      "max_cosine_similarity": 0.08280002325773239
+    },
+    {
+      "generated_token_index": 36,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0012660729140043258,
+      "min_cosine_similarity": -0.038284361362457275,
+      "max_cosine_similarity": 0.0770903155207634
+    },
+    {
+      "generated_token_index": 37,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.005445435950532556,
+      "min_cosine_similarity": -0.037108201533555984,
+      "max_cosine_similarity": 0.2100917100906372
+    },
+    {
+      "generated_token_index": 38,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.0013790665194392203,
+      "min_cosine_similarity": -0.03547905758023262,
+      "max_cosine_similarity": 0.06515630334615707
+    },
+    {
+      "generated_token_index": 39,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.0012045876821503044,
+      "min_cosine_similarity": -0.04217485710978508,
+      "max_cosine_similarity": 0.07128018885850906
+    },
+    {
+      "generated_token_index": 40,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0055872844415716825,
+      "min_cosine_similarity": -0.035576723515987396,
+      "max_cosine_similarity": 0.07050487399101257
+    },
+    {
+      "generated_token_index": 41,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.009933823106111959,
+      "min_cosine_similarity": -0.0345919132232666,
+      "max_cosine_similarity": 0.07269605994224548
+    },
+    {
+      "generated_token_index": 42,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.005156486593186856,
+      "min_cosine_similarity": -0.029900994151830673,
+      "max_cosine_similarity": 0.085568368434906
+    },
+    {
+      "generated_token_index": 43,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.004706432961393147,
+      "min_cosine_similarity": -0.03729615733027458,
+      "max_cosine_similarity": 0.08168690651655197
+    },
+    {
+      "generated_token_index": 44,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.008439784711226821,
+      "min_cosine_similarity": -0.034004226326942444,
+      "max_cosine_similarity": 0.06397826969623566
+    },
+    {
+      "generated_token_index": 45,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.005055840797722339,
+      "min_cosine_similarity": -0.029289426282048225,
+      "max_cosine_similarity": 0.08205662667751312
+    },
+    {
+      "generated_token_index": 46,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0060421478701755404,
+      "min_cosine_similarity": -0.037719421088695526,
+      "max_cosine_similarity": 0.13161082565784454
+    },
+    {
+      "generated_token_index": 47,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.005349026462063193,
+      "min_cosine_similarity": -0.034433744847774506,
+      "max_cosine_similarity": 0.1264854371547699
+    },
+    {
+      "generated_token_index": 48,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0035058264108374713,
+      "min_cosine_similarity": -0.03511904552578926,
+      "max_cosine_similarity": 0.05085333436727524
+    },
+    {
+      "generated_token_index": 49,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0011390885314904154,
+      "min_cosine_similarity": -0.03078785538673401,
+      "max_cosine_similarity": 0.08985154330730438
+    },
+    {
+      "generated_token_index": 50,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.002666176431812346,
+      "min_cosine_similarity": -0.02966693602502346,
+      "max_cosine_similarity": 0.16577939689159393
+    },
+    {
+      "generated_token_index": 51,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0026534370798617602,
+      "min_cosine_similarity": -0.039797618985176086,
+      "max_cosine_similarity": 0.04694456607103348
+    },
+    {
+      "generated_token_index": 52,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.005427275733090937,
+      "min_cosine_similarity": -0.043148286640644073,
+      "max_cosine_similarity": 0.07704415917396545
+    },
+    {
+      "generated_token_index": 53,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0021805724827572703,
+      "min_cosine_similarity": -0.04395323991775513,
+      "max_cosine_similarity": 0.057347916066646576
+    },
+    {
+      "generated_token_index": 54,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.005658422253327444,
+      "min_cosine_similarity": -0.035721246153116226,
+      "max_cosine_similarity": 0.06364293396472931
+    },
+    {
+      "generated_token_index": 55,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0036995835811831058,
+      "min_cosine_similarity": -0.039425551891326904,
+      "max_cosine_similarity": 0.07029591500759125
+    },
+    {
+      "generated_token_index": 56,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.00612267307471484,
+      "min_cosine_similarity": -0.028383880853652954,
+      "max_cosine_similarity": 0.09365123510360718
+    },
+    {
+      "generated_token_index": 57,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.012952900021336972,
+      "min_cosine_similarity": -0.03146842494606972,
+      "max_cosine_similarity": 0.14744572341442108
+    },
+    {
+      "generated_token_index": 58,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.008168333116918803,
+      "min_cosine_similarity": -0.036949533969163895,
+      "max_cosine_similarity": 0.09409977495670319
+    },
+    {
+      "generated_token_index": 59,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.012211204380728305,
+      "min_cosine_similarity": -0.030349787324666977,
+      "max_cosine_similarity": 0.1405249834060669
+    },
+    {
+      "generated_token_index": 60,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.005568447862751782,
+      "min_cosine_similarity": -0.03411433845758438,
+      "max_cosine_similarity": 0.10098204016685486
+    },
+    {
+      "generated_token_index": 61,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.001575454182457179,
+      "min_cosine_similarity": -0.039641328155994415,
+      "max_cosine_similarity": 0.11678048968315125
+    },
+    {
+      "generated_token_index": 62,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0005138614028692245,
+      "min_cosine_similarity": -0.03782379627227783,
+      "max_cosine_similarity": 0.10831084847450256
+    },
+    {
+      "generated_token_index": 63,
+      "case_count": 50,
+      "mean_cosine_similarity": -0.0007203614106401802,
+      "min_cosine_similarity": -0.03447458893060684,
+      "max_cosine_similarity": 0.10218734294176102
+    },
+    {
+      "generated_token_index": 64,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0043848332110792395,
+      "min_cosine_similarity": -0.03297114372253418,
+      "max_cosine_similarity": 0.23557443916797638
+    },
+    {
+      "generated_token_index": 65,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.0013024490210227669,
+      "min_cosine_similarity": -0.04249135032296181,
+      "max_cosine_similarity": 0.23320892453193665
+    },
+    {
+      "generated_token_index": 66,
+      "case_count": 50,
+      "mean_cosine_similarity": 0.00024419649969786405,
+      "min_cosine_similarity": -0.03216193988919258,
+      "max_cosine_similarity": 0.19723233580589294
+    },
+    {
+      "generated_token_index": 67,
+      "case_count": 49,
+      "mean_cosine_similarity": 0.005474138945550182,
+      "min_cosine_similarity": -0.028709951788187027,
+      "max_cosine_similarity": 0.09155979752540588
+    },
+    {
+      "generated_token_index": 68,
+      "case_count": 48,
+      "mean_cosine_similarity": 0.0048639955069423495,
+      "min_cosine_similarity": -0.034499265253543854,
+      "max_cosine_similarity": 0.07479185611009598
+    },
+    {
+      "generated_token_index": 69,
+      "case_count": 48,
+      "mean_cosine_similarity": 0.0019561371591407806,
+      "min_cosine_similarity": -0.02458840049803257,
+      "max_cosine_similarity": 0.08304592967033386
+    },
+    {
+      "generated_token_index": 70,
+      "case_count": 48,
+      "mean_cosine_similarity": 0.003586446250362011,
+      "min_cosine_similarity": -0.0347023606300354,
+      "max_cosine_similarity": 0.08196096867322922
+    },
+    {
+      "generated_token_index": 71,
+      "case_count": 48,
+      "mean_cosine_similarity": 0.00663738730266535,
+      "min_cosine_similarity": -0.0366317480802536,
+      "max_cosine_similarity": 0.1666029989719391
+    },
+    {
+      "generated_token_index": 72,
+      "case_count": 48,
+      "mean_cosine_similarity": 0.01060632937878836,
+      "min_cosine_similarity": -0.02927374094724655,
+      "max_cosine_similarity": 0.1408388763666153
+    },
+    {
+      "generated_token_index": 73,
+      "case_count": 48,
+      "mean_cosine_similarity": 0.0064620083091237275,
+      "min_cosine_similarity": -0.038451820611953735,
+      "max_cosine_similarity": 0.12331684678792953
+    },
+    {
+      "generated_token_index": 74,
+      "case_count": 48,
+      "mean_cosine_similarity": 0.008542565313594727,
+      "min_cosine_similarity": -0.027488604187965393,
+      "max_cosine_similarity": 0.1950209140777588
+    },
+    {
+      "generated_token_index": 75,
+      "case_count": 48,
+      "mean_cosine_similarity": 0.007071562307828572,
+      "min_cosine_similarity": -0.030865300446748734,
+      "max_cosine_similarity": 0.1516694724559784
+    },
+    {
+      "generated_token_index": 76,
+      "case_count": 47,
+      "mean_cosine_similarity": 0.010143529217531706,
+      "min_cosine_similarity": -0.037925343960523605,
+      "max_cosine_similarity": 0.20176471769809723
+    },
+    {
+      "generated_token_index": 77,
+      "case_count": 47,
+      "mean_cosine_similarity": 0.008284942038912089,
+      "min_cosine_similarity": -0.041132137179374695,
+      "max_cosine_similarity": 0.22420723736286163
+    },
+    {
+      "generated_token_index": 78,
+      "case_count": 47,
+      "mean_cosine_similarity": 0.00656605624603702,
+      "min_cosine_similarity": -0.03443685546517372,
+      "max_cosine_similarity": 0.07863613963127136
+    },
+    {
+      "generated_token_index": 79,
+      "case_count": 47,
+      "mean_cosine_similarity": 0.004568277707105463,
+      "min_cosine_similarity": -0.030471784994006157,
+      "max_cosine_similarity": 0.07363138347864151
+    },
+    {
+      "generated_token_index": 80,
+      "case_count": 47,
+      "mean_cosine_similarity": 0.004333002475447002,
+      "min_cosine_similarity": -0.04118247702717781,
+      "max_cosine_similarity": 0.0871082991361618
+    },
+    {
+      "generated_token_index": 81,
+      "case_count": 47,
+      "mean_cosine_similarity": 0.011178245428612734,
+      "min_cosine_similarity": -0.038612015545368195,
+      "max_cosine_similarity": 0.19388774037361145
+    },
+    {
+      "generated_token_index": 82,
+      "case_count": 47,
+      "mean_cosine_similarity": 0.013373023508354388,
+      "min_cosine_similarity": -0.02952701412141323,
+      "max_cosine_similarity": 0.162945955991745
+    },
+    {
+      "generated_token_index": 83,
+      "case_count": 46,
+      "mean_cosine_similarity": 0.011964173699000283,
+      "min_cosine_similarity": -0.029280120506882668,
+      "max_cosine_similarity": 0.12901896238327026
+    },
+    {
+      "generated_token_index": 84,
+      "case_count": 46,
+      "mean_cosine_similarity": 0.00945121639802971,
+      "min_cosine_similarity": -0.039161499589681625,
+      "max_cosine_similarity": 0.1498413234949112
+    },
+    {
+      "generated_token_index": 85,
+      "case_count": 46,
+      "mean_cosine_similarity": 0.007571712923337422,
+      "min_cosine_similarity": -0.046943143010139465,
+      "max_cosine_similarity": 0.11246504634618759
+    },
+    {
+      "generated_token_index": 86,
+      "case_count": 46,
+      "mean_cosine_similarity": 0.007679627168134017,
+      "min_cosine_similarity": -0.033886466175317764,
+      "max_cosine_similarity": 0.12425260245800018
+    },
+    {
+      "generated_token_index": 87,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.012248782702954486,
+      "min_cosine_similarity": -0.036934394389390945,
+      "max_cosine_similarity": 0.14554452896118164
+    },
+    {
+      "generated_token_index": 88,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.01154398873702369,
+      "min_cosine_similarity": -0.034212127327919006,
+      "max_cosine_similarity": 0.1706743687391281
+    },
+    {
+      "generated_token_index": 89,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.006214499465634369,
+      "min_cosine_similarity": -0.037479378283023834,
+      "max_cosine_similarity": 0.19005419313907623
+    },
+    {
+      "generated_token_index": 90,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.015058685789964247,
+      "min_cosine_similarity": -0.03324428200721741,
+      "max_cosine_similarity": 0.10648471862077713
+    },
+    {
+      "generated_token_index": 91,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.011515395038507202,
+      "min_cosine_similarity": -0.040842365473508835,
+      "max_cosine_similarity": 0.15223824977874756
+    },
+    {
+      "generated_token_index": 92,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.009569367446767335,
+      "min_cosine_similarity": -0.03369373828172684,
+      "max_cosine_similarity": 0.07250580936670303
+    },
+    {
+      "generated_token_index": 93,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.009136986093256961,
+      "min_cosine_similarity": -0.03679367154836655,
+      "max_cosine_similarity": 0.10904345661401749
+    },
+    {
+      "generated_token_index": 94,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.012900081690697169,
+      "min_cosine_similarity": -0.024635393172502518,
+      "max_cosine_similarity": 0.09493573755025864
+    },
+    {
+      "generated_token_index": 95,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.009887372191191058,
+      "min_cosine_similarity": -0.027897080406546593,
+      "max_cosine_similarity": 0.07533228397369385
+    },
+    {
+      "generated_token_index": 96,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.008158657726281408,
+      "min_cosine_similarity": -0.02623698115348816,
+      "max_cosine_similarity": 0.1293092966079712
+    },
+    {
+      "generated_token_index": 97,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.00277929391648451,
+      "min_cosine_similarity": -0.023158157244324684,
+      "max_cosine_similarity": 0.06567710638046265
+    },
+    {
+      "generated_token_index": 98,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.0038067179478027606,
+      "min_cosine_similarity": -0.028810689225792885,
+      "max_cosine_similarity": 0.13181069493293762
+    },
+    {
+      "generated_token_index": 99,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.007143244570629163,
+      "min_cosine_similarity": -0.039477575570344925,
+      "max_cosine_similarity": 0.22100429236888885
+    },
+    {
+      "generated_token_index": 100,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.007092942311745984,
+      "min_cosine_similarity": -0.033396437764167786,
+      "max_cosine_similarity": 0.187098428606987
+    },
+    {
+      "generated_token_index": 101,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.012006295754955236,
+      "min_cosine_similarity": -0.03591245040297508,
+      "max_cosine_similarity": 0.1969197392463684
+    },
+    {
+      "generated_token_index": 102,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.007538933407472955,
+      "min_cosine_similarity": -0.03177957981824875,
+      "max_cosine_similarity": 0.09886094182729721
+    },
+    {
+      "generated_token_index": 103,
+      "case_count": 44,
+      "mean_cosine_similarity": 0.009840752992948348,
+      "min_cosine_similarity": -0.031741611659526825,
+      "max_cosine_similarity": 0.10414943844079971
+    },
+    {
+      "generated_token_index": 104,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.01053202357738777,
+      "min_cosine_similarity": -0.035682205110788345,
+      "max_cosine_similarity": 0.22316347062587738
+    },
+    {
+      "generated_token_index": 105,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.013390376144576124,
+      "min_cosine_similarity": -0.03235761076211929,
+      "max_cosine_similarity": 0.1675690859556198
+    },
+    {
+      "generated_token_index": 106,
+      "case_count": 43,
+      "mean_cosine_similarity": -0.0015608400084771389,
+      "min_cosine_similarity": -0.03956235200166702,
+      "max_cosine_similarity": 0.1191464215517044
+    },
+    {
+      "generated_token_index": 107,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.00926185710637202,
+      "min_cosine_similarity": -0.02600102499127388,
+      "max_cosine_similarity": 0.16478079557418823
+    },
+    {
+      "generated_token_index": 108,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.015925351723887805,
+      "min_cosine_similarity": -0.027637924998998642,
+      "max_cosine_similarity": 0.21233148872852325
+    },
+    {
+      "generated_token_index": 109,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.022368731572790894,
+      "min_cosine_similarity": -0.030795909464359283,
+      "max_cosine_similarity": 0.2681422829627991
+    },
+    {
+      "generated_token_index": 110,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.019279753767647023,
+      "min_cosine_similarity": -0.03283553570508957,
+      "max_cosine_similarity": 0.21746687591075897
+    },
+    {
+      "generated_token_index": 111,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.010218926293905391,
+      "min_cosine_similarity": -0.03661710023880005,
+      "max_cosine_similarity": 0.30829158425331116
+    },
+    {
+      "generated_token_index": 112,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.017661066335994145,
+      "min_cosine_similarity": -0.031133092939853668,
+      "max_cosine_similarity": 0.18090833723545074
+    },
+    {
+      "generated_token_index": 113,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.01393937203372547,
+      "min_cosine_similarity": -0.03752436116337776,
+      "max_cosine_similarity": 0.14204522967338562
+    },
+    {
+      "generated_token_index": 114,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.011415835591791155,
+      "min_cosine_similarity": -0.038670167326927185,
+      "max_cosine_similarity": 0.13317547738552094
+    },
+    {
+      "generated_token_index": 115,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.004164038185398419,
+      "min_cosine_similarity": -0.03202265501022339,
+      "max_cosine_similarity": 0.048768579959869385
+    },
+    {
+      "generated_token_index": 116,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.0033211864769285503,
+      "min_cosine_similarity": -0.03388998284935951,
+      "max_cosine_similarity": 0.12146048247814178
+    },
+    {
+      "generated_token_index": 117,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.005403356707849821,
+      "min_cosine_similarity": -0.03078402206301689,
+      "max_cosine_similarity": 0.10437969863414764
+    },
+    {
+      "generated_token_index": 118,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.009177337549518534,
+      "min_cosine_similarity": -0.03733891621232033,
+      "max_cosine_similarity": 0.10311766713857651
+    },
+    {
+      "generated_token_index": 119,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.012177979514046117,
+      "min_cosine_similarity": -0.0344868041574955,
+      "max_cosine_similarity": 0.1735825538635254
+    },
+    {
+      "generated_token_index": 120,
+      "case_count": 43,
+      "mean_cosine_similarity": -0.001749746328176454,
+      "min_cosine_similarity": -0.03590177372097969,
+      "max_cosine_similarity": 0.10424354672431946
+    },
+    {
+      "generated_token_index": 121,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.009997567714213632,
+      "min_cosine_similarity": -0.03522723540663719,
+      "max_cosine_similarity": 0.12561383843421936
+    },
+    {
+      "generated_token_index": 122,
+      "case_count": 43,
+      "mean_cosine_similarity": 0.005674463449056845,
+      "min_cosine_similarity": -0.033711664378643036,
+      "max_cosine_similarity": 0.09882113337516785
+    },
+    {
+      "generated_token_index": 123,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.000276179515778841,
+      "min_cosine_similarity": -0.031132332980632782,
+      "max_cosine_similarity": 0.06392741203308105
+    },
+    {
+      "generated_token_index": 124,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.0006009081262163818,
+      "min_cosine_similarity": -0.0373159684240818,
+      "max_cosine_similarity": 0.1027388870716095
+    },
+    {
+      "generated_token_index": 125,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.01223667563282929,
+      "min_cosine_similarity": -0.026307255029678345,
+      "max_cosine_similarity": 0.16924622654914856
+    },
+    {
+      "generated_token_index": 126,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.020728341952365423,
+      "min_cosine_similarity": -0.03669743239879608,
+      "max_cosine_similarity": 0.20710796117782593
+    },
+    {
+      "generated_token_index": 127,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.017590597593447284,
+      "min_cosine_similarity": -0.0310494564473629,
+      "max_cosine_similarity": 0.29936841130256653
+    },
+    {
+      "generated_token_index": 128,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.01650095751531245,
+      "min_cosine_similarity": -0.02728000096976757,
+      "max_cosine_similarity": 0.22322925925254822
+    },
+    {
+      "generated_token_index": 129,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.005663569711725272,
+      "min_cosine_similarity": -0.029697293415665627,
+      "max_cosine_similarity": 0.14064203202724457
+    },
+    {
+      "generated_token_index": 130,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.008558836510582339,
+      "min_cosine_similarity": -0.0315723791718483,
+      "max_cosine_similarity": 0.12092834711074829
+    },
+    {
+      "generated_token_index": 131,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.0031319745938249285,
+      "min_cosine_similarity": -0.03444869816303253,
+      "max_cosine_similarity": 0.17582644522190094
+    },
+    {
+      "generated_token_index": 132,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.011176612738165118,
+      "min_cosine_similarity": -0.03574671596288681,
+      "max_cosine_similarity": 0.16161499917507172
+    },
+    {
+      "generated_token_index": 133,
+      "case_count": 42,
+      "mean_cosine_similarity": 0.002895495965189877,
+      "min_cosine_similarity": -0.03771813586354256,
+      "max_cosine_similarity": 0.2547769546508789
+    },
+    {
+      "generated_token_index": 134,
+      "case_count": 41,
+      "mean_cosine_similarity": 0.008696945233656684,
+      "min_cosine_similarity": -0.022073473781347275,
+      "max_cosine_similarity": 0.14356732368469238
+    },
+    {
+      "generated_token_index": 135,
+      "case_count": 40,
+      "mean_cosine_similarity": 0.0071730330440914255,
+      "min_cosine_similarity": -0.023592466488480568,
+      "max_cosine_similarity": 0.11259442567825317
+    },
+    {
+      "generated_token_index": 136,
+      "case_count": 40,
+      "mean_cosine_similarity": -0.0020010000909678636,
+      "min_cosine_similarity": -0.03832012042403221,
+      "max_cosine_similarity": 0.06242939084768295
+    },
+    {
+      "generated_token_index": 137,
+      "case_count": 39,
+      "mean_cosine_similarity": -0.00043296761428698513,
+      "min_cosine_similarity": -0.03943604603409767,
+      "max_cosine_similarity": 0.0635884702205658
+    },
+    {
+      "generated_token_index": 138,
+      "case_count": 39,
+      "mean_cosine_similarity": 0.006465140192841108,
+      "min_cosine_similarity": -0.03627235069870949,
+      "max_cosine_similarity": 0.10851512104272842
+    },
+    {
+      "generated_token_index": 139,
+      "case_count": 39,
+      "mean_cosine_similarity": 0.004288847588050442,
+      "min_cosine_similarity": -0.03860672935843468,
+      "max_cosine_similarity": 0.16592544317245483
+    },
+    {
+      "generated_token_index": 140,
+      "case_count": 39,
+      "mean_cosine_similarity": 0.011830034797103742,
+      "min_cosine_similarity": -0.04024355486035347,
+      "max_cosine_similarity": 0.26097092032432556
+    },
+    {
+      "generated_token_index": 141,
+      "case_count": 39,
+      "mean_cosine_similarity": 0.016960145278762166,
+      "min_cosine_similarity": -0.03568781912326813,
+      "max_cosine_similarity": 0.20422451198101044
+    },
+    {
+      "generated_token_index": 142,
+      "case_count": 39,
+      "mean_cosine_similarity": 0.022538927712071784,
+      "min_cosine_similarity": -0.03675651550292969,
+      "max_cosine_similarity": 0.22338062524795532
+    },
+    {
+      "generated_token_index": 143,
+      "case_count": 39,
+      "mean_cosine_similarity": 0.010943142416624304,
+      "min_cosine_similarity": -0.03137495741248131,
+      "max_cosine_similarity": 0.1352074146270752
+    },
+    {
+      "generated_token_index": 144,
+      "case_count": 38,
+      "mean_cosine_similarity": 0.01514385458952012,
+      "min_cosine_similarity": -0.02868284285068512,
+      "max_cosine_similarity": 0.2565919756889343
+    },
+    {
+      "generated_token_index": 145,
+      "case_count": 38,
+      "mean_cosine_similarity": 0.0071572552765964675,
+      "min_cosine_similarity": -0.03283414617180824,
+      "max_cosine_similarity": 0.10024182498455048
+    },
+    {
+      "generated_token_index": 146,
+      "case_count": 38,
+      "mean_cosine_similarity": -0.0007703799362245359,
+      "min_cosine_similarity": -0.0372370183467865,
+      "max_cosine_similarity": 0.12748423218727112
+    },
+    {
+      "generated_token_index": 147,
+      "case_count": 38,
+      "mean_cosine_similarity": -1.8862455985263776e-05,
+      "min_cosine_similarity": -0.03696151450276375,
+      "max_cosine_similarity": 0.20058970153331757
+    },
+    {
+      "generated_token_index": 148,
+      "case_count": 38,
+      "mean_cosine_similarity": 0.008275961074487944,
+      "min_cosine_similarity": -0.030857089906930923,
+      "max_cosine_similarity": 0.13665519654750824
+    },
+    {
+      "generated_token_index": 149,
+      "case_count": 38,
+      "mean_cosine_similarity": 0.0076995695953404435,
+      "min_cosine_similarity": -0.027267392724752426,
+      "max_cosine_similarity": 0.08206873387098312
+    },
+    {
+      "generated_token_index": 150,
+      "case_count": 36,
+      "mean_cosine_similarity": 0.017206515515378367,
+      "min_cosine_similarity": -0.036420878022909164,
+      "max_cosine_similarity": 0.15380850434303284
+    },
+    {
+      "generated_token_index": 151,
+      "case_count": 36,
+      "mean_cosine_similarity": 0.012050036573782563,
+      "min_cosine_similarity": -0.037586990743875504,
+      "max_cosine_similarity": 0.11583764851093292
+    },
+    {
+      "generated_token_index": 152,
+      "case_count": 36,
+      "mean_cosine_similarity": 0.010186481202254072,
+      "min_cosine_similarity": -0.03699943423271179,
+      "max_cosine_similarity": 0.11116144806146622
+    },
+    {
+      "generated_token_index": 153,
+      "case_count": 36,
+      "mean_cosine_similarity": 0.005881946074724611,
+      "min_cosine_similarity": -0.03595378249883652,
+      "max_cosine_similarity": 0.12632635235786438
+    },
+    {
+      "generated_token_index": 154,
+      "case_count": 36,
+      "mean_cosine_similarity": 0.010344335553883057,
+      "min_cosine_similarity": -0.037422917783260345,
+      "max_cosine_similarity": 0.15057678520679474
+    },
+    {
+      "generated_token_index": 155,
+      "case_count": 36,
+      "mean_cosine_similarity": 0.01377690172941786,
+      "min_cosine_similarity": -0.025509148836135864,
+      "max_cosine_similarity": 0.09139668941497803
+    },
+    {
+      "generated_token_index": 156,
+      "case_count": 35,
+      "mean_cosine_similarity": 0.016551548109522887,
+      "min_cosine_similarity": -0.031784795224666595,
+      "max_cosine_similarity": 0.12934023141860962
+    },
+    {
+      "generated_token_index": 157,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.008747976245906423,
+      "min_cosine_similarity": -0.025164123624563217,
+      "max_cosine_similarity": 0.11882974207401276
+    },
+    {
+      "generated_token_index": 158,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.019945118867326528,
+      "min_cosine_similarity": -0.02780957520008087,
+      "max_cosine_similarity": 0.127017080783844
+    },
+    {
+      "generated_token_index": 159,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.0076537846299984,
+      "min_cosine_similarity": -0.0289832204580307,
+      "max_cosine_similarity": 0.0674566701054573
+    },
+    {
+      "generated_token_index": 160,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.014647016637301183,
+      "min_cosine_similarity": -0.0397518165409565,
+      "max_cosine_similarity": 0.0902496874332428
+    },
+    {
+      "generated_token_index": 161,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.022301683411248687,
+      "min_cosine_similarity": -0.036932654678821564,
+      "max_cosine_similarity": 0.1784290373325348
+    },
+    {
+      "generated_token_index": 162,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.02434922311016742,
+      "min_cosine_similarity": -0.03997651860117912,
+      "max_cosine_similarity": 0.21774379909038544
+    },
+    {
+      "generated_token_index": 163,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.023730920155203956,
+      "min_cosine_similarity": -0.036802902817726135,
+      "max_cosine_similarity": 0.1767355054616928
+    },
+    {
+      "generated_token_index": 164,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.011644979608450633,
+      "min_cosine_similarity": -0.03401758149266243,
+      "max_cosine_similarity": 0.1558057963848114
+    },
+    {
+      "generated_token_index": 165,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.0075941282009486764,
+      "min_cosine_similarity": -0.035677626729011536,
+      "max_cosine_similarity": 0.06248506158590317
+    },
+    {
+      "generated_token_index": 166,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.007377600471954793,
+      "min_cosine_similarity": -0.030866166576743126,
+      "max_cosine_similarity": 0.08753059804439545
+    },
+    {
+      "generated_token_index": 167,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.010343863281270708,
+      "min_cosine_similarity": -0.028254114091396332,
+      "max_cosine_similarity": 0.10956849902868271
+    },
+    {
+      "generated_token_index": 168,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.0003545187338364913,
+      "min_cosine_similarity": -0.03533996641635895,
+      "max_cosine_similarity": 0.10938187688589096
+    },
+    {
+      "generated_token_index": 169,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.015655850512249506,
+      "min_cosine_similarity": -0.0293634831905365,
+      "max_cosine_similarity": 0.1455690860748291
+    },
+    {
+      "generated_token_index": 170,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.016818198926664668,
+      "min_cosine_similarity": -0.034643013030290604,
+      "max_cosine_similarity": 0.12903979420661926
+    },
+    {
+      "generated_token_index": 171,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.02172079719329143,
+      "min_cosine_similarity": -0.0332254022359848,
+      "max_cosine_similarity": 0.14657415449619293
+    },
+    {
+      "generated_token_index": 172,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.020707541768548682,
+      "min_cosine_similarity": -0.027411848306655884,
+      "max_cosine_similarity": 0.1644725501537323
+    },
+    {
+      "generated_token_index": 173,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.007662177503602032,
+      "min_cosine_similarity": -0.030418626964092255,
+      "max_cosine_similarity": 0.13331088423728943
+    },
+    {
+      "generated_token_index": 174,
+      "case_count": 34,
+      "mean_cosine_similarity": 0.010060794381013908,
+      "min_cosine_similarity": -0.038580454885959625,
+      "max_cosine_similarity": 0.12424561381340027
+    },
+    {
+      "generated_token_index": 175,
+      "case_count": 33,
+      "mean_cosine_similarity": 0.006599873131507951,
+      "min_cosine_similarity": -0.03688497468829155,
+      "max_cosine_similarity": 0.10884194821119308
+    },
+    {
+      "generated_token_index": 176,
+      "case_count": 33,
+      "mean_cosine_similarity": 0.015409797200735546,
+      "min_cosine_similarity": -0.030395125970244408,
+      "max_cosine_similarity": 0.17820580303668976
+    },
+    {
+      "generated_token_index": 177,
+      "case_count": 33,
+      "mean_cosine_similarity": 0.005034372616192382,
+      "min_cosine_similarity": -0.03463291749358177,
+      "max_cosine_similarity": 0.10712582617998123
+    },
+    {
+      "generated_token_index": 178,
+      "case_count": 33,
+      "mean_cosine_similarity": 0.006569125559039865,
+      "min_cosine_similarity": -0.037179913371801376,
+      "max_cosine_similarity": 0.0449526347219944
+    },
+    {
+      "generated_token_index": 179,
+      "case_count": 33,
+      "mean_cosine_similarity": 0.010884829137163857,
+      "min_cosine_similarity": -0.030021075159311295,
+      "max_cosine_similarity": 0.16223391890525818
+    },
+    {
+      "generated_token_index": 180,
+      "case_count": 32,
+      "mean_cosine_similarity": 0.00465868876199238,
+      "min_cosine_similarity": -0.03644181042909622,
+      "max_cosine_similarity": 0.09945949167013168
+    },
+    {
+      "generated_token_index": 181,
+      "case_count": 31,
+      "mean_cosine_similarity": 0.013161699302614696,
+      "min_cosine_similarity": -0.024001989513635635,
+      "max_cosine_similarity": 0.11528339982032776
+    },
+    {
+      "generated_token_index": 182,
+      "case_count": 31,
+      "mean_cosine_similarity": 0.007193245744753269,
+      "min_cosine_similarity": -0.03627444803714752,
+      "max_cosine_similarity": 0.07522176951169968
+    },
+    {
+      "generated_token_index": 183,
+      "case_count": 30,
+      "mean_cosine_similarity": 0.015513670017632345,
+      "min_cosine_similarity": -0.02401111088693142,
+      "max_cosine_similarity": 0.13713906705379486
+    },
+    {
+      "generated_token_index": 184,
+      "case_count": 30,
+      "mean_cosine_similarity": 0.012627887252407769,
+      "min_cosine_similarity": -0.03576918691396713,
+      "max_cosine_similarity": 0.22390173375606537
+    },
+    {
+      "generated_token_index": 185,
+      "case_count": 30,
+      "mean_cosine_similarity": 0.015000110135103266,
+      "min_cosine_similarity": -0.03784242272377014,
+      "max_cosine_similarity": 0.11844724416732788
+    },
+    {
+      "generated_token_index": 186,
+      "case_count": 30,
+      "mean_cosine_similarity": 0.015497997515679648,
+      "min_cosine_similarity": -0.03771514818072319,
+      "max_cosine_similarity": 0.1159585639834404
+    },
+    {
+      "generated_token_index": 187,
+      "case_count": 30,
+      "mean_cosine_similarity": 0.014662859918704878,
+      "min_cosine_similarity": -0.031610436737537384,
+      "max_cosine_similarity": 0.14778630435466766
+    },
+    {
+      "generated_token_index": 188,
+      "case_count": 30,
+      "mean_cosine_similarity": 0.0105134104223301,
+      "min_cosine_similarity": -0.033883970230817795,
+      "max_cosine_similarity": 0.20129628479480743
+    },
+    {
+      "generated_token_index": 189,
+      "case_count": 30,
+      "mean_cosine_similarity": 0.012344741565175354,
+      "min_cosine_similarity": -0.032926708459854126,
+      "max_cosine_similarity": 0.1791290044784546
+    },
+    {
+      "generated_token_index": 190,
+      "case_count": 30,
+      "mean_cosine_similarity": -0.0011381275253370404,
+      "min_cosine_similarity": -0.0341750793159008,
+      "max_cosine_similarity": 0.10805213451385498
+    },
+    {
+      "generated_token_index": 191,
+      "case_count": 29,
+      "mean_cosine_similarity": 0.0009844252470366914,
+      "min_cosine_similarity": -0.03665721416473389,
+      "max_cosine_similarity": 0.07130791246891022
+    },
+    {
+      "generated_token_index": 192,
+      "case_count": 28,
+      "mean_cosine_similarity": 0.0002245025908840554,
+      "min_cosine_similarity": -0.028821732848882675,
+      "max_cosine_similarity": 0.0632190853357315
+    },
+    {
+      "generated_token_index": 193,
+      "case_count": 28,
+      "mean_cosine_similarity": 0.011184291282136525,
+      "min_cosine_similarity": -0.022300370037555695,
+      "max_cosine_similarity": 0.20749884843826294
+    },
+    {
+      "generated_token_index": 194,
+      "case_count": 28,
+      "mean_cosine_similarity": 0.009126546784370606,
+      "min_cosine_similarity": -0.03243568539619446,
+      "max_cosine_similarity": 0.08525703847408295
+    },
+    {
+      "generated_token_index": 195,
+      "case_count": 28,
+      "mean_cosine_similarity": 0.006693977966538763,
+      "min_cosine_similarity": -0.03708412125706673,
+      "max_cosine_similarity": 0.12182875722646713
+    },
+    {
+      "generated_token_index": 196,
+      "case_count": 28,
+      "mean_cosine_similarity": 0.008441357964849365,
+      "min_cosine_similarity": -0.024055451154708862,
+      "max_cosine_similarity": 0.1719263195991516
+    },
+    {
+      "generated_token_index": 197,
+      "case_count": 28,
+      "mean_cosine_similarity": 0.009851614395821733,
+      "min_cosine_similarity": -0.02012302167713642,
+      "max_cosine_similarity": 0.11640866845846176
+    },
+    {
+      "generated_token_index": 198,
+      "case_count": 27,
+      "mean_cosine_similarity": 0.010489365051466006,
+      "min_cosine_similarity": -0.03296374902129173,
+      "max_cosine_similarity": 0.1530190110206604
+    },
+    {
+      "generated_token_index": 199,
+      "case_count": 27,
+      "mean_cosine_similarity": 0.0047816493962373995,
+      "min_cosine_similarity": -0.028970137238502502,
+      "max_cosine_similarity": 0.10036156326532364
+    },
+    {
+      "generated_token_index": 200,
+      "case_count": 27,
+      "mean_cosine_similarity": 0.011559804591039816,
+      "min_cosine_similarity": -0.02717016637325287,
+      "max_cosine_similarity": 0.1582903265953064
+    },
+    {
+      "generated_token_index": 201,
+      "case_count": 27,
+      "mean_cosine_similarity": 0.010792001133301744,
+      "min_cosine_similarity": -0.03563331440091133,
+      "max_cosine_similarity": 0.06834088265895844
+    },
+    {
+      "generated_token_index": 202,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.018697359214107003,
+      "min_cosine_similarity": -0.033016446977853775,
+      "max_cosine_similarity": 0.12670841813087463
+    },
+    {
+      "generated_token_index": 203,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.006162626400160102,
+      "min_cosine_similarity": -0.029874099418520927,
+      "max_cosine_similarity": 0.10235322266817093
+    },
+    {
+      "generated_token_index": 204,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.010100893282259885,
+      "min_cosine_similarity": -0.03282400220632553,
+      "max_cosine_similarity": 0.09071332961320877
+    },
+    {
+      "generated_token_index": 205,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.008776337830708004,
+      "min_cosine_similarity": -0.032295458018779755,
+      "max_cosine_similarity": 0.14544154703617096
+    },
+    {
+      "generated_token_index": 206,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.006255371737867021,
+      "min_cosine_similarity": -0.03242407739162445,
+      "max_cosine_similarity": 0.10877982527017593
+    },
+    {
+      "generated_token_index": 207,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.02214766658233622,
+      "min_cosine_similarity": -0.032994192093610764,
+      "max_cosine_similarity": 0.2980247735977173
+    },
+    {
+      "generated_token_index": 208,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.016056451642026123,
+      "min_cosine_similarity": -0.026065099984407425,
+      "max_cosine_similarity": 0.32829567790031433
+    },
+    {
+      "generated_token_index": 209,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.01967651810711966,
+      "min_cosine_similarity": -0.03180474042892456,
+      "max_cosine_similarity": 0.24731296300888062
+    },
+    {
+      "generated_token_index": 210,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.012320326923285253,
+      "min_cosine_similarity": -0.04168213903903961,
+      "max_cosine_similarity": 0.2275301069021225
+    },
+    {
+      "generated_token_index": 211,
+      "case_count": 26,
+      "mean_cosine_similarity": 7.361846152119912e-05,
+      "min_cosine_similarity": -0.034750234335660934,
+      "max_cosine_similarity": 0.06933101266622543
+    },
+    {
+      "generated_token_index": 212,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.012654606951400638,
+      "min_cosine_similarity": -0.034100525081157684,
+      "max_cosine_similarity": 0.1607804149389267
+    },
+    {
+      "generated_token_index": 213,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.010593629316785015,
+      "min_cosine_similarity": -0.029148269444704056,
+      "max_cosine_similarity": 0.22576592862606049
+    },
+    {
+      "generated_token_index": 214,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.017645090263193615,
+      "min_cosine_similarity": -0.03701901435852051,
+      "max_cosine_similarity": 0.19210867583751678
+    },
+    {
+      "generated_token_index": 215,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.01213058179172759,
+      "min_cosine_similarity": -0.037746623158454895,
+      "max_cosine_similarity": 0.1297588348388672
+    },
+    {
+      "generated_token_index": 216,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.008501939392702367,
+      "min_cosine_similarity": -0.03200657665729523,
+      "max_cosine_similarity": 0.12416568398475647
+    },
+    {
+      "generated_token_index": 217,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.001987646629389089,
+      "min_cosine_similarity": -0.04322616010904312,
+      "max_cosine_similarity": 0.08487285673618317
+    },
+    {
+      "generated_token_index": 218,
+      "case_count": 26,
+      "mean_cosine_similarity": 0.0029174851370044053,
+      "min_cosine_similarity": -0.03703761473298073,
+      "max_cosine_similarity": 0.08130054920911789
+    },
+    {
+      "generated_token_index": 219,
+      "case_count": 25,
+      "mean_cosine_similarity": 0.004086289964616299,
+      "min_cosine_similarity": -0.03297450393438339,
+      "max_cosine_similarity": 0.17019222676753998
+    },
+    {
+      "generated_token_index": 220,
+      "case_count": 25,
+      "mean_cosine_similarity": 0.013005194114521145,
+      "min_cosine_similarity": -0.03627379238605499,
+      "max_cosine_similarity": 0.1477927565574646
+    },
+    {
+      "generated_token_index": 221,
+      "case_count": 25,
+      "mean_cosine_similarity": 0.009831389375030995,
+      "min_cosine_similarity": -0.03606954962015152,
+      "max_cosine_similarity": 0.12542614340782166
+    },
+    {
+      "generated_token_index": 222,
+      "case_count": 25,
+      "mean_cosine_similarity": 0.009854696057736874,
+      "min_cosine_similarity": -0.0360657274723053,
+      "max_cosine_similarity": 0.1156366840004921
+    },
+    {
+      "generated_token_index": 223,
+      "case_count": 25,
+      "mean_cosine_similarity": 0.006457671080715955,
+      "min_cosine_similarity": -0.03786756098270416,
+      "max_cosine_similarity": 0.06693102419376373
+    },
+    {
+      "generated_token_index": 224,
+      "case_count": 25,
+      "mean_cosine_similarity": -0.0021668043732643127,
+      "min_cosine_similarity": -0.0419253446161747,
+      "max_cosine_similarity": 0.08493351191282272
+    },
+    {
+      "generated_token_index": 225,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.00738600731584365,
+      "min_cosine_similarity": -0.03747110441327095,
+      "max_cosine_similarity": 0.13355569541454315
+    },
+    {
+      "generated_token_index": 226,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.010371250555972043,
+      "min_cosine_similarity": -0.03448997065424919,
+      "max_cosine_similarity": 0.1203327551484108
+    },
+    {
+      "generated_token_index": 227,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.017405490957848404,
+      "min_cosine_similarity": -0.03308660909533501,
+      "max_cosine_similarity": 0.142806276679039
+    },
+    {
+      "generated_token_index": 228,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.01191809707645165,
+      "min_cosine_similarity": -0.02975635975599289,
+      "max_cosine_similarity": 0.09545140713453293
+    },
+    {
+      "generated_token_index": 229,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.024728685981877472,
+      "min_cosine_similarity": -0.036813780665397644,
+      "max_cosine_similarity": 0.16497373580932617
+    },
+    {
+      "generated_token_index": 230,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.02191097277176121,
+      "min_cosine_similarity": -0.03568434715270996,
+      "max_cosine_similarity": 0.18907040357589722
+    },
+    {
+      "generated_token_index": 231,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.0019890926069701495,
+      "min_cosine_similarity": -0.03690093383193016,
+      "max_cosine_similarity": 0.11274822801351547
+    },
+    {
+      "generated_token_index": 232,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.00757489379738336,
+      "min_cosine_similarity": -0.028592823073267937,
+      "max_cosine_similarity": 0.0673551931977272
+    },
+    {
+      "generated_token_index": 233,
+      "case_count": 23,
+      "mean_cosine_similarity": -0.0015330684938184593,
+      "min_cosine_similarity": -0.041179727762937546,
+      "max_cosine_similarity": 0.07414422184228897
+    },
+    {
+      "generated_token_index": 234,
+      "case_count": 23,
+      "mean_cosine_similarity": -0.002004439532554344,
+      "min_cosine_similarity": -0.03713736683130264,
+      "max_cosine_similarity": 0.1655830591917038
+    },
+    {
+      "generated_token_index": 235,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.014478804310783744,
+      "min_cosine_similarity": -0.032295797020196915,
+      "max_cosine_similarity": 0.16094151139259338
+    },
+    {
+      "generated_token_index": 236,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.005053926269402323,
+      "min_cosine_similarity": -0.037050649523735046,
+      "max_cosine_similarity": 0.11054456233978271
+    },
+    {
+      "generated_token_index": 237,
+      "case_count": 23,
+      "mean_cosine_similarity": 0.0033996671326863375,
+      "min_cosine_similarity": -0.02342960052192211,
+      "max_cosine_similarity": 0.07885980606079102
+    },
+    {
+      "generated_token_index": 238,
+      "case_count": 22,
+      "mean_cosine_similarity": -0.0010803854622116144,
+      "min_cosine_similarity": -0.029914837330579758,
+      "max_cosine_similarity": 0.11645372956991196
+    },
+    {
+      "generated_token_index": 239,
+      "case_count": 22,
+      "mean_cosine_similarity": 0.01737365129255605,
+      "min_cosine_similarity": -0.0300377756357193,
+      "max_cosine_similarity": 0.1674938201904297
+    },
+    {
+      "generated_token_index": 240,
+      "case_count": 22,
+      "mean_cosine_similarity": 0.005004889691587199,
+      "min_cosine_similarity": -0.029226623475551605,
+      "max_cosine_similarity": 0.11341170966625214
+    },
+    {
+      "generated_token_index": 241,
+      "case_count": 22,
+      "mean_cosine_similarity": 0.0029100056695328517,
+      "min_cosine_similarity": -0.03743996098637581,
+      "max_cosine_similarity": 0.11492813378572464
+    },
+    {
+      "generated_token_index": 242,
+      "case_count": 22,
+      "mean_cosine_similarity": -0.00490147921002724,
+      "min_cosine_similarity": -0.03785195201635361,
+      "max_cosine_similarity": 0.045697279274463654
+    },
+    {
+      "generated_token_index": 243,
+      "case_count": 22,
+      "mean_cosine_similarity": 0.00480631499720568,
+      "min_cosine_similarity": -0.04108485206961632,
+      "max_cosine_similarity": 0.11981921643018723
+    },
+    {
+      "generated_token_index": 244,
+      "case_count": 20,
+      "mean_cosine_similarity": 0.015198775089811534,
+      "min_cosine_similarity": -0.0354967936873436,
+      "max_cosine_similarity": 0.14771553874015808
+    },
+    {
+      "generated_token_index": 245,
+      "case_count": 19,
+      "mean_cosine_similarity": 0.0060884993704109405,
+      "min_cosine_similarity": -0.022547371685504913,
+      "max_cosine_similarity": 0.10294008255004883
+    },
+    {
+      "generated_token_index": 246,
+      "case_count": 18,
+      "mean_cosine_similarity": 0.01162458519037399,
+      "min_cosine_similarity": -0.019120244309306145,
+      "max_cosine_similarity": 0.0880572572350502
+    },
+    {
+      "generated_token_index": 247,
+      "case_count": 18,
+      "mean_cosine_similarity": -0.0014241136765728395,
+      "min_cosine_similarity": -0.031009061262011528,
+      "max_cosine_similarity": 0.04900765046477318
+    },
+    {
+      "generated_token_index": 248,
+      "case_count": 17,
+      "mean_cosine_similarity": 0.0032909358851611614,
+      "min_cosine_similarity": -0.02226662077009678,
+      "max_cosine_similarity": 0.11556701362133026
+    },
+    {
+      "generated_token_index": 249,
+      "case_count": 17,
+      "mean_cosine_similarity": 0.010019177666810505,
+      "min_cosine_similarity": -0.02408509887754917,
+      "max_cosine_similarity": 0.1525239497423172
+    },
+    {
+      "generated_token_index": 250,
+      "case_count": 17,
+      "mean_cosine_similarity": 0.009465905865106513,
+      "min_cosine_similarity": -0.028045302256941795,
+      "max_cosine_similarity": 0.17675231397151947
+    },
+    {
+      "generated_token_index": 251,
+      "case_count": 17,
+      "mean_cosine_similarity": -0.0005719634457765257,
+      "min_cosine_similarity": -0.02122434228658676,
+      "max_cosine_similarity": 0.0491597019135952
+    },
+    {
+      "generated_token_index": 252,
+      "case_count": 17,
+      "mean_cosine_similarity": 0.008420212618897067,
+      "min_cosine_similarity": -0.03691277652978897,
+      "max_cosine_similarity": 0.09697562456130981
+    },
+    {
+      "generated_token_index": 253,
+      "case_count": 16,
+      "mean_cosine_similarity": 0.00473479853826575,
+      "min_cosine_similarity": -0.03258402645587921,
+      "max_cosine_similarity": 0.08328589797019958
+    },
+    {
+      "generated_token_index": 254,
+      "case_count": 16,
+      "mean_cosine_similarity": 0.004150087988818996,
+      "min_cosine_similarity": -0.028532877564430237,
+      "max_cosine_similarity": 0.09577448666095734
+    },
+    {
+      "generated_token_index": 255,
+      "case_count": 16,
+      "mean_cosine_similarity": -0.006559597532032058,
+      "min_cosine_similarity": -0.03205132856965065,
+      "max_cosine_similarity": 0.07351027429103851
+    }
+  ],
+  "csv_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/feature_33270_average_response_token_cosine.csv",
+  "plot_path": "feature_33270_response_cosine_llama33_70b_it_people_biographical_timing_50/feature_33270_average_response_token_cosine.png"
+}

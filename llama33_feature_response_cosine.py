@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 from dataclasses import replace
 from pathlib import Path
 
@@ -55,6 +56,16 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", default=DEFAULT_MODEL_ID, help="4-bit Llama model id or local path.")
     parser.add_argument("--examples", type=Path, default=DEFAULT_EXAMPLES_PATH)
+    parser.add_argument(
+        "--cases-jsonl",
+        type=Path,
+        default=None,
+        help=(
+            "Optional JSONL file of arbitrary PromptCase rows. Each line should include "
+            "case_id, category, direction, question, and prompt; truth is optional. "
+            "When provided, --examples and --direction are ignored."
+        ),
+    )
     parser.add_argument(
         "--prompt-file",
         type=Path,
@@ -106,6 +117,10 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def safe_path_component(value: str) -> str:
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", value).strip("_") or "case"
+
+
 def apply_prompt_file(cases: list[PromptCase], prompt_file: Path | None) -> list[PromptCase]:
     if prompt_file is None:
         return cases
@@ -113,6 +128,29 @@ def apply_prompt_file(cases: list[PromptCase], prompt_file: Path | None) -> list
     if not prompt.strip():
         raise ValueError(f"Prompt file is empty: {prompt_file}")
     return [replace(case, prompt=prompt) for case in cases]
+
+
+def load_cases_jsonl(path: Path) -> list[PromptCase]:
+    cases: list[PromptCase] = []
+    for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip():
+            continue
+        record = json.loads(line)
+        try:
+            case = PromptCase(
+                case_id=str(record["case_id"]),
+                category=str(record.get("category", "")),
+                direction=str(record["direction"]),
+                truth=record.get("truth"),
+                question=str(record["question"]),
+                prompt=str(record["prompt"]),
+            )
+        except KeyError as exc:
+            raise ValueError(f"{path}:{line_number} is missing required field {exc}.") from exc
+        cases.append(case)
+    if not cases:
+        raise ValueError(f"No prompt cases found in {path}.")
+    return cases
 
 
 def decoder_feature_vector(sae: GoodfireSparseAutoEncoder, feature_id: int) -> torch.Tensor:
@@ -256,7 +294,7 @@ def run_case(
     feature_vector = decoder_feature_vector(sae, args.feature_id)
     cosines = cosine_by_token(generated_resid, feature_vector)
 
-    case_dir = args.output_dir / case.direction
+    case_dir = args.output_dir / safe_path_component(f"{case.direction}_{case.case_id}")
     case_dir.mkdir(parents=True, exist_ok=True)
 
     rows = [
@@ -320,7 +358,12 @@ def main() -> None:
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(args.seed)
 
-    cases = apply_prompt_file(load_prompt_cases(args.examples, args.direction), args.prompt_file)
+    if args.cases_jsonl is not None:
+        cases = load_cases_jsonl(args.cases_jsonl)
+        if args.prompt_file is not None:
+            raise ValueError("--prompt-file cannot be combined with --cases-jsonl.")
+    else:
+        cases = apply_prompt_file(load_prompt_cases(args.examples, args.direction), args.prompt_file)
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"Loading model: {args.model}")
@@ -334,6 +377,7 @@ def main() -> None:
     summary = {
         "model_id": args.model,
         "examples_path": str(args.examples),
+        "cases_jsonl": str(args.cases_jsonl) if args.cases_jsonl else None,
         "prompt_file": str(args.prompt_file) if args.prompt_file else None,
         "case_id": CASE_ID,
         "directions": [case.direction for case in cases],
